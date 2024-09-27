@@ -1,0 +1,283 @@
+{
+    "dir": [
+        {
+            "children": [
+                "+pY-gNLOEe2RyjDQQuUV9u", 
+                "bRLLsMLeEe2oWDDQQuUV9l", 
+                "ZhdBz8OfEe2-DjDQQuUV9l"
+            ], 
+            "key": "root_key", 
+            "name": "root", 
+            "parent": null, 
+            "type": "virtual_folder"
+        }, 
+        {
+            "children": [
+                1432895540, 
+                829931573
+            ], 
+            "key": "+pY-gNLOEe2RyjDQQuUV9u", 
+            "name": "\u73a9\u5bb6\u4f7f\u7528", 
+            "parent": null, 
+            "type": "function_group"
+        }, 
+        {
+            "children": [
+                1057452061, 
+                1196486674, 
+                1037758525, 
+                811716643, 
+                "cNY8T8LeEe2n-DDQQuUV9s", 
+                "jP0LcMPJEe2ENjDQQuUV9j", 
+                "PLr4QMSZEe2qyjDQQuUV9s", 
+                "ij1bsMbpEe28OTDQQuUV9m"
+            ], 
+            "key": "bRLLsMLeEe2oWDDQQuUV9l", 
+            "name": "UI_2", 
+            "parent": null, 
+            "type": "function_group"
+        }, 
+        {
+            "children": [
+                1891225617, 
+                280129562, 
+                1285480478
+            ], 
+            "key": "ZhdBz8OfEe2-DjDQQuUV9l", 
+            "name": "Shop", 
+            "parent": null, 
+            "type": "function_group"
+        }, 
+        {
+            "children": null, 
+            "key": 1432895540, 
+            "name": "US00\uff1a\u521d\u59cb\u5316\u73a9\u5bb6\u6280\u80fd\u69fd\u4f4d", 
+            "parent": "+pY-gNLOEe2RyjDQQuUV9u", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 829931573, 
+            "name": "US02\uff1a\u66f4\u6539\u6280\u80fdUI\u7ed1\u5b9a\u6280\u80fd", 
+            "parent": "+pY-gNLOEe2RyjDQQuUV9u", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 1057452061, 
+            "name": "U00\uff1a\u754c\u9762\u7ed1\u5b9a", 
+            "parent": "bRLLsMLeEe2oWDDQQuUV9l", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 1196486674, 
+            "name": "U01\uff1a\u7ed1\u5b9a\u5355\u4f4dUI", 
+            "parent": "bRLLsMLeEe2oWDDQQuUV9l", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 1037758525, 
+            "name": "US01\uff1a\u6280\u80fd\u7ed1\u5b9a", 
+            "parent": "bRLLsMLeEe2oWDDQQuUV9l", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 811716643, 
+            "name": "T01\uff1a\u4fdd\u7559\u4e00\u4f4d\u5c0f\u6570", 
+            "parent": "bRLLsMLeEe2oWDDQQuUV9l", 
+            "type": "function"
+        }, 
+        {
+            "children": [
+                2022514693, 
+                1849528343, 
+                1066213386, 
+                311238667, 
+                1479794696, 
+                579055630, 
+                444342298
+            ], 
+            "key": "cNY8T8LeEe2n-DDQQuUV9s", 
+            "name": "Shop", 
+            "parent": "bRLLsMLeEe2oWDDQQuUV9l", 
+            "type": "function_group"
+        }, 
+        {
+            "children": [
+                254148634, 
+                1983475738, 
+                1729798172
+            ], 
+            "key": "jP0LcMPJEe2ENjDQQuUV9j", 
+            "name": "Equip", 
+            "parent": "bRLLsMLeEe2oWDDQQuUV9l", 
+            "type": "function_group"
+        }, 
+        {
+            "children": [
+                99549217, 
+                938496034
+            ], 
+            "key": "PLr4QMSZEe2qyjDQQuUV9s", 
+            "name": "attribute", 
+            "parent": "bRLLsMLeEe2oWDDQQuUV9l", 
+            "type": "function_group"
+        }, 
+        {
+            "children": [
+                588083239, 
+                521285671, 
+                446099500, 
+                1670840365, 
+                706760752
+            ], 
+            "key": "ij1bsMbpEe28OTDQQuUV9m", 
+            "name": "Tips", 
+            "parent": "bRLLsMLeEe2oWDDQQuUV9l", 
+            "type": "function_group"
+        }, 
+        {
+            "children": null, 
+            "key": 1891225617, 
+            "name": "S01\uff1a\u5546\u54c1\u8d2d\u4e70", 
+            "parent": "ZhdBz8OfEe2-DjDQQuUV9l", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 280129562, 
+            "name": "S02\uff1a\u5546\u54c1\u8d2d\u4e70\u6309\u94ae", 
+            "parent": "ZhdBz8OfEe2-DjDQQuUV9l", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 1285480478, 
+            "name": "S03\uff1a\u51fa\u552e\u7269\u54c1", 
+            "parent": "ZhdBz8OfEe2-DjDQQuUV9l", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 2022514693, 
+            "name": "US00\uff1a\u521d\u59cb\u5316\u5546\u5e97UI", 
+            "parent": "cNY8T8LeEe2n-DDQQuUV9s", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 1849528343, 
+            "name": "US01\uff1a\u6fc0\u6d3b\u5546\u5e97", 
+            "parent": "cNY8T8LeEe2n-DDQQuUV9s", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 1066213386, 
+            "name": "SU02\uff1a\u5237\u65b0\u5546\u5e97", 
+            "parent": "cNY8T8LeEe2n-DDQQuUV9s", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 311238667, 
+            "name": "SU03\uff1a\u5546\u5e97\u7ffb\u9875", 
+            "parent": "cNY8T8LeEe2n-DDQQuUV9s", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 1479794696, 
+            "name": "SU04\uff1a\u9009\u4e2d\u5546\u54c1", 
+            "parent": "cNY8T8LeEe2n-DDQQuUV9s", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 579055630, 
+            "name": "SU05\uff1a\u5237\u65b0\u4ecb\u7ecd", 
+            "parent": "cNY8T8LeEe2n-DDQQuUV9s", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 444342298, 
+            "name": "US06\uff1a\u5173\u95ed\u5546\u5e97", 
+            "parent": "cNY8T8LeEe2n-DDQQuUV9s", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 254148634, 
+            "name": "SE00\uff1a\u521d\u59cb\u5316\u7269\u54c1\u680fUI", 
+            "parent": "jP0LcMPJEe2ENjDQQuUV9j", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 1983475738, 
+            "name": "SE01\uff1a\u5237\u65b0\u5546\u5e97\u7269\u54c1\u680f", 
+            "parent": "jP0LcMPJEe2ENjDQQuUV9j", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 1729798172, 
+            "name": "SE02\uff1a\u9009\u4e2d\u7269\u54c1", 
+            "parent": "jP0LcMPJEe2ENjDQQuUV9j", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 99549217, 
+            "name": "U01\uff1a\u5f00\u5173\u5c5e\u6027\u9762\u677f", 
+            "parent": "PLr4QMSZEe2qyjDQQuUV9s", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 938496034, 
+            "name": "U02\uff1a\u5237\u65b0\u5c5e\u6027\u9762\u677f", 
+            "parent": "PLr4QMSZEe2qyjDQQuUV9s", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 588083239, 
+            "name": "TU01\uff1a\u63d0\u793a\u6846", 
+            "parent": "ij1bsMbpEe28OTDQQuUV9m", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 521285671, 
+            "name": "TU02\uff1a\u5546\u5e97\u7269\u54c1", 
+            "parent": "ij1bsMbpEe28OTDQQuUV9m", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 446099500, 
+            "name": "TU03\uff1a\u88c5\u5907\u7269\u54c1", 
+            "parent": "ij1bsMbpEe28OTDQQuUV9m", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 1670840365, 
+            "name": "TU04\uff1a\u6280\u80fd", 
+            "parent": "ij1bsMbpEe28OTDQQuUV9m", 
+            "type": "function"
+        }, 
+        {
+            "children": null, 
+            "key": 706760752, 
+            "name": "TU05\uff1aBUFF", 
+            "parent": "ij1bsMbpEe28OTDQQuUV9m", 
+            "type": "function"
+        }
+    ]
+}

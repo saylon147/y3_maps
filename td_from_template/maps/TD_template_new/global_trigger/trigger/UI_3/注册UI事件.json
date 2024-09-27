@@ -1,0 +1,276 @@
+{
+    "action": [
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "111381a1c2df11ed87de30d042e515f6"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 546029571000006, 
+            "enable": true
+        }, 
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "95bf04c0c3c911eda72730d042e515f6"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 546029571000018, 
+            "enable": true
+        }, 
+        1435222020, 
+        984981520, 
+        832122909, 
+        248954912
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [], 
+            "element_id": 546029571000001, 
+            "enable": true, 
+            "event_type": "INIT_FINISHED"
+        }
+    ], 
+    "group_id": 0, 
+    "p_trigger_id": null, 
+    "sub_trigger": {
+        "248954912": {
+            "action": [
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "4b533ca1c49911ed8cfa30d042e515f6"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 248954912000012, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "close_atr_panel"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 248954912000028, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }, 
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "hero_info_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 832122909000001, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 546029571, 
+            "trigger_id": 248954912, 
+            "trigger_name": "\u5355\u4f4d\u5c5e\u6027", 
+            "valid": true
+        }, 
+        "832122909": {
+            "action": [
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "9f05dd21c3d711ed965b30d042e515f6"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 832122909000006, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "Sell_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 832122909000001, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 546029571, 
+            "trigger_id": 832122909, 
+            "trigger_name": "\u70b9\u51fb\u51fa\u552e", 
+            "valid": true
+        }, 
+        "984981520": {
+            "action": [
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "6b3f2470c39f11edabef30d042e515f6"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 984981520000009, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "buy_click"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 984981520000001, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 546029571, 
+            "trigger_id": 984981520, 
+            "trigger_name": "\u70b9\u51fb\u8d2d\u4e70", 
+            "valid": true
+        }, 
+        "1435222020": {
+            "action": [
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_PLAYER"
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "424b17cfc3c311ed985930d042e515f6"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1435222020000005, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100067, 
+                            "args_list": [
+                                "close_shop"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "element_id": 1435222020000001, 
+                    "enable": true, 
+                    "event_type": "TRIGGER_COMPONENT_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 546029571, 
+            "trigger_id": 1435222020, 
+            "trigger_name": "ShopUI\u5173\u95ed", 
+            "valid": true
+        }
+    }, 
+    "trigger_id": 546029571, 
+    "trigger_name": "\u6ce8\u518cUI\u4e8b\u4ef6", 
+    "valid": true
+}

@@ -1,0 +1,177 @@
+{
+    "action": [
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "STRING", 
+                            "str", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                [
+                                    "FLOAT", 
+                                    "\u6570\u503c", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }
+                    ], 
+                    "sub_type": "ANY_VAR_TO_STR"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 811716643000017, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "STRING", 
+                            "str", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                [
+                                    "STRING", 
+                                    "str", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                0
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100002, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100003, 
+                                            "args_list": [
+                                                [
+                                                    "STRING", 
+                                                    "str", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "sub_type": "LENGTH_OF_STR"
+                                }, 
+                                {
+                                    "arg_type": 100016, 
+                                    "args_list": [
+                                        "-"
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100002, 
+                                    "args_list": [
+                                        1
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "MATH_OPERATION"
+                        }
+                    ], 
+                    "sub_type": "EXTRACT_STR"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 811716643000023, 
+            "enable": true
+        }, 
+        {
+            "action_type": 400342, 
+            "args_list": [
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "STRING", 
+                                "str", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": 2
+                }
+            ], 
+            "bp": false, 
+            "element_id": 811716643000001, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "\u4fdd\u7559\u4e00\u4f4d\u5c0f\u6570{\u6570\u503c}", 
+    "func_id": "91f7a930c49d11ed837730d042e515f6", 
+    "func_name": "T01\uff1a\u4fdd\u7559\u4e00\u4f4d\u5c0f\u6570", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u6570\u503c", 
+                true
+            ]
+        }
+    ], 
+    "func_return": true, 
+    "func_rtv_name_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "str", 
+                "STRING"
+            ]
+        }
+    ], 
+    "group_id": "ZhdBz8OfEe2-DjDQQuUV9l", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "trigger_id": 811716643, 
+    "trigger_name": "T01\uff1a\u4fdd\u7559\u4e00\u4f4d\u5c0f\u6570", 
+    "valid": true
+}

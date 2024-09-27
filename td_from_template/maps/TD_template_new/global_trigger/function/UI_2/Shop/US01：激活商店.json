@@ -1,0 +1,425 @@
+{
+    "action": [
+        {
+            "action_type": "CALL_TRIGGER_FUNC", 
+            "args_list": [
+                {
+                    "arg_type": 100177, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                [
+                                    "PLAYER", 
+                                    "\u73a9\u5bb6", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }
+                    ], 
+                    "op_arg": [], 
+                    "op_arg_enable": [], 
+                    "sub_type": "4ee84b51c3ca11edbade30d042e515f6"
+                }
+            ], 
+            "bp": false, 
+            "call_rt_arg_idxes": [], 
+            "element_id": 1682063384000027, 
+            "enable": true
+        }, 
+        {
+            "action_type": "SET_VARIABLE", 
+            "args_list": [
+                {
+                    "arg_type": 100030, 
+                    "args_list": [
+                        [
+                            "TABLE", 
+                            "Shop_Settings", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                [
+                                    "PLAYER", 
+                                    "\u73a9\u5bb6", 
+                                    "local"
+                                ]
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "Shop_Settings"
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_TABLE_KV"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1849528343000064, 
+            "enable": true
+        }, 
+        1682063384, 
+        {
+            "action_type": "SET_TABLE_VALUE_1D", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "TABLE", 
+                                "Shop_Settings", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "\u88c5\u5907\u680f\u76d1\u542c"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100178, 
+                    "args_list": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "DYNAMIC_TRIGGER_INSTANCE", 
+                                "\u76d1\u542c\u7269\u54c1\u5237\u65b0", 
+                                "local"
+                            ]
+                        }
+                    ], 
+                    "sub_type": "VARIABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1849528343000024, 
+            "enable": true
+        }, 
+        {
+            "action_type": "RUN_LOOP_TIMER", 
+            "args_list": [
+                {
+                    "arg_type": 100181, 
+                    "args_list": [
+                        [
+                            "NEW_TIMER", 
+                            "\u8ba1\u65f6\u5668_\u5237\u65b0\u5546\u5e97", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100000, 
+                    "args_list": [
+                        0.1
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100001, 
+                    "args_list": [
+                        true
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100022, 
+                    "args_list": [
+                        {
+                            "action_type": "CALL_TRIGGER_FUNC", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100177, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                [
+                                                    "PLAYER", 
+                                                    "\u73a9\u5bb6", 
+                                                    "local"
+                                                ]
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }
+                                    ], 
+                                    "op_arg": [], 
+                                    "op_arg_enable": [], 
+                                    "sub_type": "1119750fc2df11ed815230d042e515f6"
+                                }
+                            ], 
+                            "bp": false, 
+                            "call_rt_arg_idxes": [], 
+                            "element_id": 1849528343000005, 
+                            "enable": true
+                        }, 
+                        {
+                            "action_type": "CALL_TRIGGER_FUNC", 
+                            "args_list": [
+                                {
+                                    "arg_type": 100177, 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100025, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "PLAYER", 
+                                                        "\u73a9\u5bb6", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": "VARIABLE"
+                                        }
+                                    ], 
+                                    "op_arg": [], 
+                                    "op_arg_enable": [], 
+                                    "sub_type": "47e88db0c3c511edae6a30d042e515f6"
+                                }
+                            ], 
+                            "bp": false, 
+                            "call_rt_arg_idxes": [], 
+                            "element_id": 1849528343000094, 
+                            "enable": true
+                        }
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 1849528343000010, 
+            "enable": true, 
+            "local_var": {
+                "__tuple__": true, 
+                "items": [
+                    {}, 
+                    {}
+                ]
+            }
+        }, 
+        {
+            "action_type": "SET_TABLE_VALUE_1D", 
+            "args_list": [
+                {
+                    "arg_type": 100011, 
+                    "args_list": [
+                        [
+                            "TABLE", 
+                            "Shop_Settings", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }, 
+                {
+                    "arg_type": 100003, 
+                    "args_list": [
+                        "\u5237\u65b0\u5546\u5e97\u8ba1\u65f6"
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100181, 
+                    "args_list": [
+                        [
+                            "NEW_TIMER", 
+                            "\u8ba1\u65f6\u5668_\u5237\u65b0\u5546\u5e97", 
+                            "local"
+                        ]
+                    ], 
+                    "sub_type": "VARIABLE"
+                }
+            ], 
+            "bp": false, 
+            "element_id": 478867458000273, 
+            "enable": true
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "func_category": "t_function", 
+    "func_comment": "", 
+    "func_des": "\u6fc0\u6d3b\u5546\u5e97{\u73a9\u5bb6}", 
+    "func_id": "eda5da00c3c011edba4130d042e515f6", 
+    "func_name": "US01\uff1a\u6fc0\u6d3b\u5546\u5e97", 
+    "func_param_list": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "\u73a9\u5bb6", 
+                true
+            ]
+        }
+    ], 
+    "group_id": "cNY8T8LeEe2n-DDQQuUV9s", 
+    "is_func": true, 
+    "is_official_func": false, 
+    "p_trigger_id": null, 
+    "sub_trigger": {
+        "1682063384": {
+            "action": [
+                {
+                    "action_type": "CALL_TRIGGER_FUNC", 
+                    "args_list": [
+                        {
+                            "arg_type": 100177, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        [
+                                            "PLAYER", 
+                                            "\u73a9\u5bb6", 
+                                            "local"
+                                        ]
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }
+                            ], 
+                            "op_arg": [], 
+                            "op_arg_enable": [], 
+                            "sub_type": "4ee84b51c3ca11edbade30d042e515f6"
+                        }
+                    ], 
+                    "bp": false, 
+                    "call_rt_arg_idxes": [], 
+                    "element_id": 1682063384000027, 
+                    "enable": true
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [
+                {
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "GET_UNIT_FROM_EVENT"
+                        }, 
+                        {
+                            "arg_type": 100035, 
+                            "args_list": [
+                                "=="
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100025, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "PLAYER", 
+                                                "\u73a9\u5bb6", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": "VARIABLE"
+                                }, 
+                                {
+                                    "arg_type": 100003, 
+                                    "args_list": [
+                                        "Select"
+                                    ], 
+                                    "sub_type": 1
+                                }
+                            ], 
+                            "sub_type": "GET_UNIT_ENTITY_KV"
+                        }
+                    ], 
+                    "condition_type": "UNIT_COMPARE", 
+                    "element_id": 1682063384000018, 
+                    "enable": true
+                }
+            ], 
+            "enabled": false, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 1682063384000005, 
+                    "enable": true, 
+                    "event_type": "UNIT_ADD_ITEM_TO_BAR_EVENT"
+                }, 
+                {
+                    "args_list": [], 
+                    "element_id": 1682063384000007, 
+                    "enable": true, 
+                    "event_type": "UNIT_REMOVE_ITEM_FROM_BAR_EVENT"
+                }
+            ], 
+            "group_id": 0, 
+            "is_conf": true, 
+            "p_trigger_id": 1849528343, 
+            "sub_trigger_owner_set_var_action": {
+                "action_type": "SET_VARIABLE", 
+                "args_list": [
+                    {
+                        "arg_type": 100178, 
+                        "args_list": [
+                            {
+                                "__tuple__": true, 
+                                "items": [
+                                    "DYNAMIC_TRIGGER_INSTANCE", 
+                                    "\u76d1\u542c\u7269\u54c1\u5237\u65b0", 
+                                    "local"
+                                ]
+                            }
+                        ], 
+                        "sub_type": "VARIABLE"
+                    }, 
+                    {
+                        "arg_type": 100178, 
+                        "args_list": [
+                            {
+                                "arg_type": 100019, 
+                                "args_list": [
+                                    1682063384
+                                ], 
+                                "sub_type": 1
+                            }
+                        ], 
+                        "sub_type": "REG_TRIGGER"
+                    }
+                ], 
+                "bp": false, 
+                "element_id": 1849528343000021, 
+                "enable": true
+            }, 
+            "trigger_id": 1682063384, 
+            "trigger_name": "\u7269\u54c1\u680f\u76d1\u542c", 
+            "valid": true
+        }
+    }, 
+    "trigger_id": 1849528343, 
+    "trigger_name": "US01\uff1a\u6fc0\u6d3b\u5546\u5e97", 
+    "valid": true
+}
