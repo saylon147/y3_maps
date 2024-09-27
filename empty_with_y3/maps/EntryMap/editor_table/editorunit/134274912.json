@@ -164,6 +164,8 @@
     "is_shop": false, 
     "is_x_offset": false, 
     "is_z_offset": false, 
+    "kDhmHvSPEe6+8DDQQuk+i-": 0.0, 
+    "kDhmHvSPEe6+8DDQQuk+i-_grow": 0.0, 
     "keep_dead_body_time": 0.0, 
     "keep_target": true, 
     "key": 134274912, 
@@ -302,7 +304,6 @@
     "speed_ratio_in_turn": 0.6, 
     "standard_walk_rate": 36.0, 
     "start_rft": 1.0, 
-    "state_init": "", 
     "state_list": [], 
     "strength": 10.0, 
     "strength_grow": 1.0, 
@@ -310,13 +311,13 @@
     "tags": {
         "__tuple__": true, 
         "items": [
-            "\u6218\u58eb", 
-            "\u6cd5\u5e08", 
-            "\u8fd1\u6218", 
-            "\u7269\u6cd5\u53cc\u4fee", 
-            "\u7fa4\u63a7", 
-            "\u4e0a\u8def\u53d1\u80b2", 
-            "\u91ce\u533a\u53d1\u80b2"
+            "\u00e6\u0088\u0098\u00e5\u00a3\u00ab", 
+            "\u00e6\u00b3\u0095\u00e5\u00b8\u0088", 
+            "\u00e8\u00bf\u0091\u00e6\u0088\u0098", 
+            "\u00e7\u0089\u00a9\u00e6\u00b3\u0095\u00e5\u008f\u008c\u00e4\u00bf\u00ae", 
+            "\u00e7\u00be\u00a4\u00e6\u008e\u00a7", 
+            "\u00e4\u00b8\u008a\u00e8\u00b7\u00af\u00e5\u008f\u0091\u00e8\u0082\u00b2", 
+            "\u00e9\u0087\u008e\u00e5\u008c\u00ba\u00e5\u008f\u0091\u00e8\u0082\u00b2"
         ]
     }, 
     "type": 1, 

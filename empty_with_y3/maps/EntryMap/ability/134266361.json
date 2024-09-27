@@ -28,14 +28,6 @@
                 "damage": 0, 
                 "target": 0
             }
-        }, 
-        "677691395": {
-            "variable_dict": {}, 
-            "variable_length_dict": {}
-        }, 
-        "1424609281": {
-            "variable_dict": {}, 
-            "variable_length_dict": {}
         }
     }, 
     "trigger_dict": {

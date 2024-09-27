@@ -4,7 +4,7 @@
     "ability_break_cast_range": {
         "__tuple__": true, 
         "items": [
-            "50.0"
+            "0.5"
         ]
     }, 
     "ability_build_subtype": 1, 
@@ -60,13 +60,13 @@
     "arrow_length": {
         "__tuple__": true, 
         "items": [
-            "5.0"
+            "0.05"
         ]
     }, 
     "arrow_width": {
         "__tuple__": true, 
         "items": [
-            "2.0"
+            "0.02"
         ]
     }, 
     "auto_pick": true, 
@@ -100,13 +100,13 @@
     "circle_radius": {
         "__tuple__": true, 
         "items": [
-            "5.0"
+            "0.05"
         ]
     }, 
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            " 22-2*ability_level"
+            "22.0 - 2 * ability_level"
         ]
     }, 
     "collection_animation": "", 
@@ -333,7 +333,7 @@
     "sector_radius": {
         "__tuple__": true, 
         "items": [
-            "4.5"
+            " (450)/100"
         ]
     }, 
     "show_building_attack_range": false, 
