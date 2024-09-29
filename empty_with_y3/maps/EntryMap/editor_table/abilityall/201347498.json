@@ -4,7 +4,7 @@
     "ability_break_cast_range": {
         "__tuple__": true, 
         "items": [
-            "10000.0"
+            "100.0"
         ]
     }, 
     "ability_build_subtype": 1, 
@@ -60,13 +60,13 @@
     "arrow_length": {
         "__tuple__": true, 
         "items": [
-            "5.0"
+            "0.05"
         ]
     }, 
     "arrow_width": {
         "__tuple__": true, 
         "items": [
-            "2.0"
+            "0.02"
         ]
     }, 
     "auto_pick": true, 
@@ -216,7 +216,7 @@
     "sector_radius": {
         "__tuple__": true, 
         "items": [
-            "10.0"
+            "0.1"
         ]
     }, 
     "show_building_attack_range": false, 

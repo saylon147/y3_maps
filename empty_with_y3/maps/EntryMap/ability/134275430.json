@@ -10,6 +10,18 @@
             "variable_length_dict": {
                 "\u7f13\u5b58\u503c": 0
             }
+        }, 
+        "1266298888": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "1332191237": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }, 
+        "1618608135": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
         }
     }, 
     "trigger_dict": {

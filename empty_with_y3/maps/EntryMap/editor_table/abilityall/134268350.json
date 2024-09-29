@@ -4,7 +4,7 @@
     "ability_break_cast_range": {
         "__tuple__": true, 
         "items": [
-            "50.0"
+            "0.5"
         ]
     }, 
     "ability_build_subtype": 1, 
@@ -60,13 +60,13 @@
     "arrow_length": {
         "__tuple__": true, 
         "items": [
-            "5.0"
+            "0.05"
         ]
     }, 
     "arrow_width": {
         "__tuple__": true, 
         "items": [
-            "2.0"
+            "0.02"
         ]
     }, 
     "auto_pick": true, 
@@ -100,7 +100,7 @@
     "circle_radius": {
         "__tuple__": true, 
         "items": [
-            "5.0"
+            "0.05"
         ]
     }, 
     "cold_down_time": {
@@ -211,7 +211,7 @@
     "sector_radius": {
         "__tuple__": true, 
         "items": [
-            "10.0"
+            "0.1"
         ]
     }, 
     "show_building_attack_range": false, 
@@ -233,7 +233,7 @@
     "tags": {
         "__tuple__": true, 
         "items": [
-            "\u7279\u6b8a\u666e\u653b"
+            "\u00e7\u0089\u00b9\u00e6\u00ae\u008a\u00e6\u0099\u00ae\u00e6\u0094\u00bb"
         ]
     }, 
     "target_attribute": 0, 

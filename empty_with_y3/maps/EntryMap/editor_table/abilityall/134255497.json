@@ -4,7 +4,7 @@
     "ability_break_cast_range": {
         "__tuple__": true, 
         "items": [
-            "50.0"
+            "0.5"
         ]
     }, 
     "ability_build_subtype": 1, 
@@ -60,13 +60,13 @@
     "arrow_length": {
         "__tuple__": true, 
         "items": [
-            "5.0"
+            "0.05"
         ]
     }, 
     "arrow_width": {
         "__tuple__": true, 
         "items": [
-            "2.0"
+            "0.02"
         ]
     }, 
     "auto_pick": true, 
@@ -100,7 +100,7 @@
     "circle_radius": {
         "__tuple__": true, 
         "items": [
-            "5.0"
+            "0.05"
         ]
     }, 
     "cold_down_time": {
@@ -324,7 +324,7 @@
     "sector_radius": {
         "__tuple__": true, 
         "items": [
-            "10.0"
+            "0.1"
         ]
     }, 
     "show_building_attack_range": false, 
@@ -353,7 +353,7 @@
         "__tuple__": true, 
         "items": [
             "AOE", 
-            "\u5927\u62db"
+            "\u00e5\u00a4\u00a7\u00e6\u008b\u009b"
         ]
     }, 
     "target_attribute": 0, 
