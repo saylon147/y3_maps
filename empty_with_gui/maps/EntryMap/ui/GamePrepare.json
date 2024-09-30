@@ -1,0 +1,121 @@
+{
+    "adapt_mode": 2, 
+    "anim_data": {}, 
+    "children": [
+        {
+            "adapter_option": [
+                true, 
+                true, 
+                true, 
+                true, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0
+            ], 
+            "children": [
+                {
+                    "adapter_option": [
+                        false, 
+                        true, 
+                        true, 
+                        true, 
+                        867.03, 
+                        152.97, 
+                        810.0, 
+                        810.0
+                    ], 
+                    "children": [], 
+                    "event_list": [
+                        {
+                            "action_list": [], 
+                            "enabled": true, 
+                            "name": "ready_btn_0", 
+                            "sound_id": null, 
+                            "type": 28
+                        }
+                    ], 
+                    "font": {
+                        "__tuple__": true, 
+                        "items": [
+                            "MSYH", 
+                            30
+                        ]
+                    }, 
+                    "name": "ready_btn", 
+                    "normal_font_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            8, 
+                            1, 
+                            1, 
+                            255
+                        ]
+                    }, 
+                    "normal_text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u51c6\u5907\u5b8c\u6bd5", 
+                            false
+                        ]
+                    }, 
+                    "open_adapter": true, 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            960.0, 
+                            182.97, 
+                            50.0, 
+                            16.9417, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            300.0, 
+                            60.0
+                        ]
+                    }, 
+                    "type": 1, 
+                    "uid": "0c1fafe1-3e2c-4555-9b7e-b58a11893632"
+                }
+            ], 
+            "event_list": [], 
+            "name": "Root", 
+            "open_adapter": true, 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0, 
+                    50.0, 
+                    50.0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1920.0, 
+                    1080.0
+                ]
+            }, 
+            "type": 7, 
+            "uid": "42ac0ab8-1db8-406c-a20b-21af549f2d24"
+        }
+    ], 
+    "name": "GamePrepare", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "98da9d73-3487-4a8b-9bb5-8c0093f1e218", 
+    "visible": true, 
+    "zorder": 400
+}
