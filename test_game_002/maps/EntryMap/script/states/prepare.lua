@@ -4,12 +4,13 @@ local prepare_ui = nil
 
 function prepare:enter()
     print("进入 PREPARE")
+
     if not prepare_ui then
-        prepare_ui = y3.ui.get_ui(y3.player(1), 'prepare_stage')
+        prepare_ui = y3.ui.get_ui(GameManager.player, 'prepare_stage')
     end
     prepare_ui:set_visible(true)
 
-    local btn = y3.ui.get_ui(y3.player(1), 'prepare_stage.root.btn_ready')
+    local btn = y3.ui.get_ui(GameManager.player, 'prepare_stage.root.btn_ready')
     btn:add_event('左键-点击', 'click_ready')
 end
 

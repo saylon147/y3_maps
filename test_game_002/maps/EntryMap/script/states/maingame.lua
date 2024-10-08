@@ -4,7 +4,7 @@ function maingame:enter()
     print("进入 MAINGAME")
 
     -- 创建主角
-    local hero = y3.player(1):create_unit(134219010, y3.point.create(0, 0, 0), 180.0)
+    local hero = GameManager.player:create_unit(134219010, y3.point.create(0, 0, 0), 180.0)
     hero:event('单位-击杀', function(trg, data)
         print("击杀目标 " .. data.unit:get_name())
         GameManager.player_kill = GameManager.player_kill + 1
