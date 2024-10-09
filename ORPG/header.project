@@ -1,0 +1,17 @@
+{
+    "create_stamp": "202306120000", 
+    "editor_stamp": "202306120000", 
+    "encrypt_sections": [
+        "archive_data", 
+        "global_archive_data", 
+        "archive_table_data"
+    ], 
+    "entry_map": {
+        "id": 188717983401872579789395216200778783723, 
+        "name": "EntryMap"
+    }, 
+    "phy_mode": "2.5d", 
+    "project_id": 188247945610614416095638756827548228587, 
+    "project_name": "ORPG", 
+    "version": 7
+}
