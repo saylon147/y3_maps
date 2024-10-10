@@ -17,7 +17,6 @@ end)
 
 y3.timer.loop(5, function (timer, count)
     print('每5秒显示一次文本，这是第' .. tostring(count) .. '次')
-    FW.uiMgr:hideUI('rolePanel')
 end)
 
 y3.game:event('键盘-按下', y3.const.KeyboardKey['SPACE'], function ()
