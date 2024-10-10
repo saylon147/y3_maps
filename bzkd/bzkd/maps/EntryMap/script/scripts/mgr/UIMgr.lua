@@ -22,11 +22,12 @@ end
 
 function M:init()
     for key, value in pairs(self.uis) do
+        value.uiLogic = y3.local_ui.create(value.name)
         value.uiroot = y3.ui.get_ui(y3.player.get_by_id(FW.playerMgr:getLocalPlayerId()),value.name)
-        value.uiLogic = y3.local_ui.create(value.uiroot)
     end
     self.uis['rolePanel']:initUI()
     self.uis['descPanel']:initUI()
+
 end
 
 return M

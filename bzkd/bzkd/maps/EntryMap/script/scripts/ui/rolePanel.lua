@@ -4,7 +4,6 @@ M.uiroot = nil
 M.uiLogic = nil
 function M:initUI()
     self:initLogic()
-    self:showUI()
 end
 
 function M:showUI()
