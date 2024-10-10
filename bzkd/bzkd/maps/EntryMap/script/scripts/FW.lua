@@ -3,4 +3,6 @@ FW = {}
 FW.globalVar = require 'scripts.config.GlobalVar'
 FW.const = require 'scripts.config.GameConst'
 FW.gameMgr = require 'scripts.mgr.GameMgr'
+FW.playerMgr = require 'scripts.mgr.PlayerMgr'
 FW.unitMgr = require 'scripts.mgr.UnitMgr'
+FW.uiMgr = require 'scripts.mgr.UIMgr'

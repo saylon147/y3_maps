@@ -5,5 +5,4 @@ GameConst.gameState = {
     gaming = 3,         --游戏中
     result = 4,         --游戏结算
 }
-GameConst.maxPlayer = 4 --最大玩家数
 return GameConst

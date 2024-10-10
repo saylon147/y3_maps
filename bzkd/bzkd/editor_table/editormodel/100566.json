@@ -1,0 +1,37 @@
+{
+    "describe": -1407587727, 
+    "editor_res": false, 
+    "key": 100566, 
+    "map_name": "\u4e71\u6597\u897f\u6e38", 
+    "model_id": 100566, 
+    "name": 1677467131, 
+    "offical_tags": {
+        "__tuple__": true, 
+        "items": [
+            "code_Cartoon", 
+            "code_Magical", 
+            "code_Purple", 
+            "code_Lava", 
+            "P12(\u56fd\u98ce\u795e\u8bdd\u7cfb\u5217)"
+        ]
+    }, 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.55, 
+            1.28
+        ]
+    }, 
+    "preview_icon": "UP1ModelPreview/100566", 
+    "release_delete": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "res_identify": "all", 
+    "res_type": "code_model_Scene,code_Hillstone,code_volcano", 
+    "select_effect_scale": 8.33333333333, 
+    "size": 0.12, 
+    "socket_info": {}, 
+    "source": "code_Source_Import", 
+    "uid": "editor_model_100566"
+}
