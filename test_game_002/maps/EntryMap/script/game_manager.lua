@@ -1,10 +1,19 @@
 --
 GameManager = {
-    im_ready = false,
-    all_ready = false,
+    player_ready = { false, false, false, false },
+    isAllReady = function(self)
+        for i = 1, #self.player_ready do
+            if not self.player_ready[i] then
+                return false
+            end
+        end
+        return true
+    end,
+
+
     player_kill = 0,
     game_result = "init",
-    player = y3.player.get_by_handle(GameAPI.get_client_role()),
+
 }
 
 

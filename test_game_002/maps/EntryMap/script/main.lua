@@ -19,6 +19,11 @@ StateManager:register_state("result", require("states.result"))
 
 y3.game:event('游戏-初始化', function(trg, data)
     print('游戏-初始化 事件触发')
+    for i = 1, 4 do
+        if y3.player.get_by_id(i):get_state() ~= 1 then -- 其他位置的state是2
+            GameManager.player_ready[i] = true
+        end
+    end
     StateManager:set_state("prepare")
 end)
 
@@ -31,4 +36,11 @@ end)
 -- 主循环
 y3.timer.loop(1 / 30, function()
     StateManager:update()
+end)
+
+
+y3.sync.onSync("player_ready", function(data, source)
+    -- print(data, type(data))
+    -- print(source, type(source))
+    GameManager.player_ready[tonumber(data)] = true
 end)
