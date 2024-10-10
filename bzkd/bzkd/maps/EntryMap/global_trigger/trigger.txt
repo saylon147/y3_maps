@@ -1,0 +1,13 @@
+{
+    "children": [
+        {
+            "children": null, 
+            "key": 1487040513, 
+            "name": "base_trigger", 
+            "type": "file"
+        }
+    ], 
+    "key": null, 
+    "name": "trigger", 
+    "type": "folder"
+}
