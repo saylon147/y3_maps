@@ -63,7 +63,8 @@
                         ]
                     }, 
                     "type": 3, 
-                    "uid": "501691a9-44f5-4ec5-8452-5df5e110eda9"
+                    "uid": "501691a9-44f5-4ec5-8452-5df5e110eda9", 
+                    "visible": false
                 }
             ], 
             "event_list": [], 
