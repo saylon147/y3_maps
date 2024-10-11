@@ -56,6 +56,9 @@ function M:initLogic()
                 slot:set_visible(true)
                 --必须要主动绑定，否则会闪烁一下
                 slot:bind_ability(ability)
+                if local_player:get_selecting_unit():get_owner() ~= local_player then
+                    slot:set_visible(false)
+                end 
             else
                 slot:set_visible(false)
             end
@@ -116,7 +119,7 @@ function M:initLogic()
     end)
 
     y3.game:event('选中-单位', function(trg, data)
-        M.uiLogic:refresh('*', data.player)
+         M.uiLogic:refresh('*', data.player)
     end)
 
     y3.game:event('选中-单位组', function(trg, data)
@@ -160,6 +163,11 @@ function M:initLogic()
 
         for i, slot in ipairs(ui:get_childs()) do
             slot:get_child(tostring(i)):set_ui_unit_slot(u, y3.const.SlotType.BAR, i - 1)
+            if u:get_owner() ~= local_player then
+                slot:set_visible(false)
+            else
+                slot:set_visible(true)
+            end
         end
     end)
 

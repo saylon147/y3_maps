@@ -22,3 +22,10 @@ end)
 y3.game:event('键盘-按下', y3.const.KeyboardKey['SPACE'], function ()
     print('你按下了空格键！')
 end)
+
+
+y3.game:event('玩家-发送指定消息', 'Link Start', function (trg, data)
+    y3.develop.helper.init(12345)
+end)
+-- 允许在平台中执行本地代码
+y3.config.code.enable_local = true

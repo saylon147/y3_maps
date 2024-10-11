@@ -19,6 +19,7 @@ function M:gameStart()
     end,"生成随机水晶",true)
     FW.globalVar["gameState"] = FW.const.gameState['gaming']
     FW.playerMgr:initPlayerUnits()
+    y3.player.get_by_id(2):create_unit(134219749)
 end
 
 function M:createRandomCrystal()
