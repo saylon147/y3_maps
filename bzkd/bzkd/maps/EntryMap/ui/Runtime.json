@@ -1,0 +1,102 @@
+{
+    "adapt_mode": 2, 
+    "anim_data": {}, 
+    "children": [
+        {
+            "children": [
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "font_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0, 
+                            254
+                        ]
+                    }, 
+                    "name": "label_1", 
+                    "open_adapter": true, 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            30.0, 
+                            50.0, 
+                            50.0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            300.0, 
+                            60.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u5f00\u542f\u4e0b\u4e00\u8f6e", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "501691a9-44f5-4ec5-8452-5df5e110eda9"
+                }
+            ], 
+            "event_list": [], 
+            "name": "nextround", 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0, 
+                    50.0, 
+                    50.0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    300.0, 
+                    60.0
+                ]
+            }, 
+            "type": 1, 
+            "uid": "b5e77f45-c316-4494-9c60-9e29a00dc296"
+        }
+    ], 
+    "name": "Runtime", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "a8e58ac7-f947-4796-95bb-9a66d29cdc6e", 
+    "visible": true, 
+    "zorder": 400
+}
