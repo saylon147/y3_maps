@@ -53,4 +53,9 @@ function M:createRandomUnitAtRandomPoint(owner,type,area,direction,count,enemy)
         table.insert(self.units[type],unit)
     end
 end
+function M:killAllEnemy()
+    for index, value in ipairs(self.units.enemy) do
+        value:kill_by(nil)
+    end
+end
 return M

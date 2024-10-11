@@ -36,6 +36,7 @@ end
 function M:roundEnemy()
     y3.timer.loop(FW.const.enemyBornTimeOut,function (timer,count)
         if count * FW.const.enemyBornTimeOut >= FW.const.roundTime then
+            FW.unitMgr:killAllEnemy()
             timer:remove()
         end
         for key, value in pairs(FW.playerMgr.allPlayers) do
