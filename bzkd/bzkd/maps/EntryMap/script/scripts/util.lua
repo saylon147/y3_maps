@@ -8,13 +8,29 @@ function M:getTableLength(t)
 end
 
 function M:randomValueInTable(t)
-    local tmpKeyT={}
-    local n=1
+    local tmpKeyT = {}
+    local n = 1
     for k in pairs(t) do
-        tmpKeyT[n]=k
-        n=n+1
+        tmpKeyT[n] = k
+        n = n + 1
     end
     math.randomseed(os.time())
-    return t[tmpKeyT[math.random(1,n-1)]]
+    return t[tmpKeyT[math.random(1, n - 1)]]
 end
+
+function M:strToTable(str, sep)
+    local result = {}
+    if str == nil or sep == nil or type(str) ~= "string" or type(sep) ~= "string" then
+        return result
+    end
+    if string.len(sep) == 0 then
+        return result
+    end
+    local pattern = string.format("([^%s]+)", sep)
+    string.gsub(str, pattern, function(c)
+        result[#result + 1] = c
+    end)
+    return result
+end
+
 return M

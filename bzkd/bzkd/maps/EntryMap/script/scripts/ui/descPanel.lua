@@ -14,14 +14,33 @@ local current_ui
 
 function M:initUI()
     self:initLogic()
+    self:hideUI()
 end
 
-function M:showUI()
-    self.uiroot:set_visible(true)
+function M:showUI(player)
+    player = player or nil
+    if player ~= nil then
+        self:getUIByPlayer(player):set_visible(true)
+    else
+        local local_playerId = FW.playerMgr:getLocalPlayerId()
+        local local_player = FW.playerMgr.allPlayers[local_playerId]
+        self:getUIByPlayer(local_player):set_visible(true)
+    end
 end
 
-function M:hideUI()
-    self.uiroot:set_visible(false)
+function M:hideUI(player)
+    player = player or nil
+    if player ~= nil then
+        self:getUIByPlayer(player):set_visible(false)
+    else
+        local local_playerId = FW.playerMgr:getLocalPlayerId()
+        local local_player = FW.playerMgr.allPlayers[local_playerId]
+        self:getUIByPlayer(local_player):set_visible(false)
+    end
+end
+
+function M:getUIByPlayer(player)
+    return y3.ui.get_ui(player, self.name)
 end
 
 function M:initLogic()

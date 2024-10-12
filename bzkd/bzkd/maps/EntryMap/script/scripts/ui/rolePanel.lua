@@ -1,17 +1,35 @@
 local M = {}
 M.name = '角色面板'
-M.uiroot = nil
 M.uiLogic = nil
 function M:initUI()
     self:initLogic()
+    self:hideUI()
 end
 
-function M:showUI()
-    self.uiroot:set_visible(true)
+function M:showUI(player)
+    player = player or nil
+    if player ~= nil then
+        self:getUIByPlayer(player):set_visible(true)
+    else
+        local local_playerId = FW.playerMgr:getLocalPlayerId()
+        local local_player = FW.playerMgr.allPlayers[local_playerId]
+        self:getUIByPlayer(local_player):set_visible(true)
+    end
 end
 
-function M:hideUI()
-    self.uiroot:set_visible(false)
+function M:hideUI(player)
+    player = player or nil
+    if player ~= nil then
+        self:getUIByPlayer(player):set_visible(false)
+    else
+        local local_playerId = FW.playerMgr:getLocalPlayerId()
+        local local_player = FW.playerMgr.allPlayers[local_playerId]
+        self:getUIByPlayer(local_player):set_visible(false)
+    end
+end
+
+function M:getUIByPlayer(player)
+    return y3.ui.get_ui(player, self.name)
 end
 
 function M:initLogic()
@@ -58,7 +76,7 @@ function M:initLogic()
                 slot:bind_ability(ability)
                 if local_player:get_selecting_unit():get_owner() ~= local_player then
                     slot:set_visible(false)
-                end 
+                end
             else
                 slot:set_visible(false)
             end
@@ -119,7 +137,7 @@ function M:initLogic()
     end)
 
     y3.game:event('选中-单位', function(trg, data)
-         M.uiLogic:refresh('*', data.player)
+        M.uiLogic:refresh('*', data.player)
     end)
 
     y3.game:event('选中-单位组', function(trg, data)

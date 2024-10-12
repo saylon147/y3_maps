@@ -1,8 +1,9 @@
 local M = {}
-M.name = '模式选择'
+M.name = 'Runtime'
 M.uiLogic = nil
 function M:initUI()
     self:initLogic()
+    self:showUI()
 end
 
 function M:showUI(player)
@@ -13,7 +14,7 @@ function M:showUI(player)
         local local_playerId = FW.playerMgr:getLocalPlayerId()
         local local_player = FW.playerMgr.allPlayers[local_playerId]
         self:getUIByPlayer(local_player):set_visible(true)
-    end 
+    end
 end
 
 function M:hideUI(player)
@@ -36,19 +37,16 @@ function M:getUIByPlayer(player)
     return y3.ui.get_ui(player, self.name)
 end
 
+function M:showOrHideNextRound(show,player)
+    self:getUIByPlayer(player):get_child('nextround'):set_visible(show)
+end
+
 function M:initLogic()
-    self.uiLogic:on_event('mode1', '左键-按下', function(ui, local_player)
-        ui:get_parent():set_visible(false)
+    self:showOrHideNextRound(false)
+    self.uiLogic:on_event('nextround', '左键-按下', function(ui, local_player)
+        ui:set_visible(false)
         local data = {}
-        data.args = {mode = 1}
-        data.func = 'gameMgr.modePicked'
-        y3.sync.send('异步调用同步方法',data)
-    end)
-    self.uiLogic:on_event('mode2', '左键-按下', function(ui, local_player)
-        ui:get_parent():set_visible(false)
-        local data = {}
-        data.args = {mode = 2}
-        data.func = 'gameMgr.modePicked'
+        data.func = 'gameMgr.roundEnemy'
         y3.sync.send('异步调用同步方法',data)
     end)
 end

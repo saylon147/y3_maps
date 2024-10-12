@@ -1,0 +1,159 @@
+{
+    "adapt_mode": 2, 
+    "anim_data": {}, 
+    "children": [
+        {
+            "children": [
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "label_2", 
+                    "open_adapter": true, 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            77.0, 
+                            18.0, 
+                            50.0, 
+                            50.0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            154.0, 
+                            36.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u6a21\u5f0f1", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "09479e54-f441-44d2-8134-e1a1f3670c5d"
+                }
+            ], 
+            "event_list": [], 
+            "name": "mode1", 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0, 
+                    50.0, 
+                    50.0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "type": 1, 
+            "uid": "e1de3c3d-e14e-428c-b22b-8e39461766ee"
+        }, 
+        {
+            "children": [
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "label_2", 
+                    "open_adapter": true, 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            77.0, 
+                            18.0, 
+                            50.0, 
+                            50.0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            154.0, 
+                            36.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u6a21\u5f0f2", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "8d3dce9b-d262-446e-a402-97f16044899c"
+                }
+            ], 
+            "event_list": [], 
+            "name": "mode2", 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    488.0002, 
+                    50.0, 
+                    45.1852, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "type": 1, 
+            "uid": "95f87963-b3d4-48b2-a925-3c7e713ce98a"
+        }
+    ], 
+    "name": "\u6a21\u5f0f\u9009\u62e9", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "d3e8d4e8-f1e2-44db-9d3b-94f03f6cbb8d", 
+    "visible": true, 
+    "zorder": 400
+}

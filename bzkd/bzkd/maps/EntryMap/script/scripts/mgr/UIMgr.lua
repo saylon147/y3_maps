@@ -1,33 +1,41 @@
 local M = {}
+M.uiEnum = {
+    runtimePanel = 1,
+    rolePanel = 2,
+    descPanel = 3,
+    modePanel = 4,
+}
 M.uis = {
     --modePanel = require 'scripts.ui.modePanel',
-    rolePanel = require 'scripts.ui.rolePanel',
-    descPanel = require 'scripts.ui.descPanel'
+    [1] = require 'scripts.ui.runtimePanel',
+    [2] = require 'scripts.ui.rolePanel',
+    [3] = require 'scripts.ui.descPanel',
+    [4] = require 'scripts.ui.modePanel'
 }
 M.showUIs = {
     
 }
 
-function M:showUI(uiname)
-    M.uis[uiname]:showUI()
+function M:showUI(uiname,player)
+    local index = self.uiEnum[uiname]
+    M.uis[index]:showUI(player)
 end
 
-function M:hideUI(uiname)
-    M.uis[uiname]:hideUI()
+function M:hideUI(uiname,player)
+    local index = self.uiEnum[uiname]
+    M.uis[index]:hideUI(player)
 end
 
 function M:getUI(uiname)
-    return M.uis[uiname]
+    local index = self.uiEnum[uiname]
+    return M.uis[index]
 end
 
 function M:init()
-    for key, value in pairs(self.uis) do
+    for index, value in ipairs(self.uis) do
         value.uiLogic = y3.local_ui.create(value.name)
-        value.uiroot = y3.ui.get_ui(y3.player.get_by_id(FW.playerMgr:getLocalPlayerId()),value.name)
+        value:initUI()
     end
-    self.uis['rolePanel']:initUI()
-    self.uis['descPanel']:initUI()
-
 end
 
 return M

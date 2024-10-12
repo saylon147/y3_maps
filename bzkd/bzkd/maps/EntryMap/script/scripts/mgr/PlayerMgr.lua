@@ -1,5 +1,6 @@
 local M = {}
 M.allPlayers = {}
+M.allPlayerIds = {}
 M.maxPlayerCount = 4
 function M:getLocalPlayerId()
     local playerid
@@ -9,9 +10,17 @@ function M:getLocalPlayerId()
     return playerid
 end
 
+function M:getFirstPlayer()
+    table.sort(self.allPlayerIds)
+    for index, value in ipairs(self.allPlayerIds) do
+        return self.allPlayers[value]
+    end
+end
+
 ---@param player Player
 function M:addPlayer(player)
-    M.allPlayers[player:get_id()] = player
+    self.allPlayers[player:get_id()] = player
+    table.insert(self.allPlayerIds, player:get_id())
 end
 
 function M:initPlayers()
@@ -23,17 +32,17 @@ function M:initPlayers()
 end
 
 function M:initPlayerUnits()
-    for index, value in ipairs(self.allPlayers) do
-        local unit = FW.unitMgr:createRandomUnit(value, 'hero', FW.const.bornPoint[index], 0)
+    for key, value in pairs(self.allPlayers) do
+        local unit = FW.unitMgr:createRandomUnit(value, 'hero', FW.const.bornPoint[key], 0)
         unit:set_attr(y3.const.UnitAttr['最大生命'], 500000)
-        local camera = FW.const.playerCamera[index]
+        local camera = FW.const.playerCamera[key]
         camera.set_camera_follow_unit(value, unit)
     end
 end
 
 function M:getHeroByPlayer(player)
     local unit
-    for index, value in ipairs(FW.unitMgr.units['hero']) do
+    for key, value in pairs(FW.unitMgr.units['hero']) do
         if value:get_owner() == player then
             unit = value
             break

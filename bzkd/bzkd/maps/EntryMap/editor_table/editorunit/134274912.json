@@ -283,21 +283,18 @@
         "trajectory_radian": 1.0, 
         "trajectory_speed": 1000.0
     }, 
-    "sound_event_list": {
-        "__tuple__": true, 
-        "items": [
-            [
-                "UNIT_DIE", 
-                134250739, 
-                11
-            ], 
-            [
-                "REVIVE_UNIT", 
-                134268376, 
-                11
-            ]
+    "sound_event_list": [
+        [
+            "UNIT_DIE", 
+            134250739, 
+            11
+        ], 
+        [
+            "REVIVE_UNIT", 
+            134268376, 
+            11
         ]
-    }, 
+    ], 
     "special_idle_anim": "idle2", 
     "speed_ratio_in_turn": 0.6, 
     "standard_walk_rate": 36.0, 
