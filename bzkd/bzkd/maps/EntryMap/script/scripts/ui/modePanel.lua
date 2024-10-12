@@ -3,6 +3,7 @@ M.name = '模式选择'
 M.uiLogic = nil
 function M:initUI()
     self:initLogic()
+    self:hideUI()
 end
 
 function M:showUI(player)
