@@ -90,6 +90,154 @@
                     }, 
                     "type": 1, 
                     "uid": "468b9974-8485-4866-8792-9cc3a92888d0"
+                }, 
+                {
+                    "cap_insets": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            29.0, 
+                            150.0, 
+                            29.0
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 131135, 
+                    "name": "pos_1", 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            880.0, 
+                            538.0, 
+                            45.8333, 
+                            49.8148, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            40.0, 
+                            40.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "58d43b74-b81e-4433-9c4f-cd100ff6668a"
+                }, 
+                {
+                    "cap_insets": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            29.0, 
+                            150.0, 
+                            29.0
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 131135, 
+                    "name": "pos_2", 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            940.0, 
+                            538.0, 
+                            48.9583, 
+                            49.8148, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            40.0, 
+                            40.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "8337ae0c-ea4b-4d87-aaef-d5872fff40e7"
+                }, 
+                {
+                    "cap_insets": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            29.0, 
+                            150.0, 
+                            29.0
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 131135, 
+                    "name": "pos_3", 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            1000.0, 
+                            538.0, 
+                            52.0833, 
+                            49.8148, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            40.0, 
+                            40.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "a71e66e9-2629-4075-9b14-e7243d04c622"
+                }, 
+                {
+                    "cap_insets": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            29.0, 
+                            150.0, 
+                            29.0
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "image": 131135, 
+                    "name": "pos_4", 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            1060.0, 
+                            538.0, 
+                            55.2083, 
+                            49.8148, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            40.0, 
+                            40.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "b30da2c9-4a8f-45ff-8cd6-edd19d2ef1e6"
                 }
             ], 
             "event_list": [], 
@@ -117,6 +265,33 @@
             }, 
             "type": 7, 
             "uid": "69894b6c-e3f4-4be4-ab1c-3580902c3258"
+        }, 
+        {
+            "children": [], 
+            "event_list": [], 
+            "name": "image_1", 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    970.4006, 
+                    569.5996, 
+                    50.5417, 
+                    52.7407, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    239.2, 
+                    12.0
+                ]
+            }, 
+            "type": 4, 
+            "uid": "af92aadd-9f7c-44e7-811e-08b8b2b5e492"
         }
     ], 
     "name": "prepare_stage", 
