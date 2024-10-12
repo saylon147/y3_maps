@@ -35,7 +35,7 @@ function prepare:update()
         end
 
         if GameManager:isAllReady() then
-            -- prepare_ui:set_visible(false)
+            prepare_ui:set_visible(false)
             StateManager:set_state("maingame")
         end
     end)
@@ -44,13 +44,5 @@ end
 function prepare:exit()
 
 end
-
--- y3.game:event('界面-消息', 'click_ready', function()
---     y3.player.with_local(function(local_player)
---         local id = local_player:get_id()
---         local_player:display_info(id .. " 准备完毕")
---         y3.sync.send("player_ready", {})
---     end)
--- end)
 
 return prepare
