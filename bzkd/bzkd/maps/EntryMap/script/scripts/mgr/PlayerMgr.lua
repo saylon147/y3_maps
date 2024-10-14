@@ -2,6 +2,39 @@ local M = {}
 M.allPlayers = {}
 M.allPlayerIds = {}
 M.maxPlayerCount = 4
+M.playerDeadCount = {}
+M.maxDeadCount = 3
+
+---@param unit Unit
+local function addPlayerUnitEvent(unit)
+    unit:event("单位-死亡", function(trg, data)
+        local playerId = data.unit:get_owner():get_id()
+        local deadCount = M.playerDeadCount[playerId]
+        if deadCount ~= nil then
+            M.playerDeadCount[playerId] = deadCount + 1
+        else
+            M.playerDeadCount[playerId] = 1
+        end
+        if (M.playerDeadCount[playerId] < M.maxDeadCount) then
+            y3.ltimer.wait(5,function (timer)
+                unit:reborn()
+                timer:remove()
+            end)
+        end
+        local endGame = true
+        for key, value in pairs(M.playerDeadCount) do
+            if value < M.maxDeadCount then
+                endGame = false
+                break
+            end
+        end
+        if endGame then
+            print('游戏结束')
+            FW.gameMgr:result()
+        end
+    end)
+end
+
 function M:getLocalPlayerId()
     local playerid
     y3.player.with_local(function(local_player)
@@ -34,6 +67,7 @@ end
 function M:initPlayerUnits()
     for key, value in pairs(self.allPlayers) do
         local unit = FW.unitMgr:createRandomUnit(value, 'hero', FW.const.bornPoint[key], 0)
+        addPlayerUnitEvent(unit)
         local camera = FW.const.playerCamera[key]
         camera.set_camera_follow_unit(value, unit)
     end

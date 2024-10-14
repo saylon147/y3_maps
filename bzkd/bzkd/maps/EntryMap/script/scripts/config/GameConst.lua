@@ -25,5 +25,5 @@ GameConst.bornPoint = {
 }
 GameConst.roundTime = 60
 GameConst.enemyCount = 3
-GameConst.enemyBornTimeOut = 1
+GameConst.enemyBornTimeOut = 5
 return GameConst

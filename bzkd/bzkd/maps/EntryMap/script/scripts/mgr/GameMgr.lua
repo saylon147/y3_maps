@@ -32,6 +32,10 @@ function M:gameStart()
     self:roundEnemy()
 end
 
+function M:result()
+    FW.globalVar["gameState"] = FW.const.gameState.result
+end
+
 function M:createRandomCrystal()
     for i = 1, 100, 1 do
         local mapArea = y3.area.get_map_area()
@@ -63,7 +67,7 @@ function M:roundEnemy()
             end
             
         end
-    end)
+    end,'创建轮次敌人',true)
 end
 
 function M:modePicked(args)
@@ -81,7 +85,5 @@ function M:initGlobalEvent()
         FW[t[1]][t[2]](FW[t[1]],args)
     end)
 end
-
-
 
 return M

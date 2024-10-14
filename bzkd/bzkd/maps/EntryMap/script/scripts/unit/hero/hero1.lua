@@ -8,5 +8,4 @@ M.template = y3.object.unit[M.id] --物编信息
 function M:create(owner, point, direction)
     return y3.unit.create_unit(owner, self.id, point, direction)
 end
-
 return M
