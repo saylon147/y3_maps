@@ -34,7 +34,6 @@ end
 function M:initPlayerUnits()
     for key, value in pairs(self.allPlayers) do
         local unit = FW.unitMgr:createRandomUnit(value, 'hero', FW.const.bornPoint[key], 0)
-        unit:set_attr(y3.const.UnitAttr['最大生命'], 500000)
         local camera = FW.const.playerCamera[key]
         camera.set_camera_follow_unit(value, unit)
     end

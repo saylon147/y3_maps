@@ -1,7 +1,7 @@
 local M = {}
 M.unitTemple = {
     enemy = {
-        enemy1 = require 'scripts.unit.enemy.enemy1',
+        --enemy1 = require 'scripts.unit.enemy.enemy1',
         enemy2 = require 'scripts.unit.enemy.enemy2',
         enemy3 = require 'scripts.unit.enemy.enemy3'
     },

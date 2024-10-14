@@ -219,7 +219,7 @@
     "rescue_seeker_distance": 3, 
     "rescue_seeker_interval": 5, 
     "rescue_seeker_type": 0, 
-    "rescuer_type": 1, 
+    "rescuer_type": 0, 
     "research_techs": {
         "__tuple__": true, 
         "items": []

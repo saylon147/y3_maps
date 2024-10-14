@@ -1,0 +1,1 @@
+include 'scripts.ability.enemy_base_attack'
