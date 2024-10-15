@@ -12,13 +12,36 @@ M.unitTemple = {
     },
     scene = {
         crystal = require 'scripts.unit.scene.crystal'
+    },
+    heroWeapon = {
+        heroWeapon1 = require 'scripts.unit.heroWeapon.heroWeapon1',
+        heroWeapon2 = require 'scripts.unit.heroWeapon.heroWeapon2'
     }
 }
 M.units = {
     enemy = {},
     hero = {},
-    scene = {}
+    scene = {},
+    heroWeapon = {}
 }
+local function add_unitGroup(owner, type, unit, point)
+    local id
+    if owner:get_id() > FW.playerMgr.maxPlayerCount then
+        for index, value in ipairs(FW.const.enemyRandomArea) do
+            if value:is_point_in_area(point) then
+                id = index
+            end
+        end
+    else
+        id = owner:get_id()
+    end
+    
+    if M.units[type][id] == nil then
+        M.units[type][id] = y3.unit_group.create()
+    end
+    M.units[type][id]:add_unit(unit)
+end
+
 ---@param owner Player|Unit
 ---@param type string
 ---@param unitType string
@@ -27,7 +50,7 @@ M.units = {
 ---@return Unit unit
 function M:createUnit(owner, type, unitType, point, direction)
     local unit = self.unitTemple[type][unitType]:create(owner, point, direction)
-    table.insert(self.units[type], unit)
+    add_unitGroup(owner, type, unit, point)
     return unit
 end
 
@@ -38,7 +61,7 @@ end
 ---@return Unit unit
 function M:createRandomUnit(owner, type, point, direction)
     local unit = FW.util:randomValueInTable(self.unitTemple[type]):create(owner, point, direction)
-    table.insert(self.units[type], unit)
+    add_unitGroup(owner, type, unit, point)
     return unit
 end
 
@@ -51,7 +74,8 @@ end
 function M:createRandomUnitAtRandomPoint(owner, type, area, direction, count, enemy)
     for i = 1, count, 1 do
         local unitTemple = FW.util:randomValueInTable(self.unitTemple[type])
-        local unit = unitTemple:create(owner, area:random_point(), direction)
+        local point = area:random_point()
+        local unit = unitTemple:create(owner, point, direction)
         local ori_max_hp = unit:get_attr_base(y3.const.UnitAttr['最大生命'])
         local ori_attack_phy = unit:get_attr_base(y3.const.UnitAttr['物理攻击'])
         unit:add_attr(y3.const.UnitAttr['最大生命'], (FW.gameMgr.currentRound - 1) * ori_max_hp)
@@ -59,13 +83,21 @@ function M:createRandomUnitAtRandomPoint(owner, type, area, direction, count, en
         unit:add_attr(y3.const.UnitAttr['最大生命'], (FW.gameMgr.mode - 1) * ori_max_hp)
         unit:add_attr(y3.const.UnitAttr['物理攻击'], (FW.gameMgr.mode - 1) * ori_attack_phy)
         unit:attack_target(enemy, 0)
-        table.insert(self.units[type], unit)
+        add_unitGroup(owner, type, unit, point)
     end
 end
 
-function M:killAllEnemy()
-    for index, value in ipairs(self.units.enemy) do
+function M:killAllEnemyByPlayerId(playerId)
+    local enemyGroup = self.units.enemy[playerId]
+    for index, value in ipairs(enemyGroup:pick()) do
         value:kill_by(nil)
+    end
+    enemyGroup:clear()
+end
+
+function M:killAllEnemy()
+    for key, value in pairs(self.units.enemy) do
+        self:killAllEnemyByPlayerId(key)
     end
 end
 

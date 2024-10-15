@@ -16,7 +16,7 @@ local function addPlayerUnitEvent(unit)
             M.playerDeadCount[playerId] = 1
         end
         if (M.playerDeadCount[playerId] < M.maxDeadCount) then
-            y3.ltimer.wait(5,function (timer)
+            y3.ltimer.wait(5, function(timer)
                 unit:reborn()
                 timer:remove()
             end)
@@ -67,6 +67,8 @@ end
 function M:initPlayerUnits()
     for key, value in pairs(self.allPlayers) do
         local unit = FW.unitMgr:createRandomUnit(value, 'hero', FW.const.bornPoint[key], 0)
+        FW.unitMgr:createRandomUnit(value, 'heroWeapon', unit:get_point(), FW.const.heroWeaponAngle[1])
+        FW.unitMgr:createRandomUnit(value, 'heroWeapon', unit:get_point(), FW.const.heroWeaponAngle[2])
         addPlayerUnitEvent(unit)
         local camera = FW.const.playerCamera[key]
         camera.set_camera_follow_unit(value, unit)
@@ -74,14 +76,7 @@ function M:initPlayerUnits()
 end
 
 function M:getHeroByPlayer(player)
-    local unit
-    for key, value in pairs(FW.unitMgr.units['hero']) do
-        if value:get_owner() == player then
-            unit = value
-            break
-        end
-    end
-    return unit
+    return FW.unitMgr.units.hero[player:get_id()]:get_first()
 end
 
 return M

@@ -178,7 +178,7 @@
     "mp_key": "MP", 
     "mp_max": 0.0, 
     "mp_max_grow": 0.0, 
-    "mp_rec": 10, 
+    "mp_rec": 5.0, 
     "mp_rec_grow": 2, 
     "name": -1551397118, 
     "need_preview_billboard": true, 

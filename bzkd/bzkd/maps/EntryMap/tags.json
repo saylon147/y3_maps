@@ -1,6 +1,7 @@
 {
     "ability_all": [
-        "AOE"
+        "AOE", 
+        "\u7269\u54c1\u6280\u80fd"
     ], 
     "editor_item": [
         "\u7269\u653b", 
@@ -20,6 +21,9 @@
         "\u6cd5\u672f\u8fde\u51fb", 
         "\u65b0\u624b", 
         "\u4e2d\u8def\u53d1\u80b2", 
-        "\u6cbb\u7597"
+        "\u6cbb\u7597", 
+        "\u7a81\u8fdb", 
+        "\u65e0\u89c6\u62a4\u7532", 
+        "soldiers"
     ]
 }
