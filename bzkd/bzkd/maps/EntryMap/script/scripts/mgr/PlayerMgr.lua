@@ -75,6 +75,8 @@ function M:initPlayerUnits()
     end
 end
 
+---@param player Player
+---@return Unit unit
 function M:getHeroByPlayer(player)
     return FW.unitMgr.units.hero[player:get_id()]:get_first()
 end
