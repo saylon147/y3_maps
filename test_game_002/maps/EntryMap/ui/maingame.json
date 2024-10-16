@@ -1,0 +1,86 @@
+{
+    "adapt_mode": 2, 
+    "anim_data": {}, 
+    "children": [
+        {
+            "children": [
+                {
+                    "adapter_option": [
+                        false, 
+                        true, 
+                        true, 
+                        false, 
+                        860.0, 
+                        20.0, 
+                        20.0, 
+                        1700.0
+                    ], 
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.0
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "mini_map", 
+                    "open_adapter": true, 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            20.0, 
+                            20.0, 
+                            1.0417, 
+                            1.8519, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            200.0, 
+                            200.0
+                        ]
+                    }, 
+                    "type": 16, 
+                    "uid": "78473fdd-a568-463e-a58f-6527e0e146b7"
+                }
+            ], 
+            "event_list": [], 
+            "name": "root", 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    960.0, 
+                    540.0, 
+                    50.0, 
+                    50.0, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    1920.0, 
+                    1080.0
+                ]
+            }, 
+            "type": 7, 
+            "uid": "7eb5cf5d-98ca-43c1-bf08-ed87a583fd95"
+        }
+    ], 
+    "name": "maingame", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "18885fff-c42a-4217-955b-cef072cc6fc6", 
+    "visible": false, 
+    "zorder": 400
+}

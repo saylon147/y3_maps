@@ -12,6 +12,7 @@ end
 
 require("game_manager")
 require("state_manager")
+require("ui_manager")
 StateManager:register_state("prepare", require("states.prepare"))
 StateManager:register_state("maingame", require("states.maingame"))
 StateManager:register_state("result", require("states.result"))
@@ -36,6 +37,7 @@ end)
 -- 主循环
 y3.timer.loop(1 / 30, function()
     StateManager:update()
+    UIManager:update()
 end)
 
 

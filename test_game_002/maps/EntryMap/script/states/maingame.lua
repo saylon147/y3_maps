@@ -1,7 +1,9 @@
 local maingame = {}
 
+
 function maingame:enter()
     print("进入 MAINGAME")
+    UIManager:show_ui("MAINGAME")
 
     -- 创建主角
     for i = 1, 4 do
