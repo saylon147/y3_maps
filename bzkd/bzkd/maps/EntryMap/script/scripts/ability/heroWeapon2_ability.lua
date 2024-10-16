@@ -23,23 +23,26 @@ skill:event('施法-引导', function(trg, data)
     projectile:mover_round(moverData)
 end)
 skill:event('施法-出手', function(trg, data)
-    y3.ltimer.loop_count(1,2,function (timer, count)
-        local direction = data.unit:get_facing()
+    local direction = data.unit:get_facing()
+    local shape = y3.shape.create_sector_shape(500, 20, direction)
+    y3.ltimer.loop_count(0.5, 4, function(timer, count)
         local point = data.unit:get_point()
-        local point2 = y3.point.get_point_offset_vector(point, direction, 1000)
-        local area = y3.area.create_rectangle_area_from_two_points(point, point2)
-        local units = area:get_unit_group_in_area(y3.player.get_by_id(31))
-        for index, value in ipairs(units:pick()) do
-            local damageData = {
-                target = value,
-                type = y3.const.DamageTypeMap['物理'],
-                damage = data.unit:get_attr(y3.const.UnitAttr['物理攻击']),
-                text_type = 'physics',
-                socket = 'hit_point'
-            }
-            data.unit:damage(damageData)
+        -- local point2 = y3.point.get_point_offset_vector(point, direction, 1000)
+        -- local area = y3.area.create_rectangle_area_from_two_points(point, point2)
+        -- local units = area:get_unit_group_in_area(y3.player.get_by_id(31))local selector = y3.selector:in_shape(point,shape)
+        local selector = y3.selector:in_shape(point, shape)
+        for index, value in selector:ipairs() do
+            if value:is_enemy(data.unit) then
+                local damageData = {
+                    target = value,
+                    type = y3.const.DamageTypeMap['物理'],
+                    damage = data.unit:get_attr(y3.const.UnitAttr['物理攻击']),
+                    text_type = 'physics',
+                    socket = 'hit_point'
+                }
+                data.unit:damage(damageData)
+            end
         end
-        area:remove()
     end)
 end)
 

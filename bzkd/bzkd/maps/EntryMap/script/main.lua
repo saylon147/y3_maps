@@ -24,6 +24,8 @@ y3.game:event('键盘-按下', y3.const.KeyboardKey['SPACE'], function ()
 end)
 
 
+--测试用代码
+y3.ui.set_window_mode(y3.player.get_by_id(1),'window_mode')
 y3.game:event('玩家-发送指定消息', 'Link Start', function (trg, data)
     y3.develop.helper.init(12345)
 end)

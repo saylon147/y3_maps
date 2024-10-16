@@ -30,6 +30,7 @@ local function addPlayerUnitEvent(unit)
         end
         if endGame then
             print('游戏结束')
+            --y3.game.end_player_game(data.unit:get_owner(),'loss',true)
             FW.gameMgr:result()
         end
     end)
