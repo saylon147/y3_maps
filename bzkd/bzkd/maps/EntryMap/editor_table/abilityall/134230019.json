@@ -60,13 +60,13 @@
     "arrow_length": {
         "__tuple__": true, 
         "items": [
-            "5.0"
+            "50.0"
         ]
     }, 
     "arrow_width": {
         "__tuple__": true, 
         "items": [
-            "2.0"
+            "10.0"
         ]
     }, 
     "auto_pick": true, 
@@ -216,18 +216,18 @@
     "sector_angle": {
         "__tuple__": true, 
         "items": [
-            "0"
+            "20.0"
         ]
     }, 
     "sector_radian": 2, 
     "sector_radius": {
         "__tuple__": true, 
         "items": [
-            "10.0"
+            "5.0"
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 2, 
+    "sight_type": 1, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []

@@ -23,16 +23,9 @@ GameConst.bornPoint = {
     GameConst.enemyRandomArea[3]:get_center_point(),
     GameConst.enemyRandomArea[4]:get_center_point(),
 }
-GameConst.heroWeaponAngle = {
-    [1] = 0,
-    [2] = 45,
-    [3] = 90,
-    [4] = 135,
-    [5] = 180,
-    [6] = 270,
-}
 
 GameConst.roundTime = 60
 GameConst.enemyCount = 3
 GameConst.enemyBornTimeOut = 5
+GameConst.maxHeroWeaponCount = 6
 return GameConst

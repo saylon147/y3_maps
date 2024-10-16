@@ -35,7 +35,7 @@ local function add_unitGroup(owner, type, unit, point)
     else
         id = owner:get_id()
     end
-    
+
     if M.units[type][id] == nil then
         M.units[type][id] = y3.unit_group.create()
     end
@@ -49,7 +49,9 @@ end
 ---@param direction number 方向
 ---@return Unit unit
 function M:createUnit(owner, type, unitType, point, direction)
-    local unit = self.unitTemple[type][unitType]:create(owner, point, direction)
+    local template = self.unitTemple[type][unitType]
+    local unit = template:create(owner, point, direction)
+    unit:kv_save('template', template)
     add_unitGroup(owner, type, unit, point)
     return unit
 end
@@ -60,7 +62,9 @@ end
 ---@param direction number 方向
 ---@return Unit unit
 function M:createRandomUnit(owner, type, point, direction)
-    local unit = FW.util:randomValueInTable(self.unitTemple[type]):create(owner, point, direction)
+    local template = FW.util:randomValueInTable(self.unitTemple[type])
+    local unit = template:create(owner, point, direction)
+    unit:kv_save('template', template)
     add_unitGroup(owner, type, unit, point)
     return unit
 end
@@ -73,9 +77,10 @@ end
 ---@param enemy Player|Unit
 function M:createRandomUnitAtRandomPoint(owner, type, area, direction, count, enemy)
     for i = 1, count, 1 do
-        local unitTemple = FW.util:randomValueInTable(self.unitTemple[type])
+        local template = FW.util:randomValueInTable(self.unitTemple[type])
         local point = area:random_point()
-        local unit = unitTemple:create(owner, point, direction)
+        local unit = template:create(owner, point, direction)
+        unit:kv_save('template', template)
         local ori_max_hp = unit:get_attr_base(y3.const.UnitAttr['最大生命'])
         local ori_attack_phy = unit:get_attr_base(y3.const.UnitAttr['物理攻击'])
         unit:add_attr(y3.const.UnitAttr['最大生命'], (FW.gameMgr.currentRound - 1) * ori_max_hp)
@@ -84,6 +89,37 @@ function M:createRandomUnitAtRandomPoint(owner, type, area, direction, count, en
         unit:add_attr(y3.const.UnitAttr['物理攻击'], (FW.gameMgr.mode - 1) * ori_attack_phy)
         unit:attack_target(enemy, 0)
         add_unitGroup(owner, type, unit, point)
+    end
+end
+
+function M:createRandomHeroWeapon(ownerId, heroUnit)
+    if heroUnit == nil then
+        return
+    end
+    local count
+    if self.units.heroWeapon[ownerId] == nil then
+        count = 0
+    else
+        count = self.units.heroWeapon[ownerId]:count()
+    end
+    if count >= FW.const.maxHeroWeaponCount then
+        return
+    end
+    local point = y3.point.create(0, 0, 0)
+    local player = y3.player.get_by_id(ownerId)
+    local template = FW.util:randomValueInTable(self.unitTemple['heroWeapon'])
+    local unit = template:create(player, point, 0)
+    count = count + 1
+    unit:kv_save('template', template)
+    add_unitGroup(player, 'heroWeapon', unit, point)
+    local perAngle = 360 / count
+    for index, value in ipairs(self.units.heroWeapon[ownerId]:pick()) do
+        if value:kv_has('template') then
+            local angle = (index - 1) * perAngle
+            local template = value:kv_load('template', 'table')
+            template:refreshMover(value, heroUnit, angle)
+            value:set_facing(angle,0)
+        end
     end
 end
 
