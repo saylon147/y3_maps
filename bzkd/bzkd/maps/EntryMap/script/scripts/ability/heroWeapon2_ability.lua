@@ -25,11 +25,12 @@ end)
 skill:event('施法-出手', function(trg, data)
     local direction = data.unit:get_facing()
     local shape = y3.shape.create_sector_shape(500, 20, direction)
-    y3.ltimer.loop_count(0.5, 4, function(timer, count)
+    y3.ltimer.loop_count(0.2, 10, function(timer, count)
+        if count >= 10 then
+            timer:remove()
+            data.unit:stop_animation('attack1')
+        end
         local point = data.unit:get_point()
-        -- local point2 = y3.point.get_point_offset_vector(point, direction, 1000)
-        -- local area = y3.area.create_rectangle_area_from_two_points(point, point2)
-        -- local units = area:get_unit_group_in_area(y3.player.get_by_id(31))local selector = y3.selector:in_shape(point,shape)
         local selector = y3.selector:in_shape(point, shape)
         for index, value in selector:ipairs() do
             if value:is_enemy(data.unit) then
@@ -44,9 +45,4 @@ skill:event('施法-出手', function(trg, data)
             end
         end
     end)
-end)
-
-skill:event('施法-结束', function(trg, data)
-    local unit = data.unit
-    unit:stop_animation('attack1')
 end)

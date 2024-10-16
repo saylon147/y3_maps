@@ -68,8 +68,7 @@ end
 function M:initPlayerUnits()
     for key, value in pairs(self.allPlayers) do
         local unit = FW.unitMgr:createRandomUnit(value, 'hero', FW.const.bornPoint[key], 0)
-        FW.unitMgr:createRandomUnit(value, 'heroWeapon', unit:get_point(), FW.const.heroWeaponAngle[1])
-        FW.unitMgr:createRandomUnit(value, 'heroWeapon', unit:get_point(), FW.const.heroWeaponAngle[2])
+        FW.unitMgr:createRandomHeroWeapon(key, unit)
         addPlayerUnitEvent(unit)
         local camera = FW.const.playerCamera[key]
         camera.set_camera_follow_unit(value, unit)

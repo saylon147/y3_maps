@@ -17,15 +17,20 @@ function M:create(owner, point, direction)
     unit:add_state('无法被攻击')
     unit:add_state("无视静态碰撞")
     unit:add_state("无视动态碰撞")
-    unit:add_state("禁止转向")
     addAbilitys(unit)
+    return unit
+end
+---@param unit Player|Unit
+---@param target Player|Unit
+---@param angle number 方向
+function M:refreshMover(unit,target,angle)
+    unit:remove_mover()
     local mover_data = {
-        target = FW.playerMgr:getHeroByPlayer(owner),
+        target = target,
         radius = 200,
-        init_angle = direction,
+        init_angle = angle,
         height = 30,
     }
     unit:mover_round(mover_data)
-    return unit
 end
 return M
