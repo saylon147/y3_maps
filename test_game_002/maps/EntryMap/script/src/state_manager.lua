@@ -1,13 +1,13 @@
 --
 StateManager = {
     current_state = nil,
-    states = {}
+    states = {
+        PREPARE = require("src.state.prepare"),
+        MAINGAME = require("src.state.maingame"),
+        RESULT = require("src.state.result"),
+    }
 }
 
--- 注册状态
-function StateManager:register_state(state_name, state)
-    self.states[state_name] = state
-end
 
 -- 设置当前状态
 function StateManager:set_state(state_name)

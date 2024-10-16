@@ -37,7 +37,7 @@ end
 
 function maingame:show_result(result)
     GameManager.game_result = result
-    StateManager:set_state("result")
+    StateManager:set_state("RESULT")
 end
 
 return maingame

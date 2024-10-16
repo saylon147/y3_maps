@@ -1,9 +1,9 @@
 --
 UIManager = {
     ui = {
-        PREPARE = { instance = require("ui.ui_prepare"), name = "prepare_stage", visible = false },
-        MAINGAME = { instance = require("ui.ui_maingame"), name = "maingame", visible = false },
-        RESULT = { instance = require("ui.ui_result"), name = "result", visible = false },
+        PREPARE = { instance = require("src.ui.ui_prepare"), name = "prepare_stage", visible = false },
+        MAINGAME = { instance = require("src.ui.ui_maingame"), name = "maingame", visible = false },
+        RESULT = { instance = require("src.ui.ui_result"), name = "result", visible = false },
     },
 }
 

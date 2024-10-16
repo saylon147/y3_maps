@@ -10,12 +10,9 @@ else
 end
 
 
-require("game_manager")
-require("state_manager")
-require("ui_manager")
-StateManager:register_state("prepare", require("states.prepare"))
-StateManager:register_state("maingame", require("states.maingame"))
-StateManager:register_state("result", require("states.result"))
+require("src.game_manager")
+require("src.state_manager")
+require("src.ui_manager")
 
 
 y3.game:event('游戏-初始化', function(trg, data)
@@ -25,7 +22,7 @@ y3.game:event('游戏-初始化', function(trg, data)
             GameManager.player_ready[i] = true
         end
     end
-    StateManager:set_state("prepare")
+    StateManager:set_state("PREPARE")
 end)
 
 

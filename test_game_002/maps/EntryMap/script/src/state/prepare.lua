@@ -8,7 +8,7 @@ end
 function prepare:update()
     if GameManager:isAllReady() then
         UIManager:hide_ui("PREPARE")
-        StateManager:set_state("maingame")
+        StateManager:set_state("MAINGAME")
     end
 end
 
