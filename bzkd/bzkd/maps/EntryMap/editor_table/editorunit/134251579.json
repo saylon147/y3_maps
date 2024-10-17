@@ -56,7 +56,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "can_flee": true, 
+    "can_flee": false, 
     "cancel_alarm_range": 10.0, 
     "cc_jump_height": 0, 
     "cc_move_acc": 0, 
@@ -70,7 +70,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "collision_radius_2": 0.7, 
+    "collision_radius_2": 0.0, 
     "common_ability_list": {
         "__tuple__": true, 
         "items": []
@@ -109,7 +109,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "dynamic_collision_r": 1.0, 
+    "dynamic_collision_r": 0.0, 
     "enable_strict_facing_mode": false, 
     "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 
@@ -162,7 +162,7 @@
     "is_x_offset": true, 
     "is_z_offset": true, 
     "keep_dead_body_time": 0.0, 
-    "keep_target": true, 
+    "keep_target": false, 
     "key": 134251579, 
     "kv": {}, 
     "level": 1, 
@@ -213,7 +213,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 500.0, 
+    "preview_billboard_health_value": 500000.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": false, 
     "rescue_seeker_distance": 3, 
@@ -226,7 +226,7 @@
     }, 
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
-    "reward_exp": 5, 
+    "reward_exp": 0, 
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 9.42, 
