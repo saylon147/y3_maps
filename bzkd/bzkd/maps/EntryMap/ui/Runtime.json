@@ -88,8 +88,229 @@
                     60.0
                 ]
             }, 
+            "touch_scale": {
+                "__tuple__": true, 
+                "items": [
+                    0.8, 
+                    0.8
+                ]
+            }, 
             "type": 1, 
             "uid": "b5e77f45-c316-4494-9c60-9e29a00dc296"
+        }, 
+        {
+            "adapter_option": [
+                false, 
+                true, 
+                true, 
+                false, 
+                700.6275, 
+                319.3725, 
+                63.1301, 
+                1556.8699
+            ], 
+            "children": [
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "font_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0, 
+                            254
+                        ]
+                    }, 
+                    "name": "label", 
+                    "open_adapter": true, 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            30.0, 
+                            50.0, 
+                            50.0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            300.0, 
+                            60.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u968f\u673a\u6dfb\u52a0\u4e00\u4e2a\u7a7f\u6234\u82f1\u96c4", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "f80bb002-7ea8-4fb8-a0a3-7b1572a8eeb2"
+                }
+            ], 
+            "event_list": [], 
+            "name": "addHeroWeapon", 
+            "open_adapter": true, 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    213.1301, 
+                    349.3725, 
+                    11.1005, 
+                    32.3493, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    300.0, 
+                    60.0
+                ]
+            }, 
+            "touch_scale": {
+                "__tuple__": true, 
+                "items": [
+                    0.8, 
+                    0.8
+                ]
+            }, 
+            "type": 1, 
+            "uid": "0eab7a41-ead5-4d19-90da-14aa2114aead"
+        }, 
+        {
+            "adapter_option": [
+                false, 
+                true, 
+                true, 
+                false, 
+                791.2475, 
+                228.7525, 
+                63.1301, 
+                1219.3699
+            ], 
+            "children": [
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "font_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0, 
+                            254
+                        ]
+                    }, 
+                    "name": "label", 
+                    "open_adapter": true, 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            318.75, 
+                            30.0, 
+                            50.0, 
+                            50.0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            637.5, 
+                            60.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u4f7f\u7528\u9f20\u6807\u6216WASD\u79fb\u52a8\uff1a\u5f53\u524d\u9f20\u6807", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "94c83131-b196-49c7-9b63-cb5f8ffb4f75"
+                }
+            ], 
+            "event_list": [], 
+            "name": "useMouse", 
+            "open_adapter": true, 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    381.8801, 
+                    258.7525, 
+                    19.8896, 
+                    23.9586, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    637.5, 
+                    60.0
+                ]
+            }, 
+            "touch_scale": {
+                "__tuple__": true, 
+                "items": [
+                    0.8, 
+                    0.8
+                ]
+            }, 
+            "type": 1, 
+            "uid": "48b67910-4b92-4b3c-94a7-84768da48fe6"
         }
     ], 
     "name": "Runtime", 

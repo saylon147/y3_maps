@@ -9,6 +9,7 @@
     "agility_grow": 1.0, 
     "alarm_range": 8.0, 
     "angle_tolerance": 1, 
+    "anim_state_name": "", 
     "armor_type": 20000, 
     "attack_interval": 1, 
     "attack_interval_grow": 0, 
@@ -41,10 +42,13 @@
     "blood_bar": 65537, 
     "blood_show_type": 0, 
     "body_size": 1.0, 
+    "build_ignore_dyn_collision": false, 
     "build_res_cost_list": {
         "__tuple__": true, 
         "items": []
     }, 
+    "build_time": 5, 
+    "build_upgrade_list": [], 
     "buy_res_list": {
         "__tuple__": true, 
         "items": []
@@ -63,6 +67,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "collision_radius_2": 0.7, 
     "common_ability_list": {
         "__tuple__": true, 
         "items": []
@@ -102,6 +107,7 @@
         "items": []
     }, 
     "dynamic_collision_r": 1.0, 
+    "enable_strict_facing_mode": false, 
     "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 
     "extra_dmg_grow": 0.0, 
@@ -137,6 +143,8 @@
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
+    "hp_rec_percent": 0.0, 
+    "hp_rec_percent_grow": 0.0, 
     "icon": 133739, 
     "idle_anim": "idle1", 
     "init_stock": 5, 
@@ -202,7 +210,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 0, 
+    "preview_billboard_health_value": 1000.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
@@ -342,5 +350,6 @@
     "vision_true": 0.0, 
     "vision_true_grow": 0, 
     "walk_anim": "walk", 
-    "width_offset": 0
+    "width_offset": 0, 
+    "y3_extra_info_show_type": 1
 }

@@ -26,8 +26,3 @@ y3.config.code.enable_local = true
 y3.timer.loop(5, function (timer, count)
     print('每5秒显示一次文本，这是第' .. tostring(count) .. '次')
 end)
-
-y3.game:event('本地-键盘-按下', y3.const.KeyboardKey['SPACE'], function (trg,data)
-    local hero = FW.playerMgr:getHeroByPlayer(data.player)
-    FW.unitMgr:createRandomHeroWeapon(FW.playerMgr:getLocalPlayerId(),hero)
-end)

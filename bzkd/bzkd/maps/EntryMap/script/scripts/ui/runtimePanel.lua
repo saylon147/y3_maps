@@ -49,6 +49,24 @@ function M:initLogic()
         data.func = 'gameMgr.roundEnemy'
         y3.sync.send('异步调用同步方法',data)
     end)
+    self.uiLogic:on_event('useMouse', '左键-按下', function(ui, local_player)
+        local hero = FW.playerMgr:getHeroByPlayer(local_player)
+        if hero:has_state('无法控制') then
+            hero:remove_state('无法控制')
+            local_player:select_unit(hero)
+            ui:get_child('label'):set_text('使用鼠标或WASD移动：当前鼠标')
+        else
+            hero:add_state('无法控制')
+            ui:get_child('label'):set_text('使用鼠标或WASD移动：当前键盘')
+        end
+        
+    end)
+    self.uiLogic:on_event('addHeroWeapon', '左键-按下', function(ui, local_player)
+        local hero = FW.playerMgr:getHeroByPlayer(local_player)
+        if hero ~= nil then
+            FW.unitMgr:createRandomHeroWeapon(FW.playerMgr:getLocalPlayerId(),hero)
+        end
+    end)
 end
 
 return M

@@ -33,4 +33,11 @@ function M:strToTable(str, sep)
     return result
 end
 
+function M:clamp(value, min, max)
+    return math.max(min, math.min(value, max))
+end
+
+
+
+
 return M

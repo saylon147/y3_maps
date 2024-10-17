@@ -1,0 +1,17 @@
+{
+    "action": [], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [], 
+    "group_id": 0, 
+    "p_trigger_id": null, 
+    "trigger_id": 2119692289, 
+    "trigger_name": "新建触发器", 
+    "valid": true, 
+    "var_data": [
+        {}, 
+        {}, 
+        []
+    ]
+}
