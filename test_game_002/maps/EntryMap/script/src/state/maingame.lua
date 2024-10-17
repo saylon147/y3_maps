@@ -9,7 +9,7 @@ function maingame:enter()
     for i = 1, 4 do
         local player = y3.player.get_by_id(i)
         if player:get_state() == 1 then
-            local hero = y3.unit.create_unit(player, 134219010, y3.point.create(0, 0, 0), 180.0)
+            local hero = y3.unit.create_unit(player, GameManager.players[i].hero_id, y3.point.create(0, 0, 0), 180.0)
             hero:event('单位-击杀', function(trg, data)
                 player:display_info("击杀目标 " .. data.unit:get_name())
                 -- GameManager.player_kill = GameManager.player_kill + 1

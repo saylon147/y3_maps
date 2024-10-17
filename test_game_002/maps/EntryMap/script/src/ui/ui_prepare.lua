@@ -1,5 +1,7 @@
 local panel = {}
 
+local hero_id = { 134219010, 134270560 }
+
 local function get_ui(player, name)
     return y3.ui.get_ui(player, name)
 end
@@ -9,8 +11,15 @@ local function init(player)
     btn:add_local_event('左键-点击', function(local_player)
         local id = local_player:get_id()
         local_player:display_info(id .. " 准备完毕")
-        y3.sync.send("player_ready", {})
+        y3.sync.send("sync_data", { msg = "ready" })
     end)
+
+    for i = 1, 2 do
+        local btn = y3.ui.get_ui(player, 'prepare_stage.root.sel_hero_' .. i)
+        btn:add_local_event('左键-点击', function(local_player)
+            y3.sync.send("sync_data", { msg = "sel_hero", id = hero_id[i] })
+        end)
+    end
 end
 
 ------------------------------------------------------
@@ -29,7 +38,7 @@ end
 function panel:update()
     y3.player.with_local(function(local_player)
         for i = 1, 4 do
-            if GameManager.player_ready[i] then
+            if GameManager.players[i].ready then
                 y3.ui.get_ui(local_player, 'prepare_stage.root.pos_' .. i):set_visible(true)
             else
                 y3.ui.get_ui(local_player, 'prepare_stage.root.pos_' .. i):set_visible(false)

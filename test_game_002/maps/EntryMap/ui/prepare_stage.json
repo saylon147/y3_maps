@@ -238,6 +238,103 @@
                     }, 
                     "type": 4, 
                     "uid": "b30da2c9-4a8f-45ff-8cd6-edd19d2ef1e6"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "image_1", 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            970.4006, 
+                            569.5996, 
+                            50.5417, 
+                            52.7407, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            239.2, 
+                            12.0
+                        ]
+                    }, 
+                    "type": 4, 
+                    "uid": "af92aadd-9f7c-44e7-811e-08b8b2b5e492"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "sel_hero_1", 
+                    "normal_picture": 905311, 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            879.9994, 
+                            344.0005, 
+                            45.8333, 
+                            31.8519, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            150.0
+                        ]
+                    }, 
+                    "touch_scale": {
+                        "__tuple__": true, 
+                        "items": [
+                            1.1, 
+                            1.1
+                        ]
+                    }, 
+                    "type": 1, 
+                    "uid": "74296608-8a23-412b-a4bb-52fd2c2167d0"
+                }, 
+                {
+                    "children": [], 
+                    "event_list": [], 
+                    "name": "sel_hero_2", 
+                    "normal_picture": 905251, 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            1059.9994, 
+                            344.4779, 
+                            55.2083, 
+                            31.8961, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            150.0
+                        ]
+                    }, 
+                    "touch_scale": {
+                        "__tuple__": true, 
+                        "items": [
+                            1.1, 
+                            1.1
+                        ]
+                    }, 
+                    "type": 1, 
+                    "uid": "e9b2573d-897c-4056-bd72-fd8f0b8bdce7"
                 }
             ], 
             "event_list": [], 
@@ -265,33 +362,6 @@
             }, 
             "type": 7, 
             "uid": "69894b6c-e3f4-4be4-ab1c-3580902c3258"
-        }, 
-        {
-            "children": [], 
-            "event_list": [], 
-            "name": "image_1", 
-            "pos_data": {
-                "__tuple__": true, 
-                "items": [
-                    970.4006, 
-                    569.5996, 
-                    50.5417, 
-                    52.7407, 
-                    0, 
-                    0
-                ]
-            }, 
-            "prefab_sub_key": null, 
-            "scene_ui_name": null, 
-            "size": {
-                "__tuple__": true, 
-                "items": [
-                    239.2, 
-                    12.0
-                ]
-            }, 
-            "type": 4, 
-            "uid": "af92aadd-9f7c-44e7-811e-08b8b2b5e492"
         }
     ], 
     "name": "prepare_stage", 
