@@ -48,6 +48,518 @@
                     }, 
                     "type": 16, 
                     "uid": "78473fdd-a568-463e-a58f-6527e0e146b7"
+                }, 
+                {
+                    "anchor": {
+                        "__tuple__": true, 
+                        "items": [
+                            0.0, 
+                            0.5
+                        ]
+                    }, 
+                    "bg_image": 904638, 
+                    "block_scrolling": true, 
+                    "cap_insets": {
+                        "__tuple__": true, 
+                        "items": [
+                            125.0, 
+                            153.0, 
+                            125.0, 
+                            153.0
+                        ]
+                    }, 
+                    "children": [
+                        {
+                            "children": [
+                                {
+                                    "children": [], 
+                                    "event_list": [], 
+                                    "font_color": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            3, 
+                                            103, 
+                                            166, 
+                                            255
+                                        ]
+                                    }, 
+                                    "name": "name", 
+                                    "pos_data": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            100.0, 
+                                            45.0, 
+                                            50.0, 
+                                            75.0, 
+                                            0, 
+                                            0
+                                        ]
+                                    }, 
+                                    "prefab_sub_key": "c6517300-bce3-46a7-b9e1-f3e545180a28", 
+                                    "scene_ui_name": null, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            200.0, 
+                                            30.0
+                                        ]
+                                    }, 
+                                    "text": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "Player 1", 
+                                            false
+                                        ]
+                                    }, 
+                                    "type": 3, 
+                                    "uid": "e708c655-5ca0-4aea-ac08-f7a3357fbbe6"
+                                }, 
+                                {
+                                    "children": [], 
+                                    "event_list": [], 
+                                    "font_color": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            159, 
+                                            166, 
+                                            111, 
+                                            255
+                                        ]
+                                    }, 
+                                    "name": "kill_cnt", 
+                                    "pos_data": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            100.0, 
+                                            15.0, 
+                                            50.0, 
+                                            25.0, 
+                                            0, 
+                                            0
+                                        ]
+                                    }, 
+                                    "prefab_sub_key": "0e82727e-371b-42e8-a276-85bcb1a8807a", 
+                                    "scene_ui_name": null, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            200.0, 
+                                            30.0
+                                        ]
+                                    }, 
+                                    "text": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "Kill\uff1a0", 
+                                            false
+                                        ]
+                                    }, 
+                                    "type": 3, 
+                                    "uid": "bb17c4e3-8e88-4563-9be5-a82baf247fb0"
+                                }
+                            ], 
+                            "custom_kv": {}, 
+                            "event_list": [], 
+                            "name": "Player_State_1", 
+                            "pos_data": {
+                                "__tuple__": true, 
+                                "items": [
+                                    110.0, 
+                                    130.0, 
+                                    50.0, 
+                                    50.0, 
+                                    1, 
+                                    1
+                                ]
+                            }, 
+                            "prefab_key": "57e47c8a-eb60-4a40-9b8c-33d3f2cede38", 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    200.0, 
+                                    60.0
+                                ]
+                            }, 
+                            "type": 7, 
+                            "uid": "6780f046-bb99-4713-b73d-781a3acc67b6"
+                        }, 
+                        {
+                            "children": [
+                                {
+                                    "children": [], 
+                                    "event_list": [], 
+                                    "font_color": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            3, 
+                                            103, 
+                                            166, 
+                                            255
+                                        ]
+                                    }, 
+                                    "name": "name", 
+                                    "pos_data": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            100.0, 
+                                            45.0, 
+                                            50.0, 
+                                            75.0, 
+                                            0, 
+                                            0
+                                        ]
+                                    }, 
+                                    "prefab_sub_key": "c6517300-bce3-46a7-b9e1-f3e545180a28", 
+                                    "scene_ui_name": null, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            200.0, 
+                                            30.0
+                                        ]
+                                    }, 
+                                    "text": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "Player 2", 
+                                            false
+                                        ]
+                                    }, 
+                                    "type": 3, 
+                                    "uid": "b88a5c6f-94c4-4ff1-89ec-c7eb84b49d0d"
+                                }, 
+                                {
+                                    "children": [], 
+                                    "event_list": [], 
+                                    "font_color": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            159, 
+                                            166, 
+                                            111, 
+                                            255
+                                        ]
+                                    }, 
+                                    "name": "kill_cnt", 
+                                    "pos_data": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            100.0, 
+                                            15.0, 
+                                            50.0, 
+                                            25.0, 
+                                            0, 
+                                            0
+                                        ]
+                                    }, 
+                                    "prefab_sub_key": "0e82727e-371b-42e8-a276-85bcb1a8807a", 
+                                    "scene_ui_name": null, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            200.0, 
+                                            30.0
+                                        ]
+                                    }, 
+                                    "text": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "Kill\uff1a0", 
+                                            false
+                                        ]
+                                    }, 
+                                    "type": 3, 
+                                    "uid": "37f409c9-1e5b-4d58-8639-ed47c8106999"
+                                }
+                            ], 
+                            "custom_kv": {}, 
+                            "event_list": [], 
+                            "name": "Player_State_2", 
+                            "pos_data": {
+                                "__tuple__": true, 
+                                "items": [
+                                    110.0, 
+                                    130.0, 
+                                    50.0, 
+                                    50.0, 
+                                    1, 
+                                    1
+                                ]
+                            }, 
+                            "prefab_key": "57e47c8a-eb60-4a40-9b8c-33d3f2cede38", 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    200.0, 
+                                    60.0
+                                ]
+                            }, 
+                            "type": 7, 
+                            "uid": "f818abf4-de22-456d-8d1d-755dec084fc1"
+                        }, 
+                        {
+                            "children": [
+                                {
+                                    "children": [], 
+                                    "event_list": [], 
+                                    "font_color": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            3, 
+                                            103, 
+                                            166, 
+                                            255
+                                        ]
+                                    }, 
+                                    "name": "name", 
+                                    "pos_data": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            100.0, 
+                                            45.0, 
+                                            50.0, 
+                                            75.0, 
+                                            0, 
+                                            0
+                                        ]
+                                    }, 
+                                    "prefab_sub_key": "c6517300-bce3-46a7-b9e1-f3e545180a28", 
+                                    "scene_ui_name": null, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            200.0, 
+                                            30.0
+                                        ]
+                                    }, 
+                                    "text": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "Player 3", 
+                                            false
+                                        ]
+                                    }, 
+                                    "type": 3, 
+                                    "uid": "55a1e4b8-e836-4378-94a3-3410565b6aa8"
+                                }, 
+                                {
+                                    "children": [], 
+                                    "event_list": [], 
+                                    "font_color": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            159, 
+                                            166, 
+                                            111, 
+                                            255
+                                        ]
+                                    }, 
+                                    "name": "kill_cnt", 
+                                    "pos_data": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            100.0, 
+                                            15.0, 
+                                            50.0, 
+                                            25.0, 
+                                            0, 
+                                            0
+                                        ]
+                                    }, 
+                                    "prefab_sub_key": "0e82727e-371b-42e8-a276-85bcb1a8807a", 
+                                    "scene_ui_name": null, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            200.0, 
+                                            30.0
+                                        ]
+                                    }, 
+                                    "text": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "Kill\uff1a0", 
+                                            false
+                                        ]
+                                    }, 
+                                    "type": 3, 
+                                    "uid": "1feedde6-c3e0-4968-9e16-8c60c7e0ff31"
+                                }
+                            ], 
+                            "custom_kv": {}, 
+                            "event_list": [], 
+                            "name": "Player_State_3", 
+                            "pos_data": {
+                                "__tuple__": true, 
+                                "items": [
+                                    110.0, 
+                                    130.0, 
+                                    50.0, 
+                                    50.0, 
+                                    1, 
+                                    1
+                                ]
+                            }, 
+                            "prefab_key": "57e47c8a-eb60-4a40-9b8c-33d3f2cede38", 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    200.0, 
+                                    60.0
+                                ]
+                            }, 
+                            "type": 7, 
+                            "uid": "409b1a0e-5ac3-4e7a-ae51-1c9dad81170c"
+                        }, 
+                        {
+                            "children": [
+                                {
+                                    "children": [], 
+                                    "event_list": [], 
+                                    "font_color": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            3, 
+                                            103, 
+                                            166, 
+                                            255
+                                        ]
+                                    }, 
+                                    "name": "name", 
+                                    "pos_data": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            100.0, 
+                                            45.0, 
+                                            50.0, 
+                                            75.0, 
+                                            0, 
+                                            0
+                                        ]
+                                    }, 
+                                    "prefab_sub_key": "c6517300-bce3-46a7-b9e1-f3e545180a28", 
+                                    "scene_ui_name": null, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            200.0, 
+                                            30.0
+                                        ]
+                                    }, 
+                                    "text": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "Player 4", 
+                                            false
+                                        ]
+                                    }, 
+                                    "type": 3, 
+                                    "uid": "be83b2b8-eacd-4182-b4b4-c48a14116ce4"
+                                }, 
+                                {
+                                    "children": [], 
+                                    "event_list": [], 
+                                    "font_color": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            159, 
+                                            166, 
+                                            111, 
+                                            255
+                                        ]
+                                    }, 
+                                    "name": "kill_cnt", 
+                                    "pos_data": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            100.0, 
+                                            15.0, 
+                                            50.0, 
+                                            25.0, 
+                                            0, 
+                                            0
+                                        ]
+                                    }, 
+                                    "prefab_sub_key": "0e82727e-371b-42e8-a276-85bcb1a8807a", 
+                                    "scene_ui_name": null, 
+                                    "size": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            200.0, 
+                                            30.0
+                                        ]
+                                    }, 
+                                    "text": {
+                                        "__tuple__": true, 
+                                        "items": [
+                                            "Kill\uff1a0", 
+                                            false
+                                        ]
+                                    }, 
+                                    "type": 3, 
+                                    "uid": "45c8cb00-d362-4eaa-9563-bfc66096cd07"
+                                }
+                            ], 
+                            "custom_kv": {}, 
+                            "event_list": [], 
+                            "name": "Player_State_4", 
+                            "pos_data": {
+                                "__tuple__": true, 
+                                "items": [
+                                    110.0, 
+                                    130.0, 
+                                    50.0, 
+                                    50.0, 
+                                    1, 
+                                    1
+                                ]
+                            }, 
+                            "prefab_key": "57e47c8a-eb60-4a40-9b8c-33d3f2cede38", 
+                            "prefab_sub_key": null, 
+                            "scene_ui_name": null, 
+                            "size": {
+                                "__tuple__": true, 
+                                "items": [
+                                    200.0, 
+                                    60.0
+                                ]
+                            }, 
+                            "type": 7, 
+                            "uid": "3a7362d4-5c13-44a0-9d65-5b74dfc316f5"
+                        }
+                    ], 
+                    "event_list": [], 
+                    "layout_type": 1, 
+                    "name": "player_state_scrollview", 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            20.0, 
+                            540.0, 
+                            1.0417, 
+                            50.0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            220.0, 
+                            260.0
+                        ]
+                    }, 
+                    "skip_invisible": false, 
+                    "type": 10, 
+                    "uid": "db25aa2f-ecb2-4bb9-91d0-e6bef93f88fb"
                 }
             ], 
             "event_list": [], 

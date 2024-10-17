@@ -6,16 +6,23 @@ function maingame:enter()
     UIManager:show_ui("MAINGAME")
 
     -- 创建主角
-    for i = 1, 4 do
+    for i = 1, GameManager.default_player_cnt do
         local player = y3.player.get_by_id(i)
         if player:get_state() == 1 then
             local hero = y3.unit.create_unit(player, GameManager.players[i].hero_id, y3.point.create(0, 0, 0), 180.0)
-            hero:event('单位-击杀', function(trg, data)
-                player:display_info("击杀目标 " .. data.unit:get_name())
-                -- GameManager.player_kill = GameManager.player_kill + 1
+
+            y3.player.with_local(function(local_player)
+                if local_player:get_id() == player:get_id() then
+                    hero:event('单位-击杀', function(trg, data)
+                        -- player:display_info("player" .. i .. "击杀目标 " .. data.unit:get_name())
+                        y3.sync.send("sync_data", { msg = "kill_unit", cnt = 1 })
+                    end)
+                end
             end)
         end
     end
+
+
 
     -- hero:event('单位-死亡', function(trg, data)
     --     self:show_result("lose")

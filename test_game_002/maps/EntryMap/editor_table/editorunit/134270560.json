@@ -15,7 +15,7 @@
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 80.0, 
+    "attack_phy": 800.0, 
     "attack_phy_grow": 5.0, 
     "attack_range": 1, 
     "attack_range_grow": 0, 
@@ -41,7 +41,7 @@
     "billboard_scale_y": 1, 
     "blood_bar": 327681, 
     "blood_show_type": 0, 
-    "body_size": 1.2, 
+    "body_size": 1.0, 
     "build_ignore_dyn_collision": false, 
     "build_res_cost_list": {
         "__tuple__": true, 
