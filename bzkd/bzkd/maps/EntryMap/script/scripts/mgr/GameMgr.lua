@@ -2,7 +2,6 @@ local M = {}
 M.currentRound = 0
 M.mode = 1
 M.roundTimer = nil
-M.keyBoardAngles = {}
 
 function M:gameInit()
     FW.globalVar["gameState"] = FW.const.gameState['gamePrepage']
@@ -86,33 +85,51 @@ function M:modePicked(args)
 end
 
 local function movePlayer(key, value, player)
-    if M.keyBoardAngles[key] == value then
-        return
+    local lastH = player:kv_load('h', 'integer') or 0
+    local lastV = player:kv_load('v', 'integer') or 0
+    if key == 'h' then
+        lastH = lastH + value
+    else
+        lastV = lastV + value
     end
-    M.keyBoardAngles[key] = value
+    player:kv_save('h', lastH)
+    player:kv_save('v', lastV)
     local hero = FW.playerMgr:getHeroByPlayer(player)
     local oriPoint = hero:get_point()
     local point
-    if M.keyBoardAngles['W'] then
-        point = y3.point.create(oriPoint:get_x(), FW.const.enemyRandomArea[player:get_id()]:get_max_y())
-        hero:move_to_pos(point)
-    elseif M.keyBoardAngles['S'] then
-        point = y3.point.create(oriPoint:get_x(), FW.const.enemyRandomArea[player:get_id()]:get_min_y())
-        hero:move_to_pos(point)
-    elseif M.keyBoardAngles['A'] then
-        point = y3.point.create(FW.const.enemyRandomArea[player:get_id()]:get_max_x(),oriPoint:get_y())
-        hero:move_to_pos(point)
-    elseif M.keyBoardAngles['D'] then
-        point = y3.point.create(FW.const.enemyRandomArea[player:get_id()]:get_min_x(),oriPoint:get_y())
-        hero:move_to_pos(point)
-    else
+    if lastH == 0 and lastV == 0 then
         hero:stop()
+        return
     end
-    
+    local angle = 0
+    if lastH > 0 then
+        angle = 90
+        if lastV > 0 then
+            angle = 45
+        elseif lastV < 0 then
+            angle = 135
+        end
+        
+    elseif lastH < 0 then
+        angle = 270
+        if lastV > 0 then
+            angle = 315
+        elseif lastV < 0 then
+            angle = 225
+        end
+    else
+        if lastV > 0 then
+            angle = 0
+        elseif lastV < 0 then
+            angle = 180
+        end
+    end
+    point = y3.point.get_point_offset_vector(oriPoint, angle, 3000)
+    hero:move_to_pos(point)
 end
 
 function M:update()
-    
+
 end
 
 function M:initGlobalEvent()
@@ -124,57 +141,57 @@ function M:initGlobalEvent()
         local t = FW.util:strToTable(str, ".")
         FW[t[1]][t[2]](FW[t[1]], args)
     end)
-    y3.ltimer.loop_frame(1,function (timer, count)
+    y3.ltimer.loop_frame(1, function(timer, count)
         self:update()
     end)
     y3.game:event('本地-键盘-按下', y3.const.KeyboardKey['W'], function(trg, data)
         if FW.globalVar["gameState"] ~= FW.const.gameState.gaming then
             return
         end
-        movePlayer('W', true, data.player)
+        movePlayer('v', -1, data.player)
     end)
     y3.game:event('本地-键盘-按下', y3.const.KeyboardKey['A'], function(trg, data)
         if FW.globalVar["gameState"] ~= FW.const.gameState.gaming then
             return
         end
-        movePlayer('A', true, data.player)
+        movePlayer('h', -1, data.player)
     end)
     y3.game:event('本地-键盘-按下', y3.const.KeyboardKey['S'], function(trg, data)
         if FW.globalVar["gameState"] ~= FW.const.gameState.gaming then
             return
         end
-        movePlayer('S', true, data.player)
+        movePlayer('v', 1, data.player)
     end)
     y3.game:event('本地-键盘-按下', y3.const.KeyboardKey['D'], function(trg, data)
         if FW.globalVar["gameState"] ~= FW.const.gameState.gaming then
             return
         end
-        movePlayer('D', true, data.player)
+        movePlayer('h', 1, data.player)
     end)
 
     y3.game:event('本地-键盘-抬起', y3.const.KeyboardKey['W'], function(trg, data)
         if FW.globalVar["gameState"] ~= FW.const.gameState.gaming then
             return
         end
-        movePlayer('W', false, data.player)
+        movePlayer('v', 1, data.player)
     end)
     y3.game:event('本地-键盘-抬起', y3.const.KeyboardKey['A'], function(trg, data)
         if FW.globalVar["gameState"] ~= FW.const.gameState.gaming then
             return
         end
-        movePlayer('A', false, data.player)
+        movePlayer('h', 1, data.player)
     end)
     y3.game:event('本地-键盘-抬起', y3.const.KeyboardKey['S'], function(trg, data)
         if FW.globalVar["gameState"] ~= FW.const.gameState.gaming then
             return
         end
-        movePlayer('S', false, data.player)
+        movePlayer('v', -1, data.player)
     end)
     y3.game:event('本地-键盘-抬起', y3.const.KeyboardKey['D'], function(trg, data)
         if FW.globalVar["gameState"] ~= FW.const.gameState.gaming then
             return
         end
-        movePlayer('D', false, data.player)
+        movePlayer('h', -1, data.player)
     end)
 end
 
