@@ -24,9 +24,9 @@ function GameManager:init()
     y3.sync.onSync("sync_data", function(data, source)
         -- print(data, type(data))
         -- print(source, type(source))
-        y3.player.with_local(function(local_player)
-            local_player:display_info("sync from:" .. source:get_id() .. " data:" .. data["msg"])
-        end)
+        -- y3.player.with_local(function(local_player)
+        --     local_player:display_info("sync from:" .. source:get_id() .. " data:" .. data["msg"])
+        -- end)
         local idx = source:get_id()
         if data["msg"] == "ready" then
             self.players[idx].ready = true

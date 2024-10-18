@@ -1,6 +1,9 @@
 local maingame = {}
 
 
+
+
+
 function maingame:enter()
     -- print("进入 MAINGAME")
     UIManager:show_ui("MAINGAME")
@@ -15,6 +18,38 @@ function maingame:enter()
 
             y3.player.with_local(function(local_player)
                 if local_player:get_id() == player:get_id() then
+                    player:kv_save('x', 0)
+                    player:kv_save('y', 0)
+                    player:set_mouse_click_selection(false)
+                    player:set_mouse_drag_selection(false)
+
+                    -- 给本方的hero添加按键操作控制
+                    player:event('本地-键盘-按下', y3.const.KeyboardKey['W'], function(trg, data)
+                        data.player:kv_save('y', 1)
+                    end)
+                    player:event('本地-键盘-抬起', y3.const.KeyboardKey['W'], function(trg, data)
+                        data.player:kv_save('y', 0)
+                    end)
+                    player:event('本地-键盘-按下', y3.const.KeyboardKey['A'], function(trg, data)
+                        data.player:kv_save('x', -1)
+                    end)
+                    player:event('本地-键盘-抬起', y3.const.KeyboardKey['A'], function(trg, data)
+                        data.player:kv_save('x', 0)
+                    end)
+                    player:event('本地-键盘-按下', y3.const.KeyboardKey['S'], function(trg, data)
+                        data.player:kv_save('y', -1)
+                    end)
+                    player:event('本地-键盘-抬起', y3.const.KeyboardKey['S'], function(trg, data)
+                        data.player:kv_save('y', 0)
+                    end)
+                    player:event('本地-键盘-按下', y3.const.KeyboardKey['D'], function(trg, data)
+                        data.player:kv_save('x', 1)
+                    end)
+                    player:event('本地-键盘-抬起', y3.const.KeyboardKey['D'], function(trg, data)
+                        data.player:kv_save('x', 0)
+                    end)
+
+
                     hero:event('单位-击杀', function(trg, data)
                         -- player:display_info("player" .. i .. "击杀目标 " .. data.unit:get_name())
                         y3.sync.send("sync_data", { msg = "kill_unit", cnt = 1 })
@@ -33,6 +68,47 @@ function maingame:enter()
 end
 
 function maingame:update()
+    y3.player.with_local(function(local_player)
+        local x = local_player:kv_load('x', 'integer')
+        local y = local_player:kv_load('y', 'integer')
+        local degree = 0
+        local distance = 0
+        local hero = GameManager.players[local_player:get_id()].heroes[1]
+        local aim_point
+        if x == 0 and y == 0 then
+            if hero:is_moving() then
+                hero:stop()
+            end
+            return
+        elseif x == 1 and y == -1 then
+            degree = 45
+        elseif x == 1 and y == 0 then
+            degree = 90
+        elseif x == 1 and y == 1 then
+            degree = 135
+        elseif x == 0 and y == 1 then
+            degree = 180
+        elseif x == -1 and y == 1 then
+            degree = 225
+        elseif x == -1 and y == 0 then
+            degree = 270
+        elseif x == -1 and y == -1 then
+            degree = 315
+        elseif x == 0 and y == -1 then
+            degree = 0
+        end
+        while distance < 1000 do
+            distance = distance + 50
+            local aim_point = hero:get_point():get_point_offset_vector(degree, distance)
+            if not hero:can_blink_to(aim_point) then
+                distance = distance - 50
+                break
+            end
+        end
+        local target_point = hero:get_point():get_point_offset_vector(degree, distance)
+        hero:move_to_pos(target_point)
+    end)
+
     if GameManager:is_reach_target() then
         UIManager:hide_ui("MAINGAME")
         StateManager:set_state("RESULT")
