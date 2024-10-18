@@ -89,7 +89,7 @@ function M:modePicked(args)
 end
 
 function M:update()
-
+    FW.playerMgr:pickUpdate()
 end
 
 function M:initGlobalEvent()

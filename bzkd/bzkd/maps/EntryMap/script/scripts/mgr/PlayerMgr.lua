@@ -169,7 +169,7 @@ end
 ---@param player Player
 ---@param point Point
 ---@return integer id
-function M:getPlayerIdByPoint(player,point)
+function M:getPlayerIdByPoint(player, point)
     local id
     if player:get_id() > FW.playerMgr.maxPlayerCount then
         for index, value in ipairs(FW.const.enemyRandomArea) do
@@ -181,6 +181,24 @@ function M:getPlayerIdByPoint(player,point)
         id = player:get_id()
     end
     return id
+end
+
+function M:pickUpdate()
+    if FW.globalVar["gameState"] == FW.const.gameState.gaming then
+        for key, value in pairs(self.allPlayers) do
+            local hero = self:getHeroByPlayer(value)
+            if FW.unitMgr.units.pickUnit[key] ~= nil then
+                for index, value in ipairs(FW.unitMgr.units.pickUnit[key]:pick()) do
+                    if value ~= nil then
+                        local distance = value:get_point():get_distance_with(hero:get_point())
+                        if distance <= 100 then
+                            FW.unitMgr:moveToUnit(value, hero)
+                        end
+                    end
+                end
+            end
+        end
+    end
 end
 
 return M

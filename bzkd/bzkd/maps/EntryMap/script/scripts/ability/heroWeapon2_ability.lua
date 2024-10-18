@@ -31,18 +31,16 @@ skill:event('施法-出手', function(trg, data)
             data.unit:stop_animation('attack1')
         end
         local point = data.unit:get_point()
-        local selector = y3.selector:in_shape(point, shape)
+        local selector = y3.selector:in_shape(point, shape):is_enemy(data.unit:get_owner())
         for index, value in selector:ipairs() do
-            if value:is_enemy(data.unit) then
-                local damageData = {
-                    target = value,
-                    type = y3.const.DamageTypeMap['物理'],
-                    damage = data.unit:get_attr(y3.const.UnitAttr['物理攻击']),
-                    text_type = 'physics',
-                    socket = 'hit_point'
-                }
-                data.unit:damage(damageData)
-            end
+            local damageData = {
+                target = value,
+                type = y3.const.DamageTypeMap['物理'],
+                damage = data.unit:get_attr(y3.const.UnitAttr['物理攻击']),
+                text_type = 'physics',
+                socket = 'hit_point'
+            }
+            data.unit:damage(damageData)
         end
     end)
 end)

@@ -142,22 +142,25 @@ function M:roundGetPickUnit()
         for index, value in ipairs(pickUnitGroup:pick()) do
             self:moveToUnit(value, hero)
         end
-        pickUnitGroup:clear()
     end
 end
 
 ---@param unit Unit
 ---@param target Unit
 function M:moveToUnit(unit, target)
+    if unit:has_tag('picked') then
+        return
+    end
     local moverData = {
         target = target,
         speed = 1000,
         target_distance = 0,
         parabola_height = 100,
         on_finish = function()
+            local player = target:get_owner()
             if unit:kv_has('gold') then
-                local gold = target:get_owner():get_attr('gold') + unit:kv_load('gold','number')
-                target:get_owner():set('gold', gold)
+                local gold = player:get_attr('gold') + unit:kv_load('gold','number')
+                player:set('gold', gold)
             end
             if unit:kv_has('exp') then
                 target:add_exp(unit:kv_load('exp','number'))
@@ -165,10 +168,12 @@ function M:moveToUnit(unit, target)
             if unit:kv_has('health') then
                 target:add_hp(unit:kv_load('health','number'))
             end
+            self.units.pickUnit[player:get_id()]:remove_unit(unit)
             unit:remove()
         end
     }
     unit:mover_target(moverData)
+    unit:add_tag('picked')
 end
 
 return M
