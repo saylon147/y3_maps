@@ -2,8 +2,21 @@
     "variable_dict": {
         "INTEGER": {}, 
         "UNIT_ENTITY": {}, 
+        "UNIT_GROUP": {
+            "tower_monsters": []
+        }, 
         "UNIT_NAME": {}
     }, 
-    "variable_group_info": [], 
-    "variable_length_dict": {}
+    "variable_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "tower_monsters", 
+                "tower_monsters"
+            ]
+        }
+    ], 
+    "variable_length_dict": {
+        "tower_monsters": 0
+    }
 }

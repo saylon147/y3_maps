@@ -9,8 +9,8 @@ end
 local function init(player)
     local btn = y3.ui.get_ui(player, 'prepare_stage.root.center.btn_ready')
     btn:add_local_event('左键-点击', function(local_player)
-        local id = local_player:get_id()
-        local_player:display_info(id .. " 准备完毕")
+        -- local id = local_player:get_id()
+        -- local_player:display_info(id .. " 准备完毕")
         y3.sync.send("sync_data", { msg = "ready" })
     end)
 

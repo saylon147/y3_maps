@@ -89,63 +89,118 @@
                             "arg_type": 100022, 
                             "args_list": [
                                 {
-                                    "action_type": "CREATE_UNIT_NEW", 
+                                    "action_type": "SET_VARIABLE", 
                                     "args_list": [
                                         {
-                                            "arg_type": 100116, 
-                                            "args_list": [
-                                                134272717
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100004, 
+                                            "arg_type": 100006, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100023, 
-                                                    "args_list": [
-                                                        {
-                                                            "__tuple__": true, 
-                                                            "items": [
-                                                                "ROUND_AREA", 
-                                                                "spawn_area", 
-                                                                "local"
-                                                            ]
-                                                        }
-                                                    ], 
-                                                    "sub_type": 2
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_ENTITY", 
+                                                        "monster", 
+                                                        "local"
+                                                    ]
                                                 }
                                             ], 
-                                            "sub_type": "ROUND_AREA_RANDOM_POINT"
-                                        }, 
-                                        {
-                                            "arg_type": 100225, 
-                                            "args_list": [
-                                                {
-                                                    "arg_type": 100000, 
-                                                    "args_list": [
-                                                        180.0
-                                                    ], 
-                                                    "sub_type": 1
-                                                }
-                                            ], 
-                                            "sub_type": "GET_ANGLE_BY_FLOAT"
+                                            "sub_type": 11
                                         }, 
                                         {
                                             "arg_type": 100006, 
-                                            "args_list": [], 
-                                            "sub_type": "GET_UNIT_FROM_EVENT"
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100116, 
+                                                    "args_list": [
+                                                        134272717
+                                                    ], 
+                                                    "sub_type": 1
+                                                }, 
+                                                {
+                                                    "arg_type": 100004, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100023, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "ROUND_AREA", 
+                                                                        "spawn_area", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": 2
+                                                        }
+                                                    ], 
+                                                    "sub_type": "ROUND_AREA_RANDOM_POINT"
+                                                }, 
+                                                {
+                                                    "arg_type": 100225, 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100000, 
+                                                            "args_list": [
+                                                                180.0
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "sub_type": "GET_ANGLE_BY_FLOAT"
+                                                }, 
+                                                {
+                                                    "arg_type": 100006, 
+                                                    "args_list": [], 
+                                                    "sub_type": "GET_UNIT_FROM_EVENT"
+                                                }
+                                            ], 
+                                            "op_arg": [
+                                                null
+                                            ], 
+                                            "op_arg_enable": [
+                                                false
+                                            ], 
+                                            "sub_type": "CREATE_UNIT_NEW"
                                         }
                                     ], 
                                     "bp": false, 
                                     "element_id": 1123033089000063, 
-                                    "enable": true, 
-                                    "op_arg": [
-                                        null
+                                    "enable": true
+                                }, 
+                                {
+                                    "action_type": "GROUP_ADD_UNIT", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_ENTITY", 
+                                                        "monster", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 11
+                                        }, 
+                                        {
+                                            "arg_type": 100026, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "UNIT_GROUP", 
+                                                        "tower_monsters"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 14
+                                        }
                                     ], 
-                                    "op_arg_enable": [
-                                        false
-                                    ]
+                                    "bp": false, 
+                                    "element_id": 1123033089000092, 
+                                    "enable": true
                                 }
                             ], 
                             "sub_type": 1

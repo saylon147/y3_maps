@@ -2,14 +2,16 @@ local maingame = {}
 
 
 function maingame:enter()
-    print("进入 MAINGAME")
+    -- print("进入 MAINGAME")
     UIManager:show_ui("MAINGAME")
 
     -- 创建主角
     for i = 1, GameManager.default_player_cnt do
         local player = y3.player.get_by_id(i)
         if player:get_state() == 1 then
-            local hero = y3.unit.create_unit(player, GameManager.players[i].hero_id, y3.point.create(0, 0, 0), 180.0)
+            local hero = UnitManager:create_unit(player, "HERO", GameManager.players[i].hero_id,
+                y3.point.create(0, 0, 0), 180.0)
+            table.insert(GameManager.players[i].heroes, hero)
 
             y3.player.with_local(function(local_player)
                 if local_player:get_id() == player:get_id() then
@@ -22,8 +24,6 @@ function maingame:enter()
         end
     end
 
-
-
     -- hero:event('单位-死亡', function(trg, data)
     --     self:show_result("lose")
     -- end)
@@ -33,18 +33,14 @@ function maingame:enter()
 end
 
 function maingame:update()
-    -- if GameManager.player_kill >= 10 then
-    --     self:show_result("win")
-    -- end
+    if GameManager:is_reach_target() then
+        UIManager:hide_ui("MAINGAME")
+        StateManager:set_state("RESULT")
+    end
 end
 
 function maingame:exit()
 
-end
-
-function maingame:show_result(result)
-    GameManager.game_result = result
-    StateManager:set_state("RESULT")
 end
 
 return maingame

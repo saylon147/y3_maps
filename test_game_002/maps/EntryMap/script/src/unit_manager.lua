@@ -14,12 +14,21 @@ UnitManager = {
 
 
 function UnitManager:create_unit(owner, type, id, point, direction)
-    -- local unit = y3.unit.create_unit(owner, 134219010, y3.point.create(0, 0, 0), 180.0)
-    local unit = nil
     if type == "HERO" then
-        unit = y3.unit.create_unit(owner, id, point, direction)
+        return y3.unit.create_unit(owner, id, point, direction)
+    elseif type == "MONSTER" then
+        return y3.unit.create_unit(owner, id, point, direction)
+    else
+        return y3.unit.create_unit(owner, id, point, direction)
     end
-    return unit
+end
+
+function UnitManager:remove_all_unit(owner)
+    local units = owner:get_all_units()
+    for _, v in ipairs(units:pick()) do
+        v:remove()
+    end
+    units:clear()
 end
 
 return UnitManager
