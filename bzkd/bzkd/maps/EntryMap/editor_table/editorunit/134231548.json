@@ -56,7 +56,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "can_flee": true, 
+    "can_flee": false, 
     "cancel_alarm_range": 10.0, 
     "cc_jump_height": 0, 
     "cc_move_acc": 0, 
@@ -102,10 +102,7 @@
     "dmg_reduction_grow": 0.0, 
     "dodge_rate": 0.0, 
     "dodge_rate_grow": 0.0, 
-    "drop_items_tuple": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "drop_items_tuple": [], 
     "dynamic_collision_r": 1.0, 
     "enable_strict_facing_mode": false, 
     "enemy_mini_map_icon": 100000, 
@@ -223,8 +220,8 @@
     }, 
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
-    "reward_exp": 5, 
-    "reward_official_res_1": 30.0, 
+    "reward_exp": 0, 
+    "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 10.0, 
     "sell_list": {

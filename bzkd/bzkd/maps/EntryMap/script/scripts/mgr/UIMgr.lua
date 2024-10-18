@@ -6,7 +6,6 @@ M.uiEnum = {
     modePanel = 4,
 }
 M.uis = {
-    --modePanel = require 'scripts.ui.modePanel',
     [1] = require 'scripts.ui.runtimePanel',
     [2] = require 'scripts.ui.rolePanel',
     [3] = require 'scripts.ui.descPanel',
