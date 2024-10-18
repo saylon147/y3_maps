@@ -311,6 +311,113 @@
             }, 
             "type": 1, 
             "uid": "48b67910-4b92-4b3c-94a7-84768da48fe6"
+        }, 
+        {
+            "adapter_option": [
+                false, 
+                true, 
+                true, 
+                false, 
+                608.4355, 
+                411.5645, 
+                63.001, 
+                1556.999
+            ], 
+            "children": [
+                {
+                    "adapter_option": [
+                        true, 
+                        true, 
+                        true, 
+                        true, 
+                        0.0, 
+                        0.0, 
+                        0.0, 
+                        0.0
+                    ], 
+                    "alignment": {
+                        "__tuple__": true, 
+                        "items": [
+                            2, 
+                            8
+                        ]
+                    }, 
+                    "children": [], 
+                    "event_list": [], 
+                    "font_color": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0, 
+                            254
+                        ]
+                    }, 
+                    "name": "label", 
+                    "open_adapter": true, 
+                    "pos_data": {
+                        "__tuple__": true, 
+                        "items": [
+                            150.0, 
+                            30.0, 
+                            50.0, 
+                            50.0, 
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "prefab_sub_key": null, 
+                    "scene_ui_name": null, 
+                    "size": {
+                        "__tuple__": true, 
+                        "items": [
+                            300.0, 
+                            60.0
+                        ]
+                    }, 
+                    "text": {
+                        "__tuple__": true, 
+                        "items": [
+                            "\u662f\u5426\u65e0\u654c\uff1a\u5426", 
+                            false
+                        ]
+                    }, 
+                    "type": 3, 
+                    "uid": "77cfe392-4429-4fda-a602-e83badf435f5"
+                }
+            ], 
+            "event_list": [], 
+            "name": "invincible", 
+            "open_adapter": true, 
+            "pos_data": {
+                "__tuple__": true, 
+                "items": [
+                    213.001, 
+                    441.5645, 
+                    11.0938, 
+                    40.8856, 
+                    0, 
+                    0
+                ]
+            }, 
+            "prefab_sub_key": null, 
+            "scene_ui_name": null, 
+            "size": {
+                "__tuple__": true, 
+                "items": [
+                    300.0, 
+                    60.0
+                ]
+            }, 
+            "touch_scale": {
+                "__tuple__": true, 
+                "items": [
+                    0.8, 
+                    0.8
+                ]
+            }, 
+            "type": 1, 
+            "uid": "4ab0b1a9-531a-4718-8bab-d47b0dd8c8ca"
         }
     ], 
     "name": "Runtime", 

@@ -166,4 +166,21 @@ function M:getHeroByPlayer(player)
     return FW.unitMgr.units.hero[player:get_id()]:get_first()
 end
 
+---@param player Player
+---@param point Point
+---@return integer id
+function M:getPlayerIdByPoint(player,point)
+    local id
+    if player:get_id() > FW.playerMgr.maxPlayerCount then
+        for index, value in ipairs(FW.const.enemyRandomArea) do
+            if value:is_point_in_area(point) then
+                id = index
+            end
+        end
+    else
+        id = player:get_id()
+    end
+    return id
+end
+
 return M

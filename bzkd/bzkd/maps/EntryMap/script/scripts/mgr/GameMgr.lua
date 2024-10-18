@@ -35,8 +35,9 @@ function M:gameStart()
 end
 
 function M:result()
-    self:stopRoundEnemy()
     FW.globalVar["gameState"] = FW.const.gameState.result
+    self:stopRoundEnemy()
+    
 end
 
 function M:createRandomCrystal()
@@ -68,12 +69,15 @@ function M:stopRoundEnemy()
     if self.roundTimer ~= nil then
         self.roundTimer:remove()
         FW.unitMgr:killAllEnemy()
+        FW.unitMgr:roundGetPickUnit()
         local firstPlayer = FW.playerMgr:getFirstPlayer()
-        for key, value in pairs(FW.playerMgr.allPlayers) do
-            if value == firstPlayer then
-                FW.uiMgr:getUI('runtimePanel'):showOrHideNextRound(true, firstPlayer)
-            else
-                value:display_message('等待玩家' .. firstPlayer:get_name() .. '点击进入下一轮')
+        if FW.globalVar["gameState"] == FW.const.gameState['gaming'] then
+            for key, value in pairs(FW.playerMgr.allPlayers) do
+                if value == firstPlayer then
+                    FW.uiMgr:getUI('runtimePanel'):showOrHideNextRound(true, firstPlayer)
+                else
+                    value:display_message('等待玩家' .. firstPlayer:get_name() .. '点击进入下一轮')
+                end
             end
         end
     end

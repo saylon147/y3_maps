@@ -67,6 +67,16 @@ function M:initLogic()
             FW.unitMgr:createRandomHeroWeapon(FW.playerMgr:getLocalPlayerId(),hero)
         end
     end)
+    self.uiLogic:on_event('invincible', '左键-按下', function(ui, local_player)
+        local hero = FW.playerMgr:getHeroByPlayer(local_player)
+        if hero:has_state('无敌') then
+            hero:remove_state('无敌')
+            ui:get_child('label'):set_text('是否无敌：否')
+        else
+            hero:add_state('无敌')
+            ui:get_child('label'):set_text('是否无敌：是')
+        end
+    end)
 end
 
 return M

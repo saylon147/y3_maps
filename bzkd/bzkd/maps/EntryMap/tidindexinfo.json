@@ -11,6 +11,12 @@
         "item_key": 134249593, 
         "prop_key": "name"
     }, 
+    "-1823384265": {
+        "editor_type": "editor_item", 
+        "index_type": "object_editor", 
+        "item_key": 134251125, 
+        "prop_key": "name"
+    }, 
     "-1551397118": {
         "editor_type": "editor_unit", 
         "index_type": "object_editor", 
@@ -23,16 +29,40 @@
         "item_key": 134251579, 
         "prop_key": "name"
     }, 
+    "-1493506330": {
+        "editor_type": "editor_item", 
+        "index_type": "object_editor", 
+        "item_key": 134275764, 
+        "prop_key": "name"
+    }, 
+    "-1172480396": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134218609, 
+        "prop_key": "name"
+    }, 
     "-637558760": {
         "editor_type": "ability_all", 
         "index_type": "object_editor", 
         "item_key": 134230019, 
         "prop_key": "name"
     }, 
+    "342487008": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134282458, 
+        "prop_key": "name"
+    }, 
     "530672050": {
         "editor_type": "projectile_all", 
         "index_type": "object_editor", 
         "item_key": 134275600, 
+        "prop_key": "name"
+    }, 
+    "865690113": {
+        "editor_type": "editor_item", 
+        "index_type": "object_editor", 
+        "item_key": 134271259, 
         "prop_key": "name"
     }, 
     "905913353": {
