@@ -14,6 +14,7 @@ require("src.game_manager")
 require("src.state_manager")
 require("src.ui_manager")
 require("src.unit_manager")
+require("src.player.player_controller")
 
 
 y3.game:event('游戏-初始化', function(trg, data)
