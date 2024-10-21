@@ -18,6 +18,7 @@ local function addPlayerUnitEvent(unit)
         if (M.playerDeadCount[playerId] < M.maxDeadCount) then
             y3.ltimer.wait(5, function(timer)
                 unit:reborn()
+                data.unit:get_owner():select_unit(unit)
                 timer:remove()
             end)
         end
@@ -87,31 +88,30 @@ local function movePlayer(key, value, player)
     hero:move_to_pos(point)
 end
 
----@param player Player
-local function addPlayerEvent(player)
-    player:event('本地-键盘-按下', y3.const.KeyboardKey['W'], function(trg, data)
+local function addPlayerEvent()
+    y3.game:event('键盘-按下', y3.const.KeyboardKey['W'], function(trg, data)
         movePlayer('w', -1, data.player)
     end)
-    player:event('本地-键盘-按下', y3.const.KeyboardKey['A'], function(trg, data)
+    y3.game:event('键盘-按下', y3.const.KeyboardKey['A'], function(trg, data)
         movePlayer('a', -1, data.player)
     end)
-    player:event('本地-键盘-按下', y3.const.KeyboardKey['S'], function(trg, data)
+    y3.game:event('键盘-按下', y3.const.KeyboardKey['S'], function(trg, data)
         movePlayer('s', 1, data.player)
     end)
-    player:event('本地-键盘-按下', y3.const.KeyboardKey['D'], function(trg, data)
+    y3.game:event('键盘-按下', y3.const.KeyboardKey['D'], function(trg, data)
         movePlayer('d', 1, data.player)
     end)
 
-    player:event('本地-键盘-抬起', y3.const.KeyboardKey['W'], function(trg, data)
+    y3.game:event('键盘-抬起', y3.const.KeyboardKey['W'], function(trg, data)
         movePlayer('w', 0, data.player)
     end)
-    player:event('本地-键盘-抬起', y3.const.KeyboardKey['A'], function(trg, data)
+    y3.game:event('键盘-抬起', y3.const.KeyboardKey['A'], function(trg, data)
         movePlayer('a', 0, data.player)
     end)
-    player:event('本地-键盘-抬起', y3.const.KeyboardKey['S'], function(trg, data)
+    y3.game:event('键盘-抬起', y3.const.KeyboardKey['S'], function(trg, data)
         movePlayer('s', 0, data.player)
     end)
-    player:event('本地-键盘-抬起', y3.const.KeyboardKey['D'], function(trg, data)
+    y3.game:event('键盘-抬起', y3.const.KeyboardKey['D'], function(trg, data)
         movePlayer('d', 0, data.player)
     end)
 end
@@ -136,7 +136,6 @@ function M:addPlayer(player)
     self.allPlayers[player:get_id()] = player
     player:set_mouse_click_selection(false)
     player:set_mouse_drag_selection(false)
-    addPlayerEvent(player)
     table.insert(self.allPlayerIds, player:get_id())
 end
 
@@ -146,6 +145,7 @@ function M:initPlayers()
             self:addPlayer(y3.player.get_by_id(i))
         end
     end
+    addPlayerEvent()
 end
 
 function M:initPlayerUnits()

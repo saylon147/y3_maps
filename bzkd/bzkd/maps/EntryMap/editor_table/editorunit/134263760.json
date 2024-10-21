@@ -109,7 +109,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "dynamic_collision_r": 0.0, 
+    "dynamic_collision_r": 1.0, 
     "enable_strict_facing_mode": 0, 
     "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 
@@ -213,7 +213,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 500000.0, 
+    "preview_billboard_health_value": 500.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
