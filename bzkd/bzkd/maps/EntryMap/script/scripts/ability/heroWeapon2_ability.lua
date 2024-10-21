@@ -30,7 +30,7 @@ skill:event('施法-出手', function(trg, data)
             timer:remove()
             data.unit:stop_animation('attack1')
         end
-        local point = data.unit:get_point()
+        local point = FW.playerMgr:getHeroByPlayer(data.unit:get_owner()):get_point()
         local selector = y3.selector:in_shape(point, shape):is_enemy(data.unit:get_owner())
         for index, value in selector:ipairs() do
             local damageData = {

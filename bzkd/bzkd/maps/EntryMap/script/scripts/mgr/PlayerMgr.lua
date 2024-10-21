@@ -79,10 +79,10 @@ local function movePlayer(key, value, player)
     end
     point = y3.point.get_point_offset_vector(oriPoint, angle, 3000)
     local area = FW.const.enemyRandomArea[player:get_id()]
-    local maxX = area:get_max_x() - 50
-    local minX = area:get_min_x() + 50
-    local maxY = area:get_max_y() - 50
-    local minY = area:get_min_y() + 50
+    local maxX = area:get_max_x() - 130
+    local minX = area:get_min_x() + 130
+    local maxY = area:get_max_y() - 130
+    local minY = area:get_min_y() + 130
     point = y3.point.create(FW.util:clamp(point:get_x(), minX, maxX), FW.util:clamp(point:get_y(), minY, maxY),
         point:get_z())
     hero:move_to_pos(point)

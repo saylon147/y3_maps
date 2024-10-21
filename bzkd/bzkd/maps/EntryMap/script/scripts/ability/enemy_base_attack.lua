@@ -22,6 +22,7 @@ skill:event('施法-引导', function(trg, data)
         hit_type = 0,
         hit_radius = 1,
         hit_same = false,
+        terrain_block = true,
         angle = data.unit:get_facing(),
         distance = 3000,
         speed = 1000,
@@ -40,6 +41,9 @@ skill:event('施法-引导', function(trg, data)
                 socket = 'hit_point'
             }
             data.unit:damage(damageData)
+            projectile:remove()
+        end,
+        on_block = function ()
             projectile:remove()
         end
     }

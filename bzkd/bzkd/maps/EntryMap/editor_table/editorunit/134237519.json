@@ -15,7 +15,7 @@
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 5.0, 
+    "attack_phy": 15.0, 
     "attack_phy_grow": 0.0, 
     "attack_range": 1.0, 
     "attack_range_grow": 0, 
@@ -70,7 +70,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "collision_radius_2": 0.7, 
+    "collision_radius_2": 0.0, 
     "common_ability_list": {
         "__tuple__": true, 
         "items": []
@@ -109,7 +109,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "dynamic_collision_r": 1.0, 
+    "dynamic_collision_r": 0.0, 
     "enable_strict_facing_mode": false, 
     "enemy_mini_map_icon": 100000, 
     "extra_dmg": 0.0, 

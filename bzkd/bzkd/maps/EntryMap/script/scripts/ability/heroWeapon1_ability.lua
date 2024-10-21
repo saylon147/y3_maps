@@ -4,7 +4,7 @@ skill:event('施法-出手', function(trg, data)
     local owner = unit:get_owner()
     local direction = unit:get_facing()
     local shape = y3.shape.create_sector_shape(500, 90, direction)
-    local point = unit:get_point()
+    local point = FW.playerMgr:getHeroByPlayer(data.unit:get_owner()):get_point()
     local selector = y3.selector:in_shape(point, shape):is_enemy(owner):sort_type("由近到远"):count(1)
     for index, target in selector:ipairs() do
         unit:remove_mover()
