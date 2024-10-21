@@ -113,14 +113,22 @@ function M:createRandomHeroWeapon(ownerId, heroUnit)
     add_unitGroup(player, 'heroWeapon', unit, point)
     local perAngle = 360 / count
     for index, value in ipairs(self.units.heroWeapon[ownerId]:pick()) do
-        if value:kv_has('template') then
-            local angle = (index - 1) * perAngle
-            local template = value:kv_load('template', 'table')
-            template:refreshMover(value, heroUnit, angle)
-            value:set_facing(angle, 0)
-        end
+        value:kv_save('index',index)
+        self:refreshHeroWeapon(value,heroUnit,perAngle)
     end
 end
+
+function M:refreshHeroWeapon(unit,heroUnit)
+    local count = self.units.heroWeapon[unit:get_owner():get_id()]:count()
+    local perAngle = 360 / count
+    if unit:kv_has('template') then
+        local index = unit:kv_load('index','integer')
+        local angle = (index - 1) * perAngle
+        local template = unit:kv_load('template', 'table')
+        template:refreshMover(unit, heroUnit, angle)
+        unit:set_facing(angle, 0)
+    end
+end 
 
 function M:killAllEnemyByPlayerId(playerId)
     local enemyGroup = self.units.enemy[playerId]
@@ -153,7 +161,7 @@ function M:moveToUnit(unit, target)
     end
     local moverData = {
         target = target,
-        speed = 1000,
+        speed = 500,
         target_distance = 0,
         parabola_height = 100,
         on_finish = function()

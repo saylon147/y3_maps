@@ -3,7 +3,7 @@ M.id = 134245544
 M.template = y3.object.unit[M.id] --物编信息
 
 local function addAbilitys(unit)
-    unit:add_ability('普通',134235512)
+    unit:add_ability('普通',134254150)
 end
 
 ---@param owner Player|Unit
