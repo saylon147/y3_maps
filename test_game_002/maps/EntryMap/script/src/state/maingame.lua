@@ -16,10 +16,11 @@ function maingame:enter()
                 y3.point.create(0, 0, 0), 180.0)
             table.insert(GameManager.players[i].heroes, hero)
 
+            -- 修改移动控制同步的逻辑，事件需要绑全局事件，每个player都绑，然后在update里面进行每个人的处理
+            PlayerController:init(player)
+
             y3.player.with_local(function(local_player)
                 if local_player:get_id() == player:get_id() then
-                    PlayerController:init(player)
-
                     hero:event('单位-击杀', function(trg, data)
                         -- player:display_info("player" .. i .. "击杀目标 " .. data.unit:get_name())
                         y3.sync.send("sync_data", { msg = "kill_unit", cnt = 1 })
