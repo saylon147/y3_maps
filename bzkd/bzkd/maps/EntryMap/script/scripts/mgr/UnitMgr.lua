@@ -91,7 +91,12 @@ function M:createRandomUnitAtRandomPoint(owner, type, area, direction, count, en
     end
 end
 
-function M:createRandomHeroWeapon(ownerId, heroUnit)
+function M:createRandomHeroWeapon(data)
+    if data == nil and #data < 2 then
+        return
+    end
+    local ownerId = data[1]
+    local heroUnit = data[2]
     if heroUnit == nil then
         return
     end
@@ -113,22 +118,22 @@ function M:createRandomHeroWeapon(ownerId, heroUnit)
     add_unitGroup(player, 'heroWeapon', unit, point)
     local perAngle = 360 / count
     for index, value in ipairs(self.units.heroWeapon[ownerId]:pick()) do
-        value:kv_save('index',index)
-        self:refreshHeroWeapon(value,heroUnit,perAngle)
+        value:kv_save('index', index)
+        self:refreshHeroWeapon(value, heroUnit)
     end
 end
 
-function M:refreshHeroWeapon(unit,heroUnit)
+function M:refreshHeroWeapon(unit, heroUnit)
     local count = self.units.heroWeapon[unit:get_owner():get_id()]:count()
     local perAngle = 360 / count
     if unit:kv_has('template') then
-        local index = unit:kv_load('index','integer')
+        local index = unit:kv_load('index', 'integer')
         local angle = (index - 1) * perAngle
         local template = unit:kv_load('template', 'table')
         template:refreshMover(unit, heroUnit, angle)
         unit:set_facing(angle, 0)
     end
-end 
+end
 
 function M:killAllEnemyByPlayerId(playerId)
     local enemyGroup = self.units.enemy[playerId]
@@ -167,14 +172,14 @@ function M:moveToUnit(unit, target)
         on_finish = function()
             local player = target:get_owner()
             if unit:kv_has('gold') then
-                local gold = player:get_attr('gold') + unit:kv_load('gold','number')
+                local gold = player:get_attr('gold') + unit:kv_load('gold', 'number')
                 player:set('gold', gold)
             end
             if unit:kv_has('exp') then
-                target:add_exp(unit:kv_load('exp','number'))
+                target:add_exp(unit:kv_load('exp', 'number'))
             end
             if unit:kv_has('health') then
-                target:add_hp(unit:kv_load('health','number'))
+                target:add_hp(unit:kv_load('health', 'number'))
             end
             self.units.pickUnit[player:get_id()]:remove_unit(unit)
             unit:remove()

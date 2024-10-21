@@ -64,7 +64,10 @@ function M:initLogic()
     self.uiLogic:on_event('addHeroWeapon', '左键-按下', function(ui, local_player)
         local hero = FW.playerMgr:getHeroByPlayer(local_player)
         if hero ~= nil then
-            FW.unitMgr:createRandomHeroWeapon(FW.playerMgr:getLocalPlayerId(),hero)
+            local data = {}
+            data.func = 'unitMgr.createRandomHeroWeapon'
+            data.args = {local_player:get_id(),hero}
+            y3.sync.send('异步调用同步方法',data)
         end
     end)
     self.uiLogic:on_event('invincible', '左键-按下', function(ui, local_player)

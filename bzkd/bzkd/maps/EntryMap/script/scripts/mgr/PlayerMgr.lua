@@ -153,7 +153,7 @@ function M:initPlayerUnits()
         local unit = FW.unitMgr:createRandomUnit(value, 'hero', FW.const.bornPoint[key], 0)
         unit:set_select_effect_visible(false)
         value:select_unit(unit)
-        FW.unitMgr:createRandomHeroWeapon(key, unit)
+        FW.unitMgr:createRandomHeroWeapon({key, unit})
         addPlayerUnitEvent(unit)
         local camera = FW.const.playerCamera[key]
         camera.set_camera_follow_unit(value, unit)
