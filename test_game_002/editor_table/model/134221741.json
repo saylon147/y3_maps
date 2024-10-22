@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\peon.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/Peon//PeonDeath.wav", 
+        "sound/Abilities/Spells/Other/Repair//PeonRepair1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Orc/Peon/peon", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134221741, 
+    "name": "Mdx\\peon", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_peon.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.37939536571502686, 
+            0.8927415013313293
+        ]
+    }
+}
