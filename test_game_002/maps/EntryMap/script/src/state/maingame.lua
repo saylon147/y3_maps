@@ -1,6 +1,6 @@
 local maingame = {}
 
-
+local monster_area = require("src.object.monster_area")
 
 
 
@@ -34,7 +34,11 @@ function maingame:enter()
     --     self:show_result("lose")
     -- end)
 
-    -- -- 创建刷怪点
+    -- 创建刷怪点
+    monster_area:create(y3.player(31), y3.point.create(0, 0, 0), { shape = y3.area.SHAPE.CIRCLE, r = 1000 })
+    monster_area:add_config(134254032, 5)
+    monster_area:start(true)
+
     -- local building = y3.unit.create_unit(y3.player(31), 134237546, y3.point.create(-1000, -1000, 0), 0.0)
 end
 

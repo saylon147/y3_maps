@@ -54,7 +54,7 @@ end
 -- 是否达成了过关条件
 function GameManager:is_reach_target()
     for i = 1, self.default_player_cnt do
-        if self.players[i].kill_cnt >= 3 then
+        if self.players[i].kill_cnt >= 10 then
             return true
         end
     end

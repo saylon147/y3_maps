@@ -10,7 +10,6 @@ function PlayerController:init(player)
     player:set_mouse_click_selection(false)
     player:set_mouse_drag_selection(false)
 
-    -- 给本方的hero添加按键操作控制
     player:event('键盘-按下', y3.const.KeyboardKey['W'], function(trg, data)
         data.player:kv_save('y', 1)
     end)
@@ -34,6 +33,13 @@ function PlayerController:init(player)
     end)
     player:event('键盘-抬起', y3.const.KeyboardKey['D'], function(trg, data)
         data.player:kv_save('x', 0)
+    end)
+
+    y3.player.with_local(function(local_player)
+        if player:get_id() == local_player:get_id() then
+            local camera = y3.camera.create_camera(y3.point.create(0, 0, 0), 3000, 35, 0, 56, 10000)
+            camera.set_camera_follow_unit(player, GameManager.players[player:get_id()].heroes[1])
+        end
     end)
 end
 
