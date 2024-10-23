@@ -1,5 +1,5 @@
 local M = {}
-M.id = 134263760
+M.id = 134254942
 M.template = y3.object.unit[M.id] --物编信息
 M.type = 'summoner'
 ---@param owner Player|Unit

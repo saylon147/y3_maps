@@ -1,5 +1,6 @@
+--山丘之王
 local M = {}
-M.id = 134254852
+M.id = 134242228
 M.template = y3.object.unit[M.id] --物编信息
 M.type = 'followHero'
 M.template:event("单位-死亡",function (trg, data)

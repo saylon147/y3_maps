@@ -154,7 +154,11 @@
         }, 
         "11": {
             "components": {
-                "__attr": {}, 
+                "__attr": {
+                    "hp_percent": 100, 
+                    "level": 1, 
+                    "mp_percent": 100
+                }, 
                 "ability": {
                     "1_1": [
                         201347498, 
@@ -314,7 +318,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 1
+                    "role_id": 31
                 }, 
                 "display": {
                     "real_scale": [

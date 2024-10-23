@@ -1,8 +1,8 @@
+--牛头
 local M = {}
-M.id = 134233378
+M.id = 134219177
 M.template = y3.object.unit[M.id] --物编信息
-M.unit = 'enemy'
-
+M.type = 'minio'
 M.template:event("单位-死亡",function (trg, data)
     
 end)
