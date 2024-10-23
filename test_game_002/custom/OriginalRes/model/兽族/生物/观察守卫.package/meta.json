@@ -1,0 +1,18 @@
+{
+    "id": 134235595,
+    "md5_file_list": [
+        "\u89c2\u5bdf\u5b88\u536b.mdx"
+    ],
+    "modification_time": 3459188053.5777006,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u89c2\u5bdf\u5b88\u536b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/WatcherWard/Eye3Blue": "Eye3Blue.tga",
+        "Textures/Blue_Glow2": "Blue_Glow2.tga",
+        "Textures/Dust5": "Dust5.tga",
+        "units/Orc/WatcherWard/Smoke1_anim128": "Smoke1_anim128.tga"
+    }
+}

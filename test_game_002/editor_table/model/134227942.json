@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u5de8\u9b54\u5deb\u533b.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/WitchDoctor//WitchDoctorDeath.wav"
+    ], 
+    "mdx_textures": [
+        "units/Orc/WitchDoctor/WitchDoctor", 
+        "Textures/gutz", 
+        "Textures/LightningBall"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134227942, 
+    "name": "Mdx\\\u5de8\u9b54\u5deb\u533b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5de8\u9b54\u5deb\u533b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.49082672595977783, 
+            1.7039721012115479
+        ]
+    }
+}

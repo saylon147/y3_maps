@@ -1,0 +1,17 @@
+{
+    "id": 134261722,
+    "md5_file_list": [
+        "\u80fd\u91cf\u4ea7\u751f\u5668.mdx"
+    ],
+    "modification_time": 3459205308.4205313,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u80fd\u91cf\u4ea7\u751f\u5668.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Other/PowerGenerator/PowerGenerator": "PowerGenerator.tga",
+        "buildings/Other/PowerGenerator/Red_Glow1": "Red_Glow1.tga",
+        "buildings/Other/PowerGenerator/Shockwave_red": "Shockwave_red.tga"
+    }
+}

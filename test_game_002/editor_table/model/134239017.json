@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u7c73\u7eb1\u718a.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/GrizzlyBear//GrizzlyBearDeath1.wav", 
+        "sound/Units/Creeps/GrizzlyBear//BearDeathSwim1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/GrizzlyBear/BrownBear", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134239017, 
+    "name": "Mdx\\\u7c73\u7eb1\u718a", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u7c73\u7eb1\u718a.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.7686178088188171, 
+            1.4639285802841187
+        ]
+    }
+}

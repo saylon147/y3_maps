@@ -1,0 +1,16 @@
+{
+    "id": 134265388,
+    "md5_file_list": [
+        "\u6218\u4e89\u78e8\u574a.mdx"
+    ],
+    "modification_time": 3459250027.5956316,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6218\u4e89\u78e8\u574a.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Orc/WarMill/LumberHut": "LumberHut.tga",
+        "buildings/Orc/WarMill/Forge": "Forge.tga"
+    }
+}

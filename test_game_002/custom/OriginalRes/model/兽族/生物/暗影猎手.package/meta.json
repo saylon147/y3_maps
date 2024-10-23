@@ -1,0 +1,15 @@
+{
+    "id": 134225615,
+    "md5_file_list": [
+        "\u6697\u5f71\u730e\u624b.mdx"
+    ],
+    "modification_time": 3459412213.0427837,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6697\u5f71\u730e\u624b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/HeroShadowHunter": "HeroShadowHunter.tga"
+    }
+}

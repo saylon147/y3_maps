@@ -1,0 +1,17 @@
+{
+    "id": 134243807,
+    "md5_file_list": [
+        "\u5947\u8ff9\u53e4\u6811.mdx"
+    ],
+    "modification_time": 3459545562.811553,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5947\u8ff9\u53e4\u6811.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/NightElf/AncientOfWonder/AncientOfWonders": "AncientOfWonders.tga",
+        "Textures/star2": "star2.tga",
+        "Textures/GenericGlow64": "GenericGlow64.tga"
+    }
+}

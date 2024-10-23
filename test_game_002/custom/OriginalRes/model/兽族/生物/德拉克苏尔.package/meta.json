@@ -1,0 +1,16 @@
+{
+    "id": 134255455,
+    "md5_file_list": [
+        "\u5fb7\u62c9\u514b\u82cf\u5c14.mdx"
+    ],
+    "modification_time": 3459266909.619011,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5fb7\u62c9\u514b\u82cf\u5c14.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Creeps/OrcWarlockRed/OrcWarlockRed": "OrcWarlockRed.tga",
+        "Textures/Clouds8x8": "Clouds8x8.tga"
+    }
+}

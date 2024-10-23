@@ -1,0 +1,17 @@
+{
+    "id": 134227275,
+    "md5_file_list": [
+        "\u8428\u91cc\u6cd5\u65af.mdx"
+    ],
+    "modification_time": 3459302144.032257,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u8428\u91cc\u6cd5\u65af.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/GreenDragon": "GreenDragon.tga",
+        "Textures/Shockwave1b": "Shockwave1b.tga",
+        "Textures/Tj_BloodSput": "Tj_BloodSput.tga"
+    }
+}

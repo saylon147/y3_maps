@@ -1,0 +1,18 @@
+{
+    "id": 134282190,
+    "md5_file_list": [
+        "\u5e7d\u9b42\u4e4b\u72fc.mdx"
+    ],
+    "modification_time": 3459363700.3851414,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5e7d\u9b42\u4e4b\u72fc.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/Spiritwolf/FeralSpirit": "FeralSpirit.tga",
+        "Textures/GenericGlow2b": "GenericGlow2b.tga",
+        "Textures/DeathScream": "DeathScream.tga",
+        "Textures/star2_32": "star2_32.tga"
+    }
+}

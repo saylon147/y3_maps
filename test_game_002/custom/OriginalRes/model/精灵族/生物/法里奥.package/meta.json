@@ -1,0 +1,15 @@
+{
+    "id": 134232125,
+    "md5_file_list": [
+        "\u6cd5\u91cc\u5965.mdx"
+    ],
+    "modification_time": 3459439381.989066,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6cd5\u91cc\u5965.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/NightElf/Furion/Furion": "Furion.tga"
+    }
+}

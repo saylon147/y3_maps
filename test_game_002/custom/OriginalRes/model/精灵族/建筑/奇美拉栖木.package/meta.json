@@ -1,0 +1,15 @@
+{
+    "id": 134275581,
+    "md5_file_list": [
+        "\u5947\u7f8e\u62c9\u6816\u6728.mdx"
+    ],
+    "modification_time": 3459223962.145631,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5947\u7f8e\u62c9\u6816\u6728.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/NightElf/ChimaeraRoost/ChimaeraRoost": "ChimaeraRoost.tga"
+    }
+}

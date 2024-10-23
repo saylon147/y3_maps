@@ -1,0 +1,15 @@
+{
+    "id": 134239017,
+    "md5_file_list": [
+        "\u7c73\u7eb1\u718a.mdx"
+    ],
+    "modification_time": 3459323732.4718246,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u7c73\u7eb1\u718a.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Creeps/GrizzlyBear/BrownBear": "BrownBear.tga"
+    }
+}

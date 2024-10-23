@@ -1,0 +1,15 @@
+{
+    "id": 134239780,
+    "md5_file_list": [
+        "\u79d1\u591a\u517d.mdx"
+    ],
+    "modification_time": 3459407913.9026656,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u79d1\u591a\u517d.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/KotoBeast": "KotoBeast.tga"
+    }
+}

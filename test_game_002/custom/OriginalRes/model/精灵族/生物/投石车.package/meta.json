@@ -1,0 +1,17 @@
+{
+    "id": 134282969,
+    "md5_file_list": [
+        "\u6295\u77f3\u8f66.mdx"
+    ],
+    "modification_time": 3459267047.7028294,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6295\u77f3\u8f66.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Ballista": "Ballista.tga",
+        "Textures/Wirlwinds": "Wirlwinds.tga",
+        "Textures/Leaf": "Leaf.tga"
+    }
+}

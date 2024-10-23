@@ -1,0 +1,32 @@
+{
+    "mdx_path": "Mdx\\\u6cbb\u7597\u5b88\u536b.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/HealingWard//PlaceAncestralGuardian.wav", 
+        "sound/Units/Orc/SentryWard//SentryWardDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Wards1", 
+        "units/Orc/HealingWard/Rune2", 
+        "units/Orc/HealingWard/Rune3", 
+        "Textures/Red_Glow2", 
+        "Textures/GenericGlowFaded", 
+        "Textures/Dust5A", 
+        "Textures/Shockwave10"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134226704, 
+    "name": "Mdx\\\u6cbb\u7597\u5b88\u536b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6cbb\u7597\u5b88\u536b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.7383779287338257, 
+            1.8258110284805298
+        ]
+    }
+}

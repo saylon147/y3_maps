@@ -1,0 +1,15 @@
+{
+    "id": 134257882,
+    "md5_file_list": [
+        "\u7cbe\u7075\u4fe1\u4f7f.mdx"
+    ],
+    "modification_time": 3459285468.928735,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u7cbe\u7075\u4fe1\u4f7f.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Yellow_Star_Dim": "Yellow_Star_Dim.tga"
+    }
+}

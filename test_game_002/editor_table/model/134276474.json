@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u517d\u65cf\u8fd0\u8f93\u8239.mdx", 
+    "mdx_sounds": [
+        "sound/Doodads/Northrend/Water/Battleship//BattleShipDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/UndeadTransportShip", 
+        "Textures/WaterWake3", 
+        "Textures/WaterBlobs1", 
+        "Textures/White_64_Foam1", 
+        "Textures/Clouds8x8", 
+        "Textures/LavaLump2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134276474, 
+    "name": "Mdx\\\u517d\u65cf\u8fd0\u8f93\u8239", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u517d\u65cf\u8fd0\u8f93\u8239.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.0113433599472046, 
+            1.1139459609985352
+        ]
+    }
+}

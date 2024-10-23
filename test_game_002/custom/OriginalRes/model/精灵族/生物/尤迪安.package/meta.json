@@ -1,0 +1,17 @@
+{
+    "id": 134263067,
+    "md5_file_list": [
+        "\u5c24\u8fea\u5b89.mdx"
+    ],
+    "modification_time": 3459631028.5594883,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5c24\u8fea\u5b89.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Illidan": "Illidan.tga",
+        "units/NightElf/EvilIllidan/Shadow": "Shadow.tga",
+        "units/NightElf/EvilIllidan/Clouds8x8FadeWhite": "Clouds8x8FadeWhite.tga"
+    }
+}

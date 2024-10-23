@@ -1,0 +1,17 @@
+{
+    "id": 134267085,
+    "md5_file_list": [
+        "\u4e1b\u6797\u5b88\u62a4\u8005.mdx"
+    ],
+    "modification_time": 3459573604.961979,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u4e1b\u6797\u5b88\u62a4\u8005.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Keeperofthegrove": "Keeperofthegrove.tga",
+        "Textures/KeeperVines": "KeeperVines.tga",
+        "Textures/Flare": "Flare.tga"
+    }
+}

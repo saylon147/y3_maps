@@ -1,0 +1,32 @@
+{
+    "mdx_path": "Mdx\\\u90aa\u6076\u7684\u79d1\u591a\u517d.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/KotoBeast//KodoDrum1.wav", 
+        "sound/Units/Orc/KotoBeast//KodoDrum2.wav", 
+        "sound/Units/Orc/KotoBeast//Devour.wav", 
+        "sound/Units/Orc/KotoBeast//KodoBeastDeath.wav", 
+        "sound/Units/Orc/KotoBeast//KodoBeastPuke1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Demon/ChaosKotoBeast/ChaosKotoBeast", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134270409, 
+    "name": "Mdx\\\u90aa\u6076\u7684\u79d1\u591a\u517d", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u90aa\u6076\u7684\u79d1\u591a\u517d.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.5268803834915161, 
+            1.997628927230835
+        ]
+    }
+}

@@ -1,0 +1,19 @@
+{
+    "id": 134261344,
+    "md5_file_list": [
+        "\u5de8\u9b54\u730e\u5934\u8005.mdx"
+    ],
+    "modification_time": 3459308457.2133684,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5de8\u9b54\u730e\u5934\u8005.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Headhunter": "Headhunter.tga",
+        "units/Orc/HeadHunter/OrcBloodTailParticle0": "OrcBloodTailParticle0.tga",
+        "units/Orc/HeadHunter/OrcBloodTailParticle3": "OrcBloodTailParticle3.tga",
+        "units/Orc/HeadHunter/OrcBloodTailParticle1": "OrcBloodTailParticle1.tga",
+        "units/Orc/HeadHunter/OrcBloodTailParticle2": "OrcBloodTailParticle2.tga"
+    }
+}

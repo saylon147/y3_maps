@@ -1,0 +1,16 @@
+{
+    "id": 134239159,
+    "md5_file_list": [
+        "\u98ce\u66b4\u70c8\u9152.mdx"
+    ],
+    "modification_time": 3459393086.7670827,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u98ce\u66b4\u70c8\u9152.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Creeps/PandarenBrewmaster/PandarenBrewMaster": "PandarenBrewMaster.tga",
+        "Textures/RibbonBlur1": "RibbonBlur1.tga"
+    }
+}

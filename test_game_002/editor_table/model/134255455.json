@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u5fb7\u62c9\u514b\u82cf\u5c14.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/OrcWarlock//OrcWarlockDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/OrcWarlockRed/OrcWarlockRed", 
+        "Textures/gutz", 
+        "Textures/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134255455, 
+    "name": "Mdx\\\u5fb7\u62c9\u514b\u82cf\u5c14", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5fb7\u62c9\u514b\u82cf\u5c14.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.41044774651527405, 
+            1.2125405073165894
+        ]
+    }
+}

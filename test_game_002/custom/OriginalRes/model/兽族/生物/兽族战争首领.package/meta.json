@@ -1,0 +1,16 @@
+{
+    "id": 134255584,
+    "md5_file_list": [
+        "\u517d\u65cf\u6218\u4e89\u9996\u9886.mdx"
+    ],
+    "modification_time": 3459343220.0451183,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u517d\u65cf\u6218\u4e89\u9996\u9886.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Demon/ChaosWarlord/ChaosWarlord": "ChaosWarlord.tga",
+        "units/Demon/ChaosWarlord/Dust1_A": "Dust1_A.tga"
+    }
+}

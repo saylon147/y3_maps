@@ -1,0 +1,15 @@
+{
+    "id": 134232446,
+    "md5_file_list": [
+        "\u98ce\u9a91\u58eb.mdx"
+    ],
+    "modification_time": 3459306687.4519243,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u98ce\u9a91\u58eb.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/WyvernRider": "WyvernRider.tga"
+    }
+}

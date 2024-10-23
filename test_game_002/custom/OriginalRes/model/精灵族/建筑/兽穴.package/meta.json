@@ -1,0 +1,16 @@
+{
+    "id": 134252519,
+    "md5_file_list": [
+        "\u517d\u7a74.mdx"
+    ],
+    "modification_time": 3459225610.649765,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u517d\u7a74.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/BearDen": "BearDen.tga",
+        "ReplaceableTextures/TeamGlow/TeamGlow00": "TeamGlow00.tga"
+    }
+}

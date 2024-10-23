@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u5973\u730e\u624b.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/Huntress//SentinelDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Sentinel", 
+        "Textures/gutz", 
+        "Textures/Dust3x"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134229460, 
+    "name": "Mdx\\\u5973\u730e\u624b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5973\u730e\u624b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.49254506826400757, 
+            1.280081033706665
+        ]
+    }
+}

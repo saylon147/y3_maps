@@ -1,0 +1,15 @@
+{
+    "id": 134277430,
+    "md5_file_list": [
+        "\u5b88\u671b\u8005.mdx"
+    ],
+    "modification_time": 3459375046.512021,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5b88\u671b\u8005.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/IronRaven": "IronRaven.tga"
+    }
+}

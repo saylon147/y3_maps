@@ -1,0 +1,15 @@
+{
+    "id": 134232581,
+    "md5_file_list": [
+        "\u5c97\u54e8.mdx"
+    ],
+    "modification_time": 3459285281.891365,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5c97\u54e8.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Creeps/Watcher/Watcher": "Watcher.tga"
+    }
+}

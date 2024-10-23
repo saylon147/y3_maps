@@ -1,0 +1,16 @@
+{
+    "id": 134236435,
+    "md5_file_list": [
+        "\u53cc\u8db3\u98de\u9f99\u7262\u7b3c.mdx"
+    ],
+    "modification_time": 3459185185.399749,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u53cc\u8db3\u98de\u9f99\u7262\u7b3c.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Doodads0": "Doodads0.tga",
+        "Textures/Doodads1": "Doodads1.tga"
+    }
+}

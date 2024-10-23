@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u6295\u77f3\u8f66.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/Ballista//BallistaDeath1.wav", 
+        "sound/Units/NightElf/Ballista//BallistaAttackEffort1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Ballista", 
+        "Textures/Wirlwinds", 
+        "Textures/CloudSingle", 
+        "Textures/Leaf"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134282969, 
+    "name": "Mdx\\\u6295\u77f3\u8f66", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6295\u77f3\u8f66.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.9349725246429443, 
+            0.8843880891799927
+        ]
+    }
+}

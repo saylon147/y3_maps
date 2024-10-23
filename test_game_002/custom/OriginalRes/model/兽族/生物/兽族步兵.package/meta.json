@@ -1,0 +1,16 @@
+{
+    "id": 134239836,
+    "md5_file_list": [
+        "\u517d\u65cf\u6b65\u5175.mdx"
+    ],
+    "modification_time": 3459265692.8359084,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u517d\u65cf\u6b65\u5175.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/Grunt/Grunt": "Grunt.tga",
+        "Textures/Shockwave_Ice1": "Shockwave_Ice1.tga"
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 134277168,
+    "md5_file_list": [
+        "\u739b\u5c14\u6cd5\u91cc\u5965.mdx"
+    ],
+    "modification_time": 3459401768.1855583,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u739b\u5c14\u6cd5\u91cc\u5965.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/NightElf/MalFurion/NewStag": "NewStag.tga",
+        "units/NightElf/MalFurion/Mal'Furion": "MalFurion.tga",
+        "Textures/Blue_Star2": "Blue_Star2.tga"
+    }
+}

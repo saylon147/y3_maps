@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u5de5\u7a0b\u5e08\u52a0\u5179\u52b3.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/GoblinSapper//SapperBlowsUp.wav", 
+        "sound/Units/Creeps/GoblinSapper//GoblinSapperDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/GoblinSapper/GoblinSapper", 
+        "Textures/Roman1", 
+        "Textures/gutz", 
+        "Textures/Sparkle_Anim", 
+        "Textures/Clouds32_anim"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134270738, 
+    "name": "Mdx\\\u5de5\u7a0b\u5e08\u52a0\u5179\u52b3", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5de5\u7a0b\u5e08\u52a0\u5179\u52b3.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5977767109870911, 
+            0.788131594657898
+        ]
+    }
+}

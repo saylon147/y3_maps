@@ -1,0 +1,15 @@
+{
+    "id": 134242059,
+    "md5_file_list": [
+        "\u6811\u5996.mdx"
+    ],
+    "modification_time": 3459360004.434227,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6811\u5996.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/NightElf/Dryad/Dryad": "Dryad.tga"
+    }
+}

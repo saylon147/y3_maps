@@ -1,0 +1,16 @@
+{
+    "id": 134251497,
+    "md5_file_list": [
+        "\u7075\u9b42\u98de\u9f99.mdx"
+    ],
+    "modification_time": 3459297099.347186,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u7075\u9b42\u98de\u9f99.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/SpiritWyvern/WyvernRider": "WyvernRider.tga",
+        "Textures/ShockwaveWater1": "ShockwaveWater1.tga"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": 134277109,
+    "md5_file_list": [
+        "\u9b54\u6cd5\u5b9d\u77f3\u5854.mdx"
+    ],
+    "modification_time": 3459193400.23023,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u9b54\u6cd5\u5b9d\u77f3\u5854.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/AshenStructures": "AshenStructures.tga",
+        "Textures/GenericGlow1": "GenericGlow1.tga"
+    }
+}

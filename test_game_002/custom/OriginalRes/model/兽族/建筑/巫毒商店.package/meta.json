@@ -1,0 +1,18 @@
+{
+    "id": 134251269,
+    "md5_file_list": [
+        "\u5deb\u6bd2\u5546\u5e97.mdx"
+    ],
+    "modification_time": 3459236328.1329684,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5deb\u6bd2\u5546\u5e97.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Orc/VoodooLounge/VoodooLounge": "VoodooLounge.tga",
+        "Textures/dust1": "dust1.tga",
+        "buildings/Orc/VoodooLounge/TrollNeonSign54": "TrollNeonSign54.tga",
+        "buildings/Orc/VoodooLounge/TrollNeonSign": "TrollNeonSign.tga"
+    }
+}

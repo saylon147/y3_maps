@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u5b88\u671b\u8005.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/HeroWarden//WardenDeath1.wav", 
+        "sound/Units/NightElf/HeroWarden//FanOfKnives.wav", 
+        "sound/Sound/Units/NightElf//NightElfDissipate1.wav", 
+        "sound/Units/NightElf/HeroWarden//WardenAttackEffort1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/IronRaven", 
+        "Textures/Star8b"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134277430, 
+    "name": "Mdx\\\u5b88\u671b\u8005", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5b88\u671b\u8005.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2035019397735596, 
+            1.9368128776550293
+        ]
+    }
+}

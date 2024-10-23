@@ -1,0 +1,17 @@
+{
+    "id": 134219882,
+    "md5_file_list": [
+        "\u730e\u624b\u5927\u5385.mdx"
+    ],
+    "modification_time": 3459223160.392824,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u730e\u624b\u5927\u5385.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/NightElf/HuntersHall/Hunter'sHall": "HuntersHall.tga",
+        "Textures/NightElfBase": "NightElfBase.tga",
+        "ReplaceableTextures/TeamGlow/TeamGlow08": "TeamGlow08.tga"
+    }
+}

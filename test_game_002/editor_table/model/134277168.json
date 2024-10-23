@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u739b\u5c14\u6cd5\u91cc\u5965.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/MalFurion//MalFurionDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/NightElf/MalFurion/NewStag", 
+        "units/NightElf/MalFurion/Mal'Furion", 
+        "Textures/Blue_Star2", 
+        "Textures/Blue_Glow2", 
+        "Textures/Clouds8x8", 
+        "Textures/Dust3x"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134277168, 
+    "name": "Mdx\\\u739b\u5c14\u6cd5\u91cc\u5965", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u739b\u5c14\u6cd5\u91cc\u5965.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.0171661376953125, 
+            3.474777936935425
+        ]
+    }
+}

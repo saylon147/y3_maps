@@ -1,0 +1,15 @@
+{
+    "id": 134269588,
+    "md5_file_list": [
+        "\u751f\u547d\u4e4b\u68112.mdx"
+    ],
+    "modification_time": 3459532512.113406,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u751f\u547d\u4e4b\u68112.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Demon/CorruptedTreeofLife/CorruptedTreeofLife": "CorruptedTreeofLife.tga"
+    }
+}

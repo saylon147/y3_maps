@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u5947\u7f8e\u62c9\u6816\u6728.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//NightElfBuildingDeathSmall1.wav"
+    ], 
+    "mdx_textures": [
+        "buildings/NightElf/ChimaeraRoost/ChimaeraRoost", 
+        "Textures/NightElfBase", 
+        "Textures/Blue_Glow2", 
+        "Textures/star32", 
+        "Textures/GenericGlow1", 
+        "Textures/lensflare1A"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134275581, 
+    "name": "Mdx\\\u5947\u7f8e\u62c9\u6816\u6728", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5947\u7f8e\u62c9\u6816\u6728.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.3141138553619385, 
+            4.051296710968018
+        ]
+    }
+}

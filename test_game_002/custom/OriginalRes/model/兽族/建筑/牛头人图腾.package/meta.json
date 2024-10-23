@@ -1,0 +1,15 @@
+{
+    "id": 134264410,
+    "md5_file_list": [
+        "\u725b\u5934\u4eba\u56fe\u817e.mdx"
+    ],
+    "modification_time": 3459236271.378397,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u725b\u5934\u4eba\u56fe\u817e.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Orc/TaurenTotem/TaurenTotem": "TaurenTotem.tga"
+    }
+}

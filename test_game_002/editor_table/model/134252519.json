@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u517d\u7a74.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//NightElfBuildingDeathSmall1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/NightElfBase", 
+        "Textures/BearDen", 
+        "ReplaceableTextures/TeamGlow/TeamGlow00", 
+        "Textures/Yellow_Glow"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134252519, 
+    "name": "Mdx\\\u517d\u7a74", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u517d\u7a74.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.5624277591705322, 
+            2.9066600799560547
+        ]
+    }
+}

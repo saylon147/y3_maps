@@ -1,0 +1,16 @@
+{
+    "id": 134243737,
+    "md5_file_list": [
+        "\u63a0\u593a\u8005.mdx"
+    ],
+    "modification_time": 3459320082.2879105,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u63a0\u593a\u8005.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/Wolfrider/Wolfrider": "Wolfrider.tga",
+        "Textures/Dust3x": "Dust3x.tga"
+    }
+}

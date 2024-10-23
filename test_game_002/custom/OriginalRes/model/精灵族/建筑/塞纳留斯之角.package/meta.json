@@ -1,0 +1,15 @@
+{
+    "id": 134282520,
+    "md5_file_list": [
+        "\u585e\u7eb3\u7559\u65af\u4e4b\u89d2.mdx"
+    ],
+    "modification_time": 3459197048.9482307,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u585e\u7eb3\u7559\u65af\u4e4b\u89d2.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/HornOfCenarius": "HornOfCenarius.tga"
+    }
+}

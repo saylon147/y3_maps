@@ -1,0 +1,16 @@
+{
+    "id": 134255899,
+    "md5_file_list": [
+        "\u517d\u65cf\u5deb\u5e08.mdx"
+    ],
+    "modification_time": 3459260813.4959707,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u517d\u65cf\u5deb\u5e08.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Creeps/ChaosWarlockGreen/ChaosGreenWarlock": "ChaosGreenWarlock.tga",
+        "Textures/Purple_Glow": "Purple_Glow.tga"
+    }
+}

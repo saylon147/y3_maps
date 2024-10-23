@@ -1,0 +1,17 @@
+{
+    "id": 134268550,
+    "md5_file_list": [
+        "\u9f99\u4e4b\u6816\u6728.mdx"
+    ],
+    "modification_time": 3459234226.679858,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u9f99\u4e4b\u6816\u6728.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Other/DragonBuilding/DragonRoost": "DragonRoost.tga",
+        "ReplaceableTextures/TeamGlow/TeamGlow06": "TeamGlow06.tga",
+        "Textures/Magic1": "Magic1.tga"
+    }
+}

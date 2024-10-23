@@ -1,0 +1,15 @@
+{
+    "id": 134231543,
+    "md5_file_list": [
+        "\u517d\u680f.mdx"
+    ],
+    "modification_time": 3459251467.686068,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u517d\u680f.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Orc/Beastiary/Beastiary": "Beastiary.tga"
+    }
+}

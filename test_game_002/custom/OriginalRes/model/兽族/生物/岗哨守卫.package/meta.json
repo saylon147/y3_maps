@@ -1,0 +1,16 @@
+{
+    "id": 134281600,
+    "md5_file_list": [
+        "\u5c97\u54e8\u5b88\u536b.mdx"
+    ],
+    "modification_time": 3459186516.358621,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5c97\u54e8\u5b88\u536b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/SentryWard/Eye3": "Eye3.tga",
+        "units/Orc/SentryWard/Smoke1_anim128": "Smoke1_anim128.tga"
+    }
+}

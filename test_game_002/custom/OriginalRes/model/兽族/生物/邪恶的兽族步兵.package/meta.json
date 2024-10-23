@@ -1,0 +1,15 @@
+{
+    "id": 134226263,
+    "md5_file_list": [
+        "\u90aa\u6076\u7684\u517d\u65cf\u6b65\u5175.mdx"
+    ],
+    "modification_time": 3459266044.1762543,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u90aa\u6076\u7684\u517d\u65cf\u6b65\u5175.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/ChaosGrunt": "ChaosGrunt.tga"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": 134259571,
+    "md5_file_list": [
+        "\u5175\u8425.mdx"
+    ],
+    "modification_time": 3459246354.0937276,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5175\u8425.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/OrcBarraks": "OrcBarraks.tga",
+        "Textures/CloudSingleBlend": "CloudSingleBlend.tga"
+    }
+}

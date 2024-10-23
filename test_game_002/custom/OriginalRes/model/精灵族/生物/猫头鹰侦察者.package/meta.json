@@ -1,0 +1,16 @@
+{
+    "id": 134268367,
+    "md5_file_list": [
+        "\u732b\u5934\u9e70\u4fa6\u5bdf\u8005.mdx"
+    ],
+    "modification_time": 3459232249.553685,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u732b\u5934\u9e70\u4fa6\u5bdf\u8005.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/sentinelspell": "sentinelspell.tga",
+        "Textures/TeamGlow00": "TeamGlow00.tga"
+    }
+}

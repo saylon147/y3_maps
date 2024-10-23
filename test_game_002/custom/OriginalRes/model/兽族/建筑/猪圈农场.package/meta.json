@@ -1,0 +1,15 @@
+{
+    "id": 134276305,
+    "md5_file_list": [
+        "\u732a\u5708\u519c\u573a.mdx"
+    ],
+    "modification_time": 3459251053.2874217,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u732a\u5708\u519c\u573a.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Other/PigFarm/Hut": "Hut.tga"
+    }
+}

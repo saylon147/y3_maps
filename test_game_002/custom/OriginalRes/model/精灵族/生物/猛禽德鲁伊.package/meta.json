@@ -1,0 +1,18 @@
+{
+    "id": 134283151,
+    "md5_file_list": [
+        "\u731b\u79bd\u5fb7\u9c81\u4f0a.mdx"
+    ],
+    "modification_time": 3459681266.170704,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u731b\u79bd\u5fb7\u9c81\u4f0a.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/NightElf/DruidOfTheTalon/DruidottheTalon": "DruidottheTalon.tga",
+        "units/NightElf/DruidOfTheTalon/Raven": "Raven.tga",
+        "units/NightElf/DruidOfTheTalon/ButterFly": "ButterFly.tga",
+        "Textures/Star7b": "Star7b.tga"
+    }
+}

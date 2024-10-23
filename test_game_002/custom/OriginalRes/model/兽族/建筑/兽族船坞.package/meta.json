@@ -1,0 +1,15 @@
+{
+    "id": 134244921,
+    "md5_file_list": [
+        "\u517d\u65cf\u8239\u575e.mdx"
+    ],
+    "modification_time": 3459205459.8030396,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u517d\u65cf\u8239\u575e.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/GoblinShipyard": "GoblinShipyard.tga"
+    }
+}

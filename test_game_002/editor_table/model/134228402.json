@@ -1,0 +1,34 @@
+{
+    "mdx_path": "Mdx\\\u5730\u7cbe\u7206\u7834\u5de5.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/IronGolem//IronGolemAttack1.wav", 
+        "sound/Units/Creeps/IronGolem//IronGolemDeath1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/IronGolem/IronGolem", 
+        "Textures/Green_Glow2", 
+        "Textures/Clouds8x8Grey", 
+        "Textures/Dust5A", 
+        "Textures/Flame4", 
+        "Textures/Dust3x", 
+        "Textures/Clouds8x8Black"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134228402, 
+    "name": "Mdx\\\u5730\u7cbe\u7206\u7834\u5de5", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5730\u7cbe\u7206\u7834\u5de5.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.8306273818016052, 
+            1.505570888519287
+        ]
+    }
+}

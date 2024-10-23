@@ -1,0 +1,14 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\\u96f7\u514b\u8428", 
+    "key": 134275695, 
+    "md5": "c435f1f889377193b2e89d998dc2a65d", 
+    "model_id": 134275695, 
+    "name": "\u96f7\u514b\u8428", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134275695", 
+    "version": 1
+}

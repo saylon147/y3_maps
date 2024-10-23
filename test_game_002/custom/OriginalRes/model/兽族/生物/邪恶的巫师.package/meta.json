@@ -1,0 +1,15 @@
+{
+    "id": 134230436,
+    "md5_file_list": [
+        "\u90aa\u6076\u7684\u5deb\u5e08.mdx"
+    ],
+    "modification_time": 3459261129.9540977,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u90aa\u6076\u7684\u5deb\u5e08.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Demon/ChaosWarlock/ChaosWarlock": "ChaosWarlock.tga"
+    }
+}

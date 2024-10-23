@@ -1,0 +1,15 @@
+{
+    "id": 134259765,
+    "md5_file_list": [
+        "\u9e70\u89d2\u517d.mdx"
+    ],
+    "modification_time": 3459320982.2159424,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u9e70\u89d2\u517d.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/hippogryph": "hippogryph.tga"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": 134274771,
+    "md5_file_list": [
+        "\u590d\u4ec7\u4e4b\u9b42.mdx"
+    ],
+    "modification_time": 3459268882.164402,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u590d\u4ec7\u4e4b\u9b42.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Watcher": "Watcher.tga",
+        "units/NightElf/Vengeance/LightningBallRed": "LightningBallRed.tga"
+    }
+}

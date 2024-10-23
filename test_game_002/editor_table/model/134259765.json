@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u9e70\u89d2\u517d.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/HippoGryph//HippogryphDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/hippogryph", 
+        "Textures/Shockwave1b"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134259765, 
+    "name": "Mdx\\\u9e70\u89d2\u517d", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9e70\u89d2\u517d.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.9525265097618103, 
+            1.7708120346069336
+        ]
+    }
+}

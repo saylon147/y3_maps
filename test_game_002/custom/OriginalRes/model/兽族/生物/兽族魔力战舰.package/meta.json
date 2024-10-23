@@ -1,0 +1,16 @@
+{
+    "id": 134220356,
+    "md5_file_list": [
+        "\u517d\u65cf\u9b54\u529b\u6218\u8230.mdx"
+    ],
+    "modification_time": 3459213735.506791,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u517d\u65cf\u9b54\u529b\u6218\u8230.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Critters/OrcJuggernaught/Orc_juggernaught": "Orc_juggernaught.tga",
+        "Textures/WaterWake2": "WaterWake2.tga"
+    }
+}

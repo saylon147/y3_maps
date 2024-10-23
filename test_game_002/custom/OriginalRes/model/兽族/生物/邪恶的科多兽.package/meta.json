@@ -1,0 +1,15 @@
+{
+    "id": 134270409,
+    "md5_file_list": [
+        "\u90aa\u6076\u7684\u79d1\u591a\u517d.mdx"
+    ],
+    "modification_time": 3459409041.8080044,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u90aa\u6076\u7684\u79d1\u591a\u517d.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Demon/ChaosKotoBeast/ChaosKotoBeast": "ChaosKotoBeast.tga"
+    }
+}

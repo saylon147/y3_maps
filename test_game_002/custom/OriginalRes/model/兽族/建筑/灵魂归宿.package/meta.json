@@ -1,0 +1,15 @@
+{
+    "id": 134224229,
+    "md5_file_list": [
+        "\u7075\u9b42\u5f52\u5bbf.mdx"
+    ],
+    "modification_time": 3459236929.6047697,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u7075\u9b42\u5f52\u5bbf.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Orc/SpiritLodge/SpiritLodge": "SpiritLodge.tga"
+    }
+}

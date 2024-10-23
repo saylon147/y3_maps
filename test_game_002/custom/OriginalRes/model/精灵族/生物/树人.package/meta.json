@@ -1,0 +1,15 @@
+{
+    "id": 134231324,
+    "md5_file_list": [
+        "\u6811\u4eba.mdx"
+    ],
+    "modification_time": 3459463346.275892,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6811\u4eba.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/NightElf/Ent/GoodEnt": "GoodEnt.tga"
+    }
+}

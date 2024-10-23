@@ -1,0 +1,18 @@
+{
+    "id": 134270738,
+    "md5_file_list": [
+        "\u5de5\u7a0b\u5e08\u52a0\u5179\u52b3.mdx"
+    ],
+    "modification_time": 3459319573.4423676,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5de5\u7a0b\u5e08\u52a0\u5179\u52b3.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Creeps/GoblinSapper/GoblinSapper": "GoblinSapper.tga",
+        "Textures/Roman1": "Roman1.tga",
+        "Textures/Sparkle_Anim": "Sparkle_Anim.tga",
+        "Textures/Clouds32_anim": "Clouds32_anim.tga"
+    }
+}

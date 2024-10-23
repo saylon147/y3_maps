@@ -1,0 +1,18 @@
+{
+    "id": 134234597,
+    "md5_file_list": [
+        "\u6bd2\u86c7\u5b88\u536b.mdx"
+    ],
+    "modification_time": 3459189432.8778086,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6bd2\u86c7\u5b88\u536b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/SerpentWard/SnakeWard_Red": "SnakeWard_Red.tga",
+        "Textures/Wards1": "Wards1.tga",
+        "Textures/Red_Glow2": "Red_Glow2.tga",
+        "Textures/Dust5A": "Dust5A.tga"
+    }
+}

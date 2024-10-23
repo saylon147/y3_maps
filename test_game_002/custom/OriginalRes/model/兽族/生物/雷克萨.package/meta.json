@@ -1,0 +1,18 @@
+{
+    "id": 134275695,
+    "md5_file_list": [
+        "\u96f7\u514b\u8428.mdx"
+    ],
+    "modification_time": 3459348636.634844,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u96f7\u514b\u8428.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/BeastMaster": "BeastMaster.tga",
+        "Textures/Yellow_Star": "Yellow_Star.tga",
+        "Textures/Yellow_Glow3": "Yellow_Glow3.tga",
+        "Textures/Yellow_Glow_Dim": "Yellow_Glow_Dim.tga"
+    }
+}

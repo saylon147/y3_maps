@@ -1,0 +1,21 @@
+{
+    "id": 134252405,
+    "md5_file_list": [
+        "\u5de8\u9b54\u8759\u8760\u9a91\u58eb.mdx"
+    ],
+    "modification_time": 3459377704.7735844,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5de8\u9b54\u8759\u8760\u9a91\u58eb.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/BatTroll": "BatTroll.tga",
+        "Textures/GenericGlow2_mip1": "GenericGlow2_mip1.tga",
+        "Textures/Dust6Color": "Dust6Color.tga",
+        "Textures/RingOFire": "RingOFire.tga",
+        "Textures/grad6": "grad6.tga",
+        "Textures/star32": "star32.tga",
+        "Textures/Clouds8x8Fire": "Clouds8x8Fire.tga"
+    }
+}

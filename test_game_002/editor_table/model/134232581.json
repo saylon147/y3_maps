@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u5c97\u54e8.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/Watcher//WatcherDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/Watcher/Watcher", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134232581, 
+    "name": "Mdx\\\u5c97\u54e8", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5c97\u54e8.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.44234222173690796, 
+            1.0732840299606323
+        ]
+    }
+}

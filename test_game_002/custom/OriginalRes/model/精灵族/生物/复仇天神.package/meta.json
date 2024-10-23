@@ -1,0 +1,17 @@
+{
+    "id": 134238708,
+    "md5_file_list": [
+        "\u590d\u4ec7\u5929\u795e.mdx"
+    ],
+    "modification_time": 3459318019.907588,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u590d\u4ec7\u5929\u795e.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/NightElf/SpiritOfVengeance/Black128": "Black128.tga",
+        "Textures/RibbonBlur1b": "RibbonBlur1b.tga",
+        "Textures/Purple_Star": "Purple_Star.tga"
+    }
+}

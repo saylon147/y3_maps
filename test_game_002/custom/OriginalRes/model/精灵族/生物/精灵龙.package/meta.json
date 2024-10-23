@@ -1,0 +1,19 @@
+{
+    "id": 134268200,
+    "md5_file_list": [
+        "\u7cbe\u7075\u9f99.mdx"
+    ],
+    "modification_time": 3459269873.1881056,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u7cbe\u7075\u9f99.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/NightElf/FaerieDragon/FaerieDragon": "FaerieDragon.tga",
+        "Textures/lensflare1A": "lensflare1A.tga",
+        "Textures/Rune1": "Rune1.tga",
+        "Textures/star4_32": "star4_32.tga",
+        "Textures/CrystalBall": "CrystalBall.tga"
+    }
+}

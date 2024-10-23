@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u590d\u4ec7\u5929\u795e.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/HeroWarden//FanOfKnives.wav"
+    ], 
+    "mdx_textures": [
+        "units/NightElf/SpiritOfVengeance/Black128", 
+        "Textures/Purple_Glow", 
+        "Textures/RibbonBlur1b", 
+        "Textures/Clouds8x8Mod", 
+        "Textures/ShockwaveWater1", 
+        "Textures/Purple_Star"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134238708, 
+    "name": "Mdx\\\u590d\u4ec7\u5929\u795e", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u590d\u4ec7\u5929\u795e.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.0028207302093506, 
+            2.6729509830474854
+        ]
+    }
+}

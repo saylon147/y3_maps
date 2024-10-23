@@ -1,0 +1,18 @@
+{
+    "id": 134270895,
+    "md5_file_list": [
+        "\u5229\u722a\u5fb7\u9c81\u4f0a.mdx"
+    ],
+    "modification_time": 3459463936.646404,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5229\u722a\u5fb7\u9c81\u4f0a.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/NightElf/DruidOfTheClaw/Druidoftheclaw": "Druidoftheclaw.tga",
+        "units/NightElf/DruidOfTheClaw/Bear": "Bear.tga",
+        "Textures/RibbonNE1": "RibbonNE1.tga",
+        "units/NightElf/DruidOfTheClaw/Tj_leaf": "Tj_leaf.tga"
+    }
+}

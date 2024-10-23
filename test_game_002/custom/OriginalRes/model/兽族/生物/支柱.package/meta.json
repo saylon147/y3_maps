@@ -1,0 +1,16 @@
+{
+    "id": 134273073,
+    "md5_file_list": [
+        "\u652f\u67f1.mdx"
+    ],
+    "modification_time": 3459209842.399666,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u652f\u67f1.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "doodads/Underground/Terrain/SupportBeam/SupportBeam": "SupportBeam.tga",
+        "Textures/EQ_Rock2": "EQ_Rock2.tga"
+    }
+}

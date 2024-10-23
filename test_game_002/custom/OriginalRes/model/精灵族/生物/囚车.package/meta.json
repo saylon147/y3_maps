@@ -1,0 +1,15 @@
+{
+    "id": 134240872,
+    "md5_file_list": [
+        "\u56da\u8f66.mdx"
+    ],
+    "modification_time": 3459208313.5144935,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u56da\u8f66.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/GlaiveThrower": "GlaiveThrower.tga"
+    }
+}

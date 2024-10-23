@@ -1,0 +1,17 @@
+{
+    "id": 134255604,
+    "md5_file_list": [
+        "\u5a01\u529b\u4e4b\u6cc9.mdx"
+    ],
+    "modification_time": 3459211349.4819155,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5a01\u529b\u4e4b\u6cc9.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Other/FountainOfPower/FountainOfLifeBlood": "FountainOfLifeBlood.tga",
+        "buildings/Other/FountainOfPower/FountainOfLife": "FountainOfLife.tga",
+        "buildings/Other/FountainOfPower/FlareBlood": "FlareBlood.tga"
+    }
+}

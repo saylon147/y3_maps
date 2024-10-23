@@ -1,0 +1,16 @@
+{
+    "id": 134234112,
+    "md5_file_list": [
+        "\u5c0f\u7cbe\u7075.mdx"
+    ],
+    "modification_time": 3459214438.3913155,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5c0f\u7cbe\u7075.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Dust3": "Dust3.tga",
+        "ReplaceableTextures/Weather/CloudSingleFlat": "CloudSingleFlat.tga"
+    }
+}

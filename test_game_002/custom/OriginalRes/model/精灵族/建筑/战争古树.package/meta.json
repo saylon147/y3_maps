@@ -1,0 +1,15 @@
+{
+    "id": 134282354,
+    "md5_file_list": [
+        "\u6218\u4e89\u53e4\u6811.mdx"
+    ],
+    "modification_time": 3459530171.930939,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6218\u4e89\u53e4\u6811.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/NightElf/AncientofWar/AncientOfWar1": "AncientOfWar1.tga"
+    }
+}

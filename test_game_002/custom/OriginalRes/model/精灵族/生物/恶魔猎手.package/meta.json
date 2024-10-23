@@ -1,0 +1,20 @@
+{
+    "id": 134270385,
+    "md5_file_list": [
+        "\u6076\u9b54\u730e\u624b.mdx"
+    ],
+    "modification_time": 3459567382.863042,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6076\u9b54\u730e\u624b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/HeroDemonHunter": "HeroDemonHunter.tga",
+        "Textures/Black32": "Black32.tga",
+        "Textures/Shadow": "Shadow.tga",
+        "Textures/Dust5ABlack": "Dust5ABlack.tga",
+        "Textures/Clouds8x8Mod": "Clouds8x8Mod.tga",
+        "Textures/Clouds8x8FadeWhite": "Clouds8x8FadeWhite.tga"
+    }
+}

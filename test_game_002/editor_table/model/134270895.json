@@ -1,0 +1,35 @@
+{
+    "mdx_path": "Mdx\\\u5229\u722a\u5fb7\u9c81\u4f0a.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/DruidOfTheClaw//DruidOfTheClawDeathAlternate1.wav", 
+        "sound/Units/NightElf/DruidOfTheClaw//DruidOfTheClawMorph1.wav", 
+        "sound/Units/NightElf/DruidOfTheClaw//DruidOfTheClawMorphAlternate1.wav", 
+        "sound/Units/NightElf/DruidOfTheClaw//DruidOfTheClawDeath1.wav", 
+        "sound/Abilities/Spells/NightElf/BattleRoar//BattleRoar.wav"
+    ], 
+    "mdx_textures": [
+        "units/NightElf/DruidOfTheClaw/Druidoftheclaw", 
+        "units/NightElf/DruidOfTheClaw/Bear", 
+        "Textures/gutz", 
+        "Textures/GenericGlow2b", 
+        "Textures/DeathScream", 
+        "Textures/RibbonNE1", 
+        "units/NightElf/DruidOfTheClaw/Tj_leaf"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134270895, 
+    "name": "Mdx\\\u5229\u722a\u5fb7\u9c81\u4f0a", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5229\u722a\u5fb7\u9c81\u4f0a.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5429298877716064, 
+            1.5124400854110718
+        ]
+    }
+}

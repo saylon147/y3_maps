@@ -1,0 +1,17 @@
+{
+    "id": 134228379,
+    "md5_file_list": [
+        "\u5251\u5723.mdx"
+    ],
+    "modification_time": 3459345889.78051,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5251\u5723.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/HeroBladeMaster": "HeroBladeMaster.tga",
+        "Textures/Red_Glow3": "Red_Glow3.tga",
+        "Textures/GenericGlow2c": "GenericGlow2c.tga"
+    }
+}

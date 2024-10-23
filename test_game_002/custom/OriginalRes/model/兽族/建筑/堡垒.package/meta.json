@@ -1,0 +1,24 @@
+{
+    "id": 134234460,
+    "md5_file_list": [
+        "\u5821\u5792.mdx"
+    ],
+    "modification_time": 3459364441.1536074,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5821\u5792.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Orc/GreatHall/Stronghold": "Stronghold.tga",
+        "buildings/Orc/GreatHall/GreatHall": "GreatHall.tga",
+        "Textures/Base": "Base.tga",
+        "Textures/DeathSmug": "DeathSmug.tga",
+        "Textures/OrcBirth": "OrcBirth.tga",
+        "ReplaceableTextures/Weather/Clouds8x8": "Clouds8x8.tga",
+        "Textures/RockParticle": "RockParticle.tga",
+        "Textures/CartoonCloud": "CartoonCloud.tga",
+        "Textures/SpinningBoard": "SpinningBoard.tga",
+        "Textures/Yellow_Glow": "Yellow_Glow.tga"
+    }
+}

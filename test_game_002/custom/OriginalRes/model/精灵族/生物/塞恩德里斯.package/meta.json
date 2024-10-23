@@ -1,0 +1,17 @@
+{
+    "id": 134275674,
+    "md5_file_list": [
+        "\u585e\u6069\u5fb7\u91cc\u65af.mdx"
+    ],
+    "modification_time": 3459329258.395794,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u585e\u6069\u5fb7\u91cc\u65af.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/NightElf/Shandris/Shandris": "Shandris.tga",
+        "Textures/HeroRanger": "HeroRanger.tga",
+        "Textures/gutz": "gutz.tga"
+    }
+}

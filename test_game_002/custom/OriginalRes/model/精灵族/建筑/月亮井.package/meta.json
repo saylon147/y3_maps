@@ -1,0 +1,15 @@
+{
+    "id": 134238913,
+    "md5_file_list": [
+        "\u6708\u4eae\u4e95.mdx"
+    ],
+    "modification_time": 3459207691.1468267,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6708\u4eae\u4e95.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/NightElf/MoonWell/MoonWell": "MoonWell.tga"
+    }
+}

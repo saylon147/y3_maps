@@ -1,0 +1,15 @@
+{
+    "id": 134253327,
+    "md5_file_list": [
+        "\u5c71\u5cad\u5de8\u4eba.mdx"
+    ],
+    "modification_time": 3459450740.961788,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5c71\u5cad\u5de8\u4eba.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/MountainGiant": "MountainGiant.tga"
+    }
+}

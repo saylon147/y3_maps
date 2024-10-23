@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u6811\u5996.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/Dryad//DryadDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/NightElf/Dryad/Dryad", 
+        "Textures/gutz", 
+        "Textures/Dust3x", 
+        "Textures/Star8b"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134242059, 
+    "name": "Mdx\\\u6811\u5996", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6811\u5996.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.43166011571884155, 
+            1.4497015476226807
+        ]
+    }
+}

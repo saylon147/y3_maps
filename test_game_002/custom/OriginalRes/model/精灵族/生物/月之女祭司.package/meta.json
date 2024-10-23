@@ -1,0 +1,15 @@
+{
+    "id": 134243015,
+    "md5_file_list": [
+        "\u6708\u4e4b\u5973\u796d\u53f8.mdx"
+    ],
+    "modification_time": 3459297472.064048,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6708\u4e4b\u5973\u796d\u53f8.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/NightElf/HeroMoonPriestess/PriestessOfTheMoon": "PriestessOfTheMoon.tga"
+    }
+}

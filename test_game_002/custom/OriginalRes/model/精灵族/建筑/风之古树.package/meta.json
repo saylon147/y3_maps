@@ -1,0 +1,16 @@
+{
+    "id": 134278337,
+    "md5_file_list": [
+        "\u98ce\u4e4b\u53e4\u6811.mdx"
+    ],
+    "modification_time": 3459499938.6404057,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u98ce\u4e4b\u53e4\u6811.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/rootbase": "rootbase.tga",
+        "buildings/NightElf/AncientofWind/AncientoftheWind": "AncientoftheWind.tga"
+    }
+}

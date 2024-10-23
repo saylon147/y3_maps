@@ -1,0 +1,16 @@
+{
+    "id": 134248123,
+    "md5_file_list": [
+        "\u7c89\u788e\u8005.mdx"
+    ],
+    "modification_time": 3459221884.9564867,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u7c89\u788e\u8005.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Catapult": "Catapult.tga",
+        "Textures/CloudSingle": "CloudSingle.tga"
+    }
+}

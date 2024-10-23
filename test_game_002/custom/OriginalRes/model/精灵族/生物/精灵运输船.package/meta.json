@@ -1,0 +1,15 @@
+{
+    "id": 134228365,
+    "md5_file_list": [
+        "\u7cbe\u7075\u8fd0\u8f93\u8239.mdx"
+    ],
+    "modification_time": 3459208752.323987,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u7cbe\u7075\u8fd0\u8f93\u8239.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/NightElf/NightElfTransportShip/NightElfTransportShip": "NightElfTransportShip.tga"
+    }
+}

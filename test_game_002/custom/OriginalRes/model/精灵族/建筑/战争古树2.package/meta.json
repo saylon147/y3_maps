@@ -1,0 +1,15 @@
+{
+    "id": 134269345,
+    "md5_file_list": [
+        "\u6218\u4e89\u53e4\u68112.mdx"
+    ],
+    "modification_time": 3459522754.738466,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6218\u4e89\u53e4\u68112.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Demon/CorruptedAncientofWar/CorruptedAncientOfWar": "CorruptedAncientOfWar.tga"
+    }
+}

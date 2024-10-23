@@ -1,0 +1,16 @@
+{
+    "id": 134227942,
+    "md5_file_list": [
+        "\u5de8\u9b54\u5deb\u533b.mdx"
+    ],
+    "modification_time": 3459296900.5842834,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5de8\u9b54\u5deb\u533b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/WitchDoctor/WitchDoctor": "WitchDoctor.tga",
+        "Textures/LightningBall": "LightningBall.tga"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": 134278824,
+    "md5_file_list": [
+        "\u82e6\u5de5.mdx"
+    ],
+    "modification_time": 3459272699.244029,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u82e6\u5de5.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/Peon/peon": "peon.tga",
+        "Textures/gutz": "gutz.tga"
+    }
+}

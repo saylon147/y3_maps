@@ -1,0 +1,18 @@
+{
+    "id": 134226704,
+    "md5_file_list": [
+        "\u6cbb\u7597\u5b88\u536b.mdx"
+    ],
+    "modification_time": 3459179404.7939034,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6cbb\u7597\u5b88\u536b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/HealingWard/Rune2": "Rune2.tga",
+        "units/Orc/HealingWard/Rune3": "Rune3.tga",
+        "Textures/GenericGlowFaded": "GenericGlowFaded.tga",
+        "Textures/Shockwave10": "Shockwave10.tga"
+    }
+}

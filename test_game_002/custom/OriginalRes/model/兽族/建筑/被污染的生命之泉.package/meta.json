@@ -1,0 +1,17 @@
+{
+    "id": 134255588,
+    "md5_file_list": [
+        "\u88ab\u6c61\u67d3\u7684\u751f\u547d\u4e4b\u6cc9.mdx"
+    ],
+    "modification_time": 3459189824.39087,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u88ab\u6c61\u67d3\u7684\u751f\u547d\u4e4b\u6cc9.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Other/FountainOfLifeDefiled/FountainOfLifeDefiled": "FountainOfLifeDefiled.tga",
+        "buildings/Other/FountainOfLifeDefiled/FlareDefiled": "FlareDefiled.tga",
+        "Textures/BackGround": "BackGround.tga"
+    }
+}

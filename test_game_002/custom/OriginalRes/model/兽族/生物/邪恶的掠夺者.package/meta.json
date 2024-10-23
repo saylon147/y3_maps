@@ -1,0 +1,15 @@
+{
+    "id": 134223844,
+    "md5_file_list": [
+        "\u90aa\u6076\u7684\u63a0\u593a\u8005.mdx"
+    ],
+    "modification_time": 3459320892.6253233,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u90aa\u6076\u7684\u63a0\u593a\u8005.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Demon/ChaosWolfrider/ChaosWolfrider": "ChaosWolfrider.tga"
+    }
+}

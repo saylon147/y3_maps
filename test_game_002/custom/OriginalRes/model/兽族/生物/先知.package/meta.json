@@ -1,0 +1,15 @@
+{
+    "id": 134280563,
+    "md5_file_list": [
+        "\u5148\u77e5.mdx"
+    ],
+    "modification_time": 3459297757.399025,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5148\u77e5.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/HeroFarseer/HeroFarseer": "HeroFarseer.tga"
+    }
+}

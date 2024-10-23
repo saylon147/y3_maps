@@ -1,0 +1,15 @@
+{
+    "id": 134273532,
+    "md5_file_list": [
+        "\u8428\u5c14.mdx"
+    ],
+    "modification_time": 3459330212.577173,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u8428\u5c14.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/Thrall/Thrall": "Thrall.tga"
+    }
+}

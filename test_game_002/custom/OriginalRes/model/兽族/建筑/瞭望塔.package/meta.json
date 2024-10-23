@@ -1,0 +1,15 @@
+{
+    "id": 134241933,
+    "md5_file_list": [
+        "\u77ad\u671b\u5854.mdx"
+    ],
+    "modification_time": 3459242710.48322,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u77ad\u671b\u5854.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Watchtower": "Watchtower.tga"
+    }
+}

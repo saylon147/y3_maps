@@ -1,0 +1,15 @@
+{
+    "id": 134225704,
+    "md5_file_list": [
+        "\u90aa\u6076\u7684\u82e6\u5de5.mdx"
+    ],
+    "modification_time": 3459273759.0492916,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u90aa\u6076\u7684\u82e6\u5de5.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Demon/ChaosPeon/ChaosPeon": "ChaosPeon.tga"
+    }
+}

@@ -1,0 +1,16 @@
+{
+    "id": 134244065,
+    "md5_file_list": [
+        "\u8fdc\u53e4\u5b88\u62a4\u8005.mdx"
+    ],
+    "modification_time": 3459470843.855488,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u8fdc\u53e4\u5b88\u62a4\u8005.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/NightElf/AncientProtector/AncientProtector": "AncientProtector.tga",
+        "buildings/NightElf/AncientProtector/db-rock": "dbrock.tga"
+    }
+}

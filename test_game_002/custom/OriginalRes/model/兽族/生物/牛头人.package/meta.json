@@ -1,0 +1,16 @@
+{
+    "id": 134277485,
+    "md5_file_list": [
+        "\u725b\u5934\u4eba.mdx"
+    ],
+    "modification_time": 3459376074.5845013,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u725b\u5934\u4eba.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/Tauren/Minotaur": "Minotaur.tga",
+        "Textures/Zap1": "Zap1.tga"
+    }
+}

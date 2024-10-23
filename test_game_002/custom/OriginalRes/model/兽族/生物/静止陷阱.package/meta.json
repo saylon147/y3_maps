@@ -1,0 +1,20 @@
+{
+    "id": 134240639,
+    "md5_file_list": [
+        "\u9759\u6b62\u9677\u9631.mdx"
+    ],
+    "modification_time": 3459189033.043089,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u9759\u6b62\u9677\u9631.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Shockwave4": "Shockwave4.tga",
+        "Textures/Red_star3": "Red_star3.tga",
+        "Textures/Shockwave1": "Shockwave1.tga",
+        "Textures/Red_star2": "Red_star2.tga",
+        "Textures/Zap1_Red": "Zap1_Red.tga",
+        "units/Orc/StasisTotem/Zap3": "Zap3.tga"
+    }
+}

@@ -1,0 +1,21 @@
+{
+    "id": 134230645,
+    "md5_file_list": [
+        "\u88ab\u7f20\u7ed5\u7684\u91d1\u77ff.mdx"
+    ],
+    "modification_time": 3459307417.7575107,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u88ab\u7f20\u7ed5\u7684\u91d1\u77ff.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/NightElf/EntangledGoldmine/LightRoots": "LightRoots.tga",
+        "buildings/NightElf/EntangledGoldmine/Lightbush": "Lightbush.tga",
+        "Textures/Goldmine": "Goldmine.tga",
+        "Textures/Chest": "Chest.tga",
+        "ReplaceableTextures/Splats/GoldmineUberSplat": "GoldmineUberSplat.tga",
+        "Textures/grad2d": "grad2d.tga",
+        "Textures/RibbonNE1_blue": "RibbonNE1_blue.tga"
+    }
+}

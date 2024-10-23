@@ -1,0 +1,33 @@
+{
+    "mdx_path": "Mdx\\\u80fd\u91cf\u4ea7\u751f\u5668.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "buildings/Other/PowerGenerator/PowerGenerator", 
+        "buildings/Other/PowerGenerator/Red_Glow1", 
+        "Textures/DeathSmug", 
+        "buildings/Other/PowerGenerator/Shockwave_red", 
+        "Textures/RockParticle", 
+        "Textures/SpinningBoard", 
+        "Textures/Clouds8x8Fire", 
+        "Textures/Dust5A", 
+        "Textures/CartoonCloud", 
+        "Textures/Red_star2", 
+        "Textures/Dust3x"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134261722, 
+    "name": "Mdx\\\u80fd\u91cf\u4ea7\u751f\u5668", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u80fd\u91cf\u4ea7\u751f\u5668.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.793954849243164, 
+            5.108880043029785
+        ]
+    }
+}

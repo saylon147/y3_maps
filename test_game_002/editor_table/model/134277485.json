@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u725b\u5934\u4eba.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/Tauren//TaurenDeath1.wav", 
+        "sound/Units/Orc/Tauren//Warstomp.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Orc/Tauren/Minotaur", 
+        "Textures/gutz", 
+        "Textures/Zap1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134277485, 
+    "name": "Mdx\\\u725b\u5934\u4eba", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u725b\u5934\u4eba.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6830495595932007, 
+            1.658380389213562
+        ]
+    }
+}
