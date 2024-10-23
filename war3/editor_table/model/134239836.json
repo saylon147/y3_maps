@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u517d\u65cf\u6b65\u5175.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/Grunt//BerserkerCaster.wav", 
+        "sound/Units/Orc/Grunt//GruntDeath.wav"
+    ], 
+    "mdx_textures": [
+        "units/Orc/Grunt/Grunt", 
+        "Textures/Shockwave_Ice1", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134239836, 
+    "name": "Mdx\\\u517d\u65cf\u6b65\u5175", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u517d\u65cf\u6b65\u5175.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5305132865905762, 
+            1.0468491315841675
+        ]
+    }
+}

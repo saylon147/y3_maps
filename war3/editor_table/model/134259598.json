@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u963f\u5c14\u585e\u65af\u971c\u4e4b\u54c0\u4f24.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/HeroPaladin//HeroPaladinDeath.wav", 
+        "sound/Units/Human/HeroPaladin//HeroPaladinAttack1.wav", 
+        "sound/Units/Human/HeroPaladin//HeroPaladinAttack2.wav", 
+        "sound/Sound/Units/Human//HumanDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Arthas", 
+        "Textures/FrostmMourne", 
+        "Textures/RibbonBlur1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134259598, 
+    "name": "Mdx\\\u963f\u5c14\u585e\u65af\u971c\u4e4b\u54c0\u4f24", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u963f\u5c14\u585e\u65af\u971c\u4e4b\u54c0\u4f24.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.752427339553833, 
+            1.5381875038146973
+        ]
+    }
+}

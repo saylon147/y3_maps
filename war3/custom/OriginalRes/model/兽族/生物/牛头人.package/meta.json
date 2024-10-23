@@ -1,0 +1,17 @@
+{
+    "id": 134277485,
+    "md5_file_list": [
+        "editor_model134277485.zip"
+    ],
+    "modification_time": 3459458915.026679,
+    "ori_res_type": "kkres",
+    "res_type": "model",
+    "source_path": "editor_model134277485.zip",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Orc/Tauren/Minotaur": "Minotaur.tga",
+        "Textures/gutz": "gutz.tga",
+        "Textures/Zap1": "Zap1.tga"
+    }
+}

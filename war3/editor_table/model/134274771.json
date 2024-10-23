@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u590d\u4ec7\u4e4b\u9b42.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/Watcher", 
+        "Textures/Red_Glow3", 
+        "units/NightElf/Vengeance/LightningBallRed", 
+        "Textures/Dust5A"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134274771, 
+    "name": "Mdx\\\u590d\u4ec7\u4e4b\u9b42", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u590d\u4ec7\u4e4b\u9b42.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.4992119073867798, 
+            1.0732840299606323
+        ]
+    }
+}

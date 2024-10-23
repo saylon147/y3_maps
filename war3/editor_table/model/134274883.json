@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\sem_nuo_sen_de_qi_e_dui.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/white", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_nuo_sen_de_qi_e_dui_tt1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134274883, 
+    "name": "Mdx\\sem_nuo_sen_de_qi_e_dui", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_nuo_sen_de_qi_e_dui.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.05647649988532066, 
+            0.17058426141738892
+        ]
+    }
+}

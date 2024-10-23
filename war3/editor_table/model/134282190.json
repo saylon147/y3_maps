@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u5e7d\u9b42\u4e4b\u72fc.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Units/Orc//OrcDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Orc/Spiritwolf/FeralSpirit", 
+        "Textures/GenericGlow2b", 
+        "Textures/DeathScream", 
+        "Textures/gutz", 
+        "Textures/Zap1_Red", 
+        "Textures/star2_32"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134282190, 
+    "name": "Mdx\\\u5e7d\u9b42\u4e4b\u72fc", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5e7d\u9b42\u4e4b\u72fc.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.1428263187408447, 
+            2.028247117996216
+        ]
+    }
+}

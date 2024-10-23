@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u65e0\u4eba\u4e4b\u9a6c.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/KnightNoRider//KnightNoRiderDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Knight", 
+        "Textures/gutz", 
+        "Textures/Dust3x"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134224757, 
+    "name": "Mdx\\\u65e0\u4eba\u4e4b\u9a6c", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u65e0\u4eba\u4e4b\u9a6c.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.3360305726528168, 
+            1.2027778625488281
+        ]
+    }
+}

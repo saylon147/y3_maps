@@ -1,0 +1,23 @@
+{
+    "mdx_path": "Mdx\\sem_ling_mo_ai_zhan_shi.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_ling_mo_ai_zhan_shi_tt1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134281508, 
+    "name": "Mdx\\sem_ling_mo_ai_zhan_shi", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_ling_mo_ai_zhan_shi.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.27138376235961914, 
+            0.8049297332763672
+        ]
+    }
+}

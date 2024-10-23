@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u9b54\u6cd5\u5b9d\u77f3\u5854.mdx", 
+    "mdx_sounds": [
+        "sound/Buildings/Other/BridgeObelisk//EnchantedGemstoneObeliskDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/AshenStructures", 
+        "Textures/GenericGlow1", 
+        "ReplaceableTextures/Weather/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134277109, 
+    "name": "Mdx\\\u9b54\u6cd5\u5b9d\u77f3\u5854", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9b54\u6cd5\u5b9d\u77f3\u5854.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6458996534347534, 
+            2.8707692623138428
+        ]
+    }
+}

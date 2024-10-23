@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u6811\u4eba.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/CorruptedEnt//EntDeath1.wav", 
+        "sound/Units/NightElf/Ent//ForceOfNatureBirth1.wav"
+    ], 
+    "mdx_textures": [
+        "units/NightElf/Ent/GoodEnt"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134231324, 
+    "name": "Mdx\\\u6811\u4eba", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6811\u4eba.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.627034068107605, 
+            1.6276626586914062
+        ]
+    }
+}

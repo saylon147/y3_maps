@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u98df\u5c38\u9b3c.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/Ghoul//GhoulDeath.wav", 
+        "sound/Units/Undead/Ghoul//Cannibalize.wav"
+    ], 
+    "mdx_textures": [
+        "units/Undead/Ghoul/Ghoul", 
+        "Textures/gutz", 
+        "Textures/Peasant"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134249378, 
+    "name": "Mdx\\\u98df\u5c38\u9b3c", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u98df\u5c38\u9b3c.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.4754433035850525, 
+            0.6180932521820068
+        ]
+    }
+}

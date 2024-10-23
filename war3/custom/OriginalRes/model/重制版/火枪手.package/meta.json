@@ -1,0 +1,66 @@
+{
+    "id": 134279217,
+    "materials": [
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ],
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ],
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ],
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ],
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ],
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ],
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ],
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ]
+    ],
+    "md5_file_list": [
+        "Skin.fbx"
+    ],
+    "modification_time": 3461146153.920782,
+    "ori_res_type": "ori",
+    "physic": true,
+    "preview_icon": "thumbnail.png",
+    "res_type": "model",
+    "skeleton": "134279217\\base.skeleton",
+    "source_path": "Skin.fbx",
+    "static_import": false,
+    "version": 1,
+    "yaw": 0
+}

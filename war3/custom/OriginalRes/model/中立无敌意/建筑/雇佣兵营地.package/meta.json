@@ -1,0 +1,17 @@
+{
+    "id": 134254068,
+    "md5_file_list": [
+        "\u96c7\u4f63\u5175\u8425\u5730.mdx"
+    ],
+    "modification_time": 3459373406.985093,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u96c7\u4f63\u5175\u8425\u5730.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Other/Mercenary/Mercenary": "Mercenary.tga",
+        "Textures/BackGround": "BackGround.tga",
+        "Textures/Yellow_Glow": "Yellow_Glow.tga"
+    }
+}

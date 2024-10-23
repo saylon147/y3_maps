@@ -1,0 +1,15 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\sem_ling_mo_ai_zhan_shi", 
+    "key": 134281508, 
+    "md5": "5cfd02017af0e482e555629103a758df", 
+    "model_id": 134281508, 
+    "name": "sem_ling_mo_ai_zhan_shi", 
+    "res_type": "kkres", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134281508", 
+    "version": 1
+}

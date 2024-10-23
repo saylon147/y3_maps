@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u5c71\u5cad\u5de8\u4eba.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/MountainGiant//MountainGiantDeath1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/MountainGiant", 
+        "Textures/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134253327, 
+    "name": "Mdx\\\u5c71\u5cad\u5de8\u4eba", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5c71\u5cad\u5de8\u4eba.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.7516437768936157, 
+            2.3155295848846436
+        ]
+    }
+}

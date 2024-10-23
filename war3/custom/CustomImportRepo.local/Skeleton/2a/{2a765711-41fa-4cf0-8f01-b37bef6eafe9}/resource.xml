@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<Version>1</Version>
+	<SSkinSkeletonData>
+		<Root>
+			<Sub/>
+			<Entity type="SSkinSkeletonData">
+				<Bones count="1" ordered="true">
+					<Element index="0">
+						<Transform rawdata="AACAvzIxDaUyMQ0lMjENpQAAgD8yMQ0lMjENpTIxDSUAAIC/DeYvvqyTJ7/Oogql">(-1,-0.00000000000000012,0.00000000000000012,-0.00000000000000012,1,0.00000000000000012,-0.00000000000000012,0.00000000000000012,-1,-0.17177601158618919,-0.65459704399108887,-0.00000000000000012)</Transform>
+						<Name>shield_bind_jnt</Name>
+					</Element>
+				</Bones>
+			</Entity>
+		</Root>
+	</SSkinSkeletonData>
+</Resource>

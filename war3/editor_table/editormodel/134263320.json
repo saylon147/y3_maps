@@ -1,0 +1,15 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\sem_na_jia_hai_yao", 
+    "key": 134263320, 
+    "md5": "8d4c2a207687ea5e4780da3c2f1ff03c", 
+    "model_id": 134263320, 
+    "name": "sem_na_jia_hai_yao", 
+    "res_type": "kkres", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134263320", 
+    "version": 1
+}

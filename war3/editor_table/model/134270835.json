@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u5251\u58eb.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/Footman//FootmanDeath.wav"
+    ], 
+    "mdx_textures": [
+        "units/Human/TheCaptain/TheCaptain", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134270835, 
+    "name": "Mdx\\\u5251\u58eb", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5251\u58eb.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.3918714225292206, 
+            1.0997931957244873
+        ]
+    }
+}

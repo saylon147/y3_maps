@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<Version>1</Version>
+	<SSkinSkeletonData>
+		<Root>
+			<Sub/>
+			<Entity type="SSkinSkeletonData">
+				<Bones count="4" ordered="true">
+					<Element index="0">
+						<Transform rawdata="AACAvzIxDaUyMQ0lMjENpQAAgD8yMQ0lMjENpTIxDSUAAIC/656RJMwDBL9hbtqk">(-1,-0.00000000000000012,0.00000000000000012,-0.00000000000000012,1,0.00000000000000012,-0.00000000000000012,0.00000000000000012,-1,0.00000000000000006,-0.51568293571472168,-0.00000000000000009)</Transform>
+						<Name>spine_02_bind_jnt</Name>
+					</Element>
+					<Element index="1">
+						<Transform rawdata="AACAvzIxDaUyMQ0lMjENpQAAgD8yMQ0lMjENpTIxDSUAAIC/adx5JPSD4r5PZbuk">(-1,-0.00000000000000012,0.00000000000000012,-0.00000000000000012,1,0.00000000000000012,-0.00000000000000012,0.00000000000000012,-1,0.00000000000000005,-0.44241297245025635,-0.00000000000000008)</Transform>
+						<Name>bone_turret</Name>
+					</Element>
+					<Element index="2">
+						<Transform rawdata="AACAvzIxDaUyMQ0lMjENpQAAgD8yMQ0lMjENpTIxDSUAAIC/aA2jJFbRE78clPSk">(-1,-0.00000000000000012,0.00000000000000012,-0.00000000000000012,1,0.00000000000000012,-0.00000000000000012,0.00000000000000012,-1,0.00000000000000007,-0.57741296291351318,-0.00000000000000011)</Transform>
+						<Name>bone_chest</Name>
+					</Element>
+					<Element index="3">
+						<Transform rawdata="AACAvzIxDaUyMQ0lMjENpQAAgD8yMQ0lMjENpTIxDSUAAIC/adx5JPSD4r5PZbuk">(-1,-0.00000000000000012,0.00000000000000012,-0.00000000000000012,1,0.00000000000000012,-0.00000000000000012,0.00000000000000012,-1,0.00000000000000005,-0.44241297245025635,-0.00000000000000008)</Transform>
+						<Name>pelvis_bind_jnt</Name>
+					</Element>
+				</Bones>
+			</Entity>
+		</Root>
+	</SSkinSkeletonData>
+</Resource>

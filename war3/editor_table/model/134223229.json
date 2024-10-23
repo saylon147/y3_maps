@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u672f\u58eb.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/HeroArchMage//HeroArchMageDeath.wav", 
+        "sound/Sound/Units/Human//HumanDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/BanditMage/BanditMage", 
+        "Textures/gutz", 
+        "ReplaceableTextures/Weather/Clouds8x8", 
+        "Textures/Dust3x"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134223229, 
+    "name": "Mdx\\\u672f\u58eb", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u672f\u58eb.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.7430025935173035, 
+            1.8020730018615723
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\sem_cong_lin_shou_wang_zhe.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/HeroWarden//WardenDeath1.wav", 
+        "sound/Units/NightElf/HeroWarden//FanOfKnives.wav", 
+        "sound/Sound/Units/NightElf//NightElfDissipate1.wav", 
+        "sound/Units/NightElf/HeroWarden//WardenAttackEffort1.wav"
+    ], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_ladywood_portrait_tt1", 
+        "Textures/Star8b"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134248149, 
+    "name": "Mdx\\sem_cong_lin_shou_wang_zhe", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_cong_lin_shou_wang_zhe.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2035019397735596, 
+            1.9368128776550293
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "mdx_path": "Mdx\\\u96f7\u514b\u8428.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/Beastmaster//BeastmasterDeath1.wav", 
+        "sound/Sound/Units/Human//HumanDissipate1.wav", 
+        "sound/Units/Creeps/Beastmaster//BeastmasterAttackEffort1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/BeastMaster", 
+        "Textures/Yellow_Star", 
+        "Textures/Yellow_Glow3", 
+        "Textures/RibbonBlur1", 
+        "Textures/Yellow_Glow_Dim", 
+        "Textures/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134275695, 
+    "name": "Mdx\\\u96f7\u514b\u8428", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u96f7\u514b\u8428.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.8648772239685059, 
+            3.3229780197143555
+        ]
+    }
+}

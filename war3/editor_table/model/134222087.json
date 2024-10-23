@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u8ffd\u98ce\u4e4b\u897f\u5c14\u74e6\u5a1c\u65af.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/Archer//ArcherDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/SylvanusWindrunner/SylvanusWindrunner", 
+        "Textures/HeroRanger"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134222087, 
+    "name": "Mdx\\\u8ffd\u98ce\u4e4b\u897f\u5c14\u74e6\u5a1c\u65af", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u8ffd\u98ce\u4e4b\u897f\u5c14\u74e6\u5a1c\u65af.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2528343200683594, 
+            1.0946238040924072
+        ]
+    }
+}

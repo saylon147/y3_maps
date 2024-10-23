@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u8c37\u4ed3.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//CityBuildingDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/CityBuildingsNew", 
+        "Textures/VillageDoodad1", 
+        "Textures/VillageDoodad0", 
+        "buildings/Other/GrainWarehouse/GrainInfected", 
+        "ReplaceableTextures/Weather/Clouds8x8", 
+        "Textures/Clouds8x8Mod"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134261573, 
+    "name": "Mdx\\\u8c37\u4ed3", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u8c37\u4ed3.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.1231062412261963, 
+            2.9207470417022705
+        ]
+    }
+}

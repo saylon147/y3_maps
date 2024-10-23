@@ -1,0 +1,37 @@
+{
+    "mdx_path": "Mdx\\\u5927\u5385.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//BuildingDeathLargeOrc.wav"
+    ], 
+    "mdx_textures": [
+        "buildings/Orc/GreatHall/Stronghold", 
+        "buildings/Orc/GreatHall/GreatHall", 
+        "Textures/Base", 
+        "Textures/DeathSmug", 
+        "Textures/OrcBirth", 
+        "Textures/Shockwave1", 
+        "ReplaceableTextures/Weather/Clouds8x8", 
+        "Textures/RockParticle", 
+        "Textures/CartoonCloud", 
+        "Textures/Dust5A", 
+        "Textures/Dust3x", 
+        "Textures/SpinningBoard", 
+        "Textures/Yellow_Glow"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134254838, 
+    "name": "Mdx\\\u5927\u5385", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5927\u5385.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.507885456085205, 
+            5.670229911804199
+        ]
+    }
+}

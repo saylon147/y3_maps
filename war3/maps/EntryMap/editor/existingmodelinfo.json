@@ -6,5 +6,357 @@
    "\u521d\u59cb\u955c\u5934", 
    32768
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   2, 
+   "baimo_002", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   1, 
+   "\u751f\u547d\u4e4b\u6811", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   2, 
+   "\u5c71\u4e18\u4e4b\u738b", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   3, 
+   "\u5251\u5723", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   4, 
+   "\u6076\u9b54\u730e\u624b", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   5, 
+   "\u6697\u5f71\u730e\u624b", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   6, 
+   "\u585e\u6069\u5fb7\u91cc\u65af", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   7, 
+   "\u725b\u5934\u4eba\u914b\u957f", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   8, 
+   "\u70bc\u91d1\u672f\u58eb", 
+   1
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   9, 
+   "\u96c7\u4f63\u5175\u8425\u5730", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   11, 
+   "\u795e\u79d8\u5b9d\u85cf\u5e93", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   13, 
+   "\u5c0f\u9152\u9986", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   14, 
+   "\u5f02\u6b21\u5143\u5927\u95e8\u671d\u4e1c\u5357", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   15, 
+   "\u53ec\u5524\u5e95\u5ea7\u4e4b\u672f", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   16, 
+   "\u5e7d\u9b42\u4e4b\u5854", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   17, 
+   "\u5e7d\u9b42\u4e4b\u5854", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   18, 
+   "\u5e7d\u9b42\u4e4b\u5854", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   19, 
+   "\u5e7d\u9b42\u4e4b\u5854", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   20, 
+   "\u5e7d\u9b42\u4e4b\u5854", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   21, 
+   "\u5e7d\u9b42\u4e4b\u5854", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   3, 
+   "\u80fd\u91cf\u5708", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   4, 
+   "\u80fd\u91cf\u5708", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   5, 
+   "\u80fd\u91cf\u5708", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   6, 
+   "\u80fd\u91cf\u5708", 
+   16777216
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   22, 
+   "\u91d1\u77ff", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   23, 
+   "\u5927\u5893\u5730", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   24, 
+   "\u50e7\u6076", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   25, 
+   "\u50e7\u6076", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   26, 
+   "\u50e7\u6076", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   27, 
+   "\u98df\u5c38\u9b3c", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   28, 
+   "\u98df\u5c38\u9b3c", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   29, 
+   "\u98df\u5c38\u9b3c", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   30, 
+   "\u98df\u5c38\u9b3c", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   31, 
+   "\u98df\u5c38\u9b3c", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   32, 
+   "\u98df\u5c38\u9b3c", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   33, 
+   "\u98df\u5c38\u9b3c", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   35, 
+   "\u725b\u5934", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   36, 
+   "\u725b\u5934", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   37, 
+   "\u725b\u5934", 
+   4
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   38, 
+   "\u9632\u5fa1\u5854", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   39, 
+   "\u9632\u5fa1\u5854", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   40, 
+   "\u9632\u5fa1\u5854", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   41, 
+   "\u9632\u5fa1\u5854", 
+   2
+  ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   42, 
+   "\u9632\u5fa1\u5854", 
+   2
+  ]
  }
 ]

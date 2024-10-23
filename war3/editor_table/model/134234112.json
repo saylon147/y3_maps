@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u5c0f\u7cbe\u7075.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/Wisp//WispDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/star2_32", 
+        "Textures/Shockwave10", 
+        "Textures/Dust3", 
+        "ReplaceableTextures/Weather/CloudSingleFlat", 
+        "Textures/Dust5", 
+        "Textures/GenericGlow2c"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134234112, 
+    "name": "Mdx\\\u5c0f\u7cbe\u7075", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5c0f\u7cbe\u7075.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.210512638092041, 
+            2.262105941772461
+        ]
+    }
+}

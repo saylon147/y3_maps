@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\sem_an_ying_di_yu_huo.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_an_ying_di_yu_huo_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_an_ying_di_yu_huo_tt2", 
+        "Textures/Frost2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134231681, 
+    "name": "Mdx\\sem_an_ying_di_yu_huo", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_an_ying_di_yu_huo.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.8061776161193848, 
+            3.681473970413208
+        ]
+    }
+}

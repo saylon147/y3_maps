@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\sem_ku_lou.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/Skeleton//SkeletonDeath1.wav", 
+        "sound/Units/Undead/Skeleton//SkeletonDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_ku_lou_tt1", 
+        "Textures/Bandit"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134272745, 
+    "name": "Mdx\\sem_ku_lou", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_ku_lou.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6578063368797302, 
+            1.5175408124923706
+        ]
+    }
+}

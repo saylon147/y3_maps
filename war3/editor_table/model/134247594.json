@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u52a0\u91cc\u745f\u745f.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/Knight//KnightDeath.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/LordGarithos/LordGarithos", 
+        "Textures/gutz", 
+        "Textures/Yellow_Star", 
+        "Textures/RibbonBlur1", 
+        "Textures/Dust3x", 
+        "Textures/ShockwaveWater1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134247594, 
+    "name": "Mdx\\\u52a0\u91cc\u745f\u745f", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u52a0\u91cc\u745f\u745f.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.5678746700286865, 
+            1.9073847532272339
+        ]
+    }
+}

@@ -1,0 +1,32 @@
+{
+    "mdx_path": "Mdx\\\u5deb\u6bd2\u5546\u5e97.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//OrcBuildingDeathSmall1.wav"
+    ], 
+    "mdx_textures": [
+        "buildings/Orc/VoodooLounge/VoodooLounge", 
+        "Textures/OrcBirth", 
+        "Textures/BackGround", 
+        "Textures/dust1", 
+        "buildings/Orc/VoodooLounge/TrollNeonSign", 
+        "buildings/Orc/VoodooLounge/TrollNeonSign54", 
+        "Textures/Clouds8x8", 
+        "Textures/CloudSingleBlend"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134251269, 
+    "name": "Mdx\\\u5deb\u6bd2\u5546\u5e97", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5deb\u6bd2\u5546\u5e97.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.5378947257995605, 
+            3.0185751914978027
+        ]
+    }
+}

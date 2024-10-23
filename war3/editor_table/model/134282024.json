@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u72ee\u9e6b\u9a91\u58eb.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/GryphonRider//GryphonRiderDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Human/GryphonRider/GryphonRider", 
+        "ReplaceableTextures/TeamGlow/TeamGlow01", 
+        "Textures/Zap1", 
+        "Textures/Shockwave1b", 
+        "Textures/Tj_BloodSput", 
+        "Textures/Clouds32_anim"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134282024, 
+    "name": "Mdx\\\u72ee\u9e6b\u9a91\u58eb", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u72ee\u9e6b\u9a91\u58eb.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6968681812286377, 
+            1.4548649787902832
+        ]
+    }
+}

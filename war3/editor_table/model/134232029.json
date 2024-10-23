@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u7cbe\u7075\u6218\u8230.mdx", 
+    "mdx_sounds": [
+        "sound/Doodads/Northrend/Water/Battleship//BattleShipDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/NightElfBattleship/NightElfBattleShip", 
+        "Textures/WaterWake2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134232029, 
+    "name": "Mdx\\\u7cbe\u7075\u6218\u8230", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u7cbe\u7075\u6218\u8230.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2773178815841675, 
+            3.9056200981140137
+        ]
+    }
+}

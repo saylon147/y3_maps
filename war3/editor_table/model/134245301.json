@@ -1,0 +1,35 @@
+{
+    "mdx_path": "Mdx\\\u9ad8\u7b49\u7cbe\u7075\u5175\u8425.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//BuildingDeathLargeHuman.wav"
+    ], 
+    "mdx_textures": [
+        "buildings/Other/MageTower/TowerOfTheSun", 
+        "Textures/Doodads0", 
+        "Textures/HumanBase", 
+        "ReplaceableTextures/Weather/Clouds8x8", 
+        "Textures/Dust5A", 
+        "Textures/CartoonCloud", 
+        "Textures/Dust3x", 
+        "Textures/RockParticle", 
+        "Textures/SpinningBoard", 
+        "Textures/Yellow_Star_Dim", 
+        "Textures/CloudSingle"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134245301, 
+    "name": "Mdx\\\u9ad8\u7b49\u7cbe\u7075\u5175\u8425", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9ad8\u7b49\u7cbe\u7075\u5175\u8425.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.538691759109497, 
+            3.819769859313965
+        ]
+    }
+}

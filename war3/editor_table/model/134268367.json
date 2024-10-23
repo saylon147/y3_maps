@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u732b\u5934\u9e70\u4fa6\u5bdf\u8005.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/Owl//ScoutLaunchBirth1.wav", 
+        "sound/Units/NightElf/Owl//ScoutLaunchDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/sentinelspell", 
+        "Textures/TeamGlow00", 
+        "Textures/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134268367, 
+    "name": "Mdx\\\u732b\u5934\u9e70\u4fa6\u5bdf\u8005", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u732b\u5934\u9e70\u4fa6\u5bdf\u8005.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.8657189011573792, 
+            1.733186960220337
+        ]
+    }
+}

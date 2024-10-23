@@ -1,0 +1,42 @@
+{
+    "id": 134281884,
+    "materials": [
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ],
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ],
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ],
+        [
+            {
+                "name": "Common/Materials/BaseMaterials/M_PBR_Base",
+                "source_path": {}
+            }
+        ]
+    ],
+    "md5_file_list": [
+        "baimo.FBX"
+    ],
+    "modification_time": 3459323340.399562,
+    "ori_res_type": "ori",
+    "physic": true,
+    "preview_icon": "thumbnail.png",
+    "res_type": "model",
+    "skeleton": "",
+    "source_path": "baimo.FBX",
+    "static_import": true,
+    "version": 1,
+    "yaw": 0
+}

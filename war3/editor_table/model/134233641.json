@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u98de\u884c\u673a\u5668.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/Gyrocopter//GyrocopterDeath1.wav", 
+        "sound/Units/Human/Gyrocopter//GyrocopterImpactHit1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/gyrocopter", 
+        "units/Human/GyroCopter/CopterBladeBlur", 
+        "Textures/Dust3", 
+        "Textures/Flame4", 
+        "Textures/star2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134233641, 
+    "name": "Mdx\\\u98de\u884c\u673a\u5668", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u98de\u884c\u673a\u5668.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.1093608140945435, 
+            1.1254769563674927
+        ]
+    }
+}

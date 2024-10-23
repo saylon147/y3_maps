@@ -1,0 +1,25 @@
+{
+    "id": 134219806,
+    "md5_file_list": [
+        "\u70bc\u91d1\u672f\u58eb.mdx"
+    ],
+    "modification_time": 3459931424.878076,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u70bc\u91d1\u672f\u58eb.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/HeroGoblinAlchemistBLUE": "HeroGoblinAlchemistBLUE.tga",
+        "units/Creeps/HEROGoblinALCHEMIST/HeroGoblinAlchemistPurple": "HeroGoblinAlchemistPurple.tga",
+        "Textures/GenericGlow64": "GenericGlow64.tga",
+        "Textures/Yellow_Star": "Yellow_Star.tga",
+        "Textures/GOLDCoin": "GOLDCoin.tga",
+        "Textures/RibbonBlur1": "RibbonBlur1.tga",
+        "Textures/Clouds8x8Fade": "Clouds8x8Fade.tga",
+        "Textures/Dust3x": "Dust3x.tga",
+        "Textures/WaterBlobs1": "WaterBlobs1.tga",
+        "Textures/star6": "star6.tga",
+        "Textures/Shockwave10": "Shockwave10.tga"
+    }
+}

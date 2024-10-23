@@ -1,0 +1,32 @@
+{
+    "mdx_path": "Mdx\\\u51b0\u4e4b\u5b9d\u76d2.mdx", 
+    "mdx_sounds": [
+        "sound/Buildings/Other/Frostmourne//FrostmourneDeath.wav"
+    ], 
+    "mdx_textures": [
+        "buildings/Other/IceCrownTreasureBox/Shockwave_blue", 
+        "buildings/Other/IceCrownTreasureBox/NorthrendStructures", 
+        "Textures/CrystalSheild", 
+        "Textures/Blue_Star", 
+        "Textures/Shockwave11", 
+        "Textures/Clouds8x8", 
+        "Textures/Dust3x", 
+        "Textures/Blue_Star2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134264115, 
+    "name": "Mdx\\\u51b0\u4e4b\u5b9d\u76d2", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u51b0\u4e4b\u5b9d\u76d2.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.1659932136535645, 
+            3.1108570098876953
+        ]
+    }
+}

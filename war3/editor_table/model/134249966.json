@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u4f7f\u8005.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/Priest//PriestDeath.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/HumanMage/HumanMage", 
+        "Textures/gutz", 
+        "Textures/Yellow_Star_Dim"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134249966, 
+    "name": "Mdx\\\u4f7f\u8005", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u4f7f\u8005.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.476813942193985, 
+            1.2236734628677368
+        ]
+    }
+}

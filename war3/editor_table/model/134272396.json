@@ -1,0 +1,49 @@
+{
+    "anims": {
+        "die": "134272396/die", 
+        "idle1": "134272396/idle1", 
+        "walk": "134272396/walk"
+    }, 
+    "box": {
+        "__tuple__": true, 
+        "items": [
+            -0.1818470060825348, 
+            0.19947899878025055, 
+            0.17342300713062286, 
+            0.39151498675346375, 
+            0.6591299772262573, 
+            0.5759099721908569
+        ]
+    }, 
+    "custom": true, 
+    "graph": "Char/Graph/common.graph", 
+    "meshes": {
+        "__tuple__": true, 
+        "items": [
+            "custom_model/134272396/1_human_mountainKing_rig:main_geo", 
+            "custom_model/134272396/2_human_mountainKing_rig:main_geo", 
+            "custom_model/134272396/3_human_mountainKing_rig:hair_geo", 
+            "custom_model/134272396/4_human_mountainKing_rig:hair_geo", 
+            "custom_model/134272396/5_human_mountainKing_rig:helmet_geo", 
+            "custom_model/134272396/6_human_mountainKing_rig:pauldron_geo", 
+            "custom_model/134272396/7_human_mountainKing_rig:shield_geo", 
+            "custom_model/134272396/8_human_mountainKing_rig:weapon_01_geo", 
+            "custom_model/134272396/9_human_mountainKing_rig:weapon_02_geo"
+        ]
+    }, 
+    "model_id": 134272396, 
+    "name": "skin_1", 
+    "physics_meshes": [
+        "custom_model/134272396/AutoPhy_Mesh_1_human_mountainKing_rig:main_geo", 
+        "custom_model/134272396/AutoPhy_Mesh_2_human_mountainKing_rig:main_geo", 
+        "custom_model/134272396/AutoPhy_Mesh_3_human_mountainKing_rig:hair_geo", 
+        "custom_model/134272396/AutoPhy_Mesh_4_human_mountainKing_rig:hair_geo", 
+        "custom_model/134272396/AutoPhy_Mesh_5_human_mountainKing_rig:helmet_geo", 
+        "custom_model/134272396/AutoPhy_Mesh_6_human_mountainKing_rig:pauldron_geo", 
+        "custom_model/134272396/AutoPhy_Mesh_7_human_mountainKing_rig:shield_geo", 
+        "custom_model/134272396/AutoPhy_Mesh_8_human_mountainKing_rig:weapon_01_geo", 
+        "custom_model/134272396/AutoPhy_Mesh_9_human_mountainKing_rig:weapon_02_geo"
+    ], 
+    "preview_icon": "UP1ModelPreview/134272396", 
+    "skeleton": "134272396\\base.skeleton"
+}

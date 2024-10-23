@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\\u6cd5\u91cc\u5965.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/DruidOfTheTalon//DruidOfTheTalonDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/NightElf/Furion/Furion"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134232125, 
+    "name": "Mdx\\\u6cd5\u91cc\u5965", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6cd5\u91cc\u5965.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.9985499382019043, 
+            3.225741147994995
+        ]
+    }
+}

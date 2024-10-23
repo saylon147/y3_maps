@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\\u9b54\u6cd5\u5b9d\u7bb1.mdx", 
+    "mdx_sounds": [
+        "sound/Doodads/Barrens/Terrain/WyvernCage//WyvernCageDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/CrystalSheild", 
+        "Textures/Rune1d", 
+        "Textures/Rune4", 
+        "ReplaceableTextures/Weather/Clouds8x8", 
+        "Textures/GenericGlow2b", 
+        "Textures/Shockwave10", 
+        "Textures/star4_32"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134267307, 
+    "name": "Mdx\\\u9b54\u6cd5\u5b9d\u7bb1", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9b54\u6cd5\u5b9d\u7bb1.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.4422969818115234, 
+            1.7043448686599731
+        ]
+    }
+}

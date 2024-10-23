@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\sem_na_jia_yuan_gu_bing_mo_shen.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_na_jia_yuan_gu_bing_mo_shen_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_na_jia_yuan_gu_bing_mo_shen_tt2", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_na_jia_yuan_gu_bing_mo_shen_tt3", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_na_jia_yuan_gu_bing_mo_shen_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_na_jia_yuan_gu_bing_mo_shen_tt4"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134281963, 
+    "name": "Mdx\\sem_na_jia_yuan_gu_bing_mo_shen", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_na_jia_yuan_gu_bing_mo_shen.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6238111257553101, 
+            1.4303042888641357
+        ]
+    }
+}

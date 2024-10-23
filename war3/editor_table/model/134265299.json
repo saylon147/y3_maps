@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u77ee\u4eba\u706b\u67aa\u624b.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/Rifleman//RiflemanDeath.wav", 
+        "sound/Units/Human/Rifleman//RiflemanAttack1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Human/Rifleman/Rifleman", 
+        "Textures/gutz", 
+        "Textures/Dust3x", 
+        "Textures/Flame4"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134265299, 
+    "name": "Mdx\\\u77ee\u4eba\u706b\u67aa\u624b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u77ee\u4eba\u706b\u67aa\u624b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.49261778593063354, 
+            0.8183708190917969
+        ]
+    }
+}

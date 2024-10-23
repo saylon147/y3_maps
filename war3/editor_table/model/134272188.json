@@ -1,0 +1,38 @@
+{
+    "mdx_path": "Mdx\\\u795e\u79d8\u4e4b\u5854.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//BuildingDeathSmallHuman.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Tower", 
+        "Textures/Doodads0", 
+        "Textures/DeathSmug", 
+        "Textures/HumanBase", 
+        "buildings/Human/HumanTower/HumanMagicTower", 
+        "Textures/Blue_Glow2", 
+        "Textures/GenericGlow2b", 
+        "Textures/CloudSingle", 
+        "Textures/Clouds8x8", 
+        "Textures/CartoonCloud", 
+        "Textures/Dust3x", 
+        "Textures/RockParticle", 
+        "Textures/SpinningBoard", 
+        "Textures/Dust5A"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134272188, 
+    "name": "Mdx\\\u795e\u79d8\u4e4b\u5854", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u795e\u79d8\u4e4b\u5854.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.5906929969787598, 
+            3.47517991065979
+        ]
+    }
+}

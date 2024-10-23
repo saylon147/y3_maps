@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u8428\u6ee1\u796d\u53f8.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/Shaman//ShamanDeath.wav"
+    ], 
+    "mdx_textures": [
+        "units/Orc/Shaman/Shaman", 
+        "Textures/gutz", 
+        "Textures/Star8b"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134279501, 
+    "name": "Mdx\\\u8428\u6ee1\u796d\u53f8", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u8428\u6ee1\u796d\u53f8.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.47353410720825195, 
+            1.1007851362228394
+        ]
+    }
+}

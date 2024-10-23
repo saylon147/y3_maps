@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u4eba\u65cf\u519c\u6c11.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/Peasant//PeasantDeath.wav", 
+        "sound/Abilities/Spells/Other/Repair//PeonRepair1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Peasant", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134267945, 
+    "name": "Mdx\\\u4eba\u65cf\u519c\u6c11", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u4eba\u65cf\u519c\u6c11.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.27668845653533936, 
+            0.92710942029953
+        ]
+    }
+}

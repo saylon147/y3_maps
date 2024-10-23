@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u5f02\u6b21\u5143\u5927\u95e8\u671d\u897f\u5357.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/PortalEnergy", 
+        "Textures/DarkPortal03", 
+        "Textures/BloodWhiteSmall", 
+        "Textures/Dust5A"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134250699, 
+    "name": "Mdx\\\u5f02\u6b21\u5143\u5927\u95e8\u671d\u897f\u5357", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5f02\u6b21\u5143\u5927\u95e8\u671d\u897f\u5357.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            3.143707036972046, 
+            4.683340549468994
+        ]
+    }
+}

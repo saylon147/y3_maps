@@ -1,0 +1,15 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\sem_duo_luo_de_feng_zhi_gu_shu", 
+    "key": 134277755, 
+    "md5": "9f6e092b07c40692fd563eecd8f2aff6", 
+    "model_id": 134277755, 
+    "name": "sem_duo_luo_de_feng_zhi_gu_shu", 
+    "res_type": "kkres", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134277755", 
+    "version": 1
+}

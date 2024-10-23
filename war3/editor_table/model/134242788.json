@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u5b88\u671b\u80052.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/Assassin//AssassinDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/Assassin/Assassin", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134242788, 
+    "name": "Mdx\\\u5b88\u671b\u80052", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5b88\u671b\u80052.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.586598813533783, 
+            1.1512939929962158
+        ]
+    }
+}

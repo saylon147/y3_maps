@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u897f\u91cc\u8bfa\u514b\u65af.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/BlackDragon//BlackDragonAttack1.wav", 
+        "sound/Units/Creeps/AzureDragon//DragonDeath1.wav", 
+        "sound/Units/Orc/KotoBeast//Devour.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/BlackDragon", 
+        "Textures/Shockwave1b", 
+        "Textures/Tj_BloodSput", 
+        "ReplaceableTextures/Weather/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134276910, 
+    "name": "Mdx\\\u897f\u91cc\u8bfa\u514b\u65af", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u897f\u91cc\u8bfa\u514b\u65af.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.297134518623352, 
+            2.096749782562256
+        ]
+    }
+}

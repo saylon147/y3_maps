@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\sem_shi_ren_mo_2.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_shi_ren_mo_2_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_shi_ren_mo_2_tt2", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_shi_ren_mo_2_tt3", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_shi_ren_mo_2_tt4", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_shi_ren_mo_2_tt5", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_shi_ren_mo_2_tt6"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134258961, 
+    "name": "Mdx\\sem_shi_ren_mo_2", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_shi_ren_mo_2.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.30050399899482727, 
+            1.4443905353546143
+        ]
+    }
+}

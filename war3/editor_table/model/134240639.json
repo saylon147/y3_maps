@@ -1,0 +1,35 @@
+{
+    "mdx_path": "Mdx\\\u9759\u6b62\u9677\u9631.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/StasisTotem//StasisTotem.wav", 
+        "sound/Units/Orc/StasisTotem//StasisTrapBirth.wav", 
+        "sound/Units/Orc/SentryWard//SentryWardDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Shockwave4", 
+        "Textures/Red_Glow2", 
+        "units/Orc/StasisTotem/Zap3", 
+        "Textures/Wards1", 
+        "Textures/Shockwave1", 
+        "Textures/Red_star3", 
+        "Textures/Red_star2", 
+        "Textures/Zap1_Red", 
+        "Textures/Dust5A"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134240639, 
+    "name": "Mdx\\\u9759\u6b62\u9677\u9631", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9759\u6b62\u9677\u9631.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2399182319641113, 
+            2.63948130607605
+        ]
+    }
+}

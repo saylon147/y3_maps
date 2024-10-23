@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u8feb\u51fb\u70ae\u5c0f\u961f.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/MortarTeam//MortarteamDeath.wav", 
+        "sound/Units/Human/MortarTeam//MortarTeamAttack1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/MortarTeam", 
+        "Textures/gutz", 
+        "Textures/Clouds32_anim"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134225119, 
+    "name": "Mdx\\\u8feb\u51fb\u70ae\u5c0f\u961f", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u8feb\u51fb\u70ae\u5c0f\u961f.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.609862744808197, 
+            0.8025314211845398
+        ]
+    }
+}

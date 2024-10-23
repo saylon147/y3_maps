@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\\u98ce\u9a91\u58eb.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/WyvernRider//WyvernRiderDeath.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/WyvernRider"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134232446, 
+    "name": "Mdx\\\u98ce\u9a91\u58eb", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u98ce\u9a91\u58eb.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.122267723083496, 
+            2.0430350303649902
+        ]
+    }
+}

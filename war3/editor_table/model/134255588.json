@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u88ab\u6c61\u67d3\u7684\u751f\u547d\u4e4b\u6cc9.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "buildings/Other/FountainOfLifeDefiled/FountainOfLifeDefiled", 
+        "buildings/Other/FountainOfLifeDefiled/FlareDefiled", 
+        "Textures/BackGround", 
+        "Textures/CloudSingle"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134255588, 
+    "name": "Mdx\\\u88ab\u6c61\u67d3\u7684\u751f\u547d\u4e4b\u6cc9", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u88ab\u6c61\u67d3\u7684\u751f\u547d\u4e4b\u6cc9.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.119610548019409, 
+            2.8057141304016113
+        ]
+    }
+}

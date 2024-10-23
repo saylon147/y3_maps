@@ -1,0 +1,18 @@
+{
+    "id": 134226169,
+    "md5_file_list": [
+        "\u5927\u5893\u5730.mdx"
+    ],
+    "modification_time": 3459430456.5248685,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5927\u5893\u5730.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/CreepyNecropolis": "CreepyNecropolis.tga",
+        "Textures/GraveYardGhost": "GraveYardGhost.tga",
+        "Textures/CloudSingle": "CloudSingle.tga",
+        "Textures/star2_32": "star2_32.tga"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\sem_xue_xing_nv_wang.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_xue_xing_nv_wang_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_xue_xing_nv_wang_tt2", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_xue_xing_nv_wang_tt3", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_xue_xing_nv_wang_tt4", 
+        "Textures/Dust3"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134219475, 
+    "name": "Mdx\\sem_xue_xing_nv_wang", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_xue_xing_nv_wang.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.19555838406085968, 
+            0.982441246509552
+        ]
+    }
+}

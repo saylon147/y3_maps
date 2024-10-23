@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u63a0\u593a\u8005.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/Wolfrider//RaiderDeath.wav"
+    ], 
+    "mdx_textures": [
+        "units/Orc/Wolfrider/Wolfrider", 
+        "Textures/gutz", 
+        "Textures/Dust3x"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134243737, 
+    "name": "Mdx\\\u63a0\u593a\u8005", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u63a0\u593a\u8005.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.4852638840675354, 
+            1.7021311521530151
+        ]
+    }
+}

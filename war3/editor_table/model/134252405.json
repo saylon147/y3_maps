@@ -1,0 +1,33 @@
+{
+    "mdx_path": "Mdx\\\u5de8\u9b54\u8759\u8760\u9a91\u58eb.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/BatTroll//BatRiderDeath1.wav", 
+        "sound/Units/Orc/BatTroll//TrollBatriderSuicideAttack1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/BatTroll", 
+        "Textures/GenericGlow2_mip1", 
+        "Textures/Dust6Color", 
+        "Textures/RingOFire", 
+        "Textures/grad6", 
+        "Textures/star32", 
+        "Textures/Clouds8x8Fire", 
+        "Textures/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134252405, 
+    "name": "Mdx\\\u5de8\u9b54\u8759\u8760\u9a91\u58eb", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5de8\u9b54\u8759\u8760\u9a91\u58eb.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.8132860660552979, 
+            1.4510420560836792
+        ]
+    }
+}

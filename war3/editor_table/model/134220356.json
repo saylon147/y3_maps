@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u517d\u65cf\u9b54\u529b\u6218\u8230.mdx", 
+    "mdx_sounds": [
+        "sound/Doodads/Northrend/Water/Battleship//BattleShipDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Critters/OrcJuggernaught/Orc_juggernaught", 
+        "Textures/Clouds8x8", 
+        "Textures/WaterWake2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134220356, 
+    "name": "Mdx\\\u517d\u65cf\u9b54\u529b\u6218\u8230", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u517d\u65cf\u9b54\u529b\u6218\u8230.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.5269278287887573, 
+            1.7193589210510254
+        ]
+    }
+}

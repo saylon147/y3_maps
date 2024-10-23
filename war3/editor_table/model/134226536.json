@@ -1,0 +1,35 @@
+{
+    "mdx_path": "Mdx\\\u84b8\u6c7d\u6c7d\u8f66.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/SteamTank//SteamTankAttack1.wav", 
+        "sound/Units/Human/SteamTank//SteamTankDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Steamtank", 
+        "Textures/Yellow_Glow3", 
+        "Textures/Shockwave10", 
+        "Textures/Yellow_Glow", 
+        "Textures/Flame4", 
+        "Textures/Dust5A", 
+        "ReplaceableTextures/Weather/Clouds8x8", 
+        "Textures/Clouds8x8Black", 
+        "Textures/Dust3x", 
+        "Textures/LavaLump"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134226536, 
+    "name": "Mdx\\\u84b8\u6c7d\u6c7d\u8f66", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u84b8\u6c7d\u6c7d\u8f66.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6584727168083191, 
+            1.1312649250030518
+        ]
+    }
+}

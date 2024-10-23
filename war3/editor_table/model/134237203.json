@@ -1,0 +1,36 @@
+{
+    "mdx_path": "Mdx\\\u706b\u51e4\u51f0.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/Phoenix//PhoenixDeath1.wav", 
+        "sound/Units/Human/Phoenix//PhoenixBirth.wav", 
+        "sound/Units/Human/Phoenix//PhoenixToEgg.wav"
+    ], 
+    "mdx_textures": [
+        "units/Human/Phoenix/Phoenix2", 
+        "Textures/Yellow_Glow3", 
+        "units/Human/Phoenix/TeleportTarget", 
+        "units/Human/Phoenix/Egg1", 
+        "Textures/Red_Glow3", 
+        "units/Human/Phoenix/RibbonNE1_Red", 
+        "Textures/Yellow_Glow2", 
+        "Textures/Shockwave1", 
+        "Textures/Red_star2", 
+        "Textures/Flame4"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134237203, 
+    "name": "Mdx\\\u706b\u51e4\u51f0", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u706b\u51e4\u51f0.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.6989521980285645, 
+            3.244149923324585
+        ]
+    }
+}

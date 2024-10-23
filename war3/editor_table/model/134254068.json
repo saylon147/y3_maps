@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\\u96c7\u4f63\u5175\u8425\u5730.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "buildings/Other/Mercenary/Mercenary", 
+        "Textures/BackGround", 
+        "Textures/Yellow_Glow"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134254068, 
+    "name": "Mdx\\\u96c7\u4f63\u5175\u8425\u5730", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u96c7\u4f63\u5175\u8425\u5730.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.269893169403076, 
+            4.0234856605529785
+        ]
+    }
+}

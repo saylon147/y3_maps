@@ -1,0 +1,27 @@
+{
+    "bone_lock": {
+        "__tuple__": true, 
+        "items": [
+            false, 
+            ""
+        ]
+    }, 
+    "custom_res_type": "custom_editor_model", 
+    "describe": "test_describe", 
+    "has_upload": false, 
+    "key": 134275724, 
+    "lod_max_display_level": 3, 
+    "model_id": 134275724, 
+    "name": "skin", 
+    "preview_icon": "UP1ModelPreview/134275724", 
+    "res_name": "skin.fbx", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "fbx", 
+    "transparent_priority": 0, 
+    "uid": 134275724, 
+    "url": "https://kk3.nosdn.127.net/editor/png/18c775e3040ff75258d25ab141c418ae.png", 
+    "version": 1, 
+    "yaw": 0
+}

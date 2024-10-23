@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u5e7d\u7075.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/HeroKeeperOfTheGrove//HeroKeeperOfTheGroveDeath1.wav", 
+        "sound/Sound/Units/NightElf//NightElfDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Keeperofthegrove", 
+        "Textures/KeeperVines", 
+        "Textures/Clouds32_anim", 
+        "Textures/Flare"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134252706, 
+    "name": "Mdx\\\u5e7d\u7075", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5e7d\u7075.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.017874240875244, 
+            2.3135273456573486
+        ]
+    }
+}

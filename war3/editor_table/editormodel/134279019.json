@@ -1,0 +1,19 @@
+{
+    "custom_res_type": "custom_editor_model", 
+    "describe": "test_describe", 
+    "has_upload": false, 
+    "key": 134279019, 
+    "md5": "a8df1597cb1343258426e9a6bc3c4cc5", 
+    "model_id": 134279019, 
+    "name": "baimo_002", 
+    "preview_icon": "UP1ModelPreview/134279019", 
+    "res_name": "baimo_002.FBX", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "fbx", 
+    "uid": 134279019, 
+    "url": "https://kk3.nosdn.127.net/editor/png/c831a667801106c4e6b274e69e5c04f9.png", 
+    "version": 1, 
+    "yaw": 0
+}

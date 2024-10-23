@@ -1,0 +1,27 @@
+{
+    "bone_lock": {
+        "__tuple__": true, 
+        "items": [
+            false, 
+            ""
+        ]
+    }, 
+    "custom_res_type": "custom_editor_model", 
+    "describe": "test_describe", 
+    "has_upload": false, 
+    "key": 134249487, 
+    "lod_max_display_level": 3, 
+    "model_id": 134249487, 
+    "name": "baimo_002", 
+    "preview_icon": "UP1ModelPreview/134249487", 
+    "res_name": "baimo_002.FBX", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "fbx", 
+    "transparent_priority": 0, 
+    "uid": 134249487, 
+    "url": "https://kk3.nosdn.127.net/editor/png/c831a667801106c4e6b274e69e5c04f9.png", 
+    "version": 1, 
+    "yaw": 0
+}

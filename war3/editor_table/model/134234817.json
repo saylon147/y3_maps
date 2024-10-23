@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\sem_shi_ren_mo_zhi_wang.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_shi_ren_mo_zhi_wang_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_shi_ren_mo_zhi_wang_tt2", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_xie_shou_ren_da_jian_shi_tt2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134234817, 
+    "name": "Mdx\\sem_shi_ren_mo_zhi_wang", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_shi_ren_mo_zhi_wang.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.3316136598587036, 
+            1.4318456649780273
+        ]
+    }
+}

@@ -1,0 +1,17 @@
+{
+    "id": 134263215,
+    "md5_file_list": [
+        "\u53ec\u5524\u5e95\u5ea7\u4e4b\u672f.mdx"
+    ],
+    "modification_time": 3459348008.814046,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u53ec\u5524\u5e95\u5ea7\u4e4b\u672f.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/CityStructures": "CityStructures.tga",
+        "Textures/GenericGlow1": "GenericGlow1.tga",
+        "ReplaceableTextures/Weather/Clouds8x8": "Clouds8x8.tga"
+    }
+}

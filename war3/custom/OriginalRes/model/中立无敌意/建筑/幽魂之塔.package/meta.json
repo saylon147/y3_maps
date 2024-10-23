@@ -1,0 +1,18 @@
+{
+    "id": 134265474,
+    "md5_file_list": [
+        "\u5e7d\u9b42\u4e4b\u5854.mdx"
+    ],
+    "modification_time": 3459405901.131359,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5e7d\u9b42\u4e4b\u5854.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/NewZigguratscarycreepytex": "NewZigguratscarycreepytex.tga",
+        "Textures/BlueSqGlow": "BlueSqGlow.tga",
+        "Textures/Ghost2": "Ghost2.tga",
+        "Textures/ShockwaveWater1": "ShockwaveWater1.tga"
+    }
+}

@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\\u9ad8\u7b49\u7cbe\u7075\u519c\u573a8.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//BuildingDeathSmallHuman.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/ElvenFarm", 
+        "Textures/Dust5A", 
+        "Textures/RockParticle", 
+        "Textures/SpinningBoard", 
+        "Textures/Clouds8x8Fire", 
+        "Textures/CartoonCloud", 
+        "Textures/Dust3x"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134263867, 
+    "name": "Mdx\\\u9ad8\u7b49\u7cbe\u7075\u519c\u573a8", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9ad8\u7b49\u7cbe\u7075\u519c\u573a8.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.3460726737976074, 
+            5.204629898071289
+        ]
+    }
+}

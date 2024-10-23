@@ -1,0 +1,15 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\sem_bing_shuang_ju_long", 
+    "key": 134250891, 
+    "md5": "20b67f2325617b3247ea59bd9c2d513e", 
+    "model_id": 134250891, 
+    "name": "sem_bing_shuang_ju_long", 
+    "res_type": "kkres", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134250891", 
+    "version": 1
+}

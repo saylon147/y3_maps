@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u98ce\u66b4\u70c8\u9152.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/PandarenBrewmaster//BrewMasterDeath1.wav", 
+        "sound/Units/Creeps/PandarenBrewmaster//PandarenBrewmasterAttackEffort1.wav", 
+        "sound/Units/Creeps/PandarenBrewmaster//PandarenBrewmasterAttackEffort2.wav", 
+        "sound/Sound/Units/Human//HumanDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/PandarenBrewmaster/PandarenBrewMaster", 
+        "Textures/RibbonBlur1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134239159, 
+    "name": "Mdx\\\u98ce\u66b4\u70c8\u9152", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u98ce\u66b4\u70c8\u9152.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.8659796714782715, 
+            3.3229780197143555
+        ]
+    }
+}

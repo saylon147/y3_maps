@@ -1,0 +1,31 @@
+{
+    "anims": {}, 
+    "box": {
+        "__tuple__": true, 
+        "items": [
+            -48.53553771972656, 
+            -0.0, 
+            -48.53553771972656, 
+            48.53553771972656, 
+            2.0, 
+            48.53553771972656
+        ]
+    }, 
+    "custom": true, 
+    "graph": "Char/Graph/common.graph", 
+    "meshes": {
+        "__tuple__": true, 
+        "items": [
+            "custom_model/134249487/Plane012", 
+            "custom_model/134249487/Object001"
+        ]
+    }, 
+    "model_id": 134249487, 
+    "name": "baimo_002", 
+    "physics_meshes": [
+        "custom_model/134249487/AutoPhy_Mesh_Plane012", 
+        "custom_model/134249487/AutoPhy_Mesh_Object001"
+    ], 
+    "preview_icon": "UP1ModelPreview/134249487", 
+    "skeleton": ""
+}

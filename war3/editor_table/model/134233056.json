@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\sem_zeng_e_lv_se.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_zeng_e_lv_se_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_zeng_e_lv_se_tt2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134233056, 
+    "name": "Mdx\\sem_zeng_e_lv_se", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_zeng_e_lv_se.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.9987658858299255, 
+            1.7741268873214722
+        ]
+    }
+}

@@ -1,0 +1,33 @@
+{
+    "mdx_path": "Mdx\\\u7075\u9b42\u884c\u8005.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/HeroTaurenChieftain//HeroTaurenChieftainDeath.wav", 
+        "sound/Units/Orc/HeroTaurenChieftain//HeroTaurenChieftainAttack1.wav", 
+        "sound/Sound/Units/Orc//OrcDissipate1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Units/Orc/HeroTaurenChieftain//WarStompBirth1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Orc/SpiritWalker/TaurenSpiritWalker", 
+        "Textures/gutz", 
+        "Textures/RibbonBlur1", 
+        "Textures/Dust5"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134277259, 
+    "name": "Mdx\\\u7075\u9b42\u884c\u8005", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u7075\u9b42\u884c\u8005.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6806457042694092, 
+            1.453170657157898
+        ]
+    }
+}

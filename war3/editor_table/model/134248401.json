@@ -1,0 +1,38 @@
+{
+    "mdx_path": "Mdx\\\u57ce\u5821.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//BuildingDeathLargeHuman.wav"
+    ], 
+    "mdx_textures": [
+        "buildings/Human/TownHall/TownHallCastleKeep", 
+        "Textures/Shockwave1", 
+        "ReplaceableTextures/Splats/HumanTownHallUberSplat", 
+        "Textures/Doodads0", 
+        "ReplaceableTextures/Splats/HumanCastleUberSplat", 
+        "Textures/DeathSmug", 
+        "Textures/CloudSingle", 
+        "Textures/RockParticle", 
+        "Textures/SpinningBoard", 
+        "Textures/Dust5A", 
+        "Textures/CartoonCloud", 
+        "Textures/Clouds8x8", 
+        "Textures/Dust3x", 
+        "Textures/Clouds8x8Mod"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134248401, 
+    "name": "Mdx\\\u57ce\u5821", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u57ce\u5821.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.0173325538635254, 
+            4.967319965362549
+        ]
+    }
+}

@@ -1,0 +1,34 @@
+{
+    "mdx_path": "Mdx\\sem_bing_shuang_ju_long.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/FrostWyrm//FrostwyrmAttack1.wav", 
+        "sound/Units/Creeps/AzureDragon//DragonDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_dai_wen_rui_er_nan_jue_tt5", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_bing_shuang_ju_long_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_bing_shuang_ju_long_tt2", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_bing_shuang_ju_long_tt3", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_bing_shuang_ju_long_tt4", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_bing_shuang_ju_long_tt5", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_bing_shuang_ju_long_tt6", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_bing_shuang_ju_long_tt7", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_bing_shuang_ju_long_tt8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134250891, 
+    "name": "Mdx\\sem_bing_shuang_ju_long", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_bing_shuang_ju_long.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.7615513801574707, 
+            5.183530330657959
+        ]
+    }
+}

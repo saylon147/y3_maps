@@ -1,0 +1,17 @@
+{
+    "id": 134221457,
+    "md5_file_list": [
+        "\u80fd\u91cf\u5708.mdx"
+    ],
+    "modification_time": 3459346137.7936187,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u80fd\u91cf\u5708.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "buildings/Other/CircleOfPower/Rune2": "Rune2.tga",
+        "buildings/Other/CircleOfPower/CircleOfPower": "CircleOfPower.tga",
+        "Textures/AuraRune8": "AuraRune8.tga"
+    }
+}

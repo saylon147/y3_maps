@@ -1,0 +1,34 @@
+{
+    "mdx_path": "Mdx\\\u5947\u8ff9\u53e4\u6811.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//NightElfBuildingDeathLarge1.wav", 
+        "sound/Sound/Buildings/Death//AncientUprootDeath1.wav", 
+        "sound/Abilities/Spells/NightElf/EatTree//EatTreeTarget1.wav", 
+        "sound/Abilities/Spells/NightElf/Root//Root.wav", 
+        "sound/Abilities/Spells/NightElf/Uproot//Uproot.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/rootbase", 
+        "buildings/NightElf/AncientOfWonder/AncientOfWonders", 
+        "Textures/star2", 
+        "Textures/GenericGlow64"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134243807, 
+    "name": "Mdx\\\u5947\u8ff9\u53e4\u6811", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5947\u8ff9\u53e4\u6811.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2104558944702148, 
+            2.223125696182251
+        ]
+    }
+}
