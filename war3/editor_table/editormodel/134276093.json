@@ -1,0 +1,15 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\sem_a_suo_ge", 
+    "key": 134276093, 
+    "md5": "36a6183c55c1783293d3449da2396dca", 
+    "model_id": 134276093, 
+    "name": "sem_a_suo_ge", 
+    "res_type": "kkres", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134276093", 
+    "version": 1
+}

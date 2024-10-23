@@ -1,0 +1,32 @@
+{
+    "mdx_path": "Mdx\\\u50e7\u6076.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Units/Undead/Ghoul//Cannibalize.wav", 
+        "sound/Units/Undead/Abomination//AbominationDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Abomination", 
+        "Textures/gutz", 
+        "Textures/BloodSplash", 
+        "Textures/BloodSput", 
+        "Textures/OrcBloodTailParticle"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134272262, 
+    "name": "Mdx\\\u50e7\u6076", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u50e7\u6076.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2525218725204468, 
+            2.098526954650879
+        ]
+    }
+}

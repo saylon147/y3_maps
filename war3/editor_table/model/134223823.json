@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\\u6c34\u6676\u963f\u5361\u90a3\u745f\u5fb7.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/Archnathid//ArachnathidDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/ArchnathidGreen/ArachnathidGreen", 
+        "Textures/gutz", 
+        "ReplaceableTextures/Splats/BurrowSplat", 
+        "Textures/Green_Glow2", 
+        "Textures/Green_Star", 
+        "Textures/Dust5A", 
+        "Textures/Zap1b"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134223823, 
+    "name": "Mdx\\\u6c34\u6676\u963f\u5361\u90a3\u745f\u5fb7", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6c34\u6676\u963f\u5361\u90a3\u745f\u5fb7.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.7715398669242859, 
+            1.4573655128479004
+        ]
+    }
+}

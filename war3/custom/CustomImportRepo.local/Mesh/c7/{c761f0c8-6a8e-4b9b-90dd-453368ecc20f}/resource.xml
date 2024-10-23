@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<Version>8</Version>
+	<SRenderMeshData>
+		<Root>
+			<Sub/>
+			<Entity type="SRenderMeshData">
+				<VertexFormat count="4">
+					<Element index="0">P3F_N4B_T2F</Element>
+					<Element index="1">None</Element>
+					<Element index="2">None</Element>
+					<Element index="3">None</Element>
+				</VertexFormat>
+				<VertexCount>310</VertexCount>
+				<IndexCount>408</IndexCount>
+				<StreamingMask>0</StreamingMask>
+				<PrimTopology>Tri_List</PrimTopology>
+				<KeepData>false</KeepData>
+				<BoundingVolume rawdata="AAAAAAAAgD8AAAAAZCRCQgAAgD9jJEJCZCTCQg==">(0,1,0,48.5355377197265625,1.00000000000000311,48.53553390502929688,97.071075439453125)</BoundingVolume>
+				<BoundingBox rawdata="ZCRCwrImVqdjJELCZCRCQgAAAEBjJEJC">(-48.5355377197265625,-0.00000000000000297,-48.53553390502929688,48.5355377197265625,2.00000000000000311,48.53553390502929688)</BoundingBox>
+				<Streams count="4">
+					<Element index="0">
+						<StreamSize>7440</StreamSize>
+					</Element>
+					<Element index="1">
+						<StreamSize>0</StreamSize>
+					</Element>
+					<Element index="2">
+						<StreamSize>0</StreamSize>
+					</Element>
+					<Element index="3">
+						<StreamSize>0</StreamSize>
+					</Element>
+				</Streams>
+				<Indices>
+					<StreamSize>816</StreamSize>
+				</Indices>
+				<Groups count="1" ordered="true">
+					<Element index="0">
+						<StartIndex>0</StartIndex>
+						<IndicesCount>408</IndicesCount>
+						<StartVertex>0</StartVertex>
+						<VerticesCount>310</VerticesCount>
+						<BoundingVolume rawdata="AAAAAAAAgD8AAAAAZCRCQgAAgD9jJEJCZCTCQg==">(0,1,0,48.5355377197265625,1.00000000000000311,48.53553390502929688,97.071075439453125)</BoundingVolume>
+						<BoundingBox rawdata="ZCRCwrImVqdjJELCZCRCQgAAAEBjJEJC">(-48.5355377197265625,-0.00000000000000297,-48.53553390502929688,48.5355377197265625,2.00000000000000311,48.53553390502929688)</BoundingBox>
+					</Element>
+				</Groups>
+			</Entity>
+		</Root>
+	</SRenderMeshData>
+</Resource>

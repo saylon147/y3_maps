@@ -1,0 +1,35 @@
+{
+    "mdx_path": "Mdx\\\u88ab\u7f20\u7ed5\u7684\u91d1\u77ff.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/NightElf/EntangleMine//TreeOfLifeGoldMineBirth1.wav", 
+        "sound/Abilities/Spells/NightElf/EntangleMine//TreeOfLifeGoldMineDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "buildings/NightElf/EntangledGoldmine/LightRoots", 
+        "buildings/NightElf/EntangledGoldmine/Lightbush", 
+        "Textures/Goldmine", 
+        "Textures/Chest", 
+        "Textures/Base", 
+        "ReplaceableTextures/Splats/GoldmineUberSplat", 
+        "Textures/Star7b", 
+        "Textures/grad2d", 
+        "Textures/RibbonNE1_blue", 
+        "Textures/star4_32"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134230645, 
+    "name": "Mdx\\\u88ab\u7f20\u7ed5\u7684\u91d1\u77ff", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u88ab\u7f20\u7ed5\u7684\u91d1\u77ff.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.8308501243591309, 
+            3.10683012008667
+        ]
+    }
+}

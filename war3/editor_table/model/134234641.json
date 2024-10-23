@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u76d1\u72f1\u5c0f\u5352.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/Bandit//BanditDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Bandit", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134234641, 
+    "name": "Mdx\\\u76d1\u72f1\u5c0f\u5352", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u76d1\u72f1\u5c0f\u5352.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.39025330543518066, 
+            0.9883726239204407
+        ]
+    }
+}

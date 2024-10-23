@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u6708\u4e4b\u5973\u796d\u53f8.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/HeroMoonPriestess//HeroMoonPriestessDeath1.wav", 
+        "sound/Sound/Units/NightElf//NightElfDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "units/NightElf/HeroMoonPriestess/PriestessOfTheMoon"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134243015, 
+    "name": "Mdx\\\u6708\u4e4b\u5973\u796d\u53f8", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6708\u4e4b\u5973\u796d\u53f8.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.5254054069519043, 
+            1.514321208000183
+        ]
+    }
+}

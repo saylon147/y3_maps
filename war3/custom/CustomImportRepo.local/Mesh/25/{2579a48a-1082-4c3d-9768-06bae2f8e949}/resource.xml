@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<Version>8</Version>
+	<SRenderMeshData>
+		<Root>
+			<Sub/>
+			<Entity type="SRenderMeshData">
+				<VertexFormat count="4">
+					<Element index="0">P3F_N4B_T2F</Element>
+					<Element index="1">None</Element>
+					<Element index="2">W4B_I4B</Element>
+					<Element index="3">None</Element>
+				</VertexFormat>
+				<VertexCount>7159</VertexCount>
+				<IndexCount>33267</IndexCount>
+				<StreamingMask>0</StreamingMask>
+				<PrimTopology>Tri_List</PrimTopology>
+				<KeepData>false</KeepData>
+				<BoundingVolume rawdata="gR8VPu0pwT4AAAAAAW2rPmrExD5v0Do/b9C6Pw==">(0.14562799453735353,0.37727300733327862,0,0.3348159980773926,0.38431100755929948,0.72974296569824215,1.4594859313964843)</BoundingVolume>
+				<BoundingBox rawdata="gLpBvgaf5rtv0Dq/wfz1Piz3Qj9v0Do/">(-0.18918800354003906,-0.00703800022602082,-0.72974296569824215,0.48044399261474613,0.7615840148925781,0.72974296569824215)</BoundingBox>
+				<Streams count="4">
+					<Element index="0">
+						<StreamSize>171816</StreamSize>
+					</Element>
+					<Element index="1">
+						<StreamSize>0</StreamSize>
+					</Element>
+					<Element index="2">
+						<StreamSize>57272</StreamSize>
+					</Element>
+					<Element index="3">
+						<StreamSize>0</StreamSize>
+					</Element>
+				</Streams>
+				<Indices>
+					<StreamSize>66534</StreamSize>
+				</Indices>
+				<Groups count="1" ordered="true">
+					<Element index="0">
+						<StartIndex>0</StartIndex>
+						<IndicesCount>33267</IndicesCount>
+						<StartVertex>0</StartVertex>
+						<VerticesCount>7159</VerticesCount>
+						<BoundingVolume rawdata="gR8VPu0pwT4AAAAAAW2rPmrExD5v0Do/b9C6Pw==">(0.14562799453735353,0.37727300733327862,0,0.3348159980773926,0.38431100755929948,0.72974296569824215,1.4594859313964843)</BoundingVolume>
+						<BoundingBox rawdata="gLpBvgaf5rtv0Dq/wfz1Piz3Qj9v0Do/">(-0.18918800354003906,-0.00703800022602082,-0.72974296569824215,0.48044399261474613,0.7615840148925781,0.72974296569824215)</BoundingBox>
+					</Element>
+				</Groups>
+			</Entity>
+		</Root>
+	</SRenderMeshData>
+</Resource>

@@ -1,0 +1,41 @@
+{
+    "anims": {
+        "Ghoul_atk": "134275724/Ghoul_atk", 
+        "Ghoul_atk2": "134275724/Ghoul_atk2", 
+        "die": "134275724/die", 
+        "idle1": "134275724/idle1", 
+        "walk": "134275724/walk"
+    }, 
+    "box": {
+        "__tuple__": true, 
+        "items": [
+            -0.1833609938621521, 
+            0.003082999959588051, 
+            -0.730817973613739, 
+            0.4150170087814331, 
+            0.7560949921607971, 
+            0.730817973613739
+        ]
+    }, 
+    "custom": true, 
+    "graph": "Char/Graph/common.graph", 
+    "meshes": {
+        "__tuple__": true, 
+        "items": [
+            "custom_model/134275724/1_undead_ghoul_rig_ingame:main_geo", 
+            "custom_model/134275724/2_undead_ghoul_rig_ingame:main_geo", 
+            "custom_model/134275724/3_undead_ghoul_rig_ingame:hair_geo", 
+            "custom_model/134275724/5_undead_ghoul_rig_ingame:skeleton_geo"
+        ]
+    }, 
+    "model_id": 134275724, 
+    "name": "skin", 
+    "physics_meshes": [
+        "custom_model/134275724/AutoPhy_Mesh_1_undead_ghoul_rig_ingame:main_geo", 
+        "custom_model/134275724/AutoPhy_Mesh_2_undead_ghoul_rig_ingame:main_geo", 
+        "custom_model/134275724/AutoPhy_Mesh_3_undead_ghoul_rig_ingame:hair_geo", 
+        "custom_model/134275724/AutoPhy_Mesh_5_undead_ghoul_rig_ingame:skeleton_geo"
+    ], 
+    "preview_icon": "UP1ModelPreview/134275724", 
+    "skeleton": "134275724\\base.skeleton"
+}

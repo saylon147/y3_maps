@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\\u7cbe\u7075\u9f99.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/FaerieDragon//FaerieDragonDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/NightElf/FaerieDragon/FaerieDragon", 
+        "Textures/Yellow_Glow3", 
+        "Textures/lensflare1A", 
+        "Textures/CrystalBall", 
+        "Textures/star4_32", 
+        "Textures/Star8b", 
+        "Textures/Rune1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134268200, 
+    "name": "Mdx\\\u7cbe\u7075\u9f99", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u7cbe\u7075\u9f99.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6941129565238953, 
+            1.1437150239944458
+        ]
+    }
+}

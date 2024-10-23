@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\\u5c0f\u9152\u9986.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/BackGround", 
+        "buildings/Other/Tavern/Tavern"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134220985, 
+    "name": "Mdx\\\u5c0f\u9152\u9986", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5c0f\u9152\u9986.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.6367733478546143, 
+            1.969770073890686
+        ]
+    }
+}

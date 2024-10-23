@@ -1,0 +1,39 @@
+{
+    "mdx_path": "Mdx\\\u70bc\u91d1\u672f\u58eb.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/HEROGoblinALCHEMIST/AlchemistDeath.wav", 
+        "sound/Units/Creeps/HEROGoblinALCHEMIST/AlchemistDeathAlternate.wav", 
+        "sound/Units/Creeps/HEROGoblinALCHEMIST/AlchemistEffort1.wav", 
+        "sound/Units/Creeps/HEROGoblinALCHEMIST/AlchemistChemicalBurst1.wav", 
+        "sound/Units/Creeps/HEROGoblinALCHEMIST/AlchemistMorph1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/HeroGoblinAlchemistBLUE", 
+        "units/Creeps/HEROGoblinALCHEMIST/HeroGoblinAlchemistPurple", 
+        "Textures/GenericGlow64", 
+        "Textures/Yellow_Star", 
+        "Textures/GOLDCoin", 
+        "Textures/RibbonBlur1", 
+        "Textures/Clouds8x8Fade", 
+        "Textures/Dust3x", 
+        "Textures/WaterBlobs1", 
+        "Textures/star6", 
+        "Textures/Shockwave10"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134219806, 
+    "name": "Mdx\\\u70bc\u91d1\u672f\u58eb", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u70bc\u91d1\u672f\u58eb.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.4778388738632202, 
+            2.1746127605438232
+        ]
+    }
+}

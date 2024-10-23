@@ -1,0 +1,33 @@
+{
+    "mdx_path": "Mdx\\\u77ad\u671b\u5854.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//OrcBuildingDeathSmall1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Watchtower", 
+        "Textures/DeathSmug", 
+        "Textures/OrcBirth", 
+        "Textures/RockParticle", 
+        "Textures/CartoonCloud", 
+        "Textures/Dust5A", 
+        "ReplaceableTextures/Weather/Clouds8x8", 
+        "Textures/Dust3x", 
+        "Textures/CloudSingleBlend"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134241933, 
+    "name": "Mdx\\\u77ad\u671b\u5854", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u77ad\u671b\u5854.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.3102631568908691, 
+            3.253239870071411
+        ]
+    }
+}

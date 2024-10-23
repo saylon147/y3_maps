@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<Version>1</Version>
+	<SSkinSkeletonData>
+		<Root>
+			<Sub/>
+			<Entity type="SSkinSkeletonData">
+				<Bones count="1" ordered="true">
+					<Element index="0">
+						<Transform rawdata="AACAvzIxDaUyMQ0lMjENpQAAgD8yMQ0lMjENpTIxDSUAAIC/jG6YPZqbx75cOs4+">(-1,-0.00000000000000012,0.00000000000000012,-0.00000000000000012,1,0.00000000000000012,-0.00000000000000012,0.00000000000000012,-1,0.07442960143089304,-0.38985902070999151,0.40278899669647211)</Transform>
+						<Name>weapon_bind_jnt</Name>
+					</Element>
+				</Bones>
+			</Entity>
+		</Root>
+	</SSkinSkeletonData>
+</Resource>

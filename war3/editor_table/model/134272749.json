@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\\u9ea6\u8fea\u6587.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/DruidOfTheTalon//DruidOfTheTalonDeath1.wav", 
+        "sound/Units/NightElf/DruidOfTheTalon//DruidOfTheTalonDeathAlternate1.wav", 
+        "sound/Units/NightElf/DruidOfTheTalon//DruidOfTheTalonMorph1.wav", 
+        "sound/Units/NightElf/DruidOfTheTalon//DruidOfTheTalonMorphAlternate1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Creeps/Medivh/Medivh", 
+        "units/Creeps/Medivh/StormCrow", 
+        "units/Creeps/Medivh/GenericGlow2_mip1", 
+        "Textures/Clouds32_anim"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134272749, 
+    "name": "Mdx\\\u9ea6\u8fea\u6587", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9ea6\u8fea\u6587.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.4002317190170288, 
+            1.4608896970748901
+        ]
+    }
+}

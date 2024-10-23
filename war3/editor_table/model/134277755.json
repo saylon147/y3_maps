@@ -1,0 +1,33 @@
+{
+    "mdx_path": "Mdx\\sem_duo_luo_de_feng_zhi_gu_shu.mdx", 
+    "mdx_sounds": [
+        "sound/Buildings/NightElf/AncientOfTheMoon//AncientOfTheMoonAttack1.wav", 
+        "sound/Abilities/Spells/NightElf/Root//Root.wav", 
+        "sound/Abilities/Spells/NightElf/Uproot//Uproot.wav", 
+        "sound/Sound/Buildings/Death//NightElfBuildingDeathLarge1.wav", 
+        "sound/Sound/Buildings/Death//AncientUprootDeath1.wav", 
+        "sound/Abilities/Spells/NightElf/EatTree//EatTreeTarget1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/rootbase", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_ancientoftga_portrait_tt1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134277755, 
+    "name": "Mdx\\sem_duo_luo_de_feng_zhi_gu_shu", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_duo_luo_de_feng_zhi_gu_shu.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.0665183067321777, 
+            3.043511152267456
+        ]
+    }
+}

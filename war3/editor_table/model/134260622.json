@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u9ad8\u7b49\u7cbe\u7075\uff08\u5973\u6027\uff09.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/Sorceress//SorceressDeath.wav", 
+        "sound/Units/Critters/VillagerWoman//VillagerFemaleDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Critters/ElfVillagerWoman/ElfVillagerWoman", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134260622, 
+    "name": "Mdx\\\u9ad8\u7b49\u7cbe\u7075\uff08\u5973\u6027\uff09", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9ad8\u7b49\u7cbe\u7075\uff08\u5973\u6027\uff09.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.26860523223876953, 
+            1.0125540494918823
+        ]
+    }
+}

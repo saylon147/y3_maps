@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\sem_nan_hai_dao.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_nan_hai_dao_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_nan_hai_dao_tt2", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_nan_hai_dao_tt3"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134218938, 
+    "name": "Mdx\\sem_nan_hai_dao", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_nan_hai_dao.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.0459513664245605, 
+            2.245720863342285
+        ]
+    }
+}

@@ -1,0 +1,38 @@
+{
+    "mdx_path": "Mdx\\\u6076\u9b54\u730e\u624b.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/HeroDemonHunter//HeroDemonHunterAttack1.wav", 
+        "sound/Units/NightElf/HeroDemonHunter//HeroDemonHunterAttack2.wav", 
+        "sound/Units/NightElf/HeroDemonHunter//HeroDemonHunterDeath1.wav", 
+        "sound/Units/NightElf/HeroDemonHunter//DemonHunterMorph1.wav", 
+        "sound/Units/NightElf/HeroDemonHunter//DemonHunterDeathAlternate1.wav", 
+        "sound/Sound/Units/NightElf//NightElfDissipate1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/HeroDemonHunter", 
+        "Textures/Black32", 
+        "Textures/Shadow", 
+        "Textures/Dust5ABlack", 
+        "Textures/Zap1", 
+        "Textures/Clouds8x8Mod", 
+        "Textures/Clouds8x8FadeWhite"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134270385, 
+    "name": "Mdx\\\u6076\u9b54\u730e\u624b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6076\u9b54\u730e\u624b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.2534446716308594, 
+            2.454206943511963
+        ]
+    }
+}

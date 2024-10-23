@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u5361\u5c14.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/HeroBloodElf//BloodElfSorcerorDeath.wav", 
+        "sound/Sound/Units/Human//HumanDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Hero_BloodElf", 
+        "Textures/Star9", 
+        "Textures/star3", 
+        "Textures/Yellow_Star_Dim"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134223696, 
+    "name": "Mdx\\\u5361\u5c14", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5361\u5c14.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.5176901817321777, 
+            2.0533831119537354
+        ]
+    }
+}

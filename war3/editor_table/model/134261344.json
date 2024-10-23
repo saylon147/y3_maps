@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u5de8\u9b54\u730e\u5934\u8005.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/HeadHunter//HeadHunterDeath.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Headhunter", 
+        "Textures/gutz", 
+        "units/Orc/HeadHunter/OrcBloodTailParticle0", 
+        "units/Orc/HeadHunter/OrcBloodTailParticle3", 
+        "units/Orc/HeadHunter/OrcBloodTailParticle1", 
+        "units/Orc/HeadHunter/OrcBloodTailParticle2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134261344, 
+    "name": "Mdx\\\u5de8\u9b54\u730e\u5934\u8005", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5de8\u9b54\u730e\u5934\u8005.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5703340768814087, 
+            1.1008566617965698
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u5b89\u4e1c\u5c3c\u8fbe\u65af1.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/HeroArchMage//HeroArchMageDeath.wav", 
+        "sound/Sound/Units/Human//HumanDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Other/HeroArchMageGhost/HeroArchmage", 
+        "Textures/Clouds8x8", 
+        "Textures/Dust3x"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134268070, 
+    "name": "Mdx\\\u5b89\u4e1c\u5c3c\u8fbe\u65af1", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5b89\u4e1c\u5c3c\u8fbe\u65af1.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.6769800186157227, 
+            2.222013235092163
+        ]
+    }
+}

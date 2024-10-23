@@ -1,0 +1,21 @@
+{
+    "id": 134243572,
+    "md5_file_list": [
+        "\u91d1\u77ff.mdx"
+    ],
+    "modification_time": 3459366109.5075874,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u91d1\u77ff.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Goldmine": "Goldmine.tga",
+        "Textures/Chest": "Chest.tga",
+        "Textures/Base": "Base.tga",
+        "ReplaceableTextures/Splats/GoldmineUberSplat": "GoldmineUberSplat.tga",
+        "ReplaceableTextures/Weather/Clouds8x8": "Clouds8x8.tga",
+        "Textures/Dust3": "Dust3.tga",
+        "Textures/star5tga": "star5tga.tga"
+    }
+}

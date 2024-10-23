@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u7cbe\u7075\u4fe1\u4f7f.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/Watcher//WatcherDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Watcher", 
+        "Textures/gutz", 
+        "Textures/Yellow_Star_Dim"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134257882, 
+    "name": "Mdx\\\u7cbe\u7075\u4fe1\u4f7f", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u7cbe\u7075\u4fe1\u4f7f.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.38369685411453247, 
+            1.0732840299606323
+        ]
+    }
+}

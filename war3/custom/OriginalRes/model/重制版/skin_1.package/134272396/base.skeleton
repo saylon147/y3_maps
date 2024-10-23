@@ -1,0 +1,1174 @@
+<Root>
+	<matrixlayout>column major</matrixlayout>
+	<system />
+	<node>
+		<identifier>Scene Root</identifier>
+		<transform>
+			<row0>1.0 0.0 0.0</row0>
+			<row1>0.0 1.0 0.0</row1>
+			<row2>0.0 0.0 1.0</row2>
+			<row3>0.0 0.0 0.0</row3>
+		</transform>
+		<node>
+			<identifier>bone_turret</identifier>
+			<transform>
+				<row0>-1.0 -1.2246467991473532e-16 -1.2246468525851679e-16</row0>
+				<row1>-1.2246467991473535e-16 1.0 1.2246467991473532e-16</row1>
+				<row2>1.2246468525851676e-16 1.2246467991473535e-16 -1.0</row2>
+				<row3>0.0 0.47784900665283203 0.0</row3>
+			</transform>
+			<node>
+				<identifier>spine_02_bind_jnt</identifier>
+				<transform>
+					<row0>1.0 -0.0 -0.0</row0>
+					<row1>0.0 1.0 -0.0</row1>
+					<row2>0.0 0.0 1.0</row2>
+					<row3>0.0 0.06499999761581421 0.0</row3>
+				</transform>
+				<node>
+					<identifier>bone_chest</identifier>
+					<transform>
+						<row0>1.0 -0.0 -0.0</row0>
+						<row1>0.0 1.0 -0.0</row1>
+						<row2>0.0 0.0 1.0</row2>
+						<row3>0.0 0.06499999761581421 -3.944304437942983e-33</row3>
+					</transform>
+					<node>
+						<identifier>neck_bind_jnt</identifier>
+						<transform>
+							<row0>1.0 -0.0 -0.0</row0>
+							<row1>0.0 1.0 -0.0</row1>
+							<row2>0.0 0.0 1.0</row2>
+							<row3>0.0 0.15111202001571655 0.0</row3>
+						</transform>
+						<node>
+							<identifier>bone_head</identifier>
+							<transform>
+								<row0>1.0 -0.0 -0.0</row0>
+								<row1>0.0 1.0 -0.0</row1>
+								<row2>0.0 0.0 1.0</row2>
+								<row3>0.0 0.08108505606651306 0.0</row3>
+							</transform>
+							<node>
+								<identifier>hd_anim_bind_jnt</identifier>
+								<transform>
+									<row0>1.0 -0.0 -0.0</row0>
+									<row1>0.0 1.0 -0.0</row1>
+									<row2>0.0 0.0 1.0</row2>
+									<row3>0.0 0.0 0.0</row3>
+								</transform>
+								<node>
+									<identifier>jaw_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.01941480115056038 0.008468933403491974 0.0</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_inr_eyebrow_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.07983659952878952 0.04518493637442589 0.0053708795458078384</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_mid_eyebrow_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.07664249837398529 0.04732605069875717 0.01943339966237545</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_otr_eyebrow_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.06460199505090714 0.046744994819164276 0.03457200154662132</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_inr_eyebrow_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.07983659952878952 0.04518493637442589 -0.0053708795458078384</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_mid_eyebrow_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.07664249837398529 0.04732605069875717 -0.01943339966237545</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_otr_eyebrow_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.06460199505090714 0.046744994819164276 -0.03457200154662132</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_upr_eyelid_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.06784039735794067 0.041650086641311646 0.021309901028871536</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_lwr_eyelid_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.06784039735794067 0.041650086641311646 0.021309901028871536</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_upr_eyelid_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.06784039735794067 0.041650086641311646 -0.023321298882365227</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_lwr_eyelid_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.06784039735794067 0.041650086641311646 -0.023321298882365227</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_eye_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.06784039735794067 0.041650086641311646 0.021309901028871536</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_eye_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.06784039735794067 0.041650086641311646 -0.023321298882365227</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>nose_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.08137950301170349 0.019524993374943733 0.0</row3>
+									</transform>
+									<node>
+										<identifier>L_nostril_bind_jnt</identifier>
+										<transform>
+											<row0>1.0 -0.0 -0.0</row0>
+											<row1>0.0 1.0 -0.0</row1>
+											<row2>0.0 0.0 1.0</row2>
+											<row3>-0.005018691997975111 -0.0008779907366260886 0.013479900546371937</row3>
+										</transform>
+									</node>
+									<node>
+										<identifier>R_nostril_bind_jnt</identifier>
+										<transform>
+											<row0>1.0 -0.0 -0.0</row0>
+											<row1>0.0 1.0 -0.0</row1>
+											<row2>0.0 0.0 1.0</row2>
+											<row3>-0.005018691997975111 -0.0008779907366260886 -0.013479900546371937</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>L_cheek_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.05961409956216812 0.029876098036766052 0.03468270227313042</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_cheek_02_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.07212140411138535 0.012186889536678791 0.025514699518680573</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_cheek_03_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.057757701724767685 -0.010142974555492401 0.0283758994191885</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_cheek_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.05961409956216812 0.029876098036766052 -0.03468270227313042</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_cheek_02_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.07212140411138535 0.012186889536678791 -0.025514699518680573</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_cheek_03_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.057757701724767685 -0.010142974555492401 -0.0283758994191885</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_upr_lip_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.08197979629039764 -0.0030329895671457052 0.015385199338197708</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>M_upr_lip_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.08931739628314972 -0.004237975925207138 3.944304437942983e-33</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_upr_lip_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.08197979629039764 -0.0030329895671457052 -0.015385199338197708</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>upr_teeth_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.08379770070314407 -0.00826110877096653 0.0</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>tongue_01_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.03926429897546768 -0.021354064345359802 0.0</row3>
+									</transform>
+									<node>
+										<identifier>tongue_02_bind_jnt</identifier>
+										<transform>
+											<row0>1.0 -0.0 -0.0</row0>
+											<row1>0.0 1.0 -0.0</row1>
+											<row2>0.0 0.0 1.0</row2>
+											<row3>-0.02363400161266327 0.003524170024320483 0.0</row3>
+										</transform>
+									</node>
+								</node>
+								<node>
+									<identifier>lwr_teeth_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.0825016051530838 -0.015946045517921448 3.944304437942983e-33</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_lip_corner_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.0647096037864685 -0.013003997504711151 0.02561260014772415</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_lwr_lip_01_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.07484570145606995 -0.014302062802016735 0.01974400132894516</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_lwr_lip_02_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.0820218026638031 -0.013515930622816086 0.010372600518167019</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>M_lwr_lip_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.0859270989894867 -0.01376495324075222 3.944304437942983e-33</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_lwr_lip_02_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.0820218026638031 -0.013515930622816086 -0.010372600518167019</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_lwr_lip_01_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.07484570145606995 -0.014302062802016735 -0.01974400132894516</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_lip_corner_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.0647096037864685 -0.013003997504711151 -0.02561260014772415</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>L_beard_01_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.09371300041675568 0.0026419067289680243 0.024758100509643555</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>R_beard_01_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.09371300041675568 0.0026419067289680243 -0.024758100509643555</row3>
+									</transform>
+								</node>
+								<node>
+									<identifier>helmet_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.017942899838089943 0.06653884798288345 0.0</row3>
+									</transform>
+								</node>
+							</node>
+						</node>
+					</node>
+					<node>
+						<identifier>L_shoulder_bind_jnt</identifier>
+						<transform>
+							<row0>1.0 -0.0 -0.0</row0>
+							<row1>0.0 1.0 -0.0</row1>
+							<row2>0.0 0.0 1.0</row2>
+							<row3>0.024924200028181076 0.14332088828086853 0.03636850044131279</row3>
+						</transform>
+						<node>
+							<identifier>L_upr_arm_bind_jnt</identifier>
+							<transform>
+								<row0>1.0 -0.0 -0.0</row0>
+								<row1>0.0 1.0 -0.0</row1>
+								<row2>0.0 0.0 1.0</row2>
+								<row3>0.02331629954278469 -0.01166488602757454 0.10907350480556488</row3>
+							</transform>
+							<node>
+								<identifier>L_lwr_arm_bind_jnt</identifier>
+								<transform>
+									<row0>1.0 -0.0 -0.0</row0>
+									<row1>0.0 1.0 -0.0</row1>
+									<row2>0.0 0.0 1.0</row2>
+									<row3>0.027782803401350975 -0.16278792917728424 0.11919696629047394</row3>
+								</transform>
+								<node>
+									<identifier>L_lwr_arm_twist_01_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.01971699669957161 -0.05490104854106903 0.04020000621676445</row3>
+									</transform>
+									<node>
+										<identifier>L_lwr_arm_twist_02_bind_jnt</identifier>
+										<transform>
+											<row0>1.0 -0.0 -0.0</row0>
+											<row1>0.0 1.0 -0.0</row1>
+											<row2>0.0 0.0 1.0</row2>
+											<row3>-0.019716903567314148 -0.05490104854106903 0.040200043469667435</row3>
+										</transform>
+										<node>
+											<identifier>bone_hand_left</identifier>
+											<transform>
+												<row0>1.0 -0.0 -0.0</row0>
+												<row1>0.0 1.0 -0.0</row1>
+												<row2>0.0 0.0 1.0</row2>
+												<row3>0.0 7.629394360719743e-08 0.0</row3>
+											</transform>
+											<node>
+												<identifier>L_tmb_01_bind_jnt</identifier>
+												<transform>
+													<row0>1.0 -0.0 -0.0</row0>
+													<row1>0.0 1.0 -0.0</row1>
+													<row2>0.0 0.0 1.0</row2>
+													<row3>-0.04538728669285774 -0.0017490386962890625 0.0012010192731395364</row3>
+												</transform>
+												<node>
+													<identifier>L_tmb_02_bind_jnt</identifier>
+													<transform>
+														<row0>1.0 -0.0 -0.0</row0>
+														<row1>0.0 1.0 -0.0</row1>
+														<row2>0.0 0.0 1.0</row2>
+														<row3>-0.03484771400690079 -0.019707031548023224 -0.0067640687339007854</row3>
+													</transform>
+													<node>
+														<identifier>L_tmb_03_bind_jnt</identifier>
+														<transform>
+															<row0>1.0 -0.0 -0.0</row0>
+															<row1>0.0 1.0 -0.0</row1>
+															<row2>0.0 0.0 1.0</row2>
+															<row3>-0.020952396094799042 -0.025338973850011826 -0.0054649352096021175</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+											<node>
+												<identifier>L_ind_finger_01_bind_jnt</identifier>
+												<transform>
+													<row0>1.0 -0.0 -0.0</row0>
+													<row1>0.0 1.0 -0.0</row1>
+													<row2>0.0 0.0 1.0</row2>
+													<row3>-0.06150449812412262 -0.05430900678038597 0.04185592755675316</row3>
+												</transform>
+												<node>
+													<identifier>L_ind_finger_02_bind_jnt</identifier>
+													<transform>
+														<row0>1.0 -0.0 -0.0</row0>
+														<row1>0.0 1.0 -0.0</row1>
+														<row2>0.0 0.0 1.0</row2>
+														<row3>-0.010189304128289223 -0.03164306655526161 0.014740066602826118</row3>
+													</transform>
+													<node>
+														<identifier>L_ind_finger_03_bind_jnt</identifier>
+														<transform>
+															<row0>1.0 -0.0 -0.0</row0>
+															<row1>0.0 1.0 -0.0</row1>
+															<row2>0.0 0.0 1.0</row2>
+															<row3>-0.007860200479626656 -0.025900954380631447 0.005553970113396645</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+											<node>
+												<identifier>L_mid_finger_01_bind_jnt</identifier>
+												<transform>
+													<row0>1.0 -0.0 -0.0</row0>
+													<row1>0.0 1.0 -0.0</row1>
+													<row2>0.0 0.0 1.0</row2>
+													<row3>-0.0266847126185894 -0.06280799955129623 0.048657990992069244</row3>
+												</transform>
+												<node>
+													<identifier>L_mid_finger_02_bind_jnt</identifier>
+													<transform>
+														<row0>1.0 -0.0 -0.0</row0>
+														<row1>0.0 1.0 -0.0</row1>
+														<row2>0.0 0.0 1.0</row2>
+														<row3>-0.0066621266305446625 -0.03819206357002258 0.013468933291733265</row3>
+													</transform>
+													<node>
+														<identifier>L_mid_finger_03_bind_jnt</identifier>
+														<transform>
+															<row0>1.0 -0.0 -0.0</row0>
+															<row1>0.0 1.0 -0.0</row1>
+															<row2>0.0 0.0 1.0</row2>
+															<row3>-0.00436896039173007 -0.023718947544693947 0.00396804790943861</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+											<node>
+												<identifier>L_rng_finger_01_bind_jnt</identifier>
+												<transform>
+													<row0>1.0 -0.0 -0.0</row0>
+													<row1>0.0 1.0 -0.0</row1>
+													<row2>0.0 0.0 1.0</row2>
+													<row3>0.009040997363626957 -0.06968803703784943 0.04233497753739357</row3>
+												</transform>
+												<node>
+													<identifier>L_rng_finger_02_bind_jnt</identifier>
+													<transform>
+														<row0>1.0 -0.0 -0.0</row0>
+														<row1>0.0 1.0 -0.0</row1>
+														<row2>0.0 0.0 1.0</row2>
+														<row3>-0.0015912913950160146 -0.033245012164115906 0.00716400146484375</row3>
+													</transform>
+													<node>
+														<identifier>L_rng_finger_03_bind_jnt</identifier>
+														<transform>
+															<row0>1.0 -0.0 -0.0</row0>
+															<row1>0.0 1.0 -0.0</row1>
+															<row2>0.0 0.0 1.0</row2>
+															<row3>-0.0018192004645243287 -0.026397017762064934 0.0033850097097456455</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+											<node>
+												<identifier>L_pnk_finger_01_bind_jnt</identifier>
+												<transform>
+													<row0>1.0 -0.0 -0.0</row0>
+													<row1>0.0 1.0 -0.0</row1>
+													<row2>0.0 0.0 1.0</row2>
+													<row3>0.03085140511393547 -0.06855903565883636 0.019947968423366547</row3>
+												</transform>
+												<node>
+													<identifier>L_pnk_finger_02_bind_jnt</identifier>
+													<transform>
+														<row0>1.0 -0.0 -0.0</row0>
+														<row1>0.0 1.0 -0.0</row1>
+														<row2>0.0 0.0 1.0</row2>
+														<row3>0.0030945967882871628 -0.02597702108323574 0.0049099731259047985</row3>
+													</transform>
+													<node>
+														<identifier>L_pnk_finger_03_bind_jnt</identifier>
+														<transform>
+															<row0>1.0 -0.0 -0.0</row0>
+															<row1>0.0 1.0 -0.0</row1>
+															<row2>0.0 0.0 1.0</row2>
+															<row3>0.0016242980491369963 -0.02216598577797413 0.002189025981351733</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+						<node>
+							<identifier>L_pauldron_bind_jnt</identifier>
+							<transform>
+								<row0>1.0 -0.0 -0.0</row0>
+								<row1>0.0 1.0 -0.0</row1>
+								<row2>0.0 0.0 1.0</row2>
+								<row3>0.021230699494481087 0.06907516717910767 0.07800549268722534</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>R_shoulder_bind_jnt</identifier>
+						<transform>
+							<row0>1.0 -0.0 -0.0</row0>
+							<row1>0.0 1.0 -0.0</row1>
+							<row2>0.0 0.0 1.0</row2>
+							<row3>0.024924200028181076 0.14332088828086853 -0.03636850044131279</row3>
+						</transform>
+						<node>
+							<identifier>R_upr_arm_bind_jnt</identifier>
+							<transform>
+								<row0>1.0 -0.0 -0.0</row0>
+								<row1>0.0 1.0 -0.0</row1>
+								<row2>0.0 0.0 1.0</row2>
+								<row3>0.02331629954278469 -0.01166488602757454 -0.10907350480556488</row3>
+							</transform>
+							<node>
+								<identifier>R_lwr_arm_bind_jnt</identifier>
+								<transform>
+									<row0>1.0 -0.0 -0.0</row0>
+									<row1>0.0 1.0 -0.0</row1>
+									<row2>0.0 0.0 1.0</row2>
+									<row3>0.027782803401350975 -0.16278792917728424 -0.11919696629047394</row3>
+								</transform>
+								<node>
+									<identifier>R_lwr_arm_twist_01_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.01971699669957161 -0.05490104854106903 -0.04020000621676445</row3>
+									</transform>
+									<node>
+										<identifier>R_lwr_arm_twist_02_bind_jnt</identifier>
+										<transform>
+											<row0>1.0 -0.0 -0.0</row0>
+											<row1>0.0 1.0 -0.0</row1>
+											<row2>0.0 0.0 1.0</row2>
+											<row3>-0.019716903567314148 -0.05490104854106903 -0.040200043469667435</row3>
+										</transform>
+										<node>
+											<identifier>bone_hand_right</identifier>
+											<transform>
+												<row0>1.0 -0.0 -0.0</row0>
+												<row1>0.0 1.0 -0.0</row1>
+												<row2>0.0 0.0 1.0</row2>
+												<row3>0.0 7.629394360719743e-08 0.0</row3>
+											</transform>
+											<node>
+												<identifier>R_tmb_01_bind_jnt</identifier>
+												<transform>
+													<row0>1.0 -0.0 -0.0</row0>
+													<row1>0.0 1.0 -0.0</row1>
+													<row2>0.0 0.0 1.0</row2>
+													<row3>-0.04538728669285774 -0.0017490386962890625 -0.0012010192731395364</row3>
+												</transform>
+												<node>
+													<identifier>R_tmb_02_bind_jnt</identifier>
+													<transform>
+														<row0>1.0 -0.0 -0.0</row0>
+														<row1>0.0 1.0 -0.0</row1>
+														<row2>0.0 0.0 1.0</row2>
+														<row3>-0.03484771400690079 -0.019707031548023224 0.0067640687339007854</row3>
+													</transform>
+													<node>
+														<identifier>R_tmb_03_bind_jnt</identifier>
+														<transform>
+															<row0>1.0 -0.0 -0.0</row0>
+															<row1>0.0 1.0 -0.0</row1>
+															<row2>0.0 0.0 1.0</row2>
+															<row3>-0.020952396094799042 -0.025338973850011826 0.0054649352096021175</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+											<node>
+												<identifier>R_ind_finger_01_bind_jnt</identifier>
+												<transform>
+													<row0>1.0 -0.0 -0.0</row0>
+													<row1>0.0 1.0 -0.0</row1>
+													<row2>0.0 0.0 1.0</row2>
+													<row3>-0.06150449812412262 -0.05430900678038597 -0.04185592755675316</row3>
+												</transform>
+												<node>
+													<identifier>R_ind_finger_02_bind_jnt</identifier>
+													<transform>
+														<row0>1.0 -0.0 -0.0</row0>
+														<row1>0.0 1.0 -0.0</row1>
+														<row2>0.0 0.0 1.0</row2>
+														<row3>-0.010189304128289223 -0.03164306655526161 -0.014740066602826118</row3>
+													</transform>
+													<node>
+														<identifier>R_ind_finger_03_bind_jnt</identifier>
+														<transform>
+															<row0>1.0 -0.0 -0.0</row0>
+															<row1>0.0 1.0 -0.0</row1>
+															<row2>0.0 0.0 1.0</row2>
+															<row3>-0.007860200479626656 -0.025900954380631447 -0.005553970113396645</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+											<node>
+												<identifier>R_mid_finger_01_bind_jnt</identifier>
+												<transform>
+													<row0>1.0 -0.0 -0.0</row0>
+													<row1>0.0 1.0 -0.0</row1>
+													<row2>0.0 0.0 1.0</row2>
+													<row3>-0.0266847126185894 -0.06280799955129623 -0.048657990992069244</row3>
+												</transform>
+												<node>
+													<identifier>R_mid_finger_02_bind_jnt</identifier>
+													<transform>
+														<row0>1.0 -0.0 -0.0</row0>
+														<row1>0.0 1.0 -0.0</row1>
+														<row2>0.0 0.0 1.0</row2>
+														<row3>-0.0066621266305446625 -0.03819206357002258 -0.013468933291733265</row3>
+													</transform>
+													<node>
+														<identifier>R_mid_finger_03_bind_jnt</identifier>
+														<transform>
+															<row0>1.0 -0.0 -0.0</row0>
+															<row1>0.0 1.0 -0.0</row1>
+															<row2>0.0 0.0 1.0</row2>
+															<row3>-0.00436896039173007 -0.023718947544693947 -0.00396804790943861</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+											<node>
+												<identifier>R_rng_finger_01_bind_jnt</identifier>
+												<transform>
+													<row0>1.0 -0.0 -0.0</row0>
+													<row1>0.0 1.0 -0.0</row1>
+													<row2>0.0 0.0 1.0</row2>
+													<row3>0.009040997363626957 -0.06968803703784943 -0.04233497753739357</row3>
+												</transform>
+												<node>
+													<identifier>R_rng_finger_02_bind_jnt</identifier>
+													<transform>
+														<row0>1.0 -0.0 -0.0</row0>
+														<row1>0.0 1.0 -0.0</row1>
+														<row2>0.0 0.0 1.0</row2>
+														<row3>-0.0015912913950160146 -0.033245012164115906 -0.00716400146484375</row3>
+													</transform>
+													<node>
+														<identifier>R_rng_finger_03_bind_jnt</identifier>
+														<transform>
+															<row0>1.0 -0.0 -0.0</row0>
+															<row1>0.0 1.0 -0.0</row1>
+															<row2>0.0 0.0 1.0</row2>
+															<row3>-0.0018192004645243287 -0.026397017762064934 -0.0033850097097456455</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+											<node>
+												<identifier>R_pnk_finger_01_bind_jnt</identifier>
+												<transform>
+													<row0>1.0 -0.0 -0.0</row0>
+													<row1>0.0 1.0 -0.0</row1>
+													<row2>0.0 0.0 1.0</row2>
+													<row3>0.03085140511393547 -0.06855903565883636 -0.019947968423366547</row3>
+												</transform>
+												<node>
+													<identifier>R_pnk_finger_02_bind_jnt</identifier>
+													<transform>
+														<row0>1.0 -0.0 -0.0</row0>
+														<row1>0.0 1.0 -0.0</row1>
+														<row2>0.0 0.0 1.0</row2>
+														<row3>0.0030945967882871628 -0.02597702108323574 -0.0049099731259047985</row3>
+													</transform>
+													<node>
+														<identifier>R_pnk_finger_03_bind_jnt</identifier>
+														<transform>
+															<row0>1.0 -0.0 -0.0</row0>
+															<row1>0.0 1.0 -0.0</row1>
+															<row2>0.0 0.0 1.0</row2>
+															<row3>0.0016242980491369963 -0.02216598577797413 -0.002189025981351733</row3>
+														</transform>
+													</node>
+												</node>
+											</node>
+										</node>
+									</node>
+								</node>
+							</node>
+						</node>
+						<node>
+							<identifier>R_pauldron_bind_jnt</identifier>
+							<transform>
+								<row0>1.0 -0.0 -0.0</row0>
+								<row1>0.0 1.0 -0.0</row1>
+								<row2>0.0 0.0 1.0</row2>
+								<row3>0.021230699494481087 0.06907516717910767 -0.07800549268722534</row3>
+							</transform>
+						</node>
+					</node>
+					<node>
+						<identifier>L_beard_02_bind_jnt</identifier>
+						<transform>
+							<row0>1.0 -0.0 -0.0</row0>
+							<row1>0.0 1.0 -0.0</row1>
+							<row2>0.0 0.0 1.0</row2>
+							<row3>-0.13358300924301147 0.17727702856063843 0.09335729479789734</row3>
+						</transform>
+						<node>
+							<identifier>L_beard_03_bind_jnt</identifier>
+							<transform>
+								<row0>1.0 -0.0 -0.0</row0>
+								<row1>0.0 1.0 -0.0</row1>
+								<row2>0.0 0.0 1.0</row2>
+								<row3>-0.02928900718688965 -0.08625595271587372 0.04259870573878288</row3>
+							</transform>
+							<node>
+								<identifier>L_beard_04_bind_jnt</identifier>
+								<transform>
+									<row0>1.0 -0.0 -0.0</row0>
+									<row1>0.0 1.0 -0.0</row1>
+									<row2>0.0 0.0 1.0</row2>
+									<row3>-0.011620979756116867 -0.05248519778251648 0.006215000059455633</row3>
+								</transform>
+								<node>
+									<identifier>L_beard_05_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.009360999800264835 -0.08790496736764908 -0.0005470085307024419</row3>
+									</transform>
+									<node>
+										<identifier>L_beard_06_bind_jnt</identifier>
+										<transform>
+											<row0>1.0 -0.0 -0.0</row0>
+											<row1>0.0 1.0 -0.0</row1>
+											<row2>0.0 0.0 1.0</row2>
+											<row3>-0.0010380172170698643 -0.05718589946627617 -0.001053981832228601</row3>
+										</transform>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+					<node>
+						<identifier>M_beard_01_bind_jnt</identifier>
+						<transform>
+							<row0>1.0 -0.0 -0.0</row0>
+							<row1>0.0 1.0 -0.0</row1>
+							<row2>0.0 0.0 1.0</row2>
+							<row3>-0.12715700268745422 0.13283397257328033 3.944304437942983e-33</row3>
+						</transform>
+						<node>
+							<identifier>M_beard_02_bind_jnt</identifier>
+							<transform>
+								<row0>1.0 -0.0 -0.0</row0>
+								<row1>0.0 1.0 -0.0</row1>
+								<row2>0.0 0.0 1.0</row2>
+								<row3>-0.05085699260234833 -0.08561508357524872 0.0</row3>
+							</transform>
+							<node>
+								<identifier>M_beard_03_bind_jnt</identifier>
+								<transform>
+									<row0>1.0 -0.0 -0.0</row0>
+									<row1>0.0 1.0 -0.0</row1>
+									<row2>0.0 0.0 1.0</row2>
+									<row3>-0.02265903539955616 -0.10659896582365036 0.0</row3>
+								</transform>
+								<node>
+									<identifier>M_beard_04_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.00012897491978947073 -0.09348487854003906 0.0</row3>
+									</transform>
+									<node>
+										<identifier>M_beard_05_bind_jnt</identifier>
+										<transform>
+											<row0>1.0 -0.0 -0.0</row0>
+											<row1>0.0 1.0 -0.0</row1>
+											<row2>0.0 0.0 1.0</row2>
+											<row3>0.002285003662109375 -0.08741805702447891 0.0</row3>
+										</transform>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+					<node>
+						<identifier>R_beard_02_bind_jnt</identifier>
+						<transform>
+							<row0>1.0 -0.0 -0.0</row0>
+							<row1>0.0 1.0 -0.0</row1>
+							<row2>0.0 0.0 1.0</row2>
+							<row3>-0.13358300924301147 0.17727702856063843 -0.09335729479789734</row3>
+						</transform>
+						<node>
+							<identifier>R_beard_03_bind_jnt</identifier>
+							<transform>
+								<row0>1.0 -0.0 -0.0</row0>
+								<row1>0.0 1.0 -0.0</row1>
+								<row2>0.0 0.0 1.0</row2>
+								<row3>-0.02928900718688965 -0.08625595271587372 -0.04259870573878288</row3>
+							</transform>
+							<node>
+								<identifier>R_beard_04_bind_jnt</identifier>
+								<transform>
+									<row0>1.0 -0.0 -0.0</row0>
+									<row1>0.0 1.0 -0.0</row1>
+									<row2>0.0 0.0 1.0</row2>
+									<row3>-0.011620979756116867 -0.0524861142039299 -0.006215000059455633</row3>
+								</transform>
+								<node>
+									<identifier>R_beard_05_bind_jnt</identifier>
+									<transform>
+										<row0>1.0 -0.0 -0.0</row0>
+										<row1>0.0 1.0 -0.0</row1>
+										<row2>0.0 0.0 1.0</row2>
+										<row3>-0.009360999800264835 -0.08790397644042969 0.0005470085307024419</row3>
+									</transform>
+									<node>
+										<identifier>R_beard_06_bind_jnt</identifier>
+										<transform>
+											<row0>1.0 -0.0 -0.0</row0>
+											<row1>0.0 1.0 -0.0</row1>
+											<row2>0.0 0.0 1.0</row2>
+											<row3>-0.0010380172170698643 -0.057186052203178406 0.001053981832228601</row3>
+										</transform>
+									</node>
+								</node>
+							</node>
+						</node>
+					</node>
+					<node>
+						<identifier>shield_bind_jnt</identifier>
+						<transform>
+							<row0>1.0 -0.0 -0.0</row0>
+							<row1>0.0 1.0 -0.0</row1>
+							<row2>0.0 0.0 1.0</row2>
+							<row3>0.17177601158618927 0.04674800857901573 3.944304437942983e-33</row3>
+						</transform>
+					</node>
+				</node>
+			</node>
+		</node>
+		<node>
+			<identifier>pelvis_bind_jnt</identifier>
+			<transform>
+				<row0>-1.0 -1.2246467991473532e-16 -1.2246468525851679e-16</row0>
+				<row1>-1.2246467991473535e-16 1.0 1.2246467991473532e-16</row1>
+				<row2>1.2246468525851676e-16 1.2246467991473535e-16 -1.0</row2>
+				<row3>0.0 0.47784900665283203 0.0</row3>
+			</transform>
+			<node>
+				<identifier>L_leg_01_bind_jnt</identifier>
+				<transform>
+					<row0>1.0 -0.0 -0.0</row0>
+					<row1>0.0 1.0 -0.0</row1>
+					<row2>0.0 0.0 1.0</row2>
+					<row3>0.0 -0.11844901740550995 0.09198189526796341</row3>
+				</transform>
+				<node>
+					<identifier>L_leg_02_bind_jnt</identifier>
+					<transform>
+						<row0>1.0 -0.0 -0.0</row0>
+						<row1>0.0 1.0 -0.0</row1>
+						<row2>0.0 0.0 1.0</row2>
+						<row3>0.0 -0.1238119900226593 0.005842399783432484</row3>
+					</transform>
+					<node>
+						<identifier>bone_leg_left</identifier>
+						<transform>
+							<row0>1.0 -0.0 -0.0</row0>
+							<row1>0.0 1.0 -0.0</row1>
+							<row2>0.0 0.0 1.0</row2>
+							<row3>0.022061500698328018 -0.136586993932724 0.001388015691190958</row3>
+						</transform>
+						<node>
+							<identifier>L_leg_04_bind_jnt</identifier>
+							<transform>
+								<row0>1.0 -0.0 -0.0</row0>
+								<row1>0.0 1.0 -0.0</row1>
+								<row2>0.0 0.0 1.0</row2>
+								<row3>-0.09276740252971649 -0.06054120138287544 0.02179969847202301</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>R_leg_01_bind_jnt</identifier>
+				<transform>
+					<row0>1.0 -0.0 -0.0</row0>
+					<row1>0.0 1.0 -0.0</row1>
+					<row2>0.0 0.0 1.0</row2>
+					<row3>0.0 -0.11844901740550995 -0.09198189526796341</row3>
+				</transform>
+				<node>
+					<identifier>R_leg_02_bind_jnt</identifier>
+					<transform>
+						<row0>1.0 -0.0 -0.0</row0>
+						<row1>0.0 1.0 -0.0</row1>
+						<row2>0.0 0.0 1.0</row2>
+						<row3>0.0 -0.1238119900226593 -0.0058422088623046875</row3>
+					</transform>
+					<node>
+						<identifier>bone_leg_right</identifier>
+						<transform>
+							<row0>1.0 -0.0 -0.0</row0>
+							<row1>0.0 1.0 -0.0</row1>
+							<row2>0.0 0.0 1.0</row2>
+							<row3>0.022061500698328018 -0.13658709824085236 -0.0013882064959034324</row3>
+						</transform>
+						<node>
+							<identifier>R_leg_04_bind_jnt</identifier>
+							<transform>
+								<row0>1.0 -0.0 -0.0</row0>
+								<row1>0.0 1.0 -0.0</row1>
+								<row2>0.0 0.0 1.0</row2>
+								<row3>-0.09276750683784485 -0.06054110452532768 -0.02179969847202301</row3>
+							</transform>
+						</node>
+					</node>
+				</node>
+			</node>
+			<node>
+				<identifier>M_loincloth_01_bind_jnt</identifier>
+				<transform>
+					<row0>1.0 -0.0 -0.0</row0>
+					<row1>0.0 1.0 -0.0</row1>
+					<row2>0.0 0.0 1.0</row2>
+					<row3>-0.1261419951915741 -0.07993599027395248 0.0</row3>
+				</transform>
+				<node>
+					<identifier>M_loincloth_02_bind_jnt</identifier>
+					<transform>
+						<row0>1.0 -0.0 -0.0</row0>
+						<row1>0.0 1.0 -0.0</row1>
+						<row2>0.0 0.0 1.0</row2>
+						<row3>0.0 -0.08184006065130234 0.0</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>L_skirt_A_01_bind_jnt</identifier>
+				<transform>
+					<row0>1.0 -0.0 -0.0</row0>
+					<row1>0.0 1.0 -0.0</row1>
+					<row2>0.0 0.0 1.0</row2>
+					<row3>0.03463530167937279 -0.04997497424483299 0.1604669988155365</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>L_skirt_A_02_bind_jnt</identifier>
+				<transform>
+					<row0>1.0 -0.0 -0.0</row0>
+					<row1>0.0 1.0 -0.0</row1>
+					<row2>0.0 0.0 1.0</row2>
+					<row3>0.1209769994020462 -0.03509102016687393 0.11301299929618835</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>M_skirt_A_01_bind_jnt</identifier>
+				<transform>
+					<row0>1.0 -0.0 -0.0</row0>
+					<row1>0.0 1.0 -0.0</row1>
+					<row2>0.0 0.0 1.0</row2>
+					<row3>0.15895900130271912 -0.025312041863799095 0.0</row3>
+				</transform>
+				<node>
+					<identifier>M_skirt_A_02_bind_jnt</identifier>
+					<transform>
+						<row0>1.0 -0.0 -0.0</row0>
+						<row1>0.0 1.0 -0.0</row1>
+						<row2>0.0 0.0 1.0</row2>
+						<row3>0.02155201882123947 -0.11472496390342712 0.0</row3>
+					</transform>
+				</node>
+			</node>
+			<node>
+				<identifier>R_skirt_A_02_bind_jnt</identifier>
+				<transform>
+					<row0>1.0 -0.0 -0.0</row0>
+					<row1>0.0 1.0 -0.0</row1>
+					<row2>0.0 0.0 1.0</row2>
+					<row3>0.1209769994020462 -0.03509102016687393 -0.11301299929618835</row3>
+				</transform>
+			</node>
+			<node>
+				<identifier>R_skirt_A_01_bind_jnt</identifier>
+				<transform>
+					<row0>1.0 -0.0 -0.0</row0>
+					<row1>0.0 1.0 -0.0</row1>
+					<row2>0.0 0.0 1.0</row2>
+					<row3>0.03463530167937279 -0.04997497424483299 -0.1604669988155365</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>weapon_01_bind_jnt</identifier>
+			<transform>
+				<row0>-1.0 -1.2246467991473532e-16 -1.2246468525851679e-16</row0>
+				<row1>-1.2246467991473535e-16 1.0 1.2246467991473532e-16</row1>
+				<row2>1.2246468525851676e-16 1.2246467991473535e-16 -1.0</row2>
+				<row3>-0.012616800144314766 0.3699660003185272 -0.33990398049354553</row3>
+			</transform>
+			<node>
+				<identifier>weapon_01_stretch_bind_jnt</identifier>
+				<transform>
+					<row0>1.0 -0.0 -0.0</row0>
+					<row1>0.0 1.0 -0.0</row1>
+					<row2>0.0 0.0 1.0</row2>
+					<row3>-0.10101840645074844 0.024225998669862747 0.014230041764676571</row3>
+				</transform>
+			</node>
+		</node>
+		<node>
+			<identifier>weapon_02_bind_jnt</identifier>
+			<transform>
+				<row0>-1.0 -1.2246467991473532e-16 -1.2246468525851679e-16</row0>
+				<row1>-1.2246467991473535e-16 1.0 1.2246467991473532e-16</row1>
+				<row2>1.2246468525851676e-16 1.2246467991473535e-16 -1.0</row2>
+				<row3>-0.012616599909961224 0.3699670135974884 0.3399050235748291</row3>
+			</transform>
+			<node>
+				<identifier>weapon_02_stretch_bind_jnt</identifier>
+				<transform>
+					<row0>1.0 -0.0 -0.0</row0>
+					<row1>0.0 1.0 -0.0</row1>
+					<row2>0.0 0.0 1.0</row2>
+					<row3>-0.11630759388208389 0.02789199911057949 -0.016382981091737747</row3>
+				</transform>
+			</node>
+		</node>
+	</node>
+	<anim>
+		<name>idle1</name>
+		<res>/idle1.anim</res>
+		<durationMS>1000</durationMS>
+		<_ModifyTime>1729588786</_ModifyTime>
+		<motion>
+			<trans />
+		</motion>
+	</anim>
+	<anim>
+		<name>die</name>
+		<res>/die.anim</res>
+		<durationMS>1466</durationMS>
+		<_ModifyTime>1729588791</_ModifyTime>
+		<motion>
+			<trans />
+		</motion>
+	</anim>
+	<anim>
+		<name>walk</name>
+		<res>/walk.anim</res>
+		<durationMS>800</durationMS>
+		<_ModifyTime>1729588798</_ModifyTime>
+		<motion>
+			<trans />
+		</motion>
+	</anim>
+</Root>

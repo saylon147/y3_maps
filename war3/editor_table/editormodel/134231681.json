@@ -1,0 +1,15 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\sem_an_ying_di_yu_huo", 
+    "key": 134231681, 
+    "md5": "8502dd8c05484b0427a9abcd9acf1526", 
+    "model_id": 134231681, 
+    "name": "sem_an_ying_di_yu_huo", 
+    "res_type": "kkres", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134231681", 
+    "version": 1
+}

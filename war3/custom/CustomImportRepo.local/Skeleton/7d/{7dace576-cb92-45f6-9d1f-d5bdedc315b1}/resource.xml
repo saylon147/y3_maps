@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Resource>
+	<Version>1</Version>
+	<SSkinSkeletonData>
+		<Root>
+			<Sub/>
+			<Entity type="SSkinSkeletonData">
+				<Bones count="2" ordered="true">
+					<Element index="0">
+						<Transform rawdata="AACAvzIxDaUyMQ0lMjENpQAAgD8yMQ0lMjENpTIxDSUAAIC/7Aw9vZT7Ub/qPOq9">(-1,-0.00000000000000012,0.00000000000000012,-0.00000000000000012,1,0.00000000000000012,-0.00000000000000012,0.00000000000000012,-1,-0.04615490138530723,-0.82024502754211426,-0.11437399685382853)</Transform>
+						<Name>L_pauldron_bind_jnt</Name>
+					</Element>
+					<Element index="1">
+						<Transform rawdata="AACAvzIxDaUyMQ0lMjENpQAAgD8yMQ0lMjENpTIxDSUAAIC/7Aw9vZT7Ub/qPOo9">(-1,-0.00000000000000012,0.00000000000000012,-0.00000000000000012,1,0.00000000000000012,-0.00000000000000012,0.00000000000000012,-1,-0.0461549013853072,-0.82024502754211426,0.11437399685382833)</Transform>
+						<Name>R_pauldron_bind_jnt</Name>
+					</Element>
+				</Bones>
+			</Entity>
+		</Root>
+	</SSkinSkeletonData>
+</Resource>

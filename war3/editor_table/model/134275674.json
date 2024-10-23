@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u585e\u6069\u5fb7\u91cc\u65af.mdx", 
+    "mdx_sounds": [
+        "sound/Units/NightElf/Archer//ArcherDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/NightElf/Shandris/Shandris", 
+        "Textures/HeroRanger", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134275674, 
+    "name": "Mdx\\\u585e\u6069\u5fb7\u91cc\u65af", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u585e\u6069\u5fb7\u91cc\u65af.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.8556743860244751, 
+            1.0946238040924072
+        ]
+    }
+}

@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u6697\u5f71\u730e\u624b.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/HeroShadowHunter//HeroShadowHunterDeath.wav", 
+        "sound/Sound/Units/Orc//OrcDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/HeroShadowHunter"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134225615, 
+    "name": "Mdx\\\u6697\u5f71\u730e\u624b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6697\u5f71\u730e\u624b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.9435057640075684, 
+            3.380722761154175
+        ]
+    }
+}

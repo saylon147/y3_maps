@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\\u7a46\u62c9\u4e01.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/HeroMountainKing//HeroMountainKingDeath.wav", 
+        "sound/Units/Human/HeroMountainKing//HeroMountainKingAttack1.wav", 
+        "sound/Sound/Units/Human//HumanDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "ReplaceableTextures/HeroMountainKing/heromountainking", 
+        "ReplaceableTextures/HeroMountainKing/heromountainkingAvatar", 
+        "Textures/star2_32", 
+        "Textures/GenericGlowFaded", 
+        "Textures/CloudSingle"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134246860, 
+    "name": "Mdx\\\u7a46\u62c9\u4e01", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u7a46\u62c9\u4e01.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.1942622661590576, 
+            1.1654540300369263
+        ]
+    }
+}

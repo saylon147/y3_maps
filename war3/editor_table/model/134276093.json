@@ -1,0 +1,32 @@
+{
+    "mdx_path": "Mdx\\sem_a_suo_ge.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Units/Undead/Ghoul//Cannibalize.wav", 
+        "sound/Units/Undead/Abomination//AbominationDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/gutz", 
+        "Textures/BloodSplash", 
+        "Textures/BloodSput", 
+        "Textures/OrcBloodTailParticle", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_azog_portrait_tt1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134276093, 
+    "name": "Mdx\\sem_a_suo_ge", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_a_suo_ge.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.0925240516662598, 
+            1.7009605169296265
+        ]
+    }
+}

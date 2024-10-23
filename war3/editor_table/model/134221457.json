@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\\u80fd\u91cf\u5708.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "buildings/Other/CircleOfPower/Rune2", 
+        "buildings/Other/CircleOfPower/CircleOfPower", 
+        "Textures/AuraRune8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134221457, 
+    "name": "Mdx\\\u80fd\u91cf\u5708", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u80fd\u91cf\u5708.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.7644928693771362, 
+            0.15507400035858154
+        ]
+    }
+}

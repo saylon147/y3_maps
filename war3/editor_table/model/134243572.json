@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\\u91d1\u77ff.mdx", 
+    "mdx_sounds": [
+        "sound/Buildings/Other/GoldMine//GoldMineDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Goldmine", 
+        "Textures/Chest", 
+        "Textures/Base", 
+        "ReplaceableTextures/Splats/GoldmineUberSplat", 
+        "Textures/Dust3", 
+        "ReplaceableTextures/Weather/Clouds8x8", 
+        "Textures/star5tga"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134243572, 
+    "name": "Mdx\\\u91d1\u77ff", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u91d1\u77ff.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.5410337448120117, 
+            2.658630132675171
+        ]
+    }
+}

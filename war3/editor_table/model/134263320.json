@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\sem_na_jia_hai_yao.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_na_jia_hai_yao_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_na_jia_hai_yao_tt2", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_na_jia_hai_yao_tt3"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134263320, 
+    "name": "Mdx\\sem_na_jia_hai_yao", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_na_jia_hai_yao.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.38730889558792114, 
+            1.3256338834762573
+        ]
+    }
+}

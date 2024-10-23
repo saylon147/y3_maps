@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u9f99\u9e70\u9a91\u58eb.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/WindSerpent//DragonHawkDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Human/BloodElfDragonHawk/BloodElfDragonhawk", 
+        "units/Human/BloodElfDragonHawk/Dragonhawk", 
+        "Textures/Blue_Glow2", 
+        "Textures/Blue_Star2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134246813, 
+    "name": "Mdx\\\u9f99\u9e70\u9a91\u58eb", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9f99\u9e70\u9a91\u58eb.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.9379850625991821, 
+            1.8328180313110352
+        ]
+    }
+}

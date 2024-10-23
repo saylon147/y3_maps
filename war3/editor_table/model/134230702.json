@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\sem_nuo_sen_de_huo_ju_ren.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_nuo_sen_de_huo_ju_ren_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_nuo_sen_de_huo_ju_ren_tt2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134230702, 
+    "name": "Mdx\\sem_nuo_sen_de_huo_ju_ren", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_nuo_sen_de_huo_ju_ren.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            6.1465163230896, 
+            12.36410903930664
+        ]
+    }
+}

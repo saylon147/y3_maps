@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u5c97\u54e8\u5b88\u536b.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/SentryWard//SentryWard.wav", 
+        "sound/Units/Orc/SentryWard//SentryWardDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Orc/SentryWard/Eye3", 
+        "Textures/Wards1", 
+        "units/Orc/SentryWard/Smoke1_anim128", 
+        "Textures/Dust5A"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134281600, 
+    "name": "Mdx\\\u5c97\u54e8\u5b88\u536b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5c97\u54e8\u5b88\u536b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.2221328467130661, 
+            1.2022358179092407
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\\u9ad8\u7b49\u7cbe\u7075\uff08\u5973\u6027\uff09", 
+    "key": 134260622, 
+    "md5": "e17b5267af09dd3e2e84ffd7b3241c10", 
+    "model_id": 134260622, 
+    "name": "\u9ad8\u7b49\u7cbe\u7075\uff08\u5973\u6027\uff09", 
+    "res_type": "kkres", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134260622", 
+    "version": 1
+}

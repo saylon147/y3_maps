@@ -1,0 +1,54 @@
+{
+    "mdx_path": "Mdx\\\u795e\u79d8\u77ad\u671b\u5854.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//BuildingDeathLargeHuman.wav"
+    ], 
+    "mdx_textures": [
+        "buildings/Other/ArcaneObservatory/ArcaneObservatory", 
+        "Textures/Shockwave1", 
+        "Textures/Doodads0", 
+        "ReplaceableTextures/Splats/HumanCastleUberSplat", 
+        "buildings/Other/ArcaneObservatory/DalaranBuildings", 
+        "Textures/DeathSmug", 
+        "Textures/Blue_Glow2", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted00", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted01", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted02", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted03", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted04", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted05", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted06", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted07", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted08", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted09", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted10", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted11", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted12", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted13", 
+        "buildings/Other/ArcaneObservatory/ArcaneObservatoryBusted14", 
+        "Textures/CloudSingle", 
+        "Textures/RockParticle", 
+        "Textures/SpinningBoard", 
+        "Textures/Dust5A", 
+        "Textures/CartoonCloud", 
+        "Textures/Clouds8x8", 
+        "Textures/Dust3x", 
+        "Textures/Clouds8x8Mod"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134228475, 
+    "name": "Mdx\\\u795e\u79d8\u77ad\u671b\u5854", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u795e\u79d8\u77ad\u671b\u5854.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.362776756286621, 
+            9.2855806350708
+        ]
+    }
+}

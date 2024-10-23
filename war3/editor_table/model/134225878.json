@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u8840\u6d74\u4e4b\u6cc9.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "buildings/Other/FountainOfLifeBlood/FountainOfLifeBlood", 
+        "Textures/FountainOfLife", 
+        "buildings/Other/FountainOfLifeBlood/FlareBlood", 
+        "Textures/BackGround", 
+        "Textures/CloudSingle"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134225878, 
+    "name": "Mdx\\\u8840\u6d74\u4e4b\u6cc9", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u8840\u6d74\u4e4b\u6cc9.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.138946056365967, 
+            2.809904098510742
+        ]
+    }
+}

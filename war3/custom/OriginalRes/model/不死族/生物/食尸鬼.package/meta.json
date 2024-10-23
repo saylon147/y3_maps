@@ -1,0 +1,17 @@
+{
+    "id": 134249378,
+    "md5_file_list": [
+        "\u98df\u5c38\u9b3c.mdx"
+    ],
+    "modification_time": 3459619733.8920307,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u98df\u5c38\u9b3c.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Undead/Ghoul/Ghoul": "Ghoul.tga",
+        "Textures/gutz": "gutz.tga",
+        "Textures/Peasant": "Peasant.tga"
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\\u53ec\u5524\u5e95\u5ea7\u4e4b\u672f.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/CityStructures", 
+        "Textures/GenericGlow1", 
+        "ReplaceableTextures/Weather/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134263215, 
+    "name": "Mdx\\\u53ec\u5524\u5e95\u5ea7\u4e4b\u672f", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u53ec\u5524\u5e95\u5ea7\u4e4b\u672f.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6633343696594238, 
+            2.024019956588745
+        ]
+    }
+}

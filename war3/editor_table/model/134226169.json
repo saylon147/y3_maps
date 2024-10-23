@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u5927\u5893\u5730.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//UndeadBuildingDeathLarge1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/CreepyNecropolis", 
+        "Textures/GraveYardGhost", 
+        "Textures/CloudSingle", 
+        "Textures/star2_32"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134226169, 
+    "name": "Mdx\\\u5927\u5893\u5730", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5927\u5893\u5730.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.2418856620788574, 
+            3.8058440685272217
+        ]
+    }
+}

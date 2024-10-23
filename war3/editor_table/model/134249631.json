@@ -1,0 +1,34 @@
+{
+    "mdx_path": "Mdx\\\u683c\u7f57\u59c6\u5730\u72f1\u5486\u54ee2.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/HeroBladeMaster//CriticalStrike.wav", 
+        "sound/Units/Orc/HeroBladeMaster//HeroBladeMasterDeath.wav", 
+        "sound/Units/Orc/HeroBladeMaster//HeroBladeMasterAttack1.wav", 
+        "sound/Units/Orc/HeroBladeMaster//HeroBladeMasterAttack2.wav", 
+        "sound/Units/Orc/HeroBladeMaster//BladeMasterWhirlwind.wav", 
+        "sound/Sound/Units/Orc//OrcDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/HellscreamChaos", 
+        "Textures/Tornado2b", 
+        "Textures/Tornado1", 
+        "Textures/RibbonBlur1", 
+        "Textures/Flame4"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134249631, 
+    "name": "Mdx\\\u683c\u7f57\u59c6\u5730\u72f1\u5486\u54ee2", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u683c\u7f57\u59c6\u5730\u72f1\u5486\u54ee2.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.6459472179412842, 
+            2.272439956665039
+        ]
+    }
+}

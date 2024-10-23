@@ -1,0 +1,32 @@
+{
+    "mdx_path": "Mdx\\sem_bo_ke_tuo_shou.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/KotoBeast//KodoDrum1.wav", 
+        "sound/Units/Orc/KotoBeast//KodoDrum2.wav", 
+        "sound/Units/Orc/KotoBeast//Devour.wav", 
+        "sound/Units/Orc/KotoBeast//KodoBeastDeath.wav", 
+        "sound/Units/Orc/KotoBeast//KodoBeastPuke1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/gutz", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_bo_ke_tuo_shou_tt1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134271388, 
+    "name": "Mdx\\sem_bo_ke_tuo_shou", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_bo_ke_tuo_shou.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.5268803834915161, 
+            1.997628927230835
+        ]
+    }
+}

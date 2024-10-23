@@ -1,0 +1,23 @@
+{
+    "mdx_path": "Mdx\\sem_shi_ren_mo_tu_fu.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_shi_ren_mo_tu_fu_tt1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134280427, 
+    "name": "Mdx\\sem_shi_ren_mo_tu_fu", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_shi_ren_mo_tu_fu.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.0082993507385254, 
+            2.174743413925171
+        ]
+    }
+}

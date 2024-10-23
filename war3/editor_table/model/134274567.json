@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\sem_man_chui_zhan_shi.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_man_chui_zhan_shi_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_man_chui_zhan_shi_tt2", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_man_chui_zhan_shi_tt3", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_man_chui_zhan_shi_tt4", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_man_chui_zhan_shi_tt5"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134274567, 
+    "name": "Mdx\\sem_man_chui_zhan_shi", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_man_chui_zhan_shi.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5421663522720337, 
+            1.5609838962554932
+        ]
+    }
+}

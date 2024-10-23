@@ -1,0 +1,48 @@
+{
+    "anims": {
+        "B_atk": "134279217/B_atk", 
+        "die": "134279217/die", 
+        "idle1": "134279217/idle1", 
+        "walk": "134279217/walk"
+    }, 
+    "box": {
+        "__tuple__": true, 
+        "items": [
+            -0.14257100224494934, 
+            0.0021540001034736633, 
+            -0.49191799759864807, 
+            0.12317000329494476, 
+            0.9158089756965637, 
+            0.49191799759864807
+        ]
+    }, 
+    "custom": true, 
+    "graph": "Char/Graph/common.graph", 
+    "meshes": {
+        "__tuple__": true, 
+        "items": [
+            "custom_model/134279217/1_human_rifleman_rig_ingame:main_geo", 
+            "custom_model/134279217/2_human_rifleman_rig_ingame:main_geo", 
+            "custom_model/134279217/3_human_rifleman_rig_ingame:hair_geo", 
+            "custom_model/134279217/4_human_rifleman_rig_ingame:hood_geo", 
+            "custom_model/134279217/5_human_rifleman_rig_ingame:hood_geo", 
+            "custom_model/134279217/6_human_rifleman_rig_ingame:weapon_geo", 
+            "custom_model/134279217/7_human_rifleman_rig_ingame:organs_geo", 
+            "custom_model/134279217/8_human_rifleman_rig_ingame:skeleton_geo"
+        ]
+    }, 
+    "model_id": 134279217, 
+    "name": "\u706b\u67aa\u624b", 
+    "physics_meshes": [
+        "custom_model/134279217/AutoPhy_Mesh_1_human_rifleman_rig_ingame:main_geo", 
+        "custom_model/134279217/AutoPhy_Mesh_2_human_rifleman_rig_ingame:main_geo", 
+        "custom_model/134279217/AutoPhy_Mesh_3_human_rifleman_rig_ingame:hair_geo", 
+        "custom_model/134279217/AutoPhy_Mesh_4_human_rifleman_rig_ingame:hood_geo", 
+        "custom_model/134279217/AutoPhy_Mesh_5_human_rifleman_rig_ingame:hood_geo", 
+        "custom_model/134279217/AutoPhy_Mesh_6_human_rifleman_rig_ingame:weapon_geo", 
+        "custom_model/134279217/AutoPhy_Mesh_7_human_rifleman_rig_ingame:organs_geo", 
+        "custom_model/134279217/AutoPhy_Mesh_8_human_rifleman_rig_ingame:skeleton_geo"
+    ], 
+    "preview_icon": "UP1ModelPreview/134279217", 
+    "skeleton": "134279217\\base.skeleton"
+}

@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\\u9b54\u6cd5\u7834\u574f\u8005.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/BloodElfSpellThief//BloodElfSpellThiefDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/BloodElf-SpellThief", 
+        "Textures/star5tga", 
+        "Textures/GenericGlow64", 
+        "Textures/Red_Glow3", 
+        "Textures/Knife_spinningBlade", 
+        "Textures/gutz", 
+        "Textures/Zap1_Red"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134235002, 
+    "name": "Mdx\\\u9b54\u6cd5\u7834\u574f\u8005", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9b54\u6cd5\u7834\u574f\u8005.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5128217339515686, 
+            1.6997352838516235
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\sem_wen_yi_zeng_e.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_wen_yi_zeng_e_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_sem_wen_yi_zeng_e_tt2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134275661, 
+    "name": "Mdx\\sem_wen_yi_zeng_e", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_wen_yi_zeng_e.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.9987658858299255, 
+            1.7741268873214722
+        ]
+    }
+}

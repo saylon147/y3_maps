@@ -1,0 +1,18 @@
+{
+    "id": 134270863,
+    "md5_file_list": [
+        "\u5f02\u6b21\u5143\u5927\u95e8\u671d\u4e1c\u5357.mdx"
+    ],
+    "modification_time": 3459376927.1899853,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5f02\u6b21\u5143\u5927\u95e8\u671d\u4e1c\u5357.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/PortalEnergy": "PortalEnergy.tga",
+        "Textures/DarkPortal03": "DarkPortal03.tga",
+        "Textures/BloodWhiteSmall": "BloodWhiteSmall.tga",
+        "Textures/Dust5A": "Dust5A.tga"
+    }
+}

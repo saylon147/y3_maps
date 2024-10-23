@@ -1,0 +1,16 @@
+{
+    "id": 134220985,
+    "md5_file_list": [
+        "\u5c0f\u9152\u9986.mdx"
+    ],
+    "modification_time": 3459364034.8333025,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5c0f\u9152\u9986.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/BackGround": "BackGround.tga",
+        "buildings/Other/Tavern/Tavern": "Tavern.tga"
+    }
+}

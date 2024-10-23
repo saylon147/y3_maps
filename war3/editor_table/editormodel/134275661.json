@@ -1,0 +1,15 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\sem_wen_yi_zeng_e", 
+    "key": 134275661, 
+    "md5": "83b226b5dfe7561d0e68c8afb5c03302", 
+    "model_id": 134275661, 
+    "name": "sem_wen_yi_zeng_e", 
+    "res_type": "kkres", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134275661", 
+    "version": 1
+}

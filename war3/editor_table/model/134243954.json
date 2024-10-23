@@ -1,0 +1,35 @@
+{
+    "mdx_path": "Mdx\\\u8fbe\u62c9\u7136\u5b88\u536b\u5854.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//BuildingDeathSmallHuman.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/DeathSmug", 
+        "buildings/Other/DalaranGuardTower/DalaranGuardTower", 
+        "Textures/Blue_Glow2", 
+        "Textures/GenericGlow2b", 
+        "Textures/CloudSingle", 
+        "ReplaceableTextures/Weather/Clouds8x8", 
+        "Textures/CartoonCloud", 
+        "Textures/Dust3x", 
+        "Textures/Dust5A", 
+        "Textures/RockParticle", 
+        "Textures/SpinningBoard"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134243954, 
+    "name": "Mdx\\\u8fbe\u62c9\u7136\u5b88\u536b\u5854", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u8fbe\u62c9\u7136\u5b88\u536b\u5854.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.7200044393539429, 
+            4.124526023864746
+        ]
+    }
+}

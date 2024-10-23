@@ -1,0 +1,15 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\sem_shi_ren_mo_2", 
+    "key": 134258961, 
+    "md5": "5453e0a6df51967c936c1fb9d1cac0c5", 
+    "model_id": 134258961, 
+    "name": "sem_shi_ren_mo_2", 
+    "res_type": "kkres", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134258961", 
+    "version": 1
+}

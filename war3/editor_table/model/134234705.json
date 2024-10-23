@@ -1,0 +1,36 @@
+{
+    "mdx_path": "Mdx\\\u6c34\u5143\u7d202.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Human/WaterElemental//WaterElementalDeath.wav", 
+        "sound/Units/Human/WaterElemental//SummonWaterElementalCaster.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Lords0000", 
+        "Textures/Lords0001", 
+        "Textures/Lords0002", 
+        "Textures/Lords0003", 
+        "Textures/Lords0004", 
+        "Textures/Lords0005", 
+        "Textures/Lords0006", 
+        "Textures/Lords0007", 
+        "Textures/ShockwaveWater1", 
+        "Textures/RibbonBlur1", 
+        "Textures/WaterBlobs1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134234705, 
+    "name": "Mdx\\\u6c34\u5143\u7d202", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6c34\u5143\u7d202.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5389390587806702, 
+            1.4670140743255615
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\sem_zeng_e", 
+    "key": 134243215, 
+    "md5": "e0069d55e2ce1cfab54c7e6ff7498293", 
+    "model_id": 134243215, 
+    "name": "sem_zeng_e", 
+    "res_type": "kkres", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134243215", 
+    "version": 1
+}

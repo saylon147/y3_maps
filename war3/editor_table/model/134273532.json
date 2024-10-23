@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u8428\u5c14.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/HeroFarSeer//HeroFarSeerDeath1.wav", 
+        "sound/Sound/Units/Orc//OrcDissipate1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Orc/Thrall/Thrall"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134273532, 
+    "name": "Mdx\\\u8428\u5c14", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u8428\u5c14.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.826656699180603, 
+            1.7583023309707642
+        ]
+    }
+}

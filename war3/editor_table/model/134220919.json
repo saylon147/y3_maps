@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\sem_shi_jiu_qi_shi.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "war3mapImported/z_tt_se_qq_qun_941442872_humanmale1_tt1", 
+        "war3mapImported/z_tt_se_qq_qun_941442872_humanmale1_tt2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134220919, 
+    "name": "Mdx\\sem_shi_jiu_qi_shi", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_sem_shi_jiu_qi_shi.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6857627630233765, 
+            1.2937179803848267
+        ]
+    }
+}

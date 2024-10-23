@@ -1,0 +1,32 @@
+{
+    "mdx_path": "Mdx\\\u9f99\u4e4b\u6816\u6728.mdx", 
+    "mdx_sounds": [
+        "sound/Sound/Buildings/Death//BuildingDeathLargeHuman.wav"
+    ], 
+    "mdx_textures": [
+        "buildings/Other/DragonBuilding/DragonRoost", 
+        "ReplaceableTextures/TeamGlow/TeamGlow06", 
+        "Textures/Magic1", 
+        "Textures/Clouds8x8Fire", 
+        "Textures/Dust5A", 
+        "Textures/RockParticle", 
+        "Textures/CartoonCloud", 
+        "Textures/Dust3x"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134268550, 
+    "name": "Mdx\\\u9f99\u4e4b\u6816\u6728", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9f99\u4e4b\u6816\u6728.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2828510999679565, 
+            3.339141845703125
+        ]
+    }
+}

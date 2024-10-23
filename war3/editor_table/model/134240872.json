@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\\u56da\u8f66.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/GlaiveThrower", 
+        "Textures/Doodads0"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134240872, 
+    "name": "Mdx\\\u56da\u8f66", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u56da\u8f66.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.9389781355857849, 
+            1.3508151769638062
+        ]
+    }
+}

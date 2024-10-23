@@ -1,0 +1,15 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\sem_na_jia_yuan_gu_bing_mo_shen", 
+    "key": 134281963, 
+    "md5": "40af6da64a1a32052cf3dd72ba405bec", 
+    "model_id": 134281963, 
+    "name": "sem_na_jia_yuan_gu_bing_mo_shen", 
+    "res_type": "kkres", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134281963", 
+    "version": 1
+}
