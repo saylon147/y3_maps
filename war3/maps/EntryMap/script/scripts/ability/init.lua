@@ -1,0 +1,3 @@
+-- include 'scripts.ability.example.enemy_base_attack'
+-- include 'scripts.ability.example.heroWeapon1_ability'
+-- include 'scripts.ability.example.heroWeapon2_ability'

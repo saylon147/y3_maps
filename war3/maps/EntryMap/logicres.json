@@ -1,5 +1,102 @@
 {
-    "1024": {}, 
+    "1024": {
+        "10000": {
+            "id": 10000, 
+            "name": "\u51fa\u751f\u70b91", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -20, 
+                        367968256
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        -21, 
+                        3951230976
+                    ]
+                ]
+            }, 
+            "type": 1024
+        }, 
+        "10001": {
+            "id": 10001, 
+            "name": "\u51fa\u751f\u70b92", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        14, 
+                        3458404352
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        -22, 
+                        4063100928
+                    ]
+                ]
+            }, 
+            "type": 1024
+        }, 
+        "10002": {
+            "id": 10002, 
+            "name": "\u51fa\u751f\u70b93", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        -18, 
+                        3264200704
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        10, 
+                        1325932544
+                    ]
+                ]
+            }, 
+            "type": 1024
+        }, 
+        "10003": {
+            "id": 10003, 
+            "name": "\u51fa\u751f\u70b94", 
+            "placed_lock": false, 
+            "placed_visibility": true, 
+            "pos": {
+                "__tuple__": true, 
+                "items": [
+                    [
+                        15, 
+                        593838080
+                    ], 
+                    [
+                        0, 
+                        0
+                    ], 
+                    [
+                        11, 
+                        3009036288
+                    ]
+                ]
+            }, 
+            "type": 1024
+        }
+    }, 
     "2048": {}, 
     "4096": {}, 
     "8192": {}, 
