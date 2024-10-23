@@ -1,0 +1,12 @@
+{
+    "adapt_mode": 2, 
+    "anim_data": {}, 
+    "children": [], 
+    "name": "panel_1", 
+    "opacity": 1.0, 
+    "type": 2, 
+    "ui_anims": [], 
+    "uid": "panel_1", 
+    "visible": true, 
+    "zorder": 400
+}
