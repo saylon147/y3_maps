@@ -178,13 +178,13 @@
             "value": {
                 "__tuple__": true, 
                 "items": [
-                    "lambda unit: Fix32(100)+Fix32(unit.ability_level)", 
+                    "lambda unit: Fix32(700)+Fix32(unit.ability_level)", 
                     [
                         [
                             "ability_level"
                         ]
                     ], 
-                    "lambda unit: Fix32(100)+Fix32(unit.ability_level)", 
+                    "lambda unit: Fix32(700)+Fix32(unit.ability_level)", 
                     {
                         "ability.cur_ability.ability_level": {
                             "is_cm": false
@@ -213,13 +213,13 @@
             "value": {
                 "__tuple__": true, 
                 "items": [
-                    "lambda unit: Fix32(0.2)*(Fix32(100)+Fix32(unit.ability_level)) ", 
+                    "lambda unit: Fix32(0.2)*(Fix32(700)+Fix32(unit.ability_level)) ", 
                     [
                         [
                             "ability_level"
                         ]
                     ], 
-                    "lambda unit: Fix32(0.2)*(Fix32(100)+Fix32(unit.ability_level)) ", 
+                    "lambda unit: Fix32(0.2)*(Fix32(700)+Fix32(unit.ability_level)) ", 
                     {
                         "ability.cur_ability.ability_level": {
                             "is_cm": false
