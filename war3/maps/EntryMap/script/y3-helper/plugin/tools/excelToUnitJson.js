@@ -62,9 +62,36 @@ export async function 读取unit表格并生成修改物编() {
     }
     //生成unit lua文件
     for (let item of list) {
-        // y3.fs.dir(y3.env.scriptUri,'scrips/unit')
-        // y3.fs.
-        // item.unit_type
+        const uri = y3.uri(y3.env.scriptUri, 'scripts/unit/' + item.unit_type + "/" + item.lua_name + ".lua");
+        if (await y3.fs.isExists(uri)) {
+            await y3.fs.removeFile(uri)
+        }
+        let luaText = `--${item.cname}
+local M = {}
+M.id = ${item.id}
+M.template = y3.object.unit[M.id] --物编信息
+M.type = '${item.unit_type}'
+
+M.template:event("单位-死亡",function (trg, data)
+    
+end)
+
+---@param unit Unit
+local function addAbilitys(unit)
+    --unit:add_ability('普通',134235512)
+end
+
+---@param owner Player|Unit
+---@param point Point 点
+---@param direction number 方向
+---@return Unit
+function M:create(owner, point, direction)
+    local unit = y3.unit.create_unit(owner, self.id, point, direction)
+    addAbilitys(unit)
+    return unit
+end
+return M`
+        await y3.fs.writeFile(uri,'',luaText);
+        let requireUrl = `scripts.unit.${item.unit_type}.${item.lua_name}`
     }
-    //await y3.fs.writeFile(y3.env.scriptUri, 'log/演示Lua表.lua', 'return ' + luaCode + '\n')
 }

@@ -8,6 +8,7 @@ unitMgr.unitType = {
     followHero = "followHero",
     minio = "minio"
 }
+---autocode---
 unitMgr.unitTemple = {
     ---@enum(key) FW.unitMgr.bossUnitType
     boss = {},
@@ -28,6 +29,7 @@ unitMgr.unitTemple = {
         ['牛头'] = require 'scripts.unit.minio.nt'
     }
 }
+---autocode---
 unitMgr.units = {
     boss = {},
     enemy = {},
