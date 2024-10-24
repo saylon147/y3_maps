@@ -7,5 +7,6 @@
     "is_neox_map": false, 
     "name": "EntryMap", 
     "publish_name": "", 
-    "theme": 1
+    "theme": 1, 
+    "trigger_lazy_load": true
 }

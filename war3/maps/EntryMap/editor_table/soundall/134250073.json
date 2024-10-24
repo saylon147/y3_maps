@@ -18,11 +18,6 @@
             "probability": 100, 
             "sound_id": 134236756, 
             "volume": 100
-        }, 
-        {
-            "probability": 0, 
-            "sound_id": null, 
-            "volume": 100.0
         }
     ], 
     "speed": 1, 
