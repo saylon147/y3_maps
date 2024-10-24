@@ -41,7 +41,7 @@
     "billboard_scale_y": 1, 
     "blood_bar": 327681, 
     "blood_show_type": 0, 
-    "body_size": 1.2, 
+    "body_size": 1.0, 
     "build_ignore_dyn_collision": false, 
     "build_res_cost_list": {
         "__tuple__": true, 
