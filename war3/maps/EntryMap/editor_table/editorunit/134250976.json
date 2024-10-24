@@ -71,12 +71,7 @@
         "items": []
     }, 
     "collision_radius_2": 0.7, 
-    "common_ability_list": [
-        [
-            134253426, 
-            1
-        ]
-    ], 
+    "common_ability_list": [], 
     "common_atk": {
         "__tuple__": true, 
         "items": [
@@ -342,23 +337,7 @@
         "trajectory_radian": 0.6, 
         "trajectory_speed": 1000.0
     }, 
-    "sound_event_list": [
-        [
-            "UNIT_ON_COMMAND", 
-            134240668, 
-            8
-        ], 
-        [
-            "UNIT_START_MOVE", 
-            134249807, 
-            8
-        ], 
-        [
-            "UNIT_ABILITY_UPGRADE", 
-            134257745, 
-            8
-        ]
-    ], 
+    "sound_event_list": [], 
     "special_idle_anim": "hold", 
     "speed_ratio_in_turn": 1, 
     "standard_walk_rate": 40.0, 

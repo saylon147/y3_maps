@@ -16,7 +16,7 @@
             "10.0"
         ]
     }, 
-    "ability_cast_type": 1, 
+    "ability_cast_type": 2, 
     "ability_channel_time": 0.0, 
     "ability_cost": {
         "__tuple__": true, 

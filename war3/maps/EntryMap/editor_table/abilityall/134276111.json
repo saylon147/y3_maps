@@ -88,7 +88,7 @@
     "camp_priority_friend": 1, 
     "camp_priority_neutral": 1, 
     "camp_priority_self": 1, 
-    "can_autocast_when_attack_target": false, 
+    "can_autocast_when_attack_target": true, 
     "can_bs_interrupt": true, 
     "can_cache": true, 
     "can_cast_interrupt": false, 
@@ -159,7 +159,7 @@
     }, 
     "influenced_by_cd_reduce": true, 
     "influenced_by_move": true, 
-    "is_autocast": false, 
+    "is_autocast": true, 
     "is_charge_ability": false, 
     "is_immediate": false, 
     "is_meele": false, 
@@ -225,7 +225,7 @@
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 5, 
+    "sight_type": 0, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []
