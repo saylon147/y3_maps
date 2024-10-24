@@ -71,10 +71,7 @@
         "items": []
     }, 
     "collision_radius_2": 0.7, 
-    "common_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "common_ability_list": [], 
     "common_atk": {
         "__tuple__": true, 
         "items": [

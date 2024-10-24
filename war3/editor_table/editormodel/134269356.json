@@ -1,0 +1,15 @@
+{
+    "custom_res_type": "custom_editor_model", 
+    "describe": "test_describe", 
+    "key": 134269356, 
+    "model_id": 134269356, 
+    "name": "\u6b66\u5668_2", 
+    "res_name": "\u6b66\u5668.fbx", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "fbx", 
+    "uid": 134269356, 
+    "version": 1, 
+    "yaw": 0
+}
