@@ -104,7 +104,7 @@ function unitMgr:createRoundMinion(unitType, unitSubType, count)
                 unit =  self:createUnit(player, unitType, nil, unitSubType, FW.const.bornPoint[player:get_id()], 0)
                 unit:attack_move(FW.const.enemyBornPoint[player:get_id()])
             end
-            unit:add_state("无法被选中")
+            unit:add_state("无法控制")
         end
     end
 end

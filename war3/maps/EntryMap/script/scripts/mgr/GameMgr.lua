@@ -23,7 +23,7 @@ function gameMgr:gamePicking()
 end
 
 function gameMgr:gameStart()
-    FW.globalVar.gameState ="gaming"
+    FW.globalVar.gameState = "gaming"
     FW.playerMgr:initPlayerSummoner()
 end
 
@@ -51,13 +51,12 @@ function gameMgr:initGlobalEvent()
     y3.ltimer.loop_frame(1, function(timer, count)
         self:update()
     end)
-    y3.timer.loop(2,function (timer,count)
+    y3.timer.loop(10, function(timer, count)
         if FW.globalVar.gameState == "gaming" then
-            FW.unitMgr:createRoundMinion("enemy",'食尸鬼',5)
-            FW.unitMgr:createRoundMinion("minio",'牛头',5)
+            FW.unitMgr:createRoundMinion("enemy", '食尸鬼', 5)
+            FW.unitMgr:createRoundMinion("minio", '牛头', 5)
         end
-
-    end,'刷兵',true)
+    end, '刷兵', true)
 end
 
 return gameMgr
