@@ -164,7 +164,20 @@
     "is_immediate": false, 
     "is_meele": false, 
     "key": 134276111, 
-    "kv": {}, 
+    "kv": {
+        "wand_count": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "wand_count", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 0, 
+            "type": 2, 
+            "value": 7
+        }
+    }, 
     "magicbook_list": {
         "__tuple__": true, 
         "items": []
@@ -212,7 +225,7 @@
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 4, 
+    "sight_type": 5, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []
