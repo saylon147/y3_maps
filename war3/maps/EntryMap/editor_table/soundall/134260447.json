@@ -4,14 +4,14 @@
     "description": 1415289745, 
     "fade_in_time": 0, 
     "fade_out_time": 0, 
-    "group": 0, 
+    "group": 1, 
     "icon": 100000, 
     "key": 134260447, 
     "kv": {}, 
     "max_dist": 1000, 
     "min_dist": 0, 
     "name": -272246373, 
-    "priority": 0, 
+    "priority": 1.0, 
     "sound_id": 1, 
     "sound_id_list": [
         {

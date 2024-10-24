@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134229020", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134229020, 
+    "md5": "89166724ef3e5ae603cab84b54dc86dd", 
+    "name": "DemonHunterMorphedYesAttack4", 
+    "res_name": "DemonHunterMorphedYesAttack4.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134229020, 
+    "version": 1
+}

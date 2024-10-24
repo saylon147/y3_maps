@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134246719", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134246719, 
+    "md5": "f12ea5f968ccb4bcf0f85b9a1794ec72", 
+    "name": "HeroDemonHunterWhat3", 
+    "res_name": "HeroDemonHunterWhat3.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134246719, 
+    "version": 1
+}

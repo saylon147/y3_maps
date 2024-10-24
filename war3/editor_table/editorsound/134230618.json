@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134230618", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134230618, 
+    "md5": "733bc4762eee383b81545a3278b161d3", 
+    "name": "DemonHunterMorphedWarcry1", 
+    "res_name": "DemonHunterMorphedWarcry1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134230618, 
+    "version": 1
+}

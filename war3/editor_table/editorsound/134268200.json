@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134268200", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134268200, 
+    "md5": "f76dca6879e1446f33f4ef7f376b3a3d", 
+    "name": "HeroDemonHunterWarcry1", 
+    "res_name": "HeroDemonHunterWarcry1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134268200, 
+    "version": 1
+}

@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134261925", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134261925, 
+    "md5": "cb9ed0289c529fd8cdac8a6ce7f97c63", 
+    "name": "HeroAlchemistWhat2", 
+    "res_name": "HeroAlchemistWhat2.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134261925, 
+    "version": 1
+}

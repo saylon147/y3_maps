@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134259346", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134259346, 
+    "md5": "b745bf065f554229a7776f8f23b0a772", 
+    "name": "HeroAlchemistWarcry1", 
+    "res_name": "HeroAlchemistWarcry1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134259346, 
+    "version": 1
+}

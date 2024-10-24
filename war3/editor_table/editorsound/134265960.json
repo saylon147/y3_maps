@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134265960", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134265960, 
+    "md5": "e93d4bfc42022ceaeb70d01a92a7b4e4", 
+    "name": "HeroTaurenChieftainWhat1", 
+    "res_name": "HeroTaurenChieftainWhat1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134265960, 
+    "version": 1
+}

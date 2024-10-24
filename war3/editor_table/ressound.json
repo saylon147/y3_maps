@@ -1,11 +1,11 @@
 {
-    "134261148": {
+    "134240361": {
         "Format": "wav", 
-        "SoundPath": "134261148", 
-        "default_editor_id": 134261148, 
+        "SoundPath": "134240361", 
+        "default_editor_id": 134240361, 
         "describe": "", 
-        "key": "134261148", 
-        "name": "HeroMountainKingYesAttack4", 
-        "uid": "res_sound_134261148"
+        "key": "134240361", 
+        "name": "EvilSylvanasYes1", 
+        "uid": "res_sound_134240361"
     }
 }

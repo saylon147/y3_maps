@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134279334", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134279334, 
+    "md5": "8b9b36713d50cd291efdb4b41120bbd0", 
+    "name": "EvilSylvanasWarcry1", 
+    "res_name": "EvilSylvanasWarcry1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134279334, 
+    "version": 1
+}
