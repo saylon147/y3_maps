@@ -337,10 +337,28 @@
         "trajectory_radian": 1.0, 
         "trajectory_speed": 1000.0
     }, 
-    "sound_event_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "sound_event_list": [
+        [
+            "UNIT_DIE", 
+            134249400, 
+            8
+        ], 
+        [
+            "UNIT_START_MOVE", 
+            134222942, 
+            8
+        ], 
+        [
+            "UNIT_HURT_OTHER", 
+            134239320, 
+            8
+        ], 
+        [
+            "UNIT_ON_COMMAND", 
+            134282369, 
+            8
+        ]
+    ], 
     "special_idle_anim": "hold", 
     "speed_ratio_in_turn": 1, 
     "standard_walk_rate": 40.0, 

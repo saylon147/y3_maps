@@ -327,8 +327,23 @@
     }, 
     "sound_event_list": [
         [
-            "UNIT_DIE", 
-            100001, 
+            "KILL_UNIT_EVENT", 
+            134233160, 
+            8
+        ], 
+        [
+            "UNIT_START_MOVE", 
+            134257865, 
+            8
+        ], 
+        [
+            "UNIT_HURT_OTHER", 
+            134219344, 
+            8
+        ], 
+        [
+            "UNIT_ON_COMMAND", 
+            134254353, 
             8
         ]
     ], 
