@@ -2,12 +2,15 @@
 local unitMgr = Class 'unitMgr'
 ---@enum(key) FW.unitMgr.unitType
 unitMgr.unitType = {
+    boss = "boss",
     enemy = "enemy",
     summoner = "summoner",
     followHero = "followHero",
     minio = "minio"
 }
 unitMgr.unitTemple = {
+    ---@enum(key) FW.unitMgr.bossUnitType
+    boss = {},
     ---@enum(key) FW.unitMgr.enemyUnitType
     enemy = {
         ['食尸鬼'] = require 'scripts.unit.enemy.ssg',
@@ -26,6 +29,7 @@ unitMgr.unitTemple = {
     }
 }
 unitMgr.units = {
+    boss = {},
     enemy = {},
     summoner = {},
     followHero = {},

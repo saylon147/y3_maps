@@ -92,7 +92,7 @@
     "critical_dmg_grow": 0.0, 
     "dead_exp": 200, 
     "dead_money": 450, 
-    "default_behaviour_type": "caution", 
+    "default_behaviour_type": "", 
     "defense_mag": 40.0, 
     "defense_mag_grow": 0.0, 
     "defense_phy": 40.0, 
