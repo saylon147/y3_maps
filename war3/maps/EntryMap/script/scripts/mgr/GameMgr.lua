@@ -59,7 +59,10 @@ function gameMgr:gamingEvent()
         print('游戏开始后当前时间秒数：' .. count)
         if FW.globalVar.gameState == "gaming" and count % 10 == 0 then
             FW.unitMgr:createRoundMinion("enemy", '食尸鬼', 5)
-            FW.unitMgr:createRoundMinion("minio", '牛头', 5)
+            --FW.unitMgr:createRoundMinion("minio", '牛头', 5)
+        end
+        if count % 5 == 0 then
+            FW.playerMgr:followSummoner()
         end
     end, '刷兵', true)
 end

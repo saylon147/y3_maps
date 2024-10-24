@@ -75,8 +75,6 @@ function unitMgr:createUnit(owner, unitType, unitTemplate, unitSubType, point, d
         unit:add_tag('summoner')
     elseif unitType == "followHero" then
         unit:add_tag('followHero')
-        local summoner = FW.playerMgr:getSummonerByPlayer(owner)
-        unit:follow(summoner, 5, 100, 200, 0, true)
     end
     add_unitGroup(ownerId, unitType, unit)
     return unit
