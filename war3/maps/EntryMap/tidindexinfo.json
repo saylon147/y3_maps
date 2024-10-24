@@ -5,6 +5,12 @@
         "item_key": 134270821, 
         "prop_key": "desc"
     }, 
+    "-2041111750": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134257987, 
+        "prop_key": "name"
+    }, 
     "-1829065276": {
         "editor_type": "ability_all", 
         "index_type": "object_editor", 
@@ -177,6 +183,12 @@
         "editor_type": "sound_all", 
         "index_type": "object_editor", 
         "item_key": 134282949, 
+        "prop_key": "name"
+    }, 
+    "1082966594": {
+        "editor_type": "ability_all", 
+        "index_type": "object_editor", 
+        "item_key": 134244812, 
         "prop_key": "name"
     }, 
     "1213760874": {
