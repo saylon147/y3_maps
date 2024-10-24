@@ -45,7 +45,7 @@
                                 0
                             ], 
                             [
-                                0, 
+                                -1, 
                                 3221225472
                             ]
                         ]
@@ -68,7 +68,7 @@
             }, 
             "custom_material_data": {}, 
             "editor_component": {
-                "placed_lock": false, 
+                "placed_lock": true, 
                 "placed_visibility": true, 
                 "use_obj_attrs": true
             }, 

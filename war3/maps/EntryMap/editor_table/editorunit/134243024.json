@@ -319,10 +319,23 @@
         "trajectory_radian": 1.0, 
         "trajectory_speed": 1000.0
     }, 
-    "sound_event_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "sound_event_list": [
+        [
+            "UNIT_ENTER_GRASS", 
+            134256719, 
+            8
+        ], 
+        [
+            "UNIT_DIE", 
+            134229812, 
+            8
+        ], 
+        [
+            "UNIT_RELEASE_ABILITY", 
+            134282949, 
+            8
+        ]
+    ], 
     "special_idle_anim": "hold", 
     "speed_ratio_in_turn": 1, 
     "standard_walk_rate": 40.0, 

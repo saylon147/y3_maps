@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134230890", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134230890, 
+    "md5": "56479db1efd7f850039367216cdcbfe9", 
+    "name": "HeroMountainKingWarcry1", 
+    "res_name": "HeroMountainKingWarcry1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134230890, 
+    "version": 1
+}

@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134231601", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134231601, 
+    "md5": "1e37c6709ee6fa5275b8272752b4f136", 
+    "name": "HeroMountainKingYes2", 
+    "res_name": "HeroMountainKingYes2.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134231601, 
+    "version": 1
+}

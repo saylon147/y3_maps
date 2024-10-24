@@ -1,1 +1,11 @@
-{}
+{
+    "134261148": {
+        "Format": "wav", 
+        "SoundPath": "134261148", 
+        "default_editor_id": 134261148, 
+        "describe": "", 
+        "key": "134261148", 
+        "name": "HeroMountainKingYesAttack4", 
+        "uid": "res_sound_134261148"
+    }
+}

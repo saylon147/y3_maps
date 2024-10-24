@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134222467", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134222467, 
+    "md5": "137a237220c6574e7202a35c7c79c743", 
+    "name": "HeroBladeMasterAttack2", 
+    "res_name": "HeroBladeMasterAttack2.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134222467, 
+    "version": 1
+}
