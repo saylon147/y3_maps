@@ -138,10 +138,32 @@
     "healing_effect": 0, 
     "healing_effect_grow": 0, 
     "height_offset": 0, 
-    "hero_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "hero_ability_list": [
+        [
+            134262357, 
+            1
+        ], 
+        [
+            134267873, 
+            1
+        ], 
+        [
+            134269552, 
+            1
+        ], 
+        [
+            134270821, 
+            1
+        ], 
+        [
+            134279771, 
+            1
+        ], 
+        [
+            134218321, 
+            1
+        ]
+    ], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
     "hp_max": 700.0, 
@@ -324,7 +346,6 @@
     "speed_ratio_in_turn": 1, 
     "standard_walk_rate": 40.0, 
     "start_rft": 1.0, 
-    "state_init": "", 
     "state_list": {
         "__tuple__": true, 
         "items": []

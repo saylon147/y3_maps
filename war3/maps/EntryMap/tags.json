@@ -5,6 +5,17 @@
         "\u653b\u901f\u51cf\u6162", 
         "AOE"
     ], 
+    "editor_unit": [
+        "\u8fdc\u7a0b\u7269\u7406", 
+        "\u8fdc\u7a0b", 
+        "\u540e\u671f", 
+        "\u65b0\u624b", 
+        "\u4e0b\u8def\u4e3b\u529b", 
+        "\u4e0a\u8def\u53d1\u80b2", 
+        "\u4e2d\u8def\u53d1\u80b2", 
+        "\u6cd5\u5e08", 
+        "\u8fd1\u6218"
+    ], 
     "modifier_all": [
         "\u63a7\u5236"
     ]
