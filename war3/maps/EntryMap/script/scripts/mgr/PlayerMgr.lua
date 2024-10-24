@@ -15,6 +15,10 @@ local function addPlayerUnitEvent(unit)
             deadCount = unit:kv_load('deadCount', 'integer')
         end
         unit:kv_save('deadCount', deadCount + 1)
+        y3.ltimer.wait(5, function(timer)
+            unit:reborn()
+            timer:remove()
+        end)
         -- if deadCount ~= nil then
         --     M.playerDeadCount[playerId] = deadCount + 1
         -- else
@@ -83,6 +87,14 @@ end
 ---@param owner Player
 function playerMgr:getFollowHero(owner)
     local unit = FW.unitMgr:createRandomUnit(owner, 'followHero')
+    unit:event("单位-死亡", function(trg, data)
+        local unit = data.unit
+        local point = self:getSummonerByPlayer(unit:get_owner()):get_point()
+        y3.ltimer.wait(5, function(timer)
+            unit:reborn(point)
+            timer:remove()
+        end)
+    end)
 end
 
 ---@param player Player
