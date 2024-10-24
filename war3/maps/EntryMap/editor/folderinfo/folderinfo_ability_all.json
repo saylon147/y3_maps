@@ -80,6 +80,15 @@
     "p5G87ZGxEe+nVcHvpaedke", 
     "\u5c71\u4e18\u4e4b\u738b"
    ]
+  }, 
+  {
+   "__tuple__": true, 
+   "items": [
+    "/2147483647", 
+    1, 
+    "+yW3F5G0Ee+Lr4-CK1jt0W", 
+    "Common Attacks"
+   ]
   }
  ], 
  "d": {
@@ -305,6 +314,13 @@
    "items": [
     "p5G87ZGxEe+nVcHvpaedke", 
     2
+   ]
+  }, 
+  "201347498": {
+   "__tuple__": true, 
+   "items": [
+    "+yW3F5G0Ee+Lr4-CK1jt0W", 
+    0
    ]
   }
  }
