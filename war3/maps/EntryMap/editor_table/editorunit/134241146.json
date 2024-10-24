@@ -258,11 +258,11 @@
         "attack_trajectory": {
             "destroy_immediately": false, 
             "duration": -1.0, 
-            "effect": 0, 
+            "effect": 100872, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "origin", 
-            "target_socket": "root"
+            "socket": "atk", 
+            "target_socket": "hit_point"
         }, 
         "cast_effect_list": [], 
         "cast_interrupt": false, 
@@ -303,10 +303,10 @@
         "filter_item_tags": [], 
         "filter_unit_tags": [], 
         "hit_effect": {
-            "effect": 0, 
+            "effect": 102291, 
             "follow_scale": true, 
-            "scale": 1.0, 
-            "socket": "origin"
+            "scale": 0.6, 
+            "socket": "hit_point"
         }, 
         "hit_sound": 0, 
         "jump_word": true, 

@@ -1,9 +1,31 @@
 {
     "variable_dict": {
         "INTEGER": {}, 
+        "PROJECTILE_ENTITY": {
+            "Arrow": 0, 
+            "Boomerang": 0
+        }, 
         "UNIT_ENTITY": {}, 
         "UNIT_NAME": {}
     }, 
-    "variable_group_info": [], 
-    "variable_length_dict": {}
+    "variable_group_info": [
+        {
+            "__tuple__": true, 
+            "items": [
+                "Arrow", 
+                "Arrow"
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                "Boomerang", 
+                "Boomerang"
+            ]
+        }
+    ], 
+    "variable_length_dict": {
+        "Arrow": 0, 
+        "Boomerang": 0
+    }
 }

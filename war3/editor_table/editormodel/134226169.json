@@ -8,6 +8,19 @@
     "select_effect_scale": 1.0, 
     "size": 1.0, 
     "socket_info": {
+        "atk": {
+            "__tuple__": true, 
+            "items": [
+                "atk", 
+                "FloatDummy04", 
+                0.0, 
+                -0.03361617028713226, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }, 
         "buff": {
             "__tuple__": true, 
             "items": [

@@ -73,7 +73,7 @@
     "collision_radius_2": 0.7, 
     "common_ability_list": [
         [
-            201385536, 
+            134253426, 
             1
         ]
     ], 
@@ -145,6 +145,22 @@
         ], 
         [
             134278424, 
+            1
+        ], 
+        [
+            134269127, 
+            1
+        ], 
+        [
+            134224087, 
+            1
+        ], 
+        [
+            134269239, 
+            1
+        ], 
+        [
+            134228246, 
             1
         ]
     ], 
@@ -259,18 +275,18 @@
             "Attack - 1", 
             "Attack - 2"
         ], 
-        "ability_bw_point": 0.5, 
+        "ability_bw_point": 1.0, 
         "ability_cast_point": 0.2, 
         "attack_interval": 1.0, 
-        "attack_range": 1.0, 
+        "attack_range": 5.0, 
         "attack_trajectory": {
             "destroy_immediately": false, 
             "duration": -1.0, 
-            "effect": 0, 
+            "effect": 103097, 
             "follow_scale": true, 
-            "scale": 1.0, 
-            "socket": "origin", 
-            "target_socket": "root"
+            "scale": 0.6, 
+            "socket": "atk", 
+            "target_socket": "hit_point"
         }, 
         "cast_effect_list": [], 
         "cast_interrupt": false, 
@@ -311,10 +327,10 @@
         "filter_item_tags": [], 
         "filter_unit_tags": [], 
         "hit_effect": {
-            "effect": 0, 
+            "effect": 100799, 
             "follow_scale": true, 
-            "scale": 1.0, 
-            "socket": "origin"
+            "scale": 0.5, 
+            "socket": "hit_point"
         }, 
         "hit_sound": 0, 
         "jump_word": true, 
