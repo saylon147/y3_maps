@@ -255,7 +255,7 @@
         "attack_interval": 1.0, 
         "attack_range": 5.0, 
         "attack_trajectory": {
-            "destroy_immediately": false, 
+            "destroy_immediately": true, 
             "duration": -1.0, 
             "effect": 102557, 
             "follow_scale": true, 
