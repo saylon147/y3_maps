@@ -8,7 +8,21 @@
     "res_type": "kkres", 
     "select_effect_scale": 1.0, 
     "size": 1.0, 
-    "socket_info": {}, 
+    "socket_info": {
+        "hit_point": {
+            "__tuple__": true, 
+            "items": [
+                "hit_point", 
+                "Scene Root", 
+                0.0, 
+                0.8050366640090942, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }
+    }, 
     "sub_type": "mdx", 
     "uid": "editor_model_134270525", 
     "version": 1

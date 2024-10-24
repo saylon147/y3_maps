@@ -17,7 +17,7 @@
     "attack_mag_grow": 0.0, 
     "attack_phy": 80.0, 
     "attack_phy_grow": 5.0, 
-    "attack_range": 1.0, 
+    "attack_range": 5.0, 
     "attack_range_grow": 0, 
     "attack_speed": 80.0, 
     "attack_speed_grow": 5.0, 
