@@ -339,7 +339,7 @@
         "simple_atk_dice_count": 0, 
         "simple_atk_dice_max_value": 0, 
         "target_attribute": 0, 
-        "trajectory_radian": 1.0, 
+        "trajectory_radian": 0.6, 
         "trajectory_speed": 1000.0
     }, 
     "sound_event_list": {

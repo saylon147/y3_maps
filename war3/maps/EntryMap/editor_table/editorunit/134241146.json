@@ -251,16 +251,16 @@
             "Attack Upgrade First", 
             "Attack Upgrade Second"
         ], 
-        "ability_bw_point": 0.5, 
+        "ability_bw_point": 1.0, 
         "ability_cast_point": 0.2, 
         "attack_interval": 1.0, 
-        "attack_range": 1.0, 
+        "attack_range": 8.0, 
         "attack_trajectory": {
             "destroy_immediately": false, 
             "duration": -1.0, 
             "effect": 100872, 
             "follow_scale": true, 
-            "scale": 1.0, 
+            "scale": 0.4, 
             "socket": "atk", 
             "target_socket": "hit_point"
         }, 
@@ -315,7 +315,7 @@
         "simple_atk_dice_count": 0, 
         "simple_atk_dice_max_value": 0, 
         "target_attribute": 0, 
-        "trajectory_radian": 1.0, 
+        "trajectory_radian": 0.3, 
         "trajectory_speed": 1000.0
     }, 
     "sound_event_list": {
