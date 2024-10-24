@@ -41,7 +41,7 @@
     "billboard_scale_y": 1, 
     "blood_bar": 327681, 
     "blood_show_type": 0, 
-    "body_size": 1.0, 
+    "body_size": 1.2, 
     "build_ignore_dyn_collision": false, 
     "build_res_cost_list": {
         "__tuple__": true, 
@@ -71,10 +71,12 @@
         "items": []
     }, 
     "collision_radius_2": 0.7, 
-    "common_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "common_ability_list": [
+        [
+            134234972, 
+            1
+        ]
+    ], 
     "common_atk": {
         "__tuple__": true, 
         "items": [
@@ -231,10 +233,7 @@
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 9.42, 
-    "sell_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "sell_list": [], 
     "sell_res_list": {
         "__tuple__": true, 
         "items": []
