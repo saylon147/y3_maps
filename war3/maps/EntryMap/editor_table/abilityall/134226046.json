@@ -16,24 +16,24 @@
             "10.0"
         ]
     }, 
-    "ability_cast_type": 2, 
+    "ability_cast_type": 3, 
     "ability_channel_time": 0.0, 
     "ability_cost": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "1.0"
         ]
     }, 
     "ability_damage": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage_range": {
         "__tuple__": true, 
         "items": [
-            "0.0"
+            "0.2"
         ]
     }, 
     "ability_hp_cost": {
@@ -134,6 +134,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "desc": 8151745, 
     "description": 8151745, 
     "end_sfx_list": {
         "__tuple__": true, 

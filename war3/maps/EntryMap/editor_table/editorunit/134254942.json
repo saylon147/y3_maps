@@ -192,6 +192,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "path_finding_external_size": 0, 
     "pene_mag": 0.0, 
     "pene_mag_grow": 0.0, 
     "pene_mag_ratio": 0.0, 
@@ -335,6 +336,7 @@
         "__tuple__": true, 
         "items": []
     }, 
+    "tower_hatred_duration": 1.0, 
     "type": 1, 
     "uid": "134254942", 
     "use_base_tint_color": false, 
