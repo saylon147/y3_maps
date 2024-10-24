@@ -125,7 +125,6 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "desc": -876696874, 
     "description": -876696874, 
     "end_sfx_list": {
         "__tuple__": true, 
@@ -176,27 +175,30 @@
             "show_in_attr": true, 
             "sort": 0, 
             "type": 24, 
-            "value": [
-                "lambda unit: Fix32(10)+Fix32(unit.ability_level)", 
-                [
+            "value": {
+                "__tuple__": true, 
+                "items": [
+                    "lambda unit: Fix32(100)+Fix32(unit.ability_level)", 
                     [
-                        "ability_level"
-                    ]
-                ], 
-                "lambda unit: Fix32(10)+Fix32(unit.ability_level)", 
-                {
-                    "ability.cur_ability.ability_level": {
-                        "is_cm": false
-                    }
-                }, 
-                [
+                        [
+                            "ability_level"
+                        ]
+                    ], 
+                    "lambda unit: Fix32(100)+Fix32(unit.ability_level)", 
+                    {
+                        "ability.cur_ability.ability_level": {
+                            "is_cm": false
+                        }
+                    }, 
                     [
-                        "ability", 
-                        "cur_ability", 
-                        "ability_level"
+                        [
+                            "ability", 
+                            "cur_ability", 
+                            "ability_level"
+                        ]
                     ]
                 ]
-            ]
+            }
         }, 
         "heal_decay": {
             "annotation": "", 
@@ -208,30 +210,33 @@
             "show_in_attr": true, 
             "sort": 1, 
             "type": 24, 
-            "value": [
-                "lambda unit: Fix32(0.2)*(Fix32(10)+Fix32(unit.ability_level))", 
-                [
+            "value": {
+                "__tuple__": true, 
+                "items": [
+                    "lambda unit: Fix32(0.2)*(Fix32(100)+Fix32(unit.ability_level)) ", 
                     [
-                        "ability_level"
-                    ]
-                ], 
-                "lambda unit: Fix32(0.2)*(Fix32(10)+Fix32(unit.ability_level))", 
-                {
-                    "ability.cur_ability.ability_level": {
-                        "is_cm": false
+                        [
+                            "ability_level"
+                        ]
+                    ], 
+                    "lambda unit: Fix32(0.2)*(Fix32(100)+Fix32(unit.ability_level)) ", 
+                    {
+                        "ability.cur_ability.ability_level": {
+                            "is_cm": false
+                        }, 
+                        "ability.cur_ability.cur_stack_count": {
+                            "is_cm": false
+                        }
                     }, 
-                    "ability.cur_ability.cur_stack_count": {
-                        "is_cm": false
-                    }
-                }, 
-                [
                     [
-                        "ability", 
-                        "cur_ability", 
-                        "ability_level"
+                        [
+                            "ability", 
+                            "cur_ability", 
+                            "ability_level"
+                        ]
                     ]
                 ]
-            ]
+            }
         }, 
         "target_cnt": {
             "annotation": "", 
