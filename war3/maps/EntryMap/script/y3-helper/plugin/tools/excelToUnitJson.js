@@ -91,7 +91,34 @@ function M:create(owner, point, direction)
     return unit
 end
 return M`
-        await y3.fs.writeFile(uri,'',luaText);
-        let requireUrl = `scripts.unit.${item.unit_type}.${item.lua_name}`
+        await y3.fs.writeFile(uri, '', luaText);
     }
+    //生成配置信息
+    let dir = await y3.fs.dir(y3.env.scriptUri, 'scripts/unit')
+    let templateStr = "\nunitMgr.unitTemple = {\n"
+    
+    for (let i = 0; i < dir.length; i++) {
+        let name = dir[i][0]
+        let subDir = await y3.fs.dir(y3.env.scriptUri, 'scripts/unit/'+name);
+        templateStr+="\t---@enum(key) FW.unitMgr."+name+"UnitType\n";
+        templateStr+="\t"+name+"= {\n";
+        for(let j = 0;j<subDir.length;j++){
+            let subName = subDir[j][0].replace(".lua","");
+            let cname = "";
+            for (let item of list) {
+                y3.print(item.lua_name,subName);
+                y3.print(item.unit_type,name);
+                if(item.lua_name == subName && item.unit_type == name){
+                    cname = item.cname
+                }
+            }
+            templateStr+="\t['"+cname+"'] = require 'scripts.unit."+name+"."+subName+"',\n";
+        }
+        templateStr+="\t},\n";
+    }
+    templateStr+="\t}\n";
+    let oriText = (await y3.fs.readFile(y3.env.scriptUri,'scripts/mgr/UnitMgr.lua')).string;
+    let replaceText = oriText.split('---autocode---')[1];
+    oriText = oriText.replace(replaceText,templateStr);
+    await y3.fs.writeFile(y3.env.scriptUri,'scripts/mgr/UnitMgr.lua', oriText);
 }
