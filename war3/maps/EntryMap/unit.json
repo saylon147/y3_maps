@@ -14,7 +14,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 32
+                    "role_id": 6
                 }, 
                 "display": {
                     "real_scale": [
@@ -88,7 +88,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 1
+                    "role_id": 6
                 }, 
                 "display": {
                     "real_scale": [
@@ -166,7 +166,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 1
+                    "role_id": 6
                 }, 
                 "display": {
                     "real_scale": [
@@ -240,7 +240,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 1
+                    "role_id": 6
                 }, 
                 "display": {
                     "real_scale": [
@@ -392,7 +392,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 1
+                    "role_id": 6
                 }, 
                 "display": {
                     "real_scale": [
@@ -1082,7 +1082,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 32
+                    "role_id": 6
                 }, 
                 "display": {
                     "real_scale": [
@@ -1156,7 +1156,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 32
+                    "role_id": 6
                 }, 
                 "display": {
                     "real_scale": [
@@ -1230,7 +1230,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 32
+                    "role_id": 6
                 }, 
                 "display": {
                     "real_scale": [
@@ -1304,7 +1304,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 32
+                    "role_id": 6
                 }, 
                 "display": {
                     "real_scale": [
@@ -1378,7 +1378,7 @@
                     ]
                 }, 
                 "camp": {
-                    "role_id": 32
+                    "role_id": 6
                 }, 
                 "display": {
                     "real_scale": [

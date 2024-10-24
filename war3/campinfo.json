@@ -6,12 +6,13 @@
                 1, 
                 {
                     "id": 1, 
-                    "name": "$faction 1", 
+                    "name": "\u9635\u8425 1", 
                     "role_ids": [
                         1, 
                         2, 
                         3, 
-                        4
+                        4, 
+                        6
                     ], 
                     "share_vision": true
                 }
@@ -24,7 +25,9 @@
                 {
                     "id": 30, 
                     "name": "$code_camp_referee", 
-                    "role_ids": [], 
+                    "role_ids": [
+                        5
+                    ], 
                     "share_vision": true
                 }
             ]
@@ -39,6 +42,20 @@
                     "role_ids": [
                         31, 
                         32
+                    ], 
+                    "share_vision": true
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                2, 
+                {
+                    "id": 2, 
+                    "name": "$faction 2", 
+                    "role_ids": [
+                        7
                     ], 
                     "share_vision": true
                 }
@@ -137,6 +154,45 @@
                     "color": "#80FF00", 
                     "id": 4, 
                     "name": "$player 4", 
+                    "type": 1
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                5, 
+                {
+                    "camp_id": 30, 
+                    "color": "#00FF00", 
+                    "id": 5, 
+                    "name": "$referee 5", 
+                    "type": 10
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                6, 
+                {
+                    "camp_id": 1, 
+                    "color": "#00FF80", 
+                    "id": 6, 
+                    "name": "\u7535\u8111", 
+                    "type": 2
+                }
+            ]
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                7, 
+                {
+                    "camp_id": 2, 
+                    "color": "#00FFFF", 
+                    "id": 7, 
+                    "name": "\u4e2d\u7acb\u5355\u4f4d", 
                     "type": 1
                 }
             ]
