@@ -1,0 +1,327 @@
+{
+    "local_variable": {
+        "793079809": {
+            "variable_dict": {
+                "UNIT_ENTITY": {
+                    "target": 0
+                }
+            }, 
+            "variable_length_dict": {
+                "target": 0
+            }
+        }, 
+        "2101792770": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
+        }
+    }, 
+    "trigger_dict": {
+        "793079809": {
+            "action": [
+                {
+                    "action_type": "REPLACE_UNIT_MODEL", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "MODIFIER_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100122, 
+                            "args_list": [
+                                134278108
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2088144897000009, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "ADD_STATE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "MODIFIER_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100075, 
+                            "args_list": [
+                                4
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 16255180810003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "ADD_STATE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "MODIFIER_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100075, 
+                            "args_list": [
+                                2
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 16255180810002, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u83b7\u5f97buff"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 793079809000028, 
+                    "enable": false
+                }, 
+                {
+                    "action_type": "SET_UNIT_BLOOD_BAR_TYPE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "MODIFIER_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100223, 
+                            "args_list": [
+                                262148
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 793079809000044, 
+                    "enable": false
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 793079809000001, 
+                    "enable": true, 
+                    "event_type": "OBTAIN_MODIFIER"
+                }
+            ], 
+            "group_id": 134282975, 
+            "p_trigger_id": null, 
+            "trigger_id": 793079809, 
+            "trigger_name": "GainBuff", 
+            "valid": true, 
+            "var_data": [
+                {
+                    "UNIT_ENTITY": {
+                        "target": 0
+                    }
+                }, 
+                {
+                    "target": 0
+                }, 
+                [
+                    "target"
+                ]
+            ]
+        }, 
+        "2101792770": {
+            "action": [
+                {
+                    "action_type": "DISPLAY_INFO_TO_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                1
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u5931\u53bbbuff"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 793079809000028, 
+                    "enable": false
+                }, 
+                {
+                    "action_type": "REPLACE_UNIT_MODEL", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "MODIFIER_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100122, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "MODIFIER_OWNER"
+                                }
+                            ], 
+                            "sub_type": "UNIT_SOURCE_MODEL"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2101792770000071, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "REMOVE_STATE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "MODIFIER_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100075, 
+                            "args_list": [
+                                4
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 17263247380004, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "REMOVE_STATE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "MODIFIER_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100075, 
+                            "args_list": [
+                                2
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 17263247380003, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_UNIT_BLOOD_BAR_TYPE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "MODIFIER_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100223, 
+                            "args_list": [
+                                1048580
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 2101792770000059, 
+                    "enable": false
+                }
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 2101792770000002, 
+                    "enable": true, 
+                    "event_type": "LOSS_MODIFIER"
+                }
+            ], 
+            "group_id": 134282975, 
+            "p_trigger_id": null, 
+            "trigger_id": 2101792770, 
+            "trigger_name": "LoseBuff", 
+            "valid": true, 
+            "var_data": [
+                {}, 
+                {}, 
+                []
+            ]
+        }
+    }, 
+    "trigger_group_info": [
+        {
+            "_trigger_group_": true, 
+            "group": [
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        793079809, 
+                        "GainBuff"
+                    ]
+                }, 
+                {
+                    "__tuple__": true, 
+                    "items": [
+                        2101792770, 
+                        "LoseBuff"
+                    ]
+                }
+            ], 
+            "key": 134282975, 
+            "name": "134282975"
+        }
+    ], 
+    "trigger_version": "1.2", 
+    "variable_dict": {}, 
+    "variable_group_info": [], 
+    "variable_length_dict": {}
+}
