@@ -1,6 +1,6 @@
---食尸鬼
+--蜘蛛
             local M = {}
-            M.id = 134244650
+            M.id = 134261362
             M.template = y3.object.unit[M.id] --物编信息
             M.type = 'enemy'
             ---not refresh code---

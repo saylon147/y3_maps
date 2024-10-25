@@ -10,25 +10,33 @@ unitMgr.unitType = {
 }
 ---autocode---
 unitMgr.unitTemple = {
-    ---@enum(key) FW.unitMgr.bossUnitType
-    boss = {},
-    ---@enum(key) FW.unitMgr.enemyUnitType
-    enemy = {
-        ['食尸鬼'] = require 'scripts.unit.enemy.ssg',
-    },
-    ---@enum(key) FW.unitMgr.summonerUnitType
-    summoner = {
-        summoner1 = require 'scripts.unit.summoner.summoner1'
-    },
-    ---@enum(key) FW.unitMgr.followHeroUnitType
-    followHero = {
-        ['山丘之王'] = require 'scripts.unit.followHero.sqzw'
-    },
-    ---@enum(key) FW.unitMgr.minioUnitType
-    minio = {
-        ['牛头'] = require 'scripts.unit.minio.nt'
-    }
-}
+	---@enum(key) FW.unitMgr.bossUnitType
+	boss= {
+	},
+	---@enum(key) FW.unitMgr.enemyUnitType
+	enemy= {
+	['食尸鬼'] = require 'scripts.unit.enemy.ssg',
+	['蜘蛛'] = require 'scripts.unit.enemy.zz',
+	},
+	---@enum(key) FW.unitMgr.followHeroUnitType
+	followHero= {
+	['暗影猎手'] = require 'scripts.unit.followHero.ayls',
+	['恶魔猎手'] = require 'scripts.unit.followHero.emls',
+	['黑暗游侠'] = require 'scripts.unit.followHero.hayx',
+	['剑圣'] = require 'scripts.unit.followHero.js',
+	['炼金术士'] = require 'scripts.unit.followHero.ljss',
+	['牛头人酋长'] = require 'scripts.unit.followHero.ntrqz',
+	['山丘之王'] = require 'scripts.unit.followHero.sqzw',
+	},
+	---@enum(key) FW.unitMgr.minioUnitType
+	minio= {
+	['剑士'] = require 'scripts.unit.minio.jsxb',
+	},
+	---@enum(key) FW.unitMgr.summonerUnitType
+	summoner= {
+	['召唤师'] = require 'scripts.unit.summoner.zhs',
+	},
+	}
 ---autocode---
 unitMgr.units = {
     boss = {},
