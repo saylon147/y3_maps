@@ -11,31 +11,31 @@
     "max_dist": 1000, 
     "min_dist": 0, 
     "name": -662812717, 
-    "priority": 0, 
+    "priority": 1.0, 
     "sound_id": 1, 
     "sound_id_list": [
         {
-            "probability": 100, 
+            "probability": 5, 
             "sound_id": 134270923, 
             "volume": 100
         }, 
         {
-            "probability": 0, 
+            "probability": 5, 
             "sound_id": 134258507, 
             "volume": 100.0
         }, 
         {
-            "probability": 0, 
+            "probability": 5, 
             "sound_id": 134254911, 
             "volume": 100.0
         }, 
         {
-            "probability": 0, 
+            "probability": 5, 
             "sound_id": 134243320, 
             "volume": 100.0
         }, 
         {
-            "probability": 0, 
+            "probability": 5, 
             "sound_id": 134240361, 
             "volume": 100.0
         }

@@ -337,7 +337,18 @@
         "trajectory_radian": 0.6, 
         "trajectory_speed": 1000.0
     }, 
-    "sound_event_list": [], 
+    "sound_event_list": [
+        [
+            "UNIT_START_MOVE", 
+            134249807, 
+            8
+        ], 
+        [
+            "UNIT_ON_COMMAND", 
+            134240668, 
+            8
+        ]
+    ], 
     "special_idle_anim": "hold", 
     "speed_ratio_in_turn": 1, 
     "standard_walk_rate": 40.0, 

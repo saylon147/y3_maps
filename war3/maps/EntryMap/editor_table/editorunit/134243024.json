@@ -226,7 +226,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 700.0, 
+    "preview_billboard_health_value": 100.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
@@ -333,7 +333,7 @@
     }, 
     "sound_event_list": [
         [
-            "UNIT_ENTER_GRASS", 
+            "UNIT_START_MOVE", 
             134256719, 
             8
         ], 
