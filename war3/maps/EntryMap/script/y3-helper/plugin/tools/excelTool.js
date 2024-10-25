@@ -8,10 +8,13 @@ export async function 读取unit表格并生成修改物编() {
     let unitTable = y3.table.openTable('单位')
     for (let item of list) {
         let unit = await unitTable.get(item.id);
-        unit.data.name = item.cname;
         for (let key in item) {
             if (unit.data[key]) {
                 unit.data[key] = item[key]
+            }else if(key != 'id' && key != 'cname' && key != 'cehua_1'){
+                let kv = unit.data.kv
+                kv[key] = item[key]
+                unit.data.kv = kv
             }
         }
     }
