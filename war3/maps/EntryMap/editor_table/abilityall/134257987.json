@@ -13,7 +13,7 @@
     "ability_cast_range": {
         "__tuple__": true, 
         "items": [
-            "10.0"
+            "2.0"
         ]
     }, 
     "ability_cast_type": 2, 
@@ -212,7 +212,7 @@
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 0, 
+    "sight_type": 5, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []
