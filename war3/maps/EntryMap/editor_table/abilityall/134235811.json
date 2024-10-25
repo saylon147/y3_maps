@@ -212,6 +212,7 @@
             ]
         }
     }, 
+    "reward_official_res_1": 0.0, 
     "sector_angle": {
         "__tuple__": true, 
         "items": [
