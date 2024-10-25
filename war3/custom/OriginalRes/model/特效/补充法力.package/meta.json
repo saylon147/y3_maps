@@ -1,0 +1,16 @@
+{
+    "id": 134275770,
+    "md5_file_list": [
+        "\u8865\u5145\u6cd5\u529b.mdx"
+    ],
+    "modification_time": 3459710104.7949324,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u8865\u5145\u6cd5\u529b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/GenericGlowX": "GenericGlowX.tga",
+        "Textures/Blue_Glow2": "Blue_Glow2.tga"
+    }
+}

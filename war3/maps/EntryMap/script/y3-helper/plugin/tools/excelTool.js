@@ -90,8 +90,6 @@ export async function 读取unit表格并生成修改物编() {
             let subName = subDir[j][0].replace(".lua", "");
             let cname = "";
             for (let item of list) {
-                y3.print(item.lua_name, subName);
-                y3.print(item.unit_type, name);
                 if (item.lua_name == subName && item.unit_type == name) {
                     cname = item.name
                 }

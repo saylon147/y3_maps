@@ -1,0 +1,15 @@
+{
+    "id": 134256865,
+    "md5_file_list": [
+        "\u6655\u7729.mdx"
+    ],
+    "modification_time": 3459699066.155302,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6655\u7729.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Magic1": "Magic1.tga"
+    }
+}

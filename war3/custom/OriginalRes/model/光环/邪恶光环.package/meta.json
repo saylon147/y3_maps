@@ -1,0 +1,16 @@
+{
+    "id": 134241986,
+    "md5_file_list": [
+        "\u90aa\u6076\u5149\u73af.mdx"
+    ],
+    "modification_time": 3459700463.156398,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u90aa\u6076\u5149\u73af.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/DemonRune3": "DemonRune3.tga",
+        "abilities/Spells/Undead/UnholyAura/AuraRune9b_128": "AuraRune9b_128.tga"
+    }
+}

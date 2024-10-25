@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u5403\u7ecf\u9a8c.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Human/HolyBolt//HolyBolt.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/firering4", 
+        "Textures/DemonRune6", 
+        "Textures/Yellow_Glow_Dim2", 
+        "Textures/star6", 
+        "Textures/Dust5A", 
+        "Textures/star5tga"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134238117, 
+    "name": "Mdx\\\u5403\u7ecf\u9a8c", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5403\u7ecf\u9a8c.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.8526685237884521, 
+            4.169511795043945
+        ]
+    }
+}

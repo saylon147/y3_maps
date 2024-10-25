@@ -1,0 +1,15 @@
+{
+    "id": 134264173,
+    "md5_file_list": [
+        "\u5438\u8840\u9b3c\u5149\u73af.mdx"
+    ],
+    "modification_time": 3459698800.296799,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5438\u8840\u9b3c\u5149\u73af.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "abilities/Spells/Undead/VampiricAura/AuraRune6": "AuraRune6.tga"
+    }
+}

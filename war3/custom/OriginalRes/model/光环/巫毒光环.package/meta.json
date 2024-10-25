@@ -1,0 +1,19 @@
+{
+    "id": 134218563,
+    "md5_file_list": [
+        "\u5deb\u6bd2\u5149\u73af.mdx"
+    ],
+    "modification_time": 3459706690.4440084,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5deb\u6bd2\u5149\u73af.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "abilities/Spells/Orc/Voodoo/AuraRune11b": "AuraRune11b.TGA",
+        "abilities/Spells/Orc/Voodoo/AuraRune11": "AuraRune11.tga",
+        "Textures/TrollSymbol1": "TrollSymbol1.tga",
+        "Textures/GenericGlowX": "GenericGlowX.tga",
+        "Textures/GenericGlow2c": "GenericGlow2c.tga"
+    }
+}

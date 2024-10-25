@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u5347\u7ea7.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Other/Levelup//Levelupcaster.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Yellow_Glow_Dim2", 
+        "Textures/firering4", 
+        "Textures/Yellow_Star_Dim"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134262895, 
+    "name": "Mdx\\\u5347\u7ea7", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5347\u7ea7.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.573778748512268, 
+            3.295327663421631
+        ]
+    }
+}

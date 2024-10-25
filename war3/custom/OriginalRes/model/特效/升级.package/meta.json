@@ -1,0 +1,17 @@
+{
+    "id": 134262895,
+    "md5_file_list": [
+        "\u5347\u7ea7.mdx"
+    ],
+    "modification_time": 3459705541.7531633,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5347\u7ea7.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Yellow_Glow_Dim2": "Yellow_Glow_Dim2.tga",
+        "Textures/firering4": "firering4.tga",
+        "Textures/Yellow_Star_Dim": "Yellow_Star_Dim.tga"
+    }
+}

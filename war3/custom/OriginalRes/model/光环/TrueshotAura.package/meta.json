@@ -1,0 +1,16 @@
+{
+    "id": 134229682,
+    "md5_file_list": [
+        "TrueshotAura.mdx"
+    ],
+    "modification_time": 3459700023.9109554,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "TrueshotAura.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "abilities/Spells/NightElf/TrueshotAura/quartercircle2": "quartercircle2.tga",
+        "abilities/Spells/NightElf/TrueshotAura/tjcrosshair": "quartercircle2.tga"
+    }
+}

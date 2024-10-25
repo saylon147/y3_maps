@@ -1,0 +1,17 @@
+{
+    "id": 134256137,
+    "md5_file_list": [
+        "\u4e0d\u6b7b\u65cf\u76feShell.mdx"
+    ],
+    "modification_time": 3459709157.9589977,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u4e0d\u6b7b\u65cf\u76feShell.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Rune4b": "Rune4b.tga",
+        "Textures/GenericGlow64": "GenericGlow64.tga",
+        "Textures/GenericGlow2c": "GenericGlow2c.tga"
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\\u5438\u8840\u9b3c\u5149\u73af.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "abilities/Spells/Undead/VampiricAura/AuraRune6", 
+        "Textures/Shockwave10"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134264173, 
+    "name": "Mdx\\\u5438\u8840\u9b3c\u5149\u73af", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5438\u8840\u9b3c\u5149\u73af.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2404778003692627, 
+            0.0336029976606369
+        ]
+    }
+}

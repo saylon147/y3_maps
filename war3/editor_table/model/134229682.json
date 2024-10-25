@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\TrueshotAura.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "abilities/Spells/NightElf/TrueshotAura/quartercircle2", 
+        "abilities/Spells/NightElf/TrueshotAura/tjcrosshair"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134229682, 
+    "name": "Mdx\\TrueshotAura", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_TrueshotAura.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.791846752166748, 
+            0.07255300879478455
+        ]
+    }
+}
