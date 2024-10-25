@@ -71,20 +71,12 @@
         "items": []
     }, 
     "collision_radius_2": 0.7, 
-    "common_ability_list": [
-        [
-            134237685, 
-            1
-        ]
+    "common_ability_list": [], 
+    "common_atk": [
+        134246955, 
+        1
     ], 
-    "common_atk": {
-        "__tuple__": true, 
-        "items": [
-            201347498, 
-            1
-        ]
-    }, 
-    "common_atk_type": 0, 
+    "common_atk_type": 2, 
     "content": "strength", 
     "copper coin": 0, 
     "counterattack_range": 0, 
@@ -138,23 +130,10 @@
     "healing_effect": 0, 
     "healing_effect_grow": 0, 
     "height_offset": 0, 
-    "hero_ability_list": [
-        [
-            134228567, 
-            1
-        ], 
-        [
-            134233573, 
-            1
-        ], 
-        [
-            134239400, 
-            1
-        ]
-    ], 
+    "hero_ability_list": [], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 100, 
+    "hp_max": 10000.0, 
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
@@ -200,10 +179,12 @@
     "ori_bits": 0, 
     "ori_speed": 5.0, 
     "ori_speed_grow": 0.0, 
-    "passive_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "passive_ability_list": [
+        [
+            134240911, 
+            1
+        ]
+    ], 
     "path_finding_external_size": 0, 
     "pene_mag": 0.0, 
     "pene_mag_grow": 0.0, 
@@ -226,7 +207,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 100.0, 
+    "preview_billboard_health_value": 10000.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
@@ -243,10 +224,7 @@
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 9.42, 
-    "sell_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "sell_list": [], 
     "sell_res_list": {
         "__tuple__": true, 
         "items": []
@@ -261,8 +239,7 @@
     "simple_common_atk": {
         "ability_animations": [
             "Attack", 
-            "Attack 2", 
-            "Attack Walk Stand Spin"
+            "Attack 2"
         ], 
         "ability_bw_point": 0.5, 
         "ability_cast_point": 0.2, 
