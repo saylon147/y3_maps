@@ -1,0 +1,18 @@
+{
+    "id": 134240003,
+    "md5_file_list": [
+        "\u5403\u72b6\u6001.mdx"
+    ],
+    "modification_time": 3459707232.5050497,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5403\u72b6\u6001.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/LightningBall": "LightningBall.tga",
+        "Textures/firering1A": "firering1A.tga",
+        "abilities/Spells/Demon/DarkPortal/DemonRune1backup": "DemonRune1backup.tga",
+        "Textures/Dust5A": "Dust5A.tga"
+    }
+}

@@ -1,0 +1,23 @@
+{
+    "mdx_path": "Mdx\\\u6655\u7729.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/Magic1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134256865, 
+    "name": "Mdx\\\u6655\u7729", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6655\u7729.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.7692331075668335, 
+            0.19091661274433136
+        ]
+    }
+}

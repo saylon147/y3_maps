@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\\u4e0d\u6b7b\u65cf\u76feShell.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/Rune4b", 
+        "Textures/GenericGlow64", 
+        "Textures/GenericGlow2c"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134256137, 
+    "name": "Mdx\\\u4e0d\u6b7b\u65cf\u76feShell", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u4e0d\u6b7b\u65cf\u76feShell.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6723520755767822, 
+            1.1334214210510254
+        ]
+    }
+}

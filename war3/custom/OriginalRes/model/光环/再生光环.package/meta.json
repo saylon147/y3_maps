@@ -1,0 +1,15 @@
+{
+    "id": 134250631,
+    "md5_file_list": [
+        "\u518d\u751f\u5149\u73af.mdx"
+    ],
+    "modification_time": 3459693497.7169514,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u518d\u751f\u5149\u73af.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "abilities/Spells/Undead/RegenerationAura/DarkSummon": "DarkSummon.tga"
+    }
+}

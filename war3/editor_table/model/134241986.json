@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\\u90aa\u6076\u5149\u73af.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/DemonRune3", 
+        "abilities/Spells/Undead/UnholyAura/AuraRune9b_128"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134241986, 
+    "name": "Mdx\\\u90aa\u6076\u5149\u73af", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u90aa\u6076\u5149\u73af.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.336385726928711, 
+            0.7919489741325378
+        ]
+    }
+}

@@ -1,0 +1,15 @@
+{
+    "id": 134268049,
+    "md5_file_list": [
+        "\u6307\u6325\u5149\u73af.mdx"
+    ],
+    "modification_time": 3459712164.405717,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6307\u6325\u5149\u73af.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "abilities/Spells/Orc/CommandAura/Flash": "Flash.tga"
+    }
+}

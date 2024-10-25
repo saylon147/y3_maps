@@ -1,0 +1,23 @@
+{
+    "mdx_path": "Mdx\\\u6307\u6325\u5149\u73af.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "abilities/Spells/Orc/CommandAura/Flash"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134268049, 
+    "name": "Mdx\\\u6307\u6325\u5149\u73af", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6307\u6325\u5149\u73af.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.024015188217163, 
+            0.023771002888679504
+        ]
+    }
+}

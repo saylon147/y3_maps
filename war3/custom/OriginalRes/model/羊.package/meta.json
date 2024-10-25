@@ -3,9 +3,13 @@
     "md5_file_list": [
         "editor_model134278108.zip"
     ],
-    "modification_time": 3459787211.3419266,
+    "modification_time": 3459799708.900609,
     "ori_res_type": "kkres",
     "res_type": "model",
     "source_path": "editor_model134278108.zip",
-    "version": 1
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/SheepA": "SheepA.tga"
+    }
 }

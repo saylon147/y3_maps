@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u5deb\u6bd2\u5149\u73af.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Orc/Voodoo//BigBadVoodooSpellBirth1.wav"
+    ], 
+    "mdx_textures": [
+        "abilities/Spells/Orc/Voodoo/AuraRune11b", 
+        "abilities/Spells/Orc/Voodoo/AuraRune11", 
+        "Textures/TrollSymbol1", 
+        "Textures/GenericGlowX", 
+        "Textures/GenericGlow2c"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134218563, 
+    "name": "Mdx\\\u5deb\u6bd2\u5149\u73af", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5deb\u6bd2\u5149\u73af.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.853139042854309, 
+            1.442112922668457
+        ]
+    }
+}

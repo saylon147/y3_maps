@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\\u5949\u732e\u5149\u73af.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "abilities/Spells/Human/DevotionAura/AuraRune10", 
+        "abilities/Spells/Human/DevotionAura/AuraRuneArrow1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134239496, 
+    "name": "Mdx\\\u5949\u732e\u5149\u73af", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5949\u732e\u5149\u73af.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.9320341348648071, 
+            0.04694598913192749
+        ]
+    }
+}

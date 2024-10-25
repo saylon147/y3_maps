@@ -1,0 +1,16 @@
+{
+    "id": 134239496,
+    "md5_file_list": [
+        "\u5949\u732e\u5149\u73af.mdx"
+    ],
+    "modification_time": 3459693763.518429,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5949\u732e\u5149\u73af.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "abilities/Spells/Human/DevotionAura/AuraRune10": "AuraRune10.tga",
+        "abilities/Spells/Human/DevotionAura/AuraRuneArrow1": "AuraRuneArrow1.tga"
+    }
+}

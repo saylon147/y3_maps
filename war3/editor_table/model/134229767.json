@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u4f20\u9001to.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/lensflare1A", 
+        "Textures/DemonRune2", 
+        "Textures/DemonRune3", 
+        "abilities/Spells/Human/MassTeleport/Rune1", 
+        "ReplaceableTextures/Weather/Clouds8x8", 
+        "Textures/Dust5A"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134229767, 
+    "name": "Mdx\\\u4f20\u9001to", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u4f20\u9001to.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.1363164186477661, 
+            4.70631217956543
+        ]
+    }
+}
