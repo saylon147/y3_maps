@@ -52,7 +52,21 @@ function util:clamp(value, min, max)
     return math.max(min, math.min(value, max))
 end
 
-
-
-
+---table深拷贝
+---@param orig table
+---@return table copy
+function util:deepcopy(orig)
+    local orig_type = type(orig)
+    local copy
+    if orig_type == 'table' then
+        copy = {}
+        for orig_key, orig_value in next, orig, nil do
+            copy[self:deepcopy(orig_key)] = self:deepcopy(orig_value)
+        end
+        setmetatable(copy, self:deepcopy(getmetatable(orig)))
+    else -- 非table类型直接返回
+        copy = orig
+    end
+    return copy
+end
 return util
