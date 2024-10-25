@@ -11,7 +11,7 @@ export async function 读取unit表格并生成修改物编() {
         for (let key in item) {
             if (unit.data[key]) {
                 unit.data[key] = item[key]
-            }else if(key != 'id' && key != 'cehua_1'){
+            }else if(key != 'id'){
                 let kv = unit.data.kv
                 kv[key] = item[key]
                 unit.data.kv = kv
@@ -219,7 +219,7 @@ async function getExcelJson(uri) {
                 obj[keys[j]] = newList;
             } else if (types[j] == 'string[]') {
                 obj[keys[j]] = value.split("|");
-            } else {
+            } else if(types[j] == 'string'){
                 obj[keys[j]] = value;
             }
 
