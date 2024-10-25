@@ -13,7 +13,7 @@
     "ability_cast_range": {
         "__tuple__": true, 
         "items": [
-            "10.0"
+            "1.0"
         ]
     }, 
     "ability_cast_type": 2, 
@@ -21,19 +21,19 @@
     "ability_cost": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage_range": {
         "__tuple__": true, 
         "items": [
-            "0.0"
+            "8.0"
         ]
     }, 
     "ability_hp_cost": {
@@ -42,7 +42,7 @@
             "0"
         ]
     }, 
-    "ability_icon": 100508, 
+    "ability_icon": 100014, 
     "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
@@ -91,7 +91,7 @@
     "camp_priority_friend": 1, 
     "camp_priority_neutral": 1, 
     "camp_priority_self": 1, 
-    "can_autocast_when_attack_target": false, 
+    "can_autocast_when_attack_target": true, 
     "can_bs_interrupt": true, 
     "can_cache": true, 
     "can_cast_interrupt": false, 
@@ -112,7 +112,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "60.0"
         ]
     }, 
     "collection_animation": "", 
@@ -169,7 +169,7 @@
     }, 
     "influenced_by_cd_reduce": true, 
     "influenced_by_move": true, 
-    "is_autocast": false, 
+    "is_autocast": true, 
     "is_charge_ability": false, 
     "is_immediate": false, 
     "is_meele": false, 
@@ -226,7 +226,7 @@
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 4, 
+    "sight_type": 0, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []
