@@ -30,7 +30,7 @@ unitMgr.unitTemple = {
 	},
 	---@enum(key) FW.unitMgr.minioUnitType
 	minio= {
-	['剑士'] = require 'scripts.unit.minio.jsxb',
+	['步兵'] = require 'scripts.unit.minio.bb',
 	},
 	---@enum(key) FW.unitMgr.summonerUnitType
 	summoner= {
@@ -104,19 +104,21 @@ end
 --创建波次小兵，敌方和自己的
 ---@param unitType FW.unitMgr.unitType
 ---@param unitSubType FW.unitMgr.enemyUnitType|FW.unitMgr.minioUnitType
----@param count any
-function unitMgr:createRoundMinion(unitType, unitSubType, count)
+---@param count integer
+---@param level integer
+function unitMgr:createRoundMinion(unitType, unitSubType, count, level)
     for index, player in ipairs(FW.playerMgr.allPlayers:pick()) do
         for i = 1, count, 1 do
             local unit
             if unitType == "enemy" then
-                unit =  self:createUnit(player, unitType, nil, unitSubType, FW.const.enemyBornPoint[player:get_id()], 0)
+                unit = self:createUnit(player, unitType, nil, unitSubType, FW.const.enemyBornPoint[player:get_id()], 0)
                 unit:attack_move(FW.const.bornPoint[player:get_id()])
             elseif unitType == "minio" then
-                unit =  self:createUnit(player, unitType, nil, unitSubType, FW.const.bornPoint[player:get_id()], 0)
+                unit = self:createUnit(player, unitType, nil, unitSubType, FW.const.bornPoint[player:get_id()], 0)
                 unit:attack_move(FW.const.enemyBornPoint[player:get_id()])
             end
             unit:add_state("无法控制")
+            unit:set_level(level)
         end
     end
 end

@@ -78,7 +78,7 @@ end
 
 function playerMgr:initPlayerSummoner()
     for index, player in pairs(FW.playerMgr.allPlayers:pick()) do
-        local unit = FW.unitMgr:createUnit(player, 'summoner', nil, 'summoner1', FW.const.bornPoint[player:get_id()])
+        local unit = FW.unitMgr:createRandomUnit(player, 'summoner',FW.const.bornPoint[player:get_id()])
         addPlayerUnitEvent(unit)
         self:getFollowHero(player)
     end

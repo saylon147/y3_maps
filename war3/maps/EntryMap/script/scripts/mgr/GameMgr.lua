@@ -3,6 +3,7 @@ local gameMgr = Class 'gameMgr'
 gameMgr.currentRound = 0
 gameMgr.mode = 1
 gameMgr.roundTimer = nil
+gameMgr.currentGameBrushConfig = nil
 
 function gameMgr:gameInit()
     FW.playerMgr:initPlayers()
@@ -34,6 +35,7 @@ end
 
 function gameMgr:modePicked(args)
     self.mode = args.mode
+    self.currentGameBrushConfig = FW.util:deepcopy(FW.configMgr:getConfigTableRowByKey('brushMonster', 'difficulty', self.mode))
     self:gameStart()
 end
 
@@ -57,8 +59,24 @@ end
 function gameMgr:gamingEvent()
     y3.timer.loop(1, function(timer, count)
         print('游戏开始后当前时间秒数：' .. count)
-        if FW.globalVar.gameState == "gaming" and count % 10 == 0 then
-            FW.unitMgr:createRoundMinion("enemy", '食尸鬼', 5)
+        if FW.globalVar.gameState == "gaming" then
+            if #self.currentGameBrushConfig > 0 then
+                local removes = {}
+                for index, config in ipairs(self.currentGameBrushConfig) do
+                    if config.time == count then
+                        table.insert(removes,config)
+                    else 
+                        break
+                    end
+                end
+                for index, config in ipairs(removes) do
+                    for i = 1, #config.unit_cname, 1 do
+                        FW.unitMgr:createRoundMinion(config.unit_type, config.unit_cname[i], config.unit_count[i],config.unit_lv[i])
+                    end
+                    table.remove(self.currentGameBrushConfig,index)
+                end
+            end
+            --FW.unitMgr:createRoundMinion("enemy", '食尸鬼', 5)
             --FW.unitMgr:createRoundMinion("minio", '牛头', 5)
         end
         if count % 5 == 0 then
