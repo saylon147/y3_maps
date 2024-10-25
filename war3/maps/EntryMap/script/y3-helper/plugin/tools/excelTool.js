@@ -11,7 +11,7 @@ export async function 读取unit表格并生成修改物编() {
         for (let key in item) {
             if (unit.data[key]) {
                 unit.data[key] = item[key]
-            }else if(key != 'id' && key != 'cname' && key != 'cehua_1'){
+            }else if(key != 'id'){
                 let kv = unit.data.kv
                 kv[key] = item[key]
                 unit.data.kv = kv
@@ -29,7 +29,7 @@ export async function 读取unit表格并生成修改物编() {
         let luaText = "";
         if (oriText.indexOf('---not refresh code---') != -1) {
             let replaceText = oriText.split('---not refresh code---')[1];
-            luaText = `--${item.cname}
+            luaText = `--${item.name}
             local M = {}
             M.id = ${item.id}
             M.template = y3.object.unit[M.id] --物编信息
@@ -48,7 +48,7 @@ export async function 读取unit表格并生成修改物编() {
             end
             return M`
         } else {
-            luaText = `--${item.cname}
+            luaText = `--${item.name}
             local M = {}
             M.id = ${item.id}
             M.template = y3.object.unit[M.id] --物编信息
@@ -90,10 +90,8 @@ export async function 读取unit表格并生成修改物编() {
             let subName = subDir[j][0].replace(".lua", "");
             let cname = "";
             for (let item of list) {
-                y3.print(item.lua_name, subName);
-                y3.print(item.unit_type, name);
                 if (item.lua_name == subName && item.unit_type == name) {
-                    cname = item.cname
+                    cname = item.name
                 }
             }
             templateStr += "\t['" + cname + "'] = require 'scripts.unit." + name + "." + subName + "',\n";
@@ -219,7 +217,7 @@ async function getExcelJson(uri) {
                 obj[keys[j]] = newList;
             } else if (types[j] == 'string[]') {
                 obj[keys[j]] = value.split("|");
-            } else {
+            } else if(types[j] == 'string'){
                 obj[keys[j]] = value;
             }
 

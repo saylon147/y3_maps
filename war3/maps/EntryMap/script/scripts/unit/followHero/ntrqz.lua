@@ -1,8 +1,8 @@
---食尸鬼
+--牛头人酋长
             local M = {}
-            M.id = 134244650
+            M.id = 134280846
             M.template = y3.object.unit[M.id] --物编信息
-            M.type = 'enemy'
+            M.type = 'followHero'
             ---not refresh code---
             
             
