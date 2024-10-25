@@ -75,6 +75,10 @@
         [
             134257987, 
             1
+        ], 
+        [
+            134276015, 
+            1
         ]
     ], 
     "common_atk": {
@@ -146,7 +150,7 @@
     ], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 100, 
+    "hp_max": 700.0, 
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
@@ -218,7 +222,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 100.0, 
+    "preview_billboard_health_value": 700.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
