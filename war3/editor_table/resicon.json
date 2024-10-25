@@ -1,1 +1,10 @@
-{}
+{
+    "ui/134264883": {
+        "default_editor_id": 134264883, 
+        "describe": "", 
+        "key": "ui/134264883", 
+        "name": "Trade_Engineering", 
+        "path": "ui/134264883", 
+        "uid": "res_icon_ui/134264883"
+    }
+}
