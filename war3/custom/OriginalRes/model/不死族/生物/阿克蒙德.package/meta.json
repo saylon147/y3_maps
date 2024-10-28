@@ -1,0 +1,15 @@
+{
+    "id": 134238443,
+    "md5_file_list": [
+        "\u963f\u514b\u8499\u5fb7.mdx"
+    ],
+    "modification_time": 3460355933.0981474,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u963f\u514b\u8499\u5fb7.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Demon/Warlock/Archemonde": "Archemonde.tga"
+    }
+}

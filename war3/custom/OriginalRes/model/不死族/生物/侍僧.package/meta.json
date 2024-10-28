@@ -1,0 +1,18 @@
+{
+    "id": 134219911,
+    "md5_file_list": [
+        "\u4f8d\u50e7.mdx"
+    ],
+    "modification_time": 3460238711.529439,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u4f8d\u50e7.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Acolyte": "Acolyte.tga",
+        "Textures/DemonRune3": "DemonRune3.tga",
+        "Textures/gutz": "gutz.tga",
+        "Textures/Green_Star": "Green_Star.tga"
+    }
+}
