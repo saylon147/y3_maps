@@ -1,6 +1,6 @@
 {
     "_custom_": true, 
-    "_ref_": 134250976, 
+    "_ref_": 134232584, 
     "affect_techs": {
         "__tuple__": true, 
         "items": []
@@ -11,13 +11,13 @@
     "angle_tolerance": 0, 
     "anim_state_name": "", 
     "armor_type": 20004, 
-    "attack_interval": 1.0, 
+    "attack_interval": 1, 
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
     "attack_phy": 80.0, 
     "attack_phy_grow": 5.0, 
-    "attack_range": 5.0, 
+    "attack_range": 1, 
     "attack_range_grow": 0, 
     "attack_speed": 80.0, 
     "attack_speed_grow": 5.0, 
@@ -41,7 +41,7 @@
     "billboard_scale_y": 1, 
     "blood_bar": 327681, 
     "blood_show_type": 0, 
-    "body_size": 1.0, 
+    "body_size": 1.2, 
     "build_ignore_dyn_collision": false, 
     "build_res_cost_list": {
         "__tuple__": true, 
@@ -71,7 +71,10 @@
         "items": []
     }, 
     "collision_radius_2": 0.7, 
-    "common_ability_list": [], 
+    "common_ability_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "common_atk": {
         "__tuple__": true, 
         "items": [
@@ -79,7 +82,7 @@
             1
         ]
     }, 
-    "common_atk_type": 1, 
+    "common_atk_type": 0, 
     "content": "strength", 
     "copper coin": 0, 
     "counterattack_range": 0, 
@@ -94,7 +97,7 @@
     "defense_mag_grow": 1.0, 
     "defense_phy": 30.0, 
     "defense_phy_grow": 3.0, 
-    "description": 329758551, 
+    "description": -1525546279, 
     "destroy_after_die": true, 
     "die_anim": "die", 
     "disk_shadow_size": 0, 
@@ -133,32 +136,10 @@
     "healing_effect": 0, 
     "healing_effect_grow": 0, 
     "height_offset": 0, 
-    "hero_ability_list": [
-        [
-            134266069, 
-            1
-        ], 
-        [
-            134278424, 
-            1
-        ], 
-        [
-            134269127, 
-            1
-        ], 
-        [
-            134224087, 
-            1
-        ], 
-        [
-            134269239, 
-            1
-        ], 
-        [
-            134228246, 
-            1
-        ]
-    ], 
+    "hero_ability_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
     "hp_max": 700.0, 
@@ -182,7 +163,7 @@
     "is_z_offset": 1, 
     "keep_dead_body_time": 0.0, 
     "keep_target": true, 
-    "key": 134250976, 
+    "key": 134232584, 
     "kv": {}, 
     "level": 1, 
     "main_attr": "strength", 
@@ -190,7 +171,7 @@
     "max_stock": 5, 
     "mini_map_icon": 903952, 
     "mini_map_icon_scale": 1.0, 
-    "model": 134275674, 
+    "model": 134220894, 
     "model_height": 0.0, 
     "model_opacity": 1, 
     "move_channel": 0, 
@@ -202,7 +183,7 @@
     "mp_max_grow": 50.0, 
     "mp_rec": 10, 
     "mp_rec_grow": 2, 
-    "name": -903873407, 
+    "name": 985474478, 
     "need_preview_billboard": true, 
     "ori_bits": 0, 
     "ori_speed": 5.0, 
@@ -233,7 +214,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 700.0, 
+    "preview_billboard_health_value": 0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
@@ -266,28 +247,26 @@
     "show_y3_extra_info": false, 
     "silver coin": 0, 
     "simple_common_atk": {
-        "ability_animations": [
-            "Attack - 1", 
-            "Attack - 2"
-        ], 
-        "ability_bw_point": 1.0, 
-        "ability_cast_point": 0.2, 
-        "attack_interval": 1.0, 
-        "attack_range": 5.0, 
-        "attack_trajectory": {
-            "destroy_immediately": false, 
-            "duration": -1.0, 
-            "effect": 103097, 
-            "follow_scale": true, 
-            "scale": 0.6, 
-            "socket": "atk", 
-            "target_socket": "hit_point"
+        "ability_animations": {
+            "__tuple__": true, 
+            "items": [
+                "attack1"
+            ]
         }, 
-        "cast_effect_list": [], 
-        "cast_interrupt": false, 
+        "ability_bw_point": 0.5, 
+        "ability_cast_point": 0.2, 
+        "attack_trajectory": {
+            "effect": 0, 
+            "follow_scale": true, 
+            "scale": 1.0, 
+            "socket": "origin"
+        }, 
+        "cast_effect_list": {
+            "__tuple__": true, 
+            "items": []
+        }, 
         "cast_sound": 0, 
-        "collection_destructible_tags": [], 
-        "critical_anim": "Attack - 2", 
+        "critical_anim": "attack1", 
         "damage": {
             "__tuple__": true, 
             "items": [
@@ -317,38 +296,23 @@
         }, 
         "damage_type": 0, 
         "filter_condition_camp": 5, 
-        "filter_condition_move_channel_type": 99, 
         "filter_condition_type": 7, 
-        "filter_item_tags": [], 
-        "filter_unit_tags": [], 
         "hit_effect": {
-            "effect": 100799, 
+            "effect": 0, 
             "follow_scale": true, 
-            "scale": 0.5, 
-            "socket": "hit_point"
+            "scale": 1.0, 
+            "socket": "origin"
         }, 
         "hit_sound": 0, 
-        "jump_word": true, 
         "order_play_anim": false, 
         "order_play_reset_time": 0.5, 
-        "simple_atk_dice_count": 0, 
-        "simple_atk_dice_max_value": 0, 
-        "target_attribute": 0, 
-        "trajectory_radian": 0.6, 
+        "trajectory_radian": 1.0, 
         "trajectory_speed": 1000.0
     }, 
-    "sound_event_list": [
-        [
-            "UNIT_START_MOVE", 
-            134249807, 
-            8
-        ], 
-        [
-            "UNIT_ON_COMMAND", 
-            134240668, 
-            8
-        ]
-    ], 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "special_idle_anim": "hold", 
     "speed_ratio_in_turn": 1, 
     "standard_walk_rate": 40.0, 
@@ -366,7 +330,7 @@
     }, 
     "tower_hatred_duration": 3, 
     "type": 1, 
-    "uid": "134250976", 
+    "uid": "134232584", 
     "use_base_tint_color": false, 
     "use_fresnel": 0, 
     "use_simple_mini_map_icon": false, 
