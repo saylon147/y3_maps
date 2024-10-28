@@ -1,0 +1,18 @@
+{
+    "id": 134227647,
+    "md5_file_list": [
+        "\u5730\u9707.mdx"
+    ],
+    "modification_time": 3460274057.0217104,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5730\u9707.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/EQ_Rock2": "EQ_Rock2.tga",
+        "Textures/Red_Glow3": "Red_Glow3.tga",
+        "Textures/Dust5A": "Dust5A.tga",
+        "Textures/LavaLump": "LavaLump.tga"
+    }
+}

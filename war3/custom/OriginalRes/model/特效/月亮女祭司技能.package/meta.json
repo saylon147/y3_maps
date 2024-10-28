@@ -1,0 +1,22 @@
+{
+    "id": 134271547,
+    "md5_file_list": [
+        "\u6708\u4eae\u5973\u796d\u53f8\u6280\u80fd.mdx"
+    ],
+    "modification_time": 3460212823.9391675,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6708\u4eae\u5973\u796d\u53f8\u6280\u80fd.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Blue_Glow2": "Blue_Glow2.TGA",
+        "Textures/lensflare1A": "lensflare1A.tga",
+        "Textures/star5tga": "star5tga.tga",
+        "Textures/grad2b": "grad2b.tga",
+        "Textures/Green_Glow3": "Green_Glow3.tga",
+        "Textures/Blue_Star2": "Blue_Star2.tga",
+        "Textures/Purple_Star": "Purple_Star.tga",
+        "Textures/Purple_Glow": "Purple_Glow.tga"
+    }
+}

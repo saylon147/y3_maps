@@ -1,0 +1,16 @@
+{
+    "id": 134257867,
+    "md5_file_list": [
+        "\u95ea\u7535\u72b6\u6001.mdx"
+    ],
+    "modification_time": 3460208929.093854,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u95ea\u7535\u72b6\u6001.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Zap1_Red": "Zap1_Red.tga",
+        "Textures/Clouds8x8Fade": "Clouds8x8Fade.tga"
+    }
+}

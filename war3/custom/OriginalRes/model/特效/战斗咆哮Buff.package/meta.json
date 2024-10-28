@@ -1,0 +1,15 @@
+{
+    "id": 134282879,
+    "md5_file_list": [
+        "\u6218\u6597\u5486\u54eeBuff.mdx"
+    ],
+    "modification_time": 3460196253.112385,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6218\u6597\u5486\u54eeBuff.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "abilities/Spells/NightElf/BattleRoar/BattleRoar": "BattleRoar.tga"
+    }
+}

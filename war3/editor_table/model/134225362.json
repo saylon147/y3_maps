@@ -1,0 +1,35 @@
+{
+    "mdx_path": "Mdx\\\u98ce\u66b4\u4e4b\u9524Missile.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Human/StormBolt//ThunderBoltMissileDeath.wav", 
+        "sound/Abilities/Spells/Human/StormBolt//StormBoltLaunch.wav"
+    ], 
+    "mdx_textures": [
+        "ReplaceableTextures/TeamColor/TeamColor00", 
+        "ReplaceableTextures/HeroMountainKing/heromountainking", 
+        "Textures/firering4", 
+        "Textures/Zap1", 
+        "Textures/Blue_Glow2", 
+        "Textures/E_Smoke_Anim256", 
+        "Textures/star32", 
+        "Textures/Purple_Glow_Dim", 
+        "Textures/lensflare1A", 
+        "Textures/Dust3"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134225362, 
+    "name": "Mdx\\\u98ce\u66b4\u4e4b\u9524Missile", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u98ce\u66b4\u4e4b\u9524Missile.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5583742260932922, 
+            1.0339620113372803
+        ]
+    }
+}

@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\\u52a0\u8840.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/GenericGlowX", 
+        "Textures/Yellow_Glow3"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134233469, 
+    "name": "Mdx\\\u52a0\u8840", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u52a0\u8840.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.6322804689407349, 
+            1.5430018901824951
+        ]
+    }
+}

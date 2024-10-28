@@ -1,0 +1,22 @@
+{
+    "id": 134232422,
+    "md5_file_list": [
+        "\u57fa\u5730\u70b8\u4e86.mdx"
+    ],
+    "modification_time": 3460189926.894676,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u57fa\u5730\u70b8\u4e86.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Red_Glow3": "Red_Glow3.tga",
+        "Textures/firering1A": "firering1A.tga",
+        "Textures/GenericGlow2b": "GenericGlow2b.tga",
+        "Textures/Clouds8x8Mod": "Clouds8x8Mod.tga",
+        "Textures/star6": "star6.tga",
+        "Textures/CartoonCloud": "CartoonCloud.tga",
+        "Textures/Shockwave1": "Shockwave1.tga",
+        "Textures/GenericGlowFaded": "GenericGlowFaded.tga"
+    }
+}

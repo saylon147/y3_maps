@@ -1,0 +1,32 @@
+{
+    "mdx_path": "Mdx\\\u57fa\u5730\u70b8\u4e86.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Human/MarkOfChaos//MarkOfChaos.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Red_Glow3", 
+        "Textures/firering1A", 
+        "Textures/GenericGlow2b", 
+        "Textures/Clouds8x8Mod", 
+        "Textures/star6", 
+        "Textures/CartoonCloud", 
+        "Textures/Shockwave1", 
+        "Textures/GenericGlowFaded"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134232422, 
+    "name": "Mdx\\\u57fa\u5730\u70b8\u4e86", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u57fa\u5730\u70b8\u4e86.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            3.1523184776306152, 
+            5.063932418823242
+        ]
+    }
+}

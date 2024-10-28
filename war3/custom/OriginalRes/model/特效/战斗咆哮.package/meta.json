@@ -1,0 +1,17 @@
+{
+    "id": 134221142,
+    "md5_file_list": [
+        "\u6218\u6597\u5486\u54ee.mdx"
+    ],
+    "modification_time": 3460203853.971034,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6218\u6597\u5486\u54ee.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/GenericGlow2b": "GenericGlow2b.tga",
+        "Textures/firering1A": "firering1A.tga",
+        "Textures/DeathScream": "DeathScream.tga"
+    }
+}

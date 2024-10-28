@@ -1,0 +1,14 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\ArrowMissile", 
+    "key": 134255526, 
+    "md5": "c5a62e0e63e3a5853cfe99884e3742d6", 
+    "model_id": 134255526, 
+    "name": "ArrowMissile", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134255526", 
+    "version": 1
+}

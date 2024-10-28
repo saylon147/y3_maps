@@ -1,0 +1,17 @@
+{
+    "id": 134223066,
+    "md5_file_list": [
+        "\u95ea\u7535debuff.mdx"
+    ],
+    "modification_time": 3460208976.387006,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u95ea\u7535debuff.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/E_Smoke_Anim256": "E_Smoke_Anim256.tga",
+        "Textures/LightningBall": "LightningBall.tga",
+        "Textures/Zap1": "Zap1.tga"
+    }
+}

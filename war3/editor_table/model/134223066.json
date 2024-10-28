@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u95ea\u7535debuff.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Orc/Purge//PurgeTarget1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/E_Smoke_Anim256", 
+        "Textures/LightningBall", 
+        "Textures/Zap1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134223066, 
+    "name": "Mdx\\\u95ea\u7535debuff", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u95ea\u7535debuff.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.9662299156188965, 
+            3.5266101360321045
+        ]
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u6218\u6597\u5486\u54ee.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/NightElf/BattleRoar//BattleRoar.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/GenericGlow2b", 
+        "Textures/firering1A", 
+        "Textures/DeathScream"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134221142, 
+    "name": "Mdx\\\u6218\u6597\u5486\u54ee", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6218\u6597\u5486\u54ee.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            6.2958245277404785, 
+            6.099679946899414
+        ]
+    }
+}

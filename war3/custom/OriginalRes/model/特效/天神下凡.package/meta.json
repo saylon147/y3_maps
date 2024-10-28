@@ -1,0 +1,15 @@
+{
+    "id": 134253638,
+    "md5_file_list": [
+        "\u5929\u795e\u4e0b\u51e1.mdx"
+    ],
+    "modification_time": 3460185617.7118235,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5929\u795e\u4e0b\u51e1.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "ReplaceableTextures/HeroMountainKing/heromountainking": "heromountainking.tga"
+    }
+}

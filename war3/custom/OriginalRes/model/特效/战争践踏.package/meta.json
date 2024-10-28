@@ -1,0 +1,17 @@
+{
+    "id": 134232183,
+    "md5_file_list": [
+        "\u6218\u4e89\u8df5\u8e0f.mdx"
+    ],
+    "modification_time": 3460175794.675463,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6218\u4e89\u8df5\u8e0f.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/LightningBall": "LightningBall.tga",
+        "Textures/grad2d": "grad2d.tga",
+        "Textures/Zap1_Red": "Zap1_Red.tga"
+    }
+}
