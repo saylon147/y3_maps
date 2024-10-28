@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u65e0\u654c.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Human/DivineShield//DivineShield.wav", 
+        "sound/Abilities/Spells/Human/DivineShield//PaladinDivineShieldDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/GenericGlow2c", 
+        "Textures/Rune1d", 
+        "Textures/pixies1", 
+        "Textures/Yellow_Star"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134237028, 
+    "name": "Mdx\\\u65e0\u654c", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u65e0\u654c.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.229432463645935, 
+            2.074671983718872
+        ]
+    }
+}

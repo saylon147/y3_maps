@@ -1,0 +1,18 @@
+{
+    "id": 134255658,
+    "md5_file_list": [
+        "\u6389\u843d\u91d1\u5e01.mdx"
+    ],
+    "modification_time": 3460207253.6020203,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6389\u843d\u91d1\u5e01.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/GOLDCoin": "GOLDCoin.tga",
+        "Textures/Yellow_Star": "Yellow_Star.tga",
+        "Textures/GenericGlow64": "GenericGlow64.tga",
+        "Textures/Yellow_Star_Dim": "Yellow_Star_Dim.tga"
+    }
+}

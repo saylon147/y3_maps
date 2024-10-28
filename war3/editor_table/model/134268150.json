@@ -1,0 +1,23 @@
+{
+    "mdx_path": "Mdx\\\u98ce\u66b4\u4e4b\u9524Target.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/Magic1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134268150, 
+    "name": "Mdx\\\u98ce\u66b4\u4e4b\u9524Target", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u98ce\u66b4\u4e4b\u9524Target.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.7692331075668335, 
+            0.19091661274433136
+        ]
+    }
+}

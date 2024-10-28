@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\MassTeleportCaster.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Human/MassTeleport//MassTeleportTarget.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/GenericGlow2_64_blue", 
+        "Textures/GenericGlow2c", 
+        "abilities/Spells/Human/MassTeleport/Rune1", 
+        "Textures/Blue_Star2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134247093, 
+    "name": "Mdx\\MassTeleportCaster", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_MassTeleportCaster.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2841923236846924, 
+            7.3034749031066895
+        ]
+    }
+}

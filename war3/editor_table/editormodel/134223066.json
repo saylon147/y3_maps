@@ -1,0 +1,14 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\\u95ea\u7535debuff", 
+    "key": 134223066, 
+    "md5": "735e56a42ab743cadaf655efe0bf28d8", 
+    "model_id": 134223066, 
+    "name": "\u95ea\u7535debuff", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134223066", 
+    "version": 1
+}

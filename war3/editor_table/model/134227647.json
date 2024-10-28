@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u5730\u9707.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Orc/EarthQuake//EarthquakeRock.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/EQ_Rock2", 
+        "Textures/Red_Glow3", 
+        "Textures/Dust5A", 
+        "Textures/LavaLump"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134227647, 
+    "name": "Mdx\\\u5730\u9707", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5730\u9707.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.2889440059661865, 
+            1.0753920078277588
+        ]
+    }
+}

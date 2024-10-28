@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\BristleBackMissile.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Weapons/BristleBackMissile//BristleBackMissileLaunch1.wav", 
+        "sound/Abilities/Weapons/BristleBackMissile//BristleBackMissileHit.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Razormane", 
+        "Textures/grad3"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134251385, 
+    "name": "Mdx\\BristleBackMissile", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_BristleBackMissile.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.11220891773700714, 
+            0.09349700063467026
+        ]
+    }
+}

@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u590d\u6d3b.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Human/Resurrect//ResurrectTarget.wav"
+    ], 
+    "mdx_textures": [
+        "abilities/Spells/Human/Resurrect/Holyshaft", 
+        "Textures/Rune4b", 
+        "Textures/Yellow_Glow", 
+        "abilities/Spells/Human/Resurrect/Rune1b_64", 
+        "abilities/Spells/Human/Resurrect/Star9"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134276499, 
+    "name": "Mdx\\\u590d\u6d3b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u590d\u6d3b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.472061038017273, 
+            33.77389907836914
+        ]
+    }
+}

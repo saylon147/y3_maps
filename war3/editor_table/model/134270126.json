@@ -1,0 +1,23 @@
+{
+    "mdx_path": "Mdx\\\u6218\u9f13.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/Shockwave4"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134270126, 
+    "name": "Mdx\\\u6218\u9f13", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6218\u9f13.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.2023301124572754, 
+            0.2807830572128296
+        ]
+    }
+}

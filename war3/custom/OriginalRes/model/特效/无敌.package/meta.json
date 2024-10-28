@@ -1,0 +1,18 @@
+{
+    "id": 134237028,
+    "md5_file_list": [
+        "\u65e0\u654c.mdx"
+    ],
+    "modification_time": 3460201986.3552284,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u65e0\u654c.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/GenericGlow2c": "GenericGlow2c.tga",
+        "Textures/Rune1d": "Rune1d.tga",
+        "Textures/pixies1": "pixies1.tga",
+        "Textures/Yellow_Star": "Yellow_Star.tga"
+    }
+}

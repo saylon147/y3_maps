@@ -1,0 +1,14 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\BristleBackMissile", 
+    "key": 134251385, 
+    "md5": "feac1a11f0d54358f4fc0d3ddc6fa7c3", 
+    "model_id": 134251385, 
+    "name": "BristleBackMissile", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134251385", 
+    "version": 1
+}

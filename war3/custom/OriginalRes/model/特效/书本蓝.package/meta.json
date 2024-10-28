@@ -1,0 +1,18 @@
+{
+    "id": 134278021,
+    "md5_file_list": [
+        "\u4e66\u672c\u84dd.mdx"
+    ],
+    "modification_time": 3460213303.944163,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u4e66\u672c\u84dd.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "objects/InventoryItems/tomeBlue/tomeBlue": "tomeBlue.tga",
+        "Textures/Yellow_Star": "Yellow_Star.tga",
+        "Textures/GenericGlow64": "GenericGlow64.tga",
+        "Textures/Yellow_Star_Dim": "Yellow_Star_Dim.tga"
+    }
+}

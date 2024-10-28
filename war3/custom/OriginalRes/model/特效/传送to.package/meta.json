@@ -3,11 +3,18 @@
     "md5_file_list": [
         "\u4f20\u9001to.mdx"
     ],
-    "modification_time": 3459707837.794124,
+    "modification_time": 3459941196.247862,
     "ori_res_type": "ori",
     "res_type": "model",
     "source_path": "\u4f20\u9001to.mdx",
     "version": 1,
     "yaw": 0,
-    "textures": {}
+    "textures": {
+        "Textures/DemonRune2": "DemonRune2.tga",
+        "Textures/lensflare1A": "lensflare1A.tga",
+        "Textures/DemonRune3": "DemonRune3.tga",
+        "abilities/Spells/Human/MassTeleport/Rune1": "Rune1.tga",
+        "ReplaceableTextures/Weather/Clouds8x8": "Clouds8x8.tga",
+        "Textures/Dust5A": "Dust5A.tga"
+    }
 }

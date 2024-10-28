@@ -1,0 +1,19 @@
+{
+    "id": 134282789,
+    "md5_file_list": [
+        "\u52a0\u751f\u547d.mdx"
+    ],
+    "modification_time": 3460221587.9154387,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u52a0\u751f\u547d.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "objects/Spawnmodels/Other/ToonBoom/swirl1": "swirl1.tga",
+        "Textures/ToonSmokeX": "Mod2.png",
+        "Textures/swirl1yellow": "swirl1yellow.tga",
+        "Textures/star4_32": "star4_32.tga",
+        "Textures/Yellow_Glow3": "Yellow_Glow3.tga"
+    }
+}
