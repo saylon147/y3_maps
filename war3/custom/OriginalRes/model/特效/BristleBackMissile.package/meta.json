@@ -3,14 +3,14 @@
     "md5_file_list": [
         "BristleBackMissile.mdx"
     ],
-    "modification_time": 3460173129.087496,
+    "modification_time": 3460188226.73034,
     "ori_res_type": "ori",
     "res_type": "model",
     "source_path": "BristleBackMissile.mdx",
     "version": 1,
     "yaw": 0,
     "textures": {
-        "Textures/Razormane": "Razormane.tga",
-        "Textures/grad3": "grad3.tga"
+        "Textures/Razormane": "Razormane.TGA",
+        "Textures/grad3": "grad3.TGA"
     }
 }

@@ -3,7 +3,7 @@
     "md5_file_list": [
         "\u52a0\u901f.mdx"
     ],
-    "modification_time": 3460198050.031966,
+    "modification_time": 3460204081.454391,
     "ori_res_type": "ori",
     "res_type": "model",
     "source_path": "\u52a0\u901f.mdx",
@@ -11,7 +11,7 @@
     "yaw": 0,
     "textures": {
         "Textures/firering1A": "firering1A.TGA",
-        "abilities/Spells/Items/AIsp/Horseshoe": "Horseshoe.tga",
+        "abilities/Spells/Items/AIsp/Horseshoe": "Horseshoe.TGA",
         "Textures/Star7b": "Star7b.TGA"
     }
 }

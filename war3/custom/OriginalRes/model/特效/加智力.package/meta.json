@@ -3,7 +3,7 @@
     "md5_file_list": [
         "\u52a0\u667a\u529b.mdx"
     ],
-    "modification_time": 3460194393.1817675,
+    "modification_time": 3460200938.9406137,
     "ori_res_type": "ori",
     "res_type": "model",
     "source_path": "\u52a0\u667a\u529b.mdx",
@@ -12,7 +12,7 @@
     "textures": {
         "Textures/firering1A": "firering1A.tga",
         "Textures/Yellow_Glow": "Yellow_Glow.tga",
-        "Textures/DemonRune4": "DemonRune4.tga",
+        "Textures/DemonRune4": "DemonRune4.TGA",
         "Textures/Star8": "Star8.tga",
         "Textures/Star7b": "Star7b.tga"
     }

@@ -3,7 +3,7 @@
     "md5_file_list": [
         "\u793c\u7269.mdx"
     ],
-    "modification_time": 3460212602.0995026,
+    "modification_time": 3460214763.919566,
     "ori_res_type": "ori",
     "res_type": "model",
     "source_path": "\u793c\u7269.mdx",
@@ -13,7 +13,7 @@
         "Textures/WoodItem": "WoodItem.tga",
         "Textures/Yellow_Star": "Yellow_Star.tga",
         "Textures/GenericGlow64": "GenericGlow64.tga",
-        "objects/InventoryItems/BundleofGifts/giftpackage": "giftpackage.tga",
+        "objects/InventoryItems/BundleofGifts/giftpackage": "giftpackage.TGA",
         "Textures/Yellow_Star_Dim": "Yellow_Star_Dim.tga"
     }
 }

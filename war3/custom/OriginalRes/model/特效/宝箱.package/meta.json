@@ -3,14 +3,14 @@
     "md5_file_list": [
         "\u5b9d\u7bb1.mdx"
     ],
-    "modification_time": 3460208409.6457872,
+    "modification_time": 3460210552.6392636,
     "ori_res_type": "ori",
     "res_type": "model",
     "source_path": "\u5b9d\u7bb1.mdx",
     "version": 1,
     "yaw": 0,
     "textures": {
-        "objects/InventoryItems/treasurechest/treasurechest": "treasurechest.tga",
+        "objects/InventoryItems/treasurechest/treasurechest": "treasurechest.TGA",
         "Textures/Yellow_Star": "Yellow_Star.tga"
     }
 }

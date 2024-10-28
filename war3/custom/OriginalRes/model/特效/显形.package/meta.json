@@ -3,13 +3,13 @@
     "md5_file_list": [
         "\u663e\u5f62.mdx"
     ],
-    "modification_time": 3460192144.9245787,
+    "modification_time": 3460198517.6813555,
     "ori_res_type": "ori",
     "res_type": "model",
     "source_path": "\u663e\u5f62.mdx",
     "version": 1,
     "yaw": 0,
     "textures": {
-        "Textures/Rune6b": "Rune6b.tga"
+        "Textures/Rune6b": "Rune6b.TGA"
     }
 }
