@@ -1,0 +1,21 @@
+{
+    "id": 134265066,
+    "md5_file_list": [
+        "HeroLich.mdx"
+    ],
+    "modification_time": 3460440940.916687,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "HeroLich.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/HeroLich": "HeroLich.tga",
+        "Textures/lensflare1A": "lensflare1A.tga",
+        "Textures/LightningBall": "LightningBall.tga",
+        "Textures/Shockwave10": "Shockwave10.tga",
+        "Textures/clouds_anim1": "clouds_anim1.tga",
+        "Textures/Dust3": "Dust3.tga",
+        "Textures/Clouds32_anim": "Clouds32_anim.tga"
+    }
+}

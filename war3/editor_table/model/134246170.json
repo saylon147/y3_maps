@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u9ab7\u9ac5.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/Skeleton//SkeletonDeath1.wav", 
+        "sound/Units/Undead/Skeleton//SkeletonDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Skeleton"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134246170, 
+    "name": "Mdx\\\u9ab7\u9ac5", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u9ab7\u9ac5.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.4230898320674896, 
+            1.0418318510055542
+        ]
+    }
+}

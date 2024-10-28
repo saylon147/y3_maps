@@ -1,0 +1,20 @@
+{
+    "id": 134227781,
+    "md5_file_list": [
+        "\u6df1\u6e0a\u9886\u4e3b.mdx"
+    ],
+    "modification_time": 3460674291.336811,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6df1\u6e0a\u9886\u4e3b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Demon/HeroPitLord/HeroPitlord": "HeroPitlord.tga",
+        "Textures/gutz": "gutz.tga",
+        "Textures/RibbonBlur1": "RibbonBlur1.tga",
+        "Textures/Clouds8x8": "Clouds8x8.tga",
+        "Textures/star1": "star1.tga",
+        "units/Demon/HeroPitLord/pixies1": "pixies1.tga"
+    }
+}

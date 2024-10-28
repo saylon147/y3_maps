@@ -10,7 +10,7 @@
     "alarm_range": 8.0, 
     "angle_tolerance": 0, 
     "anim_state_name": "", 
-    "armor_type": 20000, 
+    "armor_type": 20002, 
     "attack_interval": 1.0, 
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 

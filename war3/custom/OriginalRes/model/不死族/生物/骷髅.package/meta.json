@@ -1,0 +1,15 @@
+{
+    "id": 134246170,
+    "md5_file_list": [
+        "\u9ab7\u9ac5.mdx"
+    ],
+    "modification_time": 3460350141.9970245,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u9ab7\u9ac5.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Skeleton": "Skeleton.tga"
+    }
+}

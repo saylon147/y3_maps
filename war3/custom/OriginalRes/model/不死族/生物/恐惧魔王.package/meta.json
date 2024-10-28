@@ -1,0 +1,17 @@
+{
+    "id": 134239623,
+    "md5_file_list": [
+        "\u6050\u60e7\u9b54\u738b.mdx"
+    ],
+    "modification_time": 3460487195.794242,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6050\u60e7\u9b54\u738b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Undead/HeroDreadLord/HeroDreadlord": "HeroDreadlord.tga",
+        "Textures/Flare": "Flare.tga",
+        "Textures/Dust5ABlack": "Dust5ABlack.tga"
+    }
+}

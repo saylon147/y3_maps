@@ -1,0 +1,18 @@
+{
+    "id": 134218253,
+    "md5_file_list": [
+        "\u7eff\u9f99.mdx"
+    ],
+    "modification_time": 3460341158.0805473,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u7eff\u9f99.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/GreenDragon": "GreenDragon.tga",
+        "Textures/Shockwave1b": "Shockwave1b.tga",
+        "Textures/Tj_BloodSput": "Tj_BloodSput.tga",
+        "ReplaceableTextures/Weather/Clouds8x8": "Clouds8x8.tga"
+    }
+}

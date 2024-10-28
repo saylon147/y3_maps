@@ -1,0 +1,16 @@
+{
+    "id": 134265601,
+    "md5_file_list": [
+        "\u53ec\u5524\u5e08.mdx"
+    ],
+    "modification_time": 3460382615.493946,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u53ec\u5524\u5e08.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Human/Jaina/Jaina": "Jaina.tga",
+        "ReplaceableTextures/Weather/Clouds8x8": "Clouds8x8.tga"
+    }
+}

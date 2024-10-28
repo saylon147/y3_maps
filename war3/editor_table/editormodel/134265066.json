@@ -1,0 +1,14 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\HeroLich", 
+    "key": 134265066, 
+    "md5": "f5649e4e0563b53bb28af7c24ed454e7", 
+    "model_id": 134265066, 
+    "name": "HeroLich", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134265066", 
+    "version": 1
+}

@@ -1,0 +1,19 @@
+{
+    "id": 134227905,
+    "md5_file_list": [
+        "\u5730\u72f1\u706b.mdx"
+    ],
+    "modification_time": 3460398333.0706463,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5730\u72f1\u706b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Demon/Infernal/Infernal": "Infernal.tga",
+        "Textures/Yellow_Star": "Yellow_Star.tga",
+        "Textures/clouds_anim1_bw": "clouds_anim1_bw.tga",
+        "ReplaceableTextures/Weather/Clouds8x8": "Clouds8x8.tga",
+        "Textures/Clouds8x8Grey": "Clouds8x8Grey.tga"
+    }
+}

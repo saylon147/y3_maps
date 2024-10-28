@@ -200,10 +200,12 @@
     "ori_bits": 0, 
     "ori_speed": 5.0, 
     "ori_speed_grow": 0.0, 
-    "passive_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "passive_ability_list": [
+        [
+            134260778, 
+            1
+        ]
+    ], 
     "path_finding_external_size": 0, 
     "pene_mag": 0.0, 
     "pene_mag_grow": 0.0, 

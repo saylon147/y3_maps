@@ -1,0 +1,17 @@
+{
+    "id": 134239970,
+    "md5_file_list": [
+        "\u6b7b\u4ea1\u9a91\u58eb.mdx"
+    ],
+    "modification_time": 3460386291.1164074,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6b7b\u4ea1\u9a91\u58eb.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Undead/HeroDeathKnight/HeroDeathknight": "HeroDeathknight.tga",
+        "Textures/LightningBall": "LightningBall.tga",
+        "Textures/Dust3x": "Dust3x.tga"
+    }
+}

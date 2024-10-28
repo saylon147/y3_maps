@@ -1,0 +1,38 @@
+{
+    "mdx_path": "Mdx\\\u6df1\u6e0a\u9886\u4e3b.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/KotoBeast//KodoBeastDeath.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Human//HumanDissipate1.wav", 
+        "sound/Units/Demon/HeroPitLord//HeroPItLordAttack1.wav", 
+        "sound/Units/Demon/HeroPitLord//HeroPItLordAttack2.wav", 
+        "sound/Units/Demon/HeroPitLord//HeroPItLordAttack3.wav", 
+        "sound/Units/Demon/HeroPitLord//HeroPItLordAttack3.wav", 
+        "sound/Units/Demon/HeroPitLord//HeroPItLordAttack3.wav"
+    ], 
+    "mdx_textures": [
+        "units/Demon/HeroPitLord/HeroPitlord", 
+        "Textures/gutz", 
+        "Textures/RibbonBlur1", 
+        "Textures/Clouds8x8", 
+        "Textures/star1", 
+        "units/Demon/HeroPitLord/pixies1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134227781, 
+    "name": "Mdx\\\u6df1\u6e0a\u9886\u4e3b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6df1\u6e0a\u9886\u4e3b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.7206454277038574, 
+            2.6819889545440674
+        ]
+    }
+}

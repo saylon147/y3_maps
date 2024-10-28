@@ -1,0 +1,33 @@
+{
+    "mdx_path": "Mdx\\\u5730\u72f1\u706b.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Demon/Infernal//InfernalDeath.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Units/Demon/Infernal//InfernalAttack1.wav", 
+        "sound/Units/Demon/Infernal//InfernalAttack2.wav"
+    ], 
+    "mdx_textures": [
+        "units/Demon/Infernal/Infernal", 
+        "Textures/Yellow_Star", 
+        "Textures/clouds_anim1_bw", 
+        "ReplaceableTextures/Weather/Clouds8x8", 
+        "Textures/Clouds8x8Grey"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134227905, 
+    "name": "Mdx\\\u5730\u72f1\u706b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5730\u72f1\u706b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.8136045932769775, 
+            2.7979748249053955
+        ]
+    }
+}

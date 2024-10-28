@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u739b\u8bfa\u6d1b\u65af.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Orc/KotoBeast//KodoBeastDeath.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Demon/Mannoroth/Mannoroth", 
+        "Textures/gutz"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134220894, 
+    "name": "Mdx\\\u739b\u8bfa\u6d1b\u65af", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u739b\u8bfa\u6d1b\u65af.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.8972715139389038, 
+            1.6913412809371948
+        ]
+    }
+}

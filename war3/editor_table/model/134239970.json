@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u6b7b\u4ea1\u9a91\u58eb.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/HeroDeathKnight//HeroDeathKnightDeath.wav", 
+        "sound/Units/Undead/HeroDeathKnight//HeroDeathKnightAttack1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Undead/HeroDeathKnight/HeroDeathknight", 
+        "Textures/LightningBall", 
+        "Textures/Dust3x"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134239970, 
+    "name": "Mdx\\\u6b7b\u4ea1\u9a91\u58eb", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6b7b\u4ea1\u9a91\u58eb.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.3075315952301025, 
+            1.7028599977493286
+        ]
+    }
+}

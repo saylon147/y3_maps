@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u6050\u60e7\u9b54\u738b.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/HeroDreadLord//HeroDreadLordDeath.wav", 
+        "sound/Units/Undead/HeroDreadLord//DreadLordMorphIn1.wav", 
+        "sound/Units/Undead/HeroDreadLord//DreadLordMorphOut1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Undead/HeroDreadLord/HeroDreadlord", 
+        "Textures/Flare", 
+        "Textures/Dust5ABlack"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134239623, 
+    "name": "Mdx\\\u6050\u60e7\u9b54\u738b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6050\u60e7\u9b54\u738b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.806054711341858, 
+            1.6799453496932983
+        ]
+    }
+}

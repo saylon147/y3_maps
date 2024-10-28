@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\HeroLich.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/HeroLich//HeroLichDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/HeroLich", 
+        "Textures/lensflare1A", 
+        "Textures/LightningBall", 
+        "Textures/Shockwave10", 
+        "Textures/clouds_anim1", 
+        "Textures/Dust3", 
+        "Textures/Clouds32_anim"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134265066, 
+    "name": "Mdx\\HeroLich", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_HeroLich.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.8571698665618896, 
+            2.0888850688934326
+        ]
+    }
+}

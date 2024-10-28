@@ -1,0 +1,17 @@
+{
+    "id": 134249666,
+    "md5_file_list": [
+        "\u7cbe\u7075\u5f13\u7bad\u624b.mdx"
+    ],
+    "modification_time": 3460367175.9916744,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u7cbe\u7075\u5f13\u7bad\u624b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Ranger": "Ranger.tga",
+        "Textures/gutz": "gutz.tga",
+        "Textures/star2_32": "star2_32.tga"
+    }
+}

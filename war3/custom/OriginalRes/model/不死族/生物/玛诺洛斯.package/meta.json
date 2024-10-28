@@ -1,0 +1,16 @@
+{
+    "id": 134220894,
+    "md5_file_list": [
+        "\u739b\u8bfa\u6d1b\u65af.mdx"
+    ],
+    "modification_time": 3460514503.136917,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u739b\u8bfa\u6d1b\u65af.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Demon/Mannoroth/Mannoroth": "Mannoroth.tga",
+        "Textures/gutz": "gutz.tga"
+    }
+}
