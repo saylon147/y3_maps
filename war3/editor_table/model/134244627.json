@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u51b0\u971c\u5de8\u9f99.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Creeps/AzureDragon//DragonDeath1.wav", 
+        "sound/Units/Undead/FrostWyrm//FrostwyrmAttack1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Undead/FrostWyrm/FrostWyrm", 
+        "ReplaceableTextures/Weather/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134244627, 
+    "name": "Mdx\\\u51b0\u971c\u5de8\u9f99", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u51b0\u971c\u5de8\u9f99.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.6721181869506836, 
+            2.7095699310302734
+        ]
+    }
+}

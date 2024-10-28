@@ -1,0 +1,18 @@
+{
+    "id": 134222187,
+    "md5_file_list": [
+        "\u77f3\u50cf\u9b3c.mdx"
+    ],
+    "modification_time": 3460339447.9585133,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u77f3\u50cf\u9b3c.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Undead/Gargoyle/Gargoyle": "Gargoyle.tga",
+        "units/Undead/Gargoyle/GargoyleStatue": "GargoyleStatue.tga",
+        "Textures/Dust3x": "Dust3x.tga",
+        "Textures/Clouds8x8Fade": "Clouds8x8Fade.tga"
+    }
+}

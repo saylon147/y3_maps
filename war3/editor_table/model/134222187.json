@@ -1,0 +1,33 @@
+{
+    "mdx_path": "Mdx\\\u77f3\u50cf\u9b3c.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/Gargoyle//GargoyleMorphOut1.wav", 
+        "sound/Units/Undead/Gargoyle//GargoyleDeath1.wav", 
+        "sound/Units/Undead/Gargoyle//GargoyleDeathAlternate1.wav", 
+        "sound/Units/Undead/Gargoyle//GargoyleMorph1.wav", 
+        "sound/Units/Undead/Gargoyle//GargoyleMorph2.wav", 
+        "sound/Units/Undead/Gargoyle//GargoyleMorph3.wav"
+    ], 
+    "mdx_textures": [
+        "units/Undead/Gargoyle/Gargoyle", 
+        "units/Undead/Gargoyle/GargoyleStatue", 
+        "Textures/Dust3x", 
+        "Textures/Clouds8x8Fade"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134222187, 
+    "name": "Mdx\\\u77f3\u50cf\u9b3c", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u77f3\u50cf\u9b3c.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.7934594750404358, 
+            2.085747003555298
+        ]
+    }
+}

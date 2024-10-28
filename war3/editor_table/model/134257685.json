@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u5deb\u5e08.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/Necromancer//NecromancerDeath.wav"
+    ], 
+    "mdx_textures": [
+        "units/Undead/Necromancer/Necromancer", 
+        "Textures/gutz", 
+        "ReplaceableTextures/Weather/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134257685, 
+    "name": "Mdx\\\u5deb\u5e08", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5deb\u5e08.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.42779359221458435, 
+            1.3199055194854736
+        ]
+    }
+}

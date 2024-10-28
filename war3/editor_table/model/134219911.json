@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u4f8d\u50e7.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/Acolyte//AcolyteDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Acolyte", 
+        "Textures/DemonRune3", 
+        "Textures/gutz", 
+        "Textures/Green_Star"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134219911, 
+    "name": "Mdx\\\u4f8d\u50e7", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u4f8d\u50e7.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.3887256979942322, 
+            1.0030266046524048
+        ]
+    }
+}
