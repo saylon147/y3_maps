@@ -69,15 +69,13 @@ function gameMgr:gamingEvent()
                         break
                     end
                 end
-                for index, config in ipairs(removes) do
-                    for i = 1, #config.unit_cname, 1 do
-                        FW.unitMgr:createRoundMinion(config.unit_type, config.unit_cname[i], config.unit_count[i],config.unit_lv[i])
+                for i = #removes, 1, -1 do
+                    for j = 1, #removes[i].unit_cname, 1 do
+                        FW.unitMgr:createRoundMinion(removes[i].unit_type, removes[i].unit_cname[j], removes[i].unit_count[j],removes[i].unit_lv[j])
                     end
-                    table.remove(self.currentGameBrushConfig,index)
+                    table.remove(self.currentGameBrushConfig,i)
                 end
             end
-            --FW.unitMgr:createRoundMinion("enemy", '食尸鬼', 5)
-            --FW.unitMgr:createRoundMinion("minio", '牛头', 5)
         end
         if count % 5 == 0 then
             FW.playerMgr:followSummoner()

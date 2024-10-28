@@ -2,7 +2,8 @@
 local uiMgr = Class 'uiMgr'
 ---@enum(key) FW.uiMgr.uiEnum
 uiMgr.uiEnum = {
-    modePanel = require 'scripts.ui.modePanel'
+    modePanel = require 'scripts.ui.modePanel',
+    hudPanel = require 'scripts.ui.hudPanel'
 }
 
 ---@param uiKey FW.uiMgr.uiEnum
