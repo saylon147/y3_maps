@@ -71,7 +71,16 @@
         "items": []
     }, 
     "collision_radius_2": 0.7, 
-    "common_ability_list": [], 
+    "common_ability_list": [
+        [
+            134257159, 
+            1
+        ], 
+        [
+            134235029, 
+            1
+        ]
+    ], 
     "common_atk": [
         134246955, 
         1

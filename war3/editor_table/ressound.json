@@ -1,11 +1,11 @@
 {
-    "134251279": {
+    "134262960": {
         "Format": "wav", 
-        "SoundPath": "134251279", 
-        "default_editor_id": 134251279, 
+        "SoundPath": "134262960", 
+        "default_editor_id": 134262960, 
         "describe": "", 
-        "key": "134251279", 
-        "name": "HeroBladeMasterWhat2_1", 
-        "uid": "res_sound_134251279"
+        "key": "134262960", 
+        "name": "HeroBladeMasterWhat2_2", 
+        "uid": "res_sound_134262960"
     }
 }

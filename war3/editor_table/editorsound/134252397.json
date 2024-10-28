@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134252397", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134252397, 
+    "md5": "b53b2e45e6158355ef49796006fa7fc0", 
+    "name": "HeroBladeMasterWhat1_2", 
+    "res_name": "HeroBladeMasterWhat1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134252397, 
+    "version": 1
+}

@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134220454", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134220454, 
+    "md5": "ed911797bd9be0a1b263a352ff85c404", 
+    "name": "HeroBladeMasterYes1_2", 
+    "res_name": "HeroBladeMasterYes1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134220454, 
+    "version": 1
+}
