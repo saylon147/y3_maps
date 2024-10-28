@@ -1,0 +1,73 @@
+{
+    "action": [
+        {
+            "action_type": "CREATE_UNIT_NEW", 
+            "args_list": [
+                {
+                    "arg_type": 100116, 
+                    "args_list": [
+                        134275571
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100004, 
+                    "args_list": [
+                        10008
+                    ], 
+                    "sub_type": 1
+                }, 
+                {
+                    "arg_type": 100225, 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                180.0
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "sub_type": "GET_ANGLE_BY_FLOAT"
+                }, 
+                {
+                    "arg_type": 100025, 
+                    "args_list": [
+                        1
+                    ], 
+                    "sub_type": 1
+                }
+            ], 
+            "bp": false, 
+            "element_id": 345448451000006, 
+            "enable": true, 
+            "op_arg": [
+                null
+            ], 
+            "op_arg_enable": [
+                false
+            ]
+        }
+    ], 
+    "call_enabled": true, 
+    "condition": [], 
+    "enabled": true, 
+    "event": [
+        {
+            "args_list": [], 
+            "element_id": 345448451000003, 
+            "enable": true, 
+            "event_type": "ANY_ROLE_JOIN_GAME"
+        }
+    ], 
+    "group_id": 0, 
+    "p_trigger_id": null, 
+    "trigger_id": 345448451, 
+    "trigger_name": "玩家生成", 
+    "valid": true, 
+    "var_data": [
+        {}, 
+        {}, 
+        []
+    ]
+}
