@@ -88,7 +88,7 @@
                         {
                             "arg_type": 100042, 
                             "args_list": [
-                                "attack_phy"
+                                "ori_speed"
                             ], 
                             "sub_type": 1
                         }, 
@@ -184,7 +184,7 @@
                                 {
                                     "arg_type": 100003, 
                                     "args_list": [
-                                        "\u88ab\u52a8\u653b\u51fb"
+                                        "\u88ab\u52a8\u79fb\u901f"
                                     ], 
                                     "sub_type": 1
                                 }
@@ -295,7 +295,7 @@
                         {
                             "arg_type": 100042, 
                             "args_list": [
-                                "attack_phy"
+                                "ori_speed"
                             ], 
                             "sub_type": 1
                         }, 

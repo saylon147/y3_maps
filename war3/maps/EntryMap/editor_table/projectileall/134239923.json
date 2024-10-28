@@ -5,7 +5,7 @@
     "description": 1747693625, 
     "effect_destroy_way_is_immediately": false, 
     "effect_foes": [
-        104738, 
+        102455, 
         {
             "__tuple__": true, 
             "items": [
@@ -25,9 +25,9 @@
         {
             "__tuple__": true, 
             "items": [
-                1.0, 
-                1.0, 
-                1.0
+                2.0, 
+                2.0, 
+                2.0
             ]
         }, 
         1.0, 
@@ -41,7 +41,7 @@
                 0.5
             ], 
             "is_loop": true, 
-            "model": 103014, 
+            "model": 134225362, 
             "model_opacity": 1.0, 
             "offset": {
                 "__tuple__": true, 
@@ -62,16 +62,16 @@
             "scale": {
                 "__tuple__": true, 
                 "items": [
-                    1.0, 
-                    1.0, 
-                    1.0
+                    2.0, 
+                    2.0, 
+                    2.0
                 ]
             }, 
             "use_base_tint_color": false
         }
     ], 
     "effect_friend": [
-        104738, 
+        102455, 
         {
             "__tuple__": true, 
             "items": [
@@ -91,9 +91,9 @@
         {
             "__tuple__": true, 
             "items": [
-                1.0, 
-                1.0, 
-                1.0
+                2.0, 
+                2.0, 
+                2.0
             ]
         }, 
         1.0, 
@@ -107,7 +107,7 @@
                 0.5
             ], 
             "is_loop": true, 
-            "model": 103014, 
+            "model": 134225362, 
             "model_opacity": 1.0, 
             "offset": {
                 "__tuple__": true, 
@@ -128,9 +128,9 @@
             "scale": {
                 "__tuple__": true, 
                 "items": [
-                    1.0, 
-                    1.0, 
-                    1.0
+                    2.0, 
+                    2.0, 
+                    2.0
                 ]
             }, 
             "use_base_tint_color": false

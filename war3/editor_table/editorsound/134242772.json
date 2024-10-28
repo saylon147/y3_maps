@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134242772", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134242772, 
+    "md5": "bc308147a82de3f8af614c5230493601", 
+    "name": "BladeMasterWhirlwind_1", 
+    "res_name": "BladeMasterWhirlwind.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134242772, 
+    "version": 1
+}

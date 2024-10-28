@@ -1,0 +1,18 @@
+{
+    "id": 134247093,
+    "md5_file_list": [
+        "MassTeleportCaster.mdx"
+    ],
+    "modification_time": 3460190925.4713235,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "MassTeleportCaster.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/GenericGlow2_64_blue": "GenericGlow2_64_blue.TGA",
+        "Textures/GenericGlow2c": "GenericGlow2c.TGA",
+        "abilities/Spells/Human/MassTeleport/Rune1": "Rune1.TGA",
+        "Textures/Blue_Star2": "Blue_Star2.tga"
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "id": 134229450,
+    "md5_file_list": [
+        "\u5524\u9192.mdx"
+    ],
+    "modification_time": 3460218309.1850843,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5524\u9192.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/firering4": "firering4.tga",
+        "Textures/GenericGlow2_64": "GenericGlow2_64.tga",
+        "Textures/GenericGlowFaded": "GenericGlowFaded.tga",
+        "Textures/Star8b": "Star8b.tga"
+    }
+}

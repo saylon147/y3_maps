@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u95ea\u7535\u72b6\u6001.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Orc/FeralSpirit//FeralSpiritTarget1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Zap1_Red", 
+        "Textures/Clouds8x8Fade"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134257867, 
+    "name": "Mdx\\\u95ea\u7535\u72b6\u6001", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u95ea\u7535\u72b6\u6001.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6081021428108215, 
+            1.4270049333572388
+        ]
+    }
+}

@@ -1,0 +1,18 @@
+{
+    "id": 134260143,
+    "md5_file_list": [
+        "\u8718\u86db.mdx"
+    ],
+    "modification_time": 3460292898.7660933,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u8718\u86db.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Undead/CryptFiend/CryptFiend": "CryptFiend.tga",
+        "Textures/gutz": "gutz.tga",
+        "ReplaceableTextures/Splats/BurrowSplat": "BurrowSplat.tga",
+        "Textures/Dust5A": "Dust5A.tga"
+    }
+}

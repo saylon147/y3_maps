@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u590d\u6d3b\u4e2d.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "abilities/Spells/Human/Resurrect/Angel1", 
+        "abilities/Spells/Human/Resurrect/sword1", 
+        "abilities/Spells/Human/Resurrect/Yellow_Firering2b", 
+        "abilities/Spells/Human/Resurrect/Rune9", 
+        "abilities/Spells/Human/Resurrect/DemonRune4backup", 
+        "Textures/Yellow_Glow3"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134267993, 
+    "name": "Mdx\\\u590d\u6d3b\u4e2d", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u590d\u6d3b\u4e2d.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.6917312145233154, 
+            15.723260879516602
+        ]
+    }
+}

@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\\u5929\u795e\u4e0b\u51e1.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Human/Avatar//Avatar.wav"
+    ], 
+    "mdx_textures": [
+        "ReplaceableTextures/HeroMountainKing/heromountainking"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134253638, 
+    "name": "Mdx\\\u5929\u795e\u4e0b\u51e1", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5929\u795e\u4e0b\u51e1.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6839494705200195, 
+            2.3508501052856445
+        ]
+    }
+}

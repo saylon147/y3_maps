@@ -1,0 +1,17 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134262960", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "import_export_folder_info": "/code_explorer_custom_root_folder_name/\u5251\u5723", 
+    "key": 134262960, 
+    "md5": "9b38d4918c79f06ae094297455e68165", 
+    "name": "HeroBladeMasterWhat2_2", 
+    "res_name": "HeroBladeMasterWhat2.wav", 
+    "res_type": "kkres", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134262960, 
+    "version": 1
+}

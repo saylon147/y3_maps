@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u52a0\u667a\u529b.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Items/AIam//Tomes.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/firering1A", 
+        "Textures/Yellow_Glow", 
+        "Textures/DemonRune4", 
+        "Textures/Star8", 
+        "Textures/Star7b"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134220473, 
+    "name": "Mdx\\\u52a0\u667a\u529b", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u52a0\u667a\u529b.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.1506428718566895, 
+            4.620028972625732
+        ]
+    }
+}

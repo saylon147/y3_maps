@@ -1,1 +1,10 @@
-{}
+{
+    "ui/134255785": {
+        "default_editor_id": 134255785, 
+        "describe": "", 
+        "key": "ui/134255785", 
+        "name": "Spell_Shadow_VampiricAura", 
+        "path": "ui/134255785", 
+        "uid": "res_icon_ui/134255785"
+    }
+}

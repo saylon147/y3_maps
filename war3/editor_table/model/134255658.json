@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u6389\u843d\u91d1\u5e01.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/GOLDCoin", 
+        "Textures/Yellow_Star", 
+        "Textures/GenericGlow64", 
+        "Textures/Yellow_Star_Dim"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134255658, 
+    "name": "Mdx\\\u6389\u843d\u91d1\u5e01", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6389\u843d\u91d1\u5e01.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5621249675750732, 
+            0.9072539806365967
+        ]
+    }
+}

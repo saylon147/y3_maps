@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\\u8718\u86db.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/CryptFiend//PitFiendDeath1.wav", 
+        "sound/Sound/Units/Footsteps//FiendStep1.wav", 
+        "sound/Sound/Units/Footsteps//FiendStep1.wav", 
+        "sound/Abilities/Spells/Undead/Burrow//Burrow.wav"
+    ], 
+    "mdx_textures": [
+        "units/Undead/CryptFiend/CryptFiend", 
+        "Textures/gutz", 
+        "ReplaceableTextures/Splats/BurrowSplat", 
+        "Textures/Dust5A"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134260143, 
+    "name": "Mdx\\\u8718\u86db", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u8718\u86db.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5924463272094727, 
+            1.475013017654419
+        ]
+    }
+}

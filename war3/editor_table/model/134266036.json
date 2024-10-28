@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\\u5b9d\u7bb1.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "objects/InventoryItems/treasurechest/treasurechest", 
+        "Textures/Yellow_Star"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134266036, 
+    "name": "Mdx\\\u5b9d\u7bb1", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5b9d\u7bb1.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.35664135217666626, 
+            0.6451084613800049
+        ]
+    }
+}

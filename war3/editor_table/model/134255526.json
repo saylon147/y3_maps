@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\ArrowMissile.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Weapons/Arrow//ArrowImpact.wav", 
+        "sound/Abilities/Weapons/Arrow//ArrowAttack1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/ArrowMissile", 
+        "Textures/RibbonNE1_White"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134255526, 
+    "name": "Mdx\\ArrowMissile", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_ArrowMissile.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.34217149019241333, 
+            0.6103019714355469
+        ]
+    }
+}

@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u5524\u9192.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Human/ReviveHuman//ReviveHuman.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/firering4", 
+        "Textures/GenericGlow2_64", 
+        "Textures/GenericGlowFaded", 
+        "Textures/Star8b"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134229450, 
+    "name": "Mdx\\\u5524\u9192", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5524\u9192.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.506784439086914, 
+            13.4868803024292
+        ]
+    }
+}

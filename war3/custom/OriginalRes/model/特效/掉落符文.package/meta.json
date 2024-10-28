@@ -1,0 +1,19 @@
+{
+    "id": 134268567,
+    "md5_file_list": [
+        "\u6389\u843d\u7b26\u6587.mdx"
+    ],
+    "modification_time": 3460220943.296524,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6389\u843d\u7b26\u6587.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Onyx": "Onyx.tga",
+        "Textures/Purple_Glow": "Purple_Glow.tga",
+        "Textures/GenericGlow64": "GenericGlow64.tga",
+        "Textures/Purple_Star": "Purple_Star.tga",
+        "Textures/star1": "star1.tga"
+    }
+}

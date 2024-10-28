@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134265822", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134265822, 
+    "md5": "69c60642bb8beb45392a5da9c3171184", 
+    "name": "HeroBladeMasterDeath_1", 
+    "res_name": "HeroBladeMasterDeath.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134265822, 
+    "version": 1
+}

@@ -42,7 +42,7 @@
             "0"
         ]
     }, 
-    "ability_icon": 100508, 
+    "ability_icon": 134248912, 
     "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
@@ -112,7 +112,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "240.0"
         ]
     }, 
     "collection_animation": "", 
@@ -169,12 +169,51 @@
     }, 
     "influenced_by_cd_reduce": true, 
     "influenced_by_move": true, 
-    "is_autocast": false, 
+    "is_autocast": true, 
     "is_charge_ability": false, 
     "is_immediate": false, 
     "is_meele": false, 
     "key": 134220677, 
-    "kv": {}, 
+    "kv": {
+        "atk": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "atk", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 0, 
+            "type": 24, 
+            "value": {
+                "__tuple__": true, 
+                "items": [
+                    "lambda unit: Fix32(100)* Fix32(unit.ability_target.api_get_float_attr('attack_speed'))", 
+                    [
+                        [
+                            "ability_target", 
+                            "ATTR_RESULT", 
+                            "attack_speed"
+                        ]
+                    ], 
+                    "lambda unit: Fix32(100)* Fix32(unit.ability_target.api_get_float_attr('attack_speed'))", 
+                    {
+                        "unit.ability_target.ATTR_RESULT.attack_speed": {
+                            "is_cm": false
+                        }
+                    }, 
+                    [
+                        [
+                            "unit", 
+                            "ability_target", 
+                            "ATTR_RESULT", 
+                            "attack_speed"
+                        ]
+                    ]
+                ]
+            }
+        }
+    }, 
     "magicbook_list": {
         "__tuple__": true, 
         "items": []
@@ -226,7 +265,7 @@
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 4, 
+    "sight_type": 0, 
     "sound_event_list": [
         [
             "ABILITY_PS_START", 

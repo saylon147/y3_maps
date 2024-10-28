@@ -1,0 +1,16 @@
+{
+    "id": 134255526,
+    "md5_file_list": [
+        "ArrowMissile.mdx"
+    ],
+    "modification_time": 3460187125.8532457,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "ArrowMissile.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/ArrowMissile": "ArrowMissile.TGA",
+        "Textures/RibbonNE1_White": "RibbonNE1_White.TGA"
+    }
+}

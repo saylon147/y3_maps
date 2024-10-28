@@ -1,0 +1,25 @@
+{
+    "mdx_path": "Mdx\\\u52a0\u901f.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/firering1A", 
+        "abilities/Spells/Items/AIsp/Horseshoe", 
+        "Textures/Star7b"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134246229, 
+    "name": "Mdx\\\u52a0\u901f", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u52a0\u901f.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.03140585869550705, 
+            0.6281200647354126
+        ]
+    }
+}

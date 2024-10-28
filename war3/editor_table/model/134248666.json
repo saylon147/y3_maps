@@ -1,0 +1,26 @@
+{
+    "mdx_path": "Mdx\\\u955c\u50cf.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Orc/MirrorImage//MirrorImage.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/HeroBladeMaster", 
+        "Textures/Yellow_Star"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134248666, 
+    "name": "Mdx\\\u955c\u50cf", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u955c\u50cf.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.28450626134872437, 
+            1.6906118392944336
+        ]
+    }
+}

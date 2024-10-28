@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\\u6697\u591c\u7cbe\u7075\u65cfbuff\u6708\u5149.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/NightElf/Starfall//StarfallCaster1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/grad2b", 
+        "abilities/Spells/NightElf/Starfall/Moon_Cresent", 
+        "Textures/Blue_Glow2", 
+        "Textures/GenericGlowFaded", 
+        "Textures/DemonRune1", 
+        "Textures/Shockwave11", 
+        "Textures/Shockwave10"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134253983, 
+    "name": "Mdx\\\u6697\u591c\u7cbe\u7075\u65cfbuff\u6708\u5149", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6697\u591c\u7cbe\u7075\u65cfbuff\u6708\u5149.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            2.3180155754089355, 
+            13.788634300231934
+        ]
+    }
+}

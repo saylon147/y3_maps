@@ -1,0 +1,30 @@
+{
+    "mdx_path": "Mdx\\\u963f\u514b\u8499\u5fb7.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Demon/Warlock//WarlockDeath1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Demon/Warlock/Archemonde", 
+        "ReplaceableTextures/TeamGlow/TeamGlow06", 
+        "Textures/Clouds8x8Black", 
+        "ReplaceableTextures/Weather/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134238443, 
+    "name": "Mdx\\\u963f\u514b\u8499\u5fb7", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u963f\u514b\u8499\u5fb7.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2163296937942505, 
+            1.3618417978286743
+        ]
+    }
+}

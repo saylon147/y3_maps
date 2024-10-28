@@ -1,0 +1,24 @@
+{
+    "id": 134225362,
+    "md5_file_list": [
+        "\u98ce\u66b4\u4e4b\u9524Missile.mdx"
+    ],
+    "modification_time": 3460224099.5183525,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u98ce\u66b4\u4e4b\u9524Missile.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "ReplaceableTextures/TeamColor/TeamColor00": "TeamColor00.tga",
+        "ReplaceableTextures/HeroMountainKing/heromountainking": "heromountainking.tga",
+        "Textures/firering4": "firering4.tga",
+        "Textures/Zap1": "Zap1.tga",
+        "Textures/Blue_Glow2": "Blue_Glow2.tga",
+        "Textures/E_Smoke_Anim256": "E_Smoke_Anim256.tga",
+        "Textures/star32": "star32.tga",
+        "Textures/Purple_Glow_Dim": "Purple_Glow_Dim.tga",
+        "Textures/lensflare1A": "lensflare1A.tga",
+        "Textures/Dust3": "Dust3.tga"
+    }
+}

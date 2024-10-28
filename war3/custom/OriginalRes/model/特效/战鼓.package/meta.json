@@ -1,0 +1,15 @@
+{
+    "id": 134270126,
+    "md5_file_list": [
+        "\u6218\u9f13.mdx"
+    ],
+    "modification_time": 3460167920.2234235,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6218\u9f13.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Shockwave4": "Shockwave4.tga"
+    }
+}

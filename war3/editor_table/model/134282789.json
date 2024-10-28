@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u52a0\u751f\u547d.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "objects/Spawnmodels/Other/ToonBoom/swirl1", 
+        "Textures/Yellow_Glow3", 
+        "Textures/swirl1yellow", 
+        "Textures/ToonSmokeX", 
+        "Textures/star4_32"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134282789, 
+    "name": "Mdx\\\u52a0\u751f\u547d", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u52a0\u751f\u547d.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.0620200634002686, 
+            2.6327550411224365
+        ]
+    }
+}

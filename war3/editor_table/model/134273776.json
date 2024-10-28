@@ -1,0 +1,12 @@
+{
+    "mdx_path": "Mdx\\AvengerMissile.mdx", 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134273776, 
+    "name": "Mdx\\AvengerMissile", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_AvengerMissile.mdx"
+    ]
+}

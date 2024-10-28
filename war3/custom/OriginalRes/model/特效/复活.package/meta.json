@@ -1,0 +1,19 @@
+{
+    "id": 134276499,
+    "md5_file_list": [
+        "\u590d\u6d3b.mdx"
+    ],
+    "modification_time": 3460206100.323315,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u590d\u6d3b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "abilities/Spells/Human/Resurrect/Holyshaft": "Holyshaft.TGA",
+        "Textures/Rune4b": "Rune4b.tga",
+        "Textures/Yellow_Glow": "Yellow_Glow.TGA",
+        "abilities/Spells/Human/Resurrect/Rune1b_64": "Rune1b_64.tga",
+        "abilities/Spells/Human/Resurrect/Star9": "Star9.tga"
+    }
+}

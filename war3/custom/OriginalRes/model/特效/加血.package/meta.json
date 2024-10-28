@@ -1,0 +1,16 @@
+{
+    "id": 134233469,
+    "md5_file_list": [
+        "\u52a0\u8840.mdx"
+    ],
+    "modification_time": 3460200729.9627824,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u52a0\u8840.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/GenericGlowX": "GenericGlowX.tga",
+        "Textures/Yellow_Glow3": "Yellow_Glow3.tga"
+    }
+}

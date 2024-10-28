@@ -1,0 +1,23 @@
+{
+    "mdx_path": "Mdx\\\u6218\u6597\u5486\u54eeBuff.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "abilities/Spells/NightElf/BattleRoar/BattleRoar"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134282879, 
+    "name": "Mdx\\\u6218\u6597\u5486\u54eeBuff", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6218\u6597\u5486\u54eeBuff.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.28152596950531006, 
+            0.5021327137947083
+        ]
+    }
+}

@@ -4,5 +4,13 @@
         15392
     ], 
     "lua_script_preset": "y3", 
-    "object_template_preset": "default"
+    "object_template_preset": "default", 
+    "plugin_name_index": {
+        "4ef95f14-7b10-479f-bbce-18881e9f08e6": [
+            "eE0DtpThEe+7gaHd3SwG8T", 
+            "eE0Dt5ThEe+XcqHd3SwG8S", 
+            "eE0DuJThEe+QtqHd3SwG8X", 
+            "eE0DuZThEe+8oKHd3SwG8a"
+        ]
+    }
 }

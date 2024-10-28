@@ -1,0 +1,16 @@
+{
+    "id": 134273776,
+    "md5_file_list": [
+        "AvengerMissile.mdx"
+    ],
+    "modification_time": 3460189646.3031344,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "AvengerMissile.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "abilities/Weapons/AvengerMissile/Ghost1Mod": "Ghost1Mod.TGA",
+        "Textures/GenericGlowFaded": "GenericGlowFaded.tga"
+    }
+}
