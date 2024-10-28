@@ -69,6 +69,7 @@ end
 function playerMgr:initPlayers()
     for i = 1, self.maxPlayerCount, 1 do
         local player = y3.player.get_by_id(i)
+        player:set_mouse_drag_selection(false)
         if player ~= nil and player:get_state() == y3.const.RoleStatus['PLAYING'] then
             playerMgr.allPlayers:add_player(player)
         end

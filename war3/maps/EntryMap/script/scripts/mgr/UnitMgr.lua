@@ -10,33 +10,33 @@ unitMgr.unitType = {
 }
 ---autocode---
 unitMgr.unitTemple = {
-	---@enum(key) FW.unitMgr.bossUnitType
-	boss= {
-	},
-	---@enum(key) FW.unitMgr.enemyUnitType
-	enemy= {
-	['食尸鬼'] = require 'scripts.unit.enemy.ssg',
-	['蜘蛛'] = require 'scripts.unit.enemy.zz',
-	},
-	---@enum(key) FW.unitMgr.followHeroUnitType
-	followHero= {
-	['暗影猎手'] = require 'scripts.unit.followHero.ayls',
-	['恶魔猎手'] = require 'scripts.unit.followHero.emls',
-	['黑暗游侠'] = require 'scripts.unit.followHero.hayx',
-	['剑圣'] = require 'scripts.unit.followHero.js',
-	['炼金术士'] = require 'scripts.unit.followHero.ljss',
-	['牛头人酋长'] = require 'scripts.unit.followHero.ntrqz',
-	['山丘之王'] = require 'scripts.unit.followHero.sqzw',
-	},
-	---@enum(key) FW.unitMgr.minioUnitType
-	minio= {
-	['步兵'] = require 'scripts.unit.minio.bb',
-	},
-	---@enum(key) FW.unitMgr.summonerUnitType
-	summoner= {
-	['召唤师'] = require 'scripts.unit.summoner.zhs',
-	},
-	}
+    ---@enum(key) FW.unitMgr.bossUnitType
+    boss = {
+    },
+    ---@enum(key) FW.unitMgr.enemyUnitType
+    enemy = {
+        ['食尸鬼'] = require 'scripts.unit.enemy.ssg',
+        ['蜘蛛'] = require 'scripts.unit.enemy.zz',
+    },
+    ---@enum(key) FW.unitMgr.followHeroUnitType
+    followHero = {
+        ['暗影猎手'] = require 'scripts.unit.followHero.ayls',
+        ['恶魔猎手'] = require 'scripts.unit.followHero.emls',
+        ['黑暗游侠'] = require 'scripts.unit.followHero.hayx',
+        ['剑圣'] = require 'scripts.unit.followHero.js',
+        ['炼金术士'] = require 'scripts.unit.followHero.ljss',
+        ['牛头人酋长'] = require 'scripts.unit.followHero.ntrqz',
+        ['山丘之王'] = require 'scripts.unit.followHero.sqzw',
+    },
+    ---@enum(key) FW.unitMgr.minioUnitType
+    minio = {
+        ['步兵'] = require 'scripts.unit.minio.bb',
+    },
+    ---@enum(key) FW.unitMgr.summonerUnitType
+    summoner = {
+        ['召唤师'] = require 'scripts.unit.summoner.zhs',
+    },
+}
 ---autocode---
 unitMgr.units = {
     boss = {},
@@ -157,6 +157,21 @@ end
 function unitMgr:killAllEnemy()
     for key, value in pairs(self.units.enemy) do
         self:killAllEnemyByPlayerId(key)
+    end
+end
+
+---计算单位的浮动最大攻击力
+---@param unit Unit
+---@return number maxAtk
+function unitMgr:calMaxAttack_phy(unit)
+    local minAtk = unit:get_attr("物理攻击")
+    if (unit:kv_has('attack_phy_float')) then
+        local attack_phy_float = unit:kv_load('attack_phy_float', 'number')
+        local attack_phy_float_grow = unit:kv_load('attack_phy_float_grow', 'number')
+        local level = unit:get_level()
+        return minAtk + attack_phy_float + attack_phy_float_grow * math.max(level - 1, 0)
+    else
+        return minAtk
     end
 end
 
