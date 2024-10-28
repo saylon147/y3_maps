@@ -8,7 +8,38 @@
     2147483647, 
     "code_explorer_custom_root_folder_name"
    ]
+  }, 
+  {
+   "__tuple__": true, 
+   "items": [
+    "/2147483647", 
+    0, 
+    "eNX1CpThEe+hjaHd3SwG8Y", 
+    "War3HUD"
+   ]
   }
  ], 
- "d": {}
+ "d": {
+  "134238633": {
+   "__tuple__": true, 
+   "items": [
+    "eNX1CpThEe+hjaHd3SwG8Y", 
+    0
+   ]
+  }, 
+  "134222459": {
+   "__tuple__": true, 
+   "items": [
+    "eNX1CpThEe+hjaHd3SwG8Y", 
+    1
+   ]
+  }, 
+  "134232845": {
+   "__tuple__": true, 
+   "items": [
+    "eNX1CpThEe+hjaHd3SwG8Y", 
+    2
+   ]
+  }
+ }
 }
