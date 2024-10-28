@@ -24,6 +24,11 @@ function hudPanel:initLogic()
     self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.英雄.力量.力量值', '文本', '力量')
     self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.英雄.敏捷.敏捷值', '文本', '敏捷')
     self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.英雄.智力.智力值', '文本', '智力')
+    --刷新金币
+    self.uiLogic:on_refresh('HUD.Top.金币.image_3.label_2', function(ui, local_player)
+        ui:set_text(tostring(local_player:get_attr('gold')))
+    end)
+
     --更新名称
     self.uiLogic:on_refresh('HUD.Console.Data.middle.状态栏.英雄.等级经验条.单位名', function(ui, local_player)
         local unit = local_player:get_selecting_unit()
@@ -187,35 +192,6 @@ function hudPanel:initLogic()
         self.uiLogic:refresh('*', data.player)
     end)
 
-    -- y3.game:event('单位-获得经验后', function(trg, data)
-    --     y3.player.with_local(function(local_player)
-    --         if local_player:get_selecting_unit() == data.unit then
-    --             self.uiLogic:refresh('经验条')
-    --         end
-    --     end)
-    -- end)
-
-    -- y3.game:event('单位-升级', function(trg, data)
-    --     y3.player.with_local(function(local_player)
-    --         if local_player:get_selecting_unit() == data.unit then
-    --             self.uiLogic:refresh('经验条')
-    --         end
-    --     end)
-    -- end)
-
-    -- y3.game:event('键盘-按下', y3.const.KeyboardKey['SPACE'], function(trg, data)
-    --     local u = data.player:get_selecting_unit()
-    --     if not u then
-    --         return
-    --     end
-
-    --     y3.camera.set_camera_follow_unit(data.player, u, 0, 0, 0)
-    -- end)
-
-    -- y3.game:event('键盘-抬起', y3.const.KeyboardKey['SPACE'], function(trg, data)
-    --     y3.camera.cancel_camera_follow_unit(data.player)
-    -- end)
-
     y3.game:event('单位-获得经验后', function(trg, data)
         y3.player.with_local(function(local_player)
             if local_player:get_selecting_unit() == data.unit then
@@ -246,6 +222,7 @@ function hudPanel:initLogic()
     y3.timer.loop(0.1, function(timer, count)
         self.uiLogic:refresh('HUD.Console.Data.left.血量')
         self.uiLogic:refresh('HUD.Console.Data.left.蓝量')
+        self.uiLogic:refresh('HUD.Top.金币.image_3.label_2')
         self.uiLogic:refresh('HUD.Console.Data.middle.状态栏.英雄.攻击.攻击力.攻击值')
     end, '刷新UI', true)
 

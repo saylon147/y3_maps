@@ -19568,7 +19568,7 @@
                                                             "equip_icon_img": "8bf34bb8-fcbb-4def-87a2-c276eb11b50f", 
                                                             "equip_stack_label": "0ade80de-23f6-46b9-ae40-ec167a660d66", 
                                                             "event_list": [], 
-                                                            "name": "equip_slot", 
+                                                            "name": "equip_slot_1", 
                                                             "pos_data": {
                                                                 "__tuple__": true, 
                                                                 "items": [
