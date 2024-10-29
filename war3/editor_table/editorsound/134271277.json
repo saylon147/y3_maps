@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134271277", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134271277, 
+    "md5": "2cc49bafda7f01ac284233d83b138d95", 
+    "name": "HeroTaurenChieftainDeath_1", 
+    "res_name": "HeroTaurenChieftainDeath.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134271277, 
+    "version": 1
+}

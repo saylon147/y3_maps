@@ -1,11 +1,11 @@
 {
-    "134228211": {
+    "134221558": {
         "Format": "wav", 
-        "SoundPath": "134228211", 
-        "default_editor_id": 134228211, 
+        "SoundPath": "134221558", 
+        "default_editor_id": 134221558, 
         "describe": "", 
-        "key": "134228211", 
-        "name": "ResurrectTarget", 
-        "uid": "res_sound_134228211"
+        "key": "134221558", 
+        "name": "HeroTaurenChieftainWhat1_1", 
+        "uid": "res_sound_134221558"
     }
 }

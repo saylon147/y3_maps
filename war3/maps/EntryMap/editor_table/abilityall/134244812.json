@@ -212,7 +212,7 @@
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 5, 
+    "sight_type": 0, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []
