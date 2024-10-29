@@ -1,5 +1,6 @@
 --上方主要include运行时需要改变的物编类代码
 include 'scripts.ability'
+include 'scripts.ECA_lua_func'
 --全局类 通过此类可以拿到所有相关的管理类和单例
 FW = {}
 FW.util = require 'scripts.util'

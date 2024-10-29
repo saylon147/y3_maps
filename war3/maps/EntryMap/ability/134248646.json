@@ -145,71 +145,7 @@
                 }, 
                 {
                     "action_type": "CALL_TRIGGER_FUNC", 
-                    "args_list": [
-                        {
-                            "arg_type": 100177, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100116, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100014, 
-                                            "args_list": [], 
-                                            "sub_type": "CUR_ABILITY"
-                                        }, 
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                "\u53ec\u5524\u7269"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "sub_type": "GET_UNIT_NAME_KV"
-                                }, 
-                                {
-                                    "arg_type": 100000, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100014, 
-                                            "args_list": [], 
-                                            "sub_type": "CUR_ABILITY"
-                                        }, 
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                "\u751f\u547d\u5468\u671f"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "sub_type": "GET_FLOAT_KV"
-                                }, 
-                                {
-                                    "arg_type": 100006, 
-                                    "args_list": [], 
-                                    "sub_type": "ABILITY_OWNER"
-                                }, 
-                                {
-                                    "arg_type": 100004, 
-                                    "args_list": [
-                                        {
-                                            "__tuple__": true, 
-                                            "items": [
-                                                "POINT", 
-                                                "\u9009\u53d6\u70b9", 
-                                                "local"
-                                            ]
-                                        }
-                                    ], 
-                                    "sub_type": 19
-                                }
-                            ], 
-                            "op_arg": [], 
-                            "op_arg_enable": [], 
-                            "sub_type": "de26b4fd798c11efb9523d8de08e1268"
-                        }
-                    ], 
+                    "args_list": [], 
                     "bp": false, 
                     "call_rt_arg_idxes": [], 
                     "element_id": 1438777345000007, 
@@ -231,7 +167,7 @@
             "p_trigger_id": null, 
             "trigger_id": 1438777345, 
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
-            "valid": true, 
+            "valid": false, 
             "var_data": [
                 {
                     "POINT": {

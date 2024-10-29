@@ -1,7 +1,10 @@
-[10-29 13:44:20.000][ info][f:/y3_maps/war3/maps/EntryMap/script/y3/init.lua:155]: LuaLib版本：	241023
-[10-29 13:44:20.000][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:34]: Network 初始化：	{Network|127.0.0.1|12345|new}
-[10-29 13:44:20.000][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:130]: Network 已连接：	{Network|127.0.0.1|12345|started}
-[10-29 13:44:20.033][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: Hello, Y3!
-[10-29 13:44:25.033][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第1次
-[10-29 13:44:30.033][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第2次
-[10-29 13:44:35.033][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第3次
+[10-29 14:57:29.000][ info][f:/y3_maps/war3/maps/EntryMap/script/y3/init.lua:155]: LuaLib版本：	241023
+[10-29 14:57:29.000][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:34]: Network 初始化：	{Network|127.0.0.1|12345|new}
+[10-29 14:57:29.000][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:130]: Network 已连接：	{Network|127.0.0.1|12345|started}
+[10-29 14:57:29.033][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: Hello, Y3!
+[10-29 14:57:31.733][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：1
+[10-29 14:57:32.733][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：2
+[10-29 14:57:33.733][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：3
+[10-29 14:57:34.033][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第1次
+[10-29 14:57:34.733][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：4
+[10-29 14:57:35.733][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：5

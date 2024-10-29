@@ -179,4 +179,13 @@ function unitMgr:calMaxAttack_phy(unit)
     end
 end
 
+---随机单位此次攻击的伤害
+---@param unit Unit
+---@return number randomAtk
+function unitMgr:getRandomAtk(unit)
+    local maxAtk = self:calMaxAttack_phy(unit)
+    local minAtk = unit:get_attr("物理攻击")
+    return math.random(minAtk, maxAtk)
+end
+
 return unitMgr
