@@ -1717,7 +1717,7 @@
     "p_trigger_id": null, 
     "trigger_id": 639324247, 
     "trigger_name": "多选单位_更新单位属性", 
-    "valid": true, 
+    "valid": false, 
     "var_data": [
         {
             "ABILITY": {

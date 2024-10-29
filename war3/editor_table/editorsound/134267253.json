@@ -1,0 +1,17 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134267253", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "import_export_folder_info": "/code_explorer_custom_root_folder_name/\u6076\u9b54\u730e\u624b", 
+    "key": 134267253, 
+    "md5": "30854af653a2ae328c5a2c754d379cfb", 
+    "name": "DemonHunterMorphedWhat1_1", 
+    "res_name": "DemonHunterMorphedWhat1.wav", 
+    "res_type": "kkres", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134267253, 
+    "version": 1
+}

@@ -505,7 +505,7 @@
     "p_trigger_id": null, 
     "trigger_id": 2070671459, 
     "trigger_name": "多选单位_施放技能", 
-    "valid": true, 
+    "valid": false, 
     "var_data": [
         {
             "ABILITY": {

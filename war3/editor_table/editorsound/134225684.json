@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134225684", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134225684, 
+    "md5": "61fe499b367b17a7fde0acc2722d0744", 
+    "name": "DemonHunterDeathAlternate1_1", 
+    "res_name": "DemonHunterDeathAlternate1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134225684, 
+    "version": 1
+}

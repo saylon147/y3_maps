@@ -263,7 +263,7 @@
     "p_trigger_id": null, 
     "trigger_id": 1856831586, 
     "trigger_name": "多选单位_切换分组", 
-    "valid": true, 
+    "valid": false, 
     "var_data": [
         {
             "INTEGER": {

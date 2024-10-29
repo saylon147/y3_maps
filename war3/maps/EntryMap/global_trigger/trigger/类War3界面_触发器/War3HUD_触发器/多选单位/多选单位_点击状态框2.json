@@ -98,7 +98,7 @@
     "p_trigger_id": null, 
     "trigger_id": 1472712803, 
     "trigger_name": "多选单位_点击状态框2", 
-    "valid": true, 
+    "valid": false, 
     "var_data": [
         {
             "INTEGER": {
