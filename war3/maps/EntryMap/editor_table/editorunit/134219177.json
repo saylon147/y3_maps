@@ -71,10 +71,12 @@
         "items": []
     }, 
     "collision_radius_2": 0.7, 
-    "common_ability_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "common_ability_list": [
+        [
+            134253242, 
+            1
+        ]
+    ], 
     "common_atk": {
         "__tuple__": true, 
         "items": [
@@ -249,8 +251,7 @@
     "silver coin": 0, 
     "simple_common_atk": {
         "ability_animations": [
-            "Attack - 1", 
-            "Attack Slam"
+            "Attack - 1"
         ], 
         "ability_bw_point": 0.5, 
         "ability_cast_point": 0.2, 
