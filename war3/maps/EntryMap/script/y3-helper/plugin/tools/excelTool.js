@@ -8,13 +8,10 @@ export async function 读取unit表格并生成修改物编() {
     let unitTable = y3.table.openTable('单位')
     for (let item of list) {
         let unit = await unitTable.get(item.id);
-        let kv = unit.data.kv;
-        unit.data.kv = kv;
         for (let key in item) {
             if (unit.data[key] != null) {
                 unit.data[key] = item[key];
             }else if(key != 'id'){
-                y3.print(key)
                 let kv = unit.data.kv
                 kv[key] = item[key]
                 unit.data.kv = kv
@@ -203,7 +200,7 @@ async function getExcelJson(uri) {
             if (types[j] == 'int') {
                 obj[keys[j]] = parseInt(value);
             } else if (types[j] == 'float') {
-                obj[keys[j]] = parseFloat(parseFloat(value).toFixed(2));
+                obj[keys[j]] = Number(parseFloat(value).toFixed(2));
             } else if (types[j] == 'int[]') {
                 let list = value.split("|");
                 let newList = [];
@@ -215,7 +212,7 @@ async function getExcelJson(uri) {
                 let list = value.split("|");
                 let newList = [];
                 for (let z = 0; z < list.length; z++) {
-                    newList[z] = parseFloat(parseFloat(value).toFixed(2));
+                    newList[z] = Number(parseFloat(value).toFixed(2));
                 }
                 obj[keys[j]] = newList;
             } else if (types[j] == 'string[]') {
