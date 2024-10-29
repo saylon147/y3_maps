@@ -1,0 +1,17 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134236153", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "import_export_folder_info": "/code_explorer_custom_root_folder_name/\u5c71\u4e18\u4e4b\u738b", 
+    "key": 134236153, 
+    "md5": "0a55f18d8f9d81dfd78d8e1f56640bfd", 
+    "name": "HeroMountainKingYes4_1", 
+    "res_name": "HeroMountainKingYes4.wav", 
+    "res_type": "kkres", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134236153, 
+    "version": 1
+}

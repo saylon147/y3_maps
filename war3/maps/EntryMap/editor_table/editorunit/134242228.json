@@ -10,7 +10,7 @@
     "alarm_range": 8.0, 
     "angle_tolerance": 0, 
     "anim_state_name": "", 
-    "armor_type": 20004, 
+    "armor_type": 20000, 
     "attack_interval": 1.0, 
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
@@ -21,7 +21,7 @@
     "attack_range_grow": 0, 
     "attack_speed": 80.0, 
     "attack_speed_grow": 5.0, 
-    "attack_type": 10003, 
+    "attack_type": 10000, 
     "bar_show_name": 2, 
     "bar_show_scale": true, 
     "bar_slot_size": 6, 
@@ -72,10 +72,10 @@
     }, 
     "collision_radius_2": 0.7, 
     "common_ability_list": [], 
-    "common_atk": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "common_atk": [
+        134270852, 
+        1
+    ], 
     "common_atk_type": 2, 
     "content": "strength", 
     "copper coin": 0, 
@@ -132,15 +132,15 @@
     "height_offset": 0, 
     "hero_ability_list": [
         [
+            134276015, 
+            1
+        ], 
+        [
             134220677, 
             1
         ], 
         [
             134257987, 
-            1
-        ], 
-        [
-            134276015, 
             1
         ]
     ], 
@@ -192,7 +192,12 @@
     "ori_bits": 0, 
     "ori_speed": 5.0, 
     "ori_speed_grow": 0.0, 
-    "passive_ability_list": [], 
+    "passive_ability_list": [
+        [
+            134276015, 
+            1
+        ]
+    ], 
     "path_finding_external_size": 0, 
     "pene_mag": 0.0, 
     "pene_mag_grow": 0.0, 
@@ -232,10 +237,7 @@
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 9.42, 
-    "sell_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "sell_list": [], 
     "sell_res_list": {
         "__tuple__": true, 
         "items": []
@@ -349,9 +351,7 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": [
-            "followHero"
-        ]
+        "items": []
     }, 
     "tower_hatred_duration": 3, 
     "type": 1, 
