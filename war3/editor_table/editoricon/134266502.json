@@ -1,8 +1,10 @@
 {
     "describe": "", 
+    "import_export_folder_info": "/code_explorer_custom_root_folder_name/War3HUD", 
     "key": 134266502, 
     "name": "img_kuang_shangbu", 
     "path": "ui/134266502", 
+    "res_type": "editor_icon", 
     "size": "1920X91", 
     "uid": "134266502"
 }

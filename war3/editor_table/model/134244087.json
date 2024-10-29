@@ -1,5 +1,12 @@
 {
     "mdx_path": "Mdx\\\u4e00\u6346\u6728\u5934.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/WoodItem", 
+        "Textures/Yellow_Star", 
+        "Textures/GenericGlow64", 
+        "Textures/Yellow_Star_Dim"
+    ], 
     "meshes": {
         "__tuple__": true, 
         "items": []
@@ -8,5 +15,12 @@
     "name": "Mdx\\\u4e00\u6346\u6728\u5934", 
     "physics_meshes": [
         "custom_editor_model/mdx/AutoPhy_\u4e00\u6346\u6728\u5934.mdx"
-    ]
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5734072923660278, 
+            1.047319769859314
+        ]
+    }
 }

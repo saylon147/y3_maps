@@ -11,25 +11,17 @@
 						<Element index="0">
 							<LayerName>2f05a03d-bf8b-4505-ba35-8555423aa8b5</LayerName>
 							<ShaderName>c5c7cfa0-a62d-416d-b1fc-4a598ee8732e</ShaderName>
-							<Parameters count="3" ordered="true">
+							<Parameters count="1" ordered="true">
 								<Element index="0">
 									<Name>tBaseMap</Name>
 									<Value>fdd1cb1d-e31b-44b3-bb26-7b1add84df07</Value>
-								</Element>
-								<Element index="1">
-									<Name>tNormalMap</Name>
-									<Value>d0db56da-f06a-496b-840f-e3b92317dea4</Value>
-								</Element>
-								<Element index="2">
-									<Name>tMixMap</Name>
-									<Value>6fca116f-f66d-4f4e-8d5f-fe490db75f75</Value>
 								</Element>
 							</Parameters>
 							<MultiPassMaterials count="0" ordered="true"/>
 							<MaterialTrans count="0" ordered="true"/>
 						</Element>
 					</Layers>
-					<ExtTech>-120390080</ExtTech>
+					<ExtTech>-306267280</ExtTech>
 				</info>
 				<flags count="1" ordered="true">
 					<Element index="0">262161</Element>

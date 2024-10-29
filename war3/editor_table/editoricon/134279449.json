@@ -1,8 +1,10 @@
 {
     "describe": "", 
+    "import_export_folder_info": "/code_explorer_custom_root_folder_name/War3HUD", 
     "key": 134279449, 
     "name": "image (79)", 
     "path": "ui/134279449", 
+    "res_type": "editor_icon", 
     "size": "278X416", 
     "uid": "134279449"
 }

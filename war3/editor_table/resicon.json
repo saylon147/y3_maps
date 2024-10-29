@@ -1,10 +1,10 @@
 {
-    "ui/134255785": {
-        "default_editor_id": 134255785, 
+    "ui/134218868": {
+        "default_editor_id": 134218868, 
         "describe": "", 
-        "key": "ui/134255785", 
-        "name": "Spell_Shadow_VampiricAura", 
-        "path": "ui/134255785", 
-        "uid": "res_icon_ui/134255785"
+        "key": "ui/134218868", 
+        "name": "PASBTNSpiritOfVengeance", 
+        "path": "ui/134218868", 
+        "uid": "res_icon_ui/134218868"
     }
 }

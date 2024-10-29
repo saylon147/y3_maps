@@ -82,7 +82,7 @@
             1
         ]
     }, 
-    "common_atk_type": 0, 
+    "common_atk_type": 999, 
     "content": "strength", 
     "copper coin": 0, 
     "counterattack_range": 0, 

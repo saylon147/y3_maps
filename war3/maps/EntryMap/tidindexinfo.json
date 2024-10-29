@@ -53,6 +53,12 @@
         "item_key": 134241144, 
         "prop_key": "name"
     }, 
+    "-1710194435": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134244200, 
+        "prop_key": "desc"
+    }, 
     "-1644067261": {
         "editor_type": "ability_all", 
         "index_type": "object_editor", 
@@ -269,6 +275,12 @@
         "item_key": 134245143, 
         "prop_key": "name"
     }, 
+    "940054633": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134222625, 
+        "prop_key": "desc"
+    }, 
     "988590631": {
         "editor_type": "sound_all", 
         "index_type": "object_editor", 
@@ -333,6 +345,12 @@
         "editor_type": "ability_all", 
         "index_type": "object_editor", 
         "item_key": 134276015, 
+        "prop_key": "name"
+    }, 
+    "1968717500": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134265111, 
         "prop_key": "name"
     }, 
     "2084006354": {

@@ -1,9 +1,12 @@
 {
     "HUD初始化.json": 1, 
-    "单选商店.folder": 4, 
-    "单选建筑.folder": 6, 
-    "单选生物.folder": 3, 
-    "单选生物_召唤物.folder": 5, 
-    "更新玩家选中状态.json": 2, 
+    "单选商店.folder": 7, 
+    "单选建筑.folder": 9, 
+    "单选生物.folder": 6, 
+    "单选生物_召唤物.folder": 8, 
+    "单选英雄.folder": 4, 
+    "多选单位.folder": 5, 
+    "更新玩家选中状态.json": 3, 
+    "更新通用HUD信息.json": 2, 
     "游戏初始化.json": 0
 }

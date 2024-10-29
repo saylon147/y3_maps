@@ -1,8 +1,10 @@
 {
     "describe": "", 
+    "import_export_folder_info": "/code_explorer_custom_root_folder_name/War3HUD", 
     "key": 134245526, 
     "name": "Snipaste_2024-08-29_14-27-10", 
     "path": "ui/134245526", 
+    "res_type": "editor_icon", 
     "size": "79X55", 
     "uid": "134245526"
 }

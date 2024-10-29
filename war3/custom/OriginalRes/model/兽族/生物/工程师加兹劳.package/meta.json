@@ -3,17 +3,9 @@
     "md5_file_list": [
         "editor_model134270738.zip"
     ],
-    "modification_time": 3459399248.6113453,
+    "modification_time": 3460475027.8475394,
     "ori_res_type": "kkres",
     "res_type": "model",
     "source_path": "editor_model134270738.zip",
-    "version": 1,
-    "yaw": 0,
-    "textures": {
-        "units/Creeps/GoblinSapper/GoblinSapper": "GoblinSapper.tga",
-        "Textures/Roman1": "Roman1.tga",
-        "Textures/gutz": "gutz.tga",
-        "Textures/Sparkle_Anim": "Sparkle_Anim.tga",
-        "Textures/Clouds32_anim": "Clouds32_anim.tga"
-    }
+    "version": 1
 }
