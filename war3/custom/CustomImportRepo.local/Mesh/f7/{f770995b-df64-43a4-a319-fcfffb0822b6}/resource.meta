@@ -1,1 +1,1 @@
-<Item><Type>Mesh</Type><Flags>0</Flags><GUID>f770995b-df64-43a4-a319-fcfffb0822b6</GUID><Package>custom_model/134218759</Package><Class>Mesh</Class><Name>Mesh_Cylinder005</Name><Annotation><CreationTime>0</CreationTime></Annotation></Item>
+<Item><Type>Mesh</Type><Flags>0</Flags><GUID>f770995b-df64-43a4-a319-fcfffb0822b6</GUID><Package>custom_model/134218759</Package><Class>Mesh</Class><Name>Mesh_Cylinder005</Name><Annotation><CreationTime>0</CreationTime><Anno><Key>CollisionShape</Key><Value>dd48687c-c431-46b8-86c4-bbde3abfb06f</Value></Anno></Annotation></Item>
