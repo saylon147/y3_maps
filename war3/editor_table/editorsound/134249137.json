@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134249137", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134249137, 
+    "md5": "3b62cdb232fe9b0fdcc122ff9d5f2b28", 
+    "name": "HeroMountainKingDeath_1", 
+    "res_name": "HeroMountainKingDeath.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134249137, 
+    "version": 1
+}

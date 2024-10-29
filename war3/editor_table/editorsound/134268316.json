@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134268316", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134268316, 
+    "md5": "af5fd537198ced0120e16dc919028268", 
+    "name": "HeroMountainKingAttack1_1", 
+    "res_name": "HeroMountainKingAttack1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134268316, 
+    "version": 1
+}
