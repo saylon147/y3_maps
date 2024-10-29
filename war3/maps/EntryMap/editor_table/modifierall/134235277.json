@@ -1,10 +1,7 @@
 {
     "_custom_": true, 
     "_ref_": 134235277, 
-    "attach_model_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "attach_model_list": [], 
     "cycle_time": 0, 
     "description": 727507518, 
     "disappear_when_dead": true, 
