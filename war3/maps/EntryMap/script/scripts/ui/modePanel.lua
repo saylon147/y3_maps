@@ -1,6 +1,7 @@
 ---@class modePanel
 local modePanel = Class 'modePanel'
 modePanel.name = '模式选择'
+---@type LocalUILogic
 modePanel.uiLogic = nil
 modePanel.type = 'uiTemplate'
 function modePanel:initUI()
