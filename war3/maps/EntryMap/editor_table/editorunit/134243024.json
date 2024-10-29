@@ -71,16 +71,7 @@
         "items": []
     }, 
     "collision_radius_2": 0.7, 
-    "common_ability_list": [
-        [
-            134257159, 
-            1
-        ], 
-        [
-            134235029, 
-            1
-        ]
-    ], 
+    "common_ability_list": [], 
     "common_atk": [
         134246955, 
         1
@@ -139,7 +130,16 @@
     "healing_effect": 0, 
     "healing_effect_grow": 0, 
     "height_offset": 0, 
-    "hero_ability_list": [], 
+    "hero_ability_list": [
+        [
+            134257159, 
+            1
+        ], 
+        [
+            134235029, 
+            1
+        ]
+    ], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
     "hp_max": 10000.0, 

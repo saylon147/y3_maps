@@ -73,14 +73,6 @@
     "collision_radius_2": 0.7, 
     "common_ability_list": [
         [
-            134225940, 
-            1
-        ], 
-        [
-            134244812, 
-            1
-        ], 
-        [
             134235811, 
             1
         ]
@@ -146,7 +138,20 @@
     "healing_effect": 0, 
     "healing_effect_grow": 0, 
     "height_offset": 0, 
-    "hero_ability_list": [], 
+    "hero_ability_list": [
+        [
+            134235811, 
+            1
+        ], 
+        [
+            134225940, 
+            1
+        ], 
+        [
+            134244812, 
+            1
+        ]
+    ], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
     "hp_max": 700.0, 

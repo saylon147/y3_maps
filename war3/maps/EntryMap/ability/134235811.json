@@ -9,26 +9,6 @@
         "686555137": {
             "action": [
                 {
-                    "action_type": "SET_ABILITY_AUTOCAST", 
-                    "args_list": [
-                        {
-                            "arg_type": 100014, 
-                            "args_list": [], 
-                            "sub_type": "CUR_ABILITY"
-                        }, 
-                        {
-                            "arg_type": 100001, 
-                            "args_list": [
-                                true
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 686555137000059, 
-                    "enable": true
-                }, 
-                {
                     "action_type": "ADD_MODIFIER", 
                     "args_list": [
                         {

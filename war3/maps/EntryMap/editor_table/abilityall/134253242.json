@@ -159,7 +159,7 @@
     }, 
     "influenced_by_cd_reduce": true, 
     "influenced_by_move": true, 
-    "is_autocast": false, 
+    "is_autocast": true, 
     "is_charge_ability": false, 
     "is_immediate": false, 
     "is_meele": false, 
