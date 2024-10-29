@@ -1,11 +1,11 @@
 {
-    "134236153": {
+    "134228211": {
         "Format": "wav", 
-        "SoundPath": "134236153", 
-        "default_editor_id": 134236153, 
+        "SoundPath": "134228211", 
+        "default_editor_id": 134228211, 
         "describe": "", 
-        "key": "134236153", 
-        "name": "HeroMountainKingYes4_1", 
-        "uid": "res_sound_134236153"
+        "key": "134228211", 
+        "name": "ResurrectTarget", 
+        "uid": "res_sound_134228211"
     }
 }

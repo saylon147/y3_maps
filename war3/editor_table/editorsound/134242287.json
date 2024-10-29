@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134242287", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134242287, 
+    "md5": "83c0371cc09e533b5320bd48f55ec475", 
+    "name": "\u732e\u796d\u91ca\u653e", 
+    "res_name": "ImmolationTarget1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134242287, 
+    "version": 1
+}

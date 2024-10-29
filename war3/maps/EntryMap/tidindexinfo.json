@@ -383,6 +383,12 @@
         "item_key": 134279938, 
         "prop_key": "name"
     }, 
+    "363930044": {
+        "editor_type": "sound_all", 
+        "index_type": "object_editor", 
+        "item_key": 134225987, 
+        "prop_key": "name"
+    }, 
     "380819458": {
         "editor_type": "editor_unit", 
         "index_type": "object_editor", 

@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134237521", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134237521, 
+    "md5": "634a9bc32e3f4dde48a08645c2a9ed20", 
+    "name": "\u5929\u795e\u4e0b\u51e1", 
+    "res_name": "Avatar.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134237521, 
+    "version": 1
+}

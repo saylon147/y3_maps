@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134247417", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134247417, 
+    "md5": "a494d61f3f3031bfbf228f4f9e8de54f", 
+    "name": "\u7761\u7720", 
+    "res_name": "SleepBirth1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134247417, 
+    "version": 1
+}

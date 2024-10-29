@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134268876", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134268876, 
+    "md5": "87f31f3bc141e8607de5bfc78645951b", 
+    "name": "\u65e0\u654c\u62a4\u76fe", 
+    "res_name": "DivineShield.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134268876, 
+    "version": 1
+}

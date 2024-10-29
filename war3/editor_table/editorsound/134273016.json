@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134273016", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134273016, 
+    "md5": "18c402d33a07aafec24ab336e0638105", 
+    "name": "\u590d\u6d3b", 
+    "res_name": "ResurrectTarget.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134273016, 
+    "version": 1
+}
