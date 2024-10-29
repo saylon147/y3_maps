@@ -11,13 +11,13 @@
     "angle_tolerance": 0, 
     "anim_state_name": "", 
     "armor_type": 20002, 
-    "attack_interval": 1, 
+    "attack_interval": 1.0, 
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
     "attack_phy": 50.0, 
     "attack_phy_grow": 0.0, 
-    "attack_range": 1, 
+    "attack_range": 5.0, 
     "attack_range_grow": 0, 
     "attack_speed": 65.0, 
     "attack_speed_grow": 0.0, 
@@ -82,7 +82,7 @@
             1
         ]
     }, 
-    "common_atk_type": 0, 
+    "common_atk_type": 1, 
     "content": "strength", 
     "copper coin": 0, 
     "counterattack_range": 0, 
@@ -214,7 +214,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 0, 
+    "preview_billboard_health_value": 300.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
@@ -247,26 +247,28 @@
     "show_y3_extra_info": false, 
     "silver coin": 0, 
     "simple_common_atk": {
-        "ability_animations": {
-            "__tuple__": true, 
-            "items": [
-                "attack1"
-            ]
-        }, 
-        "ability_bw_point": 0.5, 
-        "ability_cast_point": 0.2, 
+        "ability_animations": [
+            "Attack -1", 
+            "Attack -2"
+        ], 
+        "ability_bw_point": 0.8, 
+        "ability_cast_point": 0.4, 
+        "attack_interval": 1.0, 
+        "attack_range": 5.0, 
         "attack_trajectory": {
-            "effect": 0, 
+            "destroy_immediately": false, 
+            "duration": -1.0, 
+            "effect": 105067, 
             "follow_scale": true, 
-            "scale": 1.0, 
-            "socket": "origin"
+            "scale": 0.4, 
+            "socket": "atk", 
+            "target_socket": "hit_point"
         }, 
-        "cast_effect_list": {
-            "__tuple__": true, 
-            "items": []
-        }, 
+        "cast_effect_list": [], 
+        "cast_interrupt": false, 
         "cast_sound": 0, 
-        "critical_anim": "attack1", 
+        "collection_destructible_tags": [], 
+        "critical_anim": "Attack -2", 
         "damage": {
             "__tuple__": true, 
             "items": [
@@ -296,18 +298,25 @@
         }, 
         "damage_type": 0, 
         "filter_condition_camp": 5, 
+        "filter_condition_move_channel_type": 99, 
         "filter_condition_type": 7, 
+        "filter_item_tags": [], 
+        "filter_unit_tags": [], 
         "hit_effect": {
-            "effect": 0, 
+            "effect": 104085, 
             "follow_scale": true, 
-            "scale": 1.0, 
-            "socket": "origin"
+            "scale": 0.6, 
+            "socket": "hit_point"
         }, 
         "hit_sound": 0, 
+        "jump_word": true, 
         "order_play_anim": false, 
         "order_play_reset_time": 0.5, 
-        "trajectory_radian": 1.0, 
-        "trajectory_speed": 1000.0
+        "simple_atk_dice_count": 0, 
+        "simple_atk_dice_max_value": 0, 
+        "target_attribute": 0, 
+        "trajectory_radian": 0.2, 
+        "trajectory_speed": 900.0
     }, 
     "sound_event_list": {
         "__tuple__": true, 
