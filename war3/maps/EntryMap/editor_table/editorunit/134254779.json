@@ -231,7 +231,10 @@
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 10.0, 
-    "sell_list": [], 
+    "sell_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "sell_res_list": {
         "__tuple__": true, 
         "items": []
@@ -331,7 +334,9 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": []
+        "items": [
+            "building"
+        ]
     }, 
     "tower_hatred_duration": 3, 
     "type": 2, 

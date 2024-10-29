@@ -85,6 +85,10 @@ function unitMgr:createUnit(owner, unitType, unitTemplate, unitSubType, point, d
         unit:add_tag('summoner')
     elseif unitType == "followHero" then
         unit:add_tag('followHero')
+    elseif unitType == "minio" then
+        unit:add_tag("minio")
+    elseif unitType == "boss" then
+        unit:add_tag("boss")
     end
     add_unitGroup(ownerId, unitType, unit)
     return unit

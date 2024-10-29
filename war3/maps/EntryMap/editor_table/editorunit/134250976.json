@@ -10,7 +10,7 @@
     "alarm_range": 8.0, 
     "angle_tolerance": 0, 
     "anim_state_name": "", 
-    "armor_type": 20004, 
+    "armor_type": 20000, 
     "attack_interval": 1.0, 
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
@@ -21,7 +21,7 @@
     "attack_range_grow": 0, 
     "attack_speed": 80.0, 
     "attack_speed_grow": 5.0, 
-    "attack_type": 10003, 
+    "attack_type": 10000, 
     "bar_show_name": 2, 
     "bar_show_scale": true, 
     "bar_slot_size": 6, 
@@ -362,7 +362,9 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": []
+        "items": [
+            "followHero"
+        ]
     }, 
     "tower_hatred_duration": 3, 
     "type": 1, 

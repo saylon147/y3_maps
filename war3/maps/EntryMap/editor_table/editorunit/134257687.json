@@ -231,16 +231,31 @@
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 10.0, 
-    "sell_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "sell_list": [
+        [
+            [
+                [
+                    134232845, 
+                    1
+                ], 
+                [
+                    134238633, 
+                    1
+                ], 
+                [
+                    134222459, 
+                    1
+                ]
+            ], 
+            "New Shop Tab"
+        ]
+    ], 
     "sell_res_list": {
         "__tuple__": true, 
         "items": []
     }, 
     "separate_enemy_icon": false, 
-    "shop_camp_args": 3, 
+    "shop_camp_args": 0, 
     "shop_range": 10.0, 
     "shop_select": false, 
     "shop_sell_type": 0, 
@@ -332,7 +347,9 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": []
+        "items": [
+            "shop"
+        ]
     }, 
     "tower_hatred_duration": 3, 
     "type": 2, 

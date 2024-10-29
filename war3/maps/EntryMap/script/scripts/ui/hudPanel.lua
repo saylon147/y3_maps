@@ -20,10 +20,6 @@ function hudPanel:hideUI(player)
 end
 
 function hudPanel:initLogic()
-    self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.英雄.护甲.攻击力.护甲值', '文本', '物理防御')
-    self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.英雄.力量.力量值', '文本', '力量')
-    self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.英雄.敏捷.敏捷值', '文本', '敏捷')
-    self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.英雄.智力.智力值', '文本', '智力')
     --刷新金币
     self.uiLogic:on_refresh('HUD.Top.金币.image_3.label_2', function(ui, local_player)
         ui:set_text(tostring(local_player:get_attr('gold')))
@@ -36,6 +32,19 @@ function hudPanel:initLogic()
             ui:set_text(unit:get_name())
         end
     end)
+    self.uiLogic:on_refresh('HUD.Console.Data.middle.状态栏.生物.单位名', function(ui, local_player)
+        local unit = local_player:get_selecting_unit()
+        if unit then
+            ui:set_text(unit:get_name())
+        end
+    end)
+    self.uiLogic:on_refresh('HUD.Console.Data.middle.状态栏.建筑.单位名', function(ui, local_player)
+        local unit = local_player:get_selecting_unit()
+        if unit then
+            ui:set_text(unit:get_name())
+        end
+    end)
+
     --更新等级条文本
     self.uiLogic:on_refresh('HUD.Console.Data.middle.状态栏.英雄.等级经验条.等级说明', function(ui, local_player)
         local unit = local_player:get_selecting_unit()
@@ -93,23 +102,41 @@ function hudPanel:initLogic()
 
     --更新技能栏
     self.uiLogic:on_refresh('HUD.Console.Data.right.技能栏', function(ui, local_player)
-        if not local_player:get_selecting_unit() then
+        local unit = local_player:get_selecting_unit()
+        if not unit then
             return
         end
-
-        for i, parent in ipairs(ui:get_childs()) do
-            local slot = parent:get_child('skill_btn')
-            if slot then
-                local ability = local_player:get_selecting_unit():get_ability_by_slot('英雄', i)
-                if ability then
-                    slot:set_visible(true)
-                    --必须要主动绑定，否则会闪烁一下
-                    slot:bind_ability(ability)
-                    if local_player:get_selecting_unit():get_owner() ~= local_player then
+        if unit:has_tag('followHero') or unit:has_tag('summoner') then
+            for i, parent in ipairs(ui:get_childs()) do
+                local slot = parent:get_child('skill_btn')
+                if slot then
+                    local ability = unit:get_ability_by_slot('英雄', i)
+                    if ability then
+                        slot:set_visible(true)
+                        --必须要主动绑定，否则会闪烁一下
+                        slot:bind_ability(ability)
+                        if unit:get_owner() ~= local_player then
+                            slot:set_visible(false)
+                        end
+                    else
                         slot:set_visible(false)
                     end
-                else
-                    slot:set_visible(false)
+                    slot:set_button_enable(true)
+                end
+            end
+        elseif unit:has_tag('enemy') or unit:has_tag('minio') then
+            for i, parent in ipairs(ui:get_childs()) do
+                local slot = parent:get_child('skill_btn')
+                if slot then
+                    local ability = unit:get_ability_by_slot('命令', i)
+                    if ability then
+                        slot:set_visible(true)
+                        --必须要主动绑定，否则会闪烁一下
+                        slot:bind_ability(ability)
+                    else
+                        slot:set_visible(false)
+                    end
+                    slot:set_button_enable(false)
                 end
             end
         end
@@ -145,14 +172,14 @@ function hudPanel:initLogic()
     end)
 
     --更新技能点
-    self.uiLogic:on_refresh('HUD.Console.Data.right.技能栏.layout_12.levelup.levelup_1', function(ui, local_player)
+    self.uiLogic:on_refresh('HUD.Console.Data.right.技能栏.layout_12.levelup', function(ui, local_player)
         local u = local_player:get_selecting_unit()
         if not u then
             return
         end
         local abilityPoint = u:get_ability_point()
-        local pointText = ui:get_child('label_3')
-        if abilityPoint > 0 then
+        local pointText = ui:get_child('levelup_1.label_3')
+        if abilityPoint > 0 and (u:has_tag('followHero') or u:has_tag('summoner')) then
             ui:set_visible(true)
             if pointText then
                 pointText:set_text(tostring(abilityPoint))
@@ -183,9 +210,85 @@ function hudPanel:initLogic()
             slot:get_child('buff_item_' .. i):set_buff_on_ui(u)
         end
     end)
+    self.uiLogic:on_refresh('HUD.Console.Data.middle.状态栏.生物.状态.bufflist', function(ui, local_player)
+        local u = local_player:get_selecting_unit()
+        if not u then
+            return
+        end
 
+        for i, slot in ipairs(ui:get_childs()) do
+            slot:get_child('buff_item_' .. i):set_buff_on_ui(u)
+        end
+    end)
+
+    self.uiLogic:on_refresh('HUD.Console.Data.middle.状态栏',function (ui, local_player)
+        local u = local_player:get_selecting_unit()
+        if not u then
+            return
+        end
+        for index, child in ipairs(ui:get_childs()) do
+            child:set_visible(false)
+        end
+
+        if u:has_tag("followHero") or u:has_tag("summoner") then
+            ui:get_child('英雄'):set_visible(true)
+        elseif u:has_tag("enemy") or u:has_tag("minio") then 
+            ui:get_child('生物'):set_visible(true)
+            ui:get_child('生物.生命周期'):set_visible(false)
+        elseif u:has_tag("building") then
+            ui:get_child('建筑'):set_visible(true)
+            ui:get_child('建筑.建造中'):set_visible(false)
+        elseif u:has_tag("shop") then
+            ui:get_child('商店'):set_visible(true)
+        end
+    end)
+
+    self.uiLogic:on_refresh('HUD.Console.Data.right',function (ui, local_player)
+        local u = local_player:get_selecting_unit()
+        if not u then
+            return
+        end
+        for index, child in ipairs(ui:get_childs()) do
+            child:set_visible(false)
+        end
+        if u:has_tag("followHero") or u:has_tag("summoner") then
+            ui:get_child("技能栏"):set_visible(true)
+        elseif u:has_tag("enemy") or u:has_tag("minio") then 
+            ui:get_child("技能栏"):set_visible(true)
+        elseif u:has_tag("shop") then
+            ui:get_child("商店"):set_visible(true)
+        end
+    end)
+
+    self.uiLogic:on_refresh('HUD',function (ui, local_player)
+        local u = local_player:get_selecting_unit()
+        if not u then
+            ui:get_child('Console.Data'):set_visible(false)
+            ui:get_child('Console.frame.cover'):set_visible(true)
+        else
+            ui:get_child('Console.Data'):set_visible(true)
+            if u:has_tag("followHero") or u:has_tag("summoner") then
+                ui:get_child('Console.frame.cover'):set_visible(false)
+            else 
+                ui:get_child('Console.frame.cover'):set_visible(true)
+            end
+        end
+    end)
+    
     y3.game:event('选中-单位', function(trg, data)
         self.uiLogic:refresh('*', data.player)
+        if data.unit:has_tag("followHero") or data.unit:has_tag("summoner") then
+            self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.英雄.护甲.攻击力.护甲值', '文本', '物理防御')
+            self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.英雄.力量.力量值', '文本', '力量')
+            self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.英雄.敏捷.敏捷值', '文本', '敏捷')
+            self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.英雄.智力.智力值', '文本', '智力')
+        elseif data.unit:has_tag("enemy") or data.unit:has_tag("minio") then 
+            self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.生物.护甲.攻击力.护甲值', '文本', '物理防御')
+        elseif data.unit:has_tag('building') then
+            self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.建筑.建造完成.护甲.攻击力.护甲值', '文本', '物理防御')
+        elseif data.unit:has_tag('shop') then
+            self.uiLogic:bind_unit_attr('HUD.Console.Data.middle.状态栏.商店.护甲.攻击力.护甲值', '文本', '物理防御')
+        end
     end)
 
     y3.game:event('选中-单位组', function(trg, data)
@@ -204,7 +307,7 @@ function hudPanel:initLogic()
         y3.player.with_local(function(local_player)
             if local_player:get_selecting_unit() == data.unit then
                 self.uiLogic:refresh('HUD.Console.Data.middle.状态栏.英雄.等级经验条')
-                self.uiLogic:refresh('HUD.Console.Data.right.技能栏.layout_12.levelup.levelup_1')
+                self.uiLogic:refresh('HUD.Console.Data.right.技能栏.layout_12.levelup')
             end
         end)
     end)
@@ -263,6 +366,8 @@ function hudPanel:initLogic()
             end
         end)
     end
+
+    self.uiLogic:refresh('*')
 end
 
 return hudPanel
