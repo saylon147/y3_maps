@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134280668", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134280668, 
+    "md5": "190d83dddb892dc1e2a8e99561dc75f9", 
+    "name": "HeroTaurenChieftainWarcry1_1", 
+    "res_name": "HeroTaurenChieftainWarcry1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134280668, 
+    "version": 1
+}

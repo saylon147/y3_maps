@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134256399", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134256399, 
+    "md5": "14187ba24b31c1aab3412cf6996060a8", 
+    "name": "HeroTaurenChieftainAttack2_1", 
+    "res_name": "HeroTaurenChieftainAttack2.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134256399, 
+    "version": 1
+}
