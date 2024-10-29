@@ -332,7 +332,9 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": []
+        "items": [
+            "building"
+        ]
     }, 
     "tower_hatred_duration": 3, 
     "type": 2, 

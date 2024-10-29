@@ -336,7 +336,9 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": []
+        "items": [
+            "followHero"
+        ]
     }, 
     "tower_hatred_duration": 3, 
     "type": 1, 

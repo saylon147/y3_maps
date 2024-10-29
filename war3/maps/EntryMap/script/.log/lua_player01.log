@@ -1,10 +1,28 @@
-[10-29 14:57:29.000][ info][f:/y3_maps/war3/maps/EntryMap/script/y3/init.lua:155]: LuaLib版本：	241023
-[10-29 14:57:29.000][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:34]: Network 初始化：	{Network|127.0.0.1|12345|new}
-[10-29 14:57:29.000][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:130]: Network 已连接：	{Network|127.0.0.1|12345|started}
-[10-29 14:57:29.033][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: Hello, Y3!
-[10-29 14:57:31.733][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：1
-[10-29 14:57:32.733][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：2
-[10-29 14:57:33.733][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：3
-[10-29 14:57:34.033][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第1次
-[10-29 14:57:34.733][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：4
-[10-29 14:57:35.733][debug][f:/y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：5
+[10-29 15:57:43.000][ info][.../Y3Ditu/y3_maps/war3/maps/EntryMap/script/y3/init.lua:155]: LuaLib版本：	241023
+[10-29 15:57:43.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: Hello, Y3!
+[10-29 15:57:48.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第1次
+[10-29 15:57:53.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第2次
+[10-29 15:57:58.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第3次
+[10-29 15:58:03.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第4次
+[10-29 15:58:03.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：1
+[10-29 15:58:04.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：2
+[10-29 15:58:05.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：3
+[10-29 15:58:06.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：4
+[10-29 15:58:07.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：5
+[10-29 15:58:08.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第5次
+[10-29 15:58:08.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：6
+[10-29 15:58:09.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：7
+[10-29 15:58:10.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：8
+[10-29 15:58:11.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：9
+[10-29 15:58:12.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：10
+[10-29 15:58:13.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第6次
+[10-29 15:58:13.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：11
+[10-29 15:58:14.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：12
+[10-29 15:58:15.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：13
+[10-29 15:58:16.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：14
+[10-29 15:58:17.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：15
+[10-29 15:58:18.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第7次
+[10-29 15:58:18.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：16
+[10-29 15:58:19.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：17
+[10-29 15:58:20.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：18
+[10-29 15:58:21.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：19
