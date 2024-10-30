@@ -1065,22 +1065,35 @@
                                             "uid": "7286fe11-a360-4b8a-8a33-1966d7b80800"
                                         }, 
                                         {
+                                            "adapter_option": [
+                                                false, 
+                                                false, 
+                                                false, 
+                                                false, 
+                                                121.4942, 
+                                                62.0058, 
+                                                555.9912, 
+                                                1194.1906
+                                            ], 
                                             "anchor": [
                                                 0.1667, 
                                                 0.3636
                                             ], 
-                                            "background_color": [
-                                                0, 
-                                                0, 
-                                                0, 
-                                                0
-                                            ], 
+                                            "background_color": {
+                                                "__tuple__": true, 
+                                                "items": [
+                                                    69, 
+                                                    41, 
+                                                    41, 
+                                                    0
+                                                ]
+                                            }, 
                                             "camera_mode": 2, 
                                             "camera_pos": {
                                                 "__tuple__": true, 
                                                 "items": [
                                                     0.0, 
-                                                    1.2337, 
+                                                    1.1944, 
                                                     3.0
                                                 ]
                                             }, 
@@ -1090,7 +1103,7 @@
                                                 "__tuple__": true, 
                                                 "items": [
                                                     0.0, 
-                                                    1.2337, 
+                                                    1.1944, 
                                                     0.01
                                                 ]
                                             }, 
@@ -1098,7 +1111,7 @@
                                                 "__tuple__": true, 
                                                 "items": [
                                                     "editor_model", 
-                                                    134260793
+                                                    134270409
                                                 ]
                                             }, 
                                             "name": "model", 
