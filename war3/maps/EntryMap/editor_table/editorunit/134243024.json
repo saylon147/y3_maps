@@ -319,18 +319,18 @@
     }, 
     "sound_event_list": [
         [
-            "UNIT_START_MOVE", 
-            134256719, 
-            8
-        ], 
-        [
             "UNIT_DIE", 
             134229812, 
             8
         ], 
         [
-            "UNIT_RELEASE_ABILITY", 
-            134282949, 
+            "UPGRADE_UNIT", 
+            134225736, 
+            8
+        ], 
+        [
+            "REVIVE_UNIT", 
+            134243621, 
             8
         ]
     ], 
