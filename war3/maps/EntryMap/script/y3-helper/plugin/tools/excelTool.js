@@ -10,7 +10,11 @@ export async function 读取unit表格并生成修改物编() {
         let unit = await unitTable.get(item.id);
         for (let key in item) {
             if (unit.data[key] != null) {
-                unit.data[key] = item[key];
+                if(key == "ori_speed"){
+                    unit.data[key] = item[key] / 100;
+                }else{
+                    unit.data[key] = item[key];
+                }
             }else if(key != 'id'){
                 let kv = unit.data.kv;
                 kv[key] = item[key]+"";
