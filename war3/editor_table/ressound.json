@@ -1,11 +1,11 @@
 {
-    "134251591": {
+    "134268023": {
         "Format": "wav", 
-        "SoundPath": "134251591", 
-        "default_editor_id": 134251591, 
+        "SoundPath": "134268023", 
+        "default_editor_id": 134268023, 
         "describe": "", 
-        "key": "134251591", 
-        "name": "\u98ce\u66b4\u4e4b\u9524\u88ab\u51fb", 
-        "uid": "res_sound_134251591"
+        "key": "134268023", 
+        "name": "EvilSylvanasWhat1_1", 
+        "uid": "res_sound_134268023"
     }
 }
