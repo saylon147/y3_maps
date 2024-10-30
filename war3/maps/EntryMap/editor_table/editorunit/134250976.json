@@ -319,13 +319,13 @@
     }, 
     "sound_event_list": [
         [
-            "UNIT_START_MOVE", 
-            134249807, 
+            "REVIVE_UNIT", 
+            134243621, 
             8
         ], 
         [
-            "UNIT_ON_COMMAND", 
-            134240668, 
+            "UPGRADE_UNIT", 
+            134225736, 
             8
         ]
     ], 

@@ -321,21 +321,16 @@
         [
             "UNIT_DIE", 
             134233160, 
+            11
+        ], 
+        [
+            "REVIVE_UNIT", 
+            134243621, 
             8
         ], 
         [
-            "UNIT_START_MOVE", 
-            134257865, 
-            8
-        ], 
-        [
-            "UNIT_HURT_OTHER", 
-            134219344, 
-            8
-        ], 
-        [
-            "UNIT_ON_COMMAND", 
-            134254353, 
+            "UPGRADE_UNIT", 
+            134225736, 
             8
         ]
     ], 

@@ -354,23 +354,18 @@
     }, 
     "sound_event_list": [
         [
-            "UNIT_DIE", 
+            "UNIT_BORN", 
             134235410, 
-            2
+            11
         ], 
         [
-            "UNIT_START_MOVE", 
-            134269819, 
+            "REVIVE_UNIT", 
+            134243621, 
             8
         ], 
         [
-            "UNIT_HURT_OTHER", 
-            134232152, 
-            8
-        ], 
-        [
-            "UNIT_ON_COMMAND", 
-            134219551, 
+            "UPGRADE_UNIT", 
+            134225736, 
             8
         ]
     ], 

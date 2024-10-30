@@ -9,14 +9,44 @@
         "890007553": {
             "action": [
                 {
-                    "action_type": "PLAY_SOUND_FOR_PLAYER", 
+                    "action_type": "PLAY_3D_SOUND_FOR_PLAYER", 
                     "args_list": [
                         {
                             "arg_type": 100025, 
-                            "args_list": [], 
-                            "sub_type": "NONE_ROLE"
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "MODIFIER_OWNER"
+                                }
+                            ], 
+                            "sub_type": "OWNER_PLAYER"
                         }, 
-                        null, 
+                        {
+                            "arg_type": 100084, 
+                            "args_list": [
+                                134225736
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100004, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "MODIFIER_OWNER"
+                                }
+                            ], 
+                            "sub_type": "UNIT_ENTITY_POINT"
+                        }, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.0
+                            ], 
+                            "sub_type": 1
+                        }, 
                         {
                             "arg_type": 100001, 
                             "args_list": [
@@ -26,13 +56,21 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 890007553000005, 
+                    "element_id": 890007553000017, 
                     "enable": true, 
                     "op_arg": [
                         null, 
-                        null
+                        null, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                true
+                            ], 
+                            "sub_type": 1
+                        }
                     ], 
                     "op_arg_enable": [
+                        false, 
                         false, 
                         false
                     ]
@@ -53,7 +91,7 @@
             "p_trigger_id": null, 
             "trigger_id": 890007553, 
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
-            "valid": false, 
+            "valid": true, 
             "var_data": [
                 {}, 
                 {}, 

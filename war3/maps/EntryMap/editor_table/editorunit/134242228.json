@@ -325,16 +325,16 @@
         [
             "UNIT_DIE", 
             134260447, 
+            11
+        ], 
+        [
+            "REVIVE_UNIT", 
+            134243621, 
             8
         ], 
         [
-            "UNIT_START_MOVE", 
-            134263127, 
-            8
-        ], 
-        [
-            "UNIT_RELEASE_ABILITY", 
-            134250073, 
+            "UPGRADE_UNIT", 
+            134225736, 
             8
         ]
     ], 
