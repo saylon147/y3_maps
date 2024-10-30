@@ -19,7 +19,7 @@
                         {
                             "arg_type": 100300, 
                             "args_list": [
-                                "ATTR_BASE_RATIO"
+                                "ATTR_BASE"
                             ], 
                             "sub_type": 1
                         }, 
