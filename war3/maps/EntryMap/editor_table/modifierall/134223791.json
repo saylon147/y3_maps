@@ -1,10 +1,64 @@
 {
     "_custom_": true, 
     "_ref_": 134223791, 
-    "attach_model_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "attach_model_list": [
+        {
+            "anim_relate": {
+                "anim_map_list": [], 
+                "default_anim": "None", 
+                "is_loop": true
+            }, 
+            "base_color_mod": 0, 
+            "base_tint_color": [
+                255, 
+                255, 
+                255, 
+                0.5
+            ], 
+            "follow_rotate": 2, 
+            "fresnel_color": [
+                255, 
+                255, 
+                255, 
+                0.5
+            ], 
+            "fresnel_emissive_color_strength": 1.0, 
+            "fresnel_exp": 10.0, 
+            "has_anim": true, 
+            "model": 134282999, 
+            "model_opacity": 1.0, 
+            "offset": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    -0.3, 
+                    0.0
+                ]
+            }, 
+            "offset_follow_scale": true, 
+            "rotate": {
+                "__tuple__": true, 
+                "items": [
+                    0.0, 
+                    0.0, 
+                    0.0
+                ]
+            }, 
+            "scale": {
+                "__tuple__": true, 
+                "items": [
+                    1.0, 
+                    1.0, 
+                    1.0
+                ]
+            }, 
+            "size_follow_scale": true, 
+            "socket": "hit_point", 
+            "use_base_tint_color": false, 
+            "use_fresnel": false, 
+            "use_virtual_light": false
+        }
+    ], 
     "cycle_time": 0, 
     "description": -1771830374, 
     "disappear_when_dead": true, 

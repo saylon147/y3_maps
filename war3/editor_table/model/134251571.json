@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u732e\u796d\u6211.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/NightElf/Immolation//ImmolationTarget1.wav", 
+        "sound/Abilities/Spells/NightElf/Immolation//ImmolationDecay1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/ShockwaveWater1", 
+        "Textures/Clouds8x8FadeWhite"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134251571, 
+    "name": "Mdx\\\u732e\u796d\u6211", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u732e\u796d\u6211.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.0935053825378418, 
+            1.9503920078277588
+        ]
+    }
+}

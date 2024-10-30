@@ -1,0 +1,16 @@
+{
+    "id": 134251571,
+    "md5_file_list": [
+        "\u732e\u796d\u6211.mdx"
+    ],
+    "modification_time": 3460539615.0033164,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u732e\u796d\u6211.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/ShockwaveWater1": "ShockwaveWater1.tga",
+        "Textures/Clouds8x8FadeWhite": "Clouds8x8FadeWhite.tga"
+    }
+}
