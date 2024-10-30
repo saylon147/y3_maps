@@ -1075,13 +1075,13 @@
                                                 0, 
                                                 0
                                             ], 
-                                            "camera_mode": 1, 
+                                            "camera_mode": 2, 
                                             "camera_pos": {
                                                 "__tuple__": true, 
                                                 "items": [
-                                                    -4.8363, 
-                                                    3.6994, 
-                                                    4.8031
+                                                    0.0, 
+                                                    1.2337, 
+                                                    3.0
                                                 ]
                                             }, 
                                             "children": [], 
@@ -1089,19 +1089,18 @@
                                             "focus_pos": {
                                                 "__tuple__": true, 
                                                 "items": [
-                                                    -4.1854, 
-                                                    3.3087, 
-                                                    4.1522
+                                                    0.0, 
+                                                    1.2337, 
+                                                    0.01
                                                 ]
                                             }, 
                                             "model": {
                                                 "__tuple__": true, 
                                                 "items": [
-                                                    "editor_unit", 
-                                                    134262378
+                                                    "editor_model", 
+                                                    134260793
                                                 ]
                                             }, 
-                                            "model_scale": 0.8, 
                                             "name": "model", 
                                             "pos_data": {
                                                 "__tuple__": true, 

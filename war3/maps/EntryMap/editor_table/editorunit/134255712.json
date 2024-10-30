@@ -215,7 +215,7 @@
         }
     }, 
     "level": 1, 
-    "main_attr": "\u529b\u91cf", 
+    "main_attr": "none", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
     "mini_map_icon": 903950, 
@@ -263,7 +263,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 300.0, 
+    "preview_billboard_health_value": 363.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 

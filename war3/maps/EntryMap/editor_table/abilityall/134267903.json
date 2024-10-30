@@ -4,7 +4,7 @@
     "ability_break_cast_range": {
         "__tuple__": true, 
         "items": [
-            "50"
+            "50.0"
         ]
     }, 
     "ability_build_subtype": 1, 
@@ -42,7 +42,7 @@
             "0"
         ]
     }, 
-    "ability_icon": 100508, 
+    "ability_icon": 134239072, 
     "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
@@ -112,7 +112,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "0.0"
+            "7.0"
         ]
     }, 
     "collection_animation": "", 
@@ -173,7 +173,20 @@
     "is_immediate": false, 
     "is_meele": false, 
     "key": 134267903, 
-    "kv": {}, 
+    "kv": {
+        "debuff_time": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "debuff_time", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 0, 
+            "type": 1, 
+            "value": 5.0
+        }
+    }, 
     "magicbook_list": {
         "__tuple__": true, 
         "items": []
@@ -181,7 +194,7 @@
     "name": 570395681, 
     "need_turn_to_target": true, 
     "pick_count": 1, 
-    "player_props_cost": {}, 
+    "player_props_cost": [], 
     "precondition_list": {
         "__tuple__": true, 
         "items": []
@@ -225,7 +238,7 @@
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 5, 
+    "sight_type": 4, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []

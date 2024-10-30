@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134271178", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134271178, 
+    "md5": "30c7809eb49dd9a9ce684d5128b04fe9", 
+    "name": "EvilSylvanasWhat4_1", 
+    "res_name": "EvilSylvanasWhat4.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134271178, 
+    "version": 1
+}
