@@ -1,10 +1,10 @@
 {
-    "ui/134281174": {
-        "default_editor_id": 134281174, 
+    "ui/134217781": {
+        "default_editor_id": 134217781, 
         "describe": "", 
-        "key": "ui/134281174", 
-        "name": "Spell_Shadow_UnsummonBuilding", 
-        "path": "ui/134281174", 
-        "uid": "res_icon_ui/134281174"
+        "key": "ui/134217781", 
+        "name": "infocardneutralattackhero", 
+        "path": "ui/134217781", 
+        "uid": "res_icon_ui/134217781"
     }
 }
