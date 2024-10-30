@@ -1,9 +1,122 @@
 {
     "variable_dict": {
         "INTEGER": {}, 
+        "STRING": {
+            "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u5546\u5e97": "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u5546\u5e97", 
+            "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u5efa\u7b51": "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u5efa\u7b51", 
+            "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u751f\u7269_\u53ec\u5524\u7269": "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u751f\u7269_\u53ec\u5524\u7269", 
+            "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u751f\u7269_\u666e\u901a": "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u751f\u7269_\u666e\u901a", 
+            "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u82f1\u96c4": "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u82f1\u96c4", 
+            "G_\u63a7\u5236\u53f0\u72b6\u6001_\u591a\u9009\u5355\u4f4d": "G_\u63a7\u5236\u53f0\u72b6\u6001_\u591a\u9009\u5355\u4f4d", 
+            "G_\u63a7\u5236\u53f0\u72b6\u6001_\u672a\u9009\u62e9": "G_\u63a7\u5236\u53f0\u72b6\u6001_\u672a\u9009\u62e9"
+        }, 
+        "TABLE": {
+            "G _\u73a9\u5bb6\u6570\u636e\u8868": null
+        }, 
+        "UI_COMP": {
+            "G_\u591a\u9009\u5355\u4f4d_\u6240\u6709\u72b6\u6001\u6846": null
+        }, 
         "UNIT_ENTITY": {}, 
         "UNIT_NAME": {}
     }, 
-    "variable_group_info": [], 
-    "variable_length_dict": {}
+    "variable_group_info": [
+        {
+            "group": [
+                {
+                    "group": [
+                        {
+                            "__tuple__": true, 
+                            "items": [
+                                "G _\u73a9\u5bb6\u6570\u636e\u8868", 
+                                "G _\u73a9\u5bb6\u6570\u636e\u8868"
+                            ]
+                        }, 
+                        {
+                            "group": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u672a\u9009\u62e9", 
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u672a\u9009\u62e9"
+                                    ]
+                                }, 
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u82f1\u96c4", 
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u82f1\u96c4"
+                                    ]
+                                }, 
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u591a\u9009\u5355\u4f4d", 
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u591a\u9009\u5355\u4f4d"
+                                    ]
+                                }, 
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u751f\u7269_\u666e\u901a", 
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u751f\u7269_\u666e\u901a"
+                                    ]
+                                }, 
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u751f\u7269_\u53ec\u5524\u7269", 
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u751f\u7269_\u53ec\u5524\u7269"
+                                    ]
+                                }, 
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u5546\u5e97", 
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u5546\u5e97"
+                                    ]
+                                }, 
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u5efa\u7b51", 
+                                        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u5efa\u7b51"
+                                    ]
+                                }
+                            ], 
+                            "key": "6p1nu5aJEe+Lf68eP-NUMj", 
+                            "name": "\u63a7\u5236\u53f0\u72b6\u6001"
+                        }, 
+                        {
+                            "group": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "G_\u591a\u9009\u5355\u4f4d_\u6240\u6709\u72b6\u6001\u6846", 
+                                        "G_\u591a\u9009\u5355\u4f4d_\u6240\u6709\u72b6\u6001\u6846"
+                                    ]
+                                }
+                            ], 
+                            "key": "6p1nvJaJEe+-oq8eP-NUMl", 
+                            "name": "\u591a\u9009\u5355\u4f4d"
+                        }
+                    ], 
+                    "key": "6p1nupaJEe+Afa8eP-NUMq", 
+                    "name": "War3HUD"
+                }
+            ], 
+            "key": "6p1nuJaJEe+mw68eP-NUMn", 
+            "name": "\u7c7bWar3\u754c\u9762_\u5168\u5c40\u53d8\u91cf"
+        }
+    ], 
+    "variable_length_dict": {
+        "G _\u73a9\u5bb6\u6570\u636e\u8868": 0, 
+        "G_\u591a\u9009\u5355\u4f4d_\u6240\u6709\u72b6\u6001\u6846": 10, 
+        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u5546\u5e97": 0, 
+        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u5efa\u7b51": 0, 
+        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u751f\u7269_\u53ec\u5524\u7269": 0, 
+        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u751f\u7269_\u666e\u901a": 0, 
+        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u5355\u9009\u82f1\u96c4": 0, 
+        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u591a\u9009\u5355\u4f4d": 0, 
+        "G_\u63a7\u5236\u53f0\u72b6\u6001_\u672a\u9009\u62e9": 0
+    }
 }
