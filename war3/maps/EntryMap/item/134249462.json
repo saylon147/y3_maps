@@ -35,6 +35,54 @@
                     "enable": true
                 }, 
                 {
+                    "action_type": "ADD_MODIFIER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100031, 
+                                    "args_list": [], 
+                                    "sub_type": "TRIGGER_ITEM_ENTITY"
+                                }
+                            ], 
+                            "sub_type": "ITEM_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100046, 
+                            "args_list": [
+                                134233998
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1651130369000053, 
+                    "enable": true, 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                2.8
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        null, 
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        false
+                    ]
+                }, 
+                {
                     "action_type": "REMOVE_ITEM", 
                     "args_list": [
                         {

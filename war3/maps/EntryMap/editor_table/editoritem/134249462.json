@@ -48,7 +48,7 @@
     "discard_enable": true, 
     "discard_when_dead": true, 
     "drop_stay_time": 9999, 
-    "effect_list": {}, 
+    "effect_list": [], 
     "fresnel_color": {
         "__tuple__": true, 
         "items": [
