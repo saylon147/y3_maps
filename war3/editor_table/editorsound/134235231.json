@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134235231", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134235231, 
+    "md5": "f677910ad678e04f51759c00ba4141de", 
+    "name": "\u65e0\u654c\u62a4\u76fe\u6d88\u6563", 
+    "res_name": "PaladinDivineShieldDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134235231, 
+    "version": 1
+}

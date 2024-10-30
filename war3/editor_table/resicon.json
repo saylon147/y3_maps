@@ -1,10 +1,10 @@
 {
-    "ui/c6860b51-5969-481e-957a-50546c34bad3": {
-        "default_editor_id": 134257251, 
+    "ui/17c744e9-7d6b-462c-ba91-8d3e8cbb88ac": {
+        "default_editor_id": 134240607, 
         "describe": "", 
-        "key": "ui/c6860b51-5969-481e-957a-50546c34bad3", 
-        "name": "Ability_ThunderBolt_1", 
-        "path": "ui/c6860b51-5969-481e-957a-50546c34bad3", 
-        "uid": "res_icon_ui/c6860b51-5969-481e-957a-50546c34bad3"
+        "key": "ui/17c744e9-7d6b-462c-ba91-8d3e8cbb88ac", 
+        "name": "Ability_ShockWave_1", 
+        "path": "ui/17c744e9-7d6b-462c-ba91-8d3e8cbb88ac", 
+        "uid": "res_icon_ui/17c744e9-7d6b-462c-ba91-8d3e8cbb88ac"
     }
 }

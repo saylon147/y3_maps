@@ -1,6 +1,6 @@
 {
     "_custom_": true, 
-    "_ref_": 134263217, 
+    "_ref_": 134255026, 
     "attach_model_list": [
         {
             "anim_relate": {
@@ -25,7 +25,7 @@
             "fresnel_emissive_color_strength": 1.0, 
             "fresnel_exp": 10.0, 
             "has_anim": true, 
-            "model": 134267993, 
+            "model": 134268049, 
             "model_opacity": 1.0, 
             "offset": {
                 "__tuple__": true, 
@@ -47,26 +47,26 @@
             "scale": {
                 "__tuple__": true, 
                 "items": [
-                    1.0, 
-                    1.0, 
-                    1.0
+                    0.5, 
+                    0.5, 
+                    0.5
                 ]
             }, 
             "size_follow_scale": true, 
-            "socket": "origin", 
+            "socket": "root", 
             "use_base_tint_color": false, 
             "use_fresnel": false, 
             "use_virtual_light": false
         }
     ], 
     "cycle_time": 0, 
-    "description": -637833547, 
+    "description": -998117889, 
     "disappear_when_dead": true, 
     "get_effect_list": {
         "__tuple__": true, 
         "items": []
     }, 
-    "halo_effect": 0, 
+    "halo_effect": 2009, 
     "ign_inf_unit_tag": {
         "__tuple__": true, 
         "items": []
@@ -78,7 +78,7 @@
     }, 
     "influence_rng": 0, 
     "is_influence_self": true, 
-    "key": 134263217, 
+    "key": 134255026, 
     "kv": {}, 
     "layer_change_of_cover": 1, 
     "layer_max": 1, 
@@ -98,10 +98,10 @@
     }, 
     "material_color_intensity": 0, 
     "modifier_cover_type": 1, 
-    "modifier_effect": 2, 
-    "modifier_icon": 100008, 
-    "modifier_type": 1, 
-    "name": -674815755, 
+    "modifier_effect": 1, 
+    "modifier_icon": 110352, 
+    "modifier_type": 3, 
+    "name": 1579635559, 
     "same_origin_cover": true, 
     "shield_change_of_cover": 2, 
     "shield_type": 1, 
@@ -118,5 +118,5 @@
     }, 
     "target_allow": 1, 
     "time_change_of_cover": 1, 
-    "uid": "134263217"
+    "uid": "134255026"
 }

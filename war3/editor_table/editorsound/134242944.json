@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134242944", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134242944, 
+    "md5": "81e14fe489b675e6bdf24549d9038794", 
+    "name": "Aneu", 
+    "res_name": "Aneu.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134242944, 
+    "version": 1
+}

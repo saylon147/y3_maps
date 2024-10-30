@@ -6,12 +6,16 @@
         }, 
         "1255825410": {
             "variable_dict": {
+                "MOVER_ENTITY": {
+                    "mover": 0
+                }, 
                 "PROJECTILE_ENTITY": {
                     "bullet": 0
                 }
             }, 
             "variable_length_dict": {
-                "bullet": 0
+                "bullet": 0, 
+                "mover": 0
             }
         }
     }, 
@@ -230,8 +234,22 @@
                     "enable": true
                 }, 
                 {
-                    "action_type": "CREATE_STRAIGHT_MOVER", 
+                    "action_type": "CREATE_STRAIGHT_MOVER_SAVE", 
                     "args_list": [
+                        {
+                            "arg_type": 100263, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "MOVER_ENTITY", 
+                                        "mover", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 6
+                        }, 
                         {
                             "arg_type": 100077, 
                             "args_list": [
@@ -250,12 +268,12 @@
                             "arg_type": 100225, 
                             "args_list": [
                                 {
-                                    "arg_type": 100014, 
+                                    "arg_type": 100006, 
                                     "args_list": [], 
-                                    "sub_type": "CUR_ABILITY"
+                                    "sub_type": "ABILITY_OWNER"
                                 }
                             ], 
-                            "sub_type": "GET_ABILITY_RELEASE_DIRECTION"
+                            "sub_type": "UNIT_FACE_ANGLE"
                         }, 
                         {
                             "arg_type": 100000, 
@@ -300,7 +318,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 1255825410000193, 
+                                    "element_id": 1255825410000214, 
                                     "enable": true, 
                                     "op_arg": [
                                         {
@@ -314,6 +332,28 @@
                                     "op_arg_enable": [
                                         false
                                     ]
+                                }, 
+                                {
+                                    "action_type": "REMOVE_MOVER", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100263, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "MOVER_ENTITY", 
+                                                        "mover", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 6
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 1255825410000215, 
+                                    "enable": true
                                 }
                             ], 
                             "sub_type": 1
@@ -377,7 +417,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 1255825410000194, 
+                                    "element_id": 1255825410000216, 
                                     "enable": true, 
                                     "op_arg": [
                                         {
@@ -428,7 +468,7 @@
                     "element_id": 1255825410000025, 
                     "enable": true, 
                     "fake_op": [
-                        9
+                        10
                     ], 
                     "local_var": {
                         "__tuple__": true, 
@@ -529,15 +569,20 @@
             "valid": true, 
             "var_data": [
                 {
+                    "MOVER_ENTITY": {
+                        "mover": 0
+                    }, 
                     "PROJECTILE_ENTITY": {
                         "bullet": 0
                     }
                 }, 
                 {
-                    "bullet": 0
+                    "bullet": 0, 
+                    "mover": 0
                 }, 
                 [
-                    "bullet"
+                    "bullet", 
+                    "mover"
                 ]
             ]
         }

@@ -7,16 +7,53 @@
     }, 
     "trigger_dict": {
         "890007553": {
-            "action": [], 
+            "action": [
+                {
+                    "action_type": "PLAY_SOUND_FOR_PLAYER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [], 
+                            "sub_type": "NONE_ROLE"
+                        }, 
+                        null, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 890007553000005, 
+                    "enable": true, 
+                    "op_arg": [
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false
+                    ]
+                }
+            ], 
             "call_enabled": true, 
             "condition": [], 
             "enabled": true, 
-            "event": [], 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 890007553000002, 
+                    "enable": true, 
+                    "event_type": "OBTAIN_MODIFIER"
+                }
+            ], 
             "group_id": 134249508, 
             "p_trigger_id": null, 
             "trigger_id": 890007553, 
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
-            "valid": true, 
+            "valid": false, 
             "var_data": [
                 {}, 
                 {}, 

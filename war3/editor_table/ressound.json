@@ -1,11 +1,11 @@
 {
-    "134236153": {
+    "134221558": {
         "Format": "wav", 
-        "SoundPath": "134236153", 
-        "default_editor_id": 134236153, 
+        "SoundPath": "134221558", 
+        "default_editor_id": 134221558, 
         "describe": "", 
-        "key": "134236153", 
-        "name": "HeroMountainKingYes4_1", 
-        "uid": "res_sound_134236153"
+        "key": "134221558", 
+        "name": "HeroTaurenChieftainWhat1_1", 
+        "uid": "res_sound_134221558"
     }
 }

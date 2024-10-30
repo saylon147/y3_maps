@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134227654", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134227654, 
+    "md5": "081b25cc1fb502cbb298ea76ffc9fdfd", 
+    "name": "\u8865\u5145\u6cd5\u529b", 
+    "res_name": "SpiritTouch.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134227654, 
+    "version": 1
+}

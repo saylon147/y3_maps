@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134283143", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134283143, 
+    "md5": "199baa583d9d6b8caad3d29e97cea614", 
+    "name": "\u955c\u50cf", 
+    "res_name": "MirrorImage.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134283143, 
+    "version": 1
+}

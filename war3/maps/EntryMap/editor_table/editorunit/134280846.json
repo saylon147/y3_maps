@@ -10,7 +10,7 @@
     "alarm_range": 8.0, 
     "angle_tolerance": 0, 
     "anim_state_name": "", 
-    "armor_type": 20004, 
+    "armor_type": 20000, 
     "attack_interval": 1.0, 
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
@@ -21,7 +21,7 @@
     "attack_range_grow": 0, 
     "attack_speed": 80.0, 
     "attack_speed_grow": 5.0, 
-    "attack_type": 10003, 
+    "attack_type": 10000, 
     "bar_show_name": 2, 
     "bar_show_scale": true, 
     "bar_slot_size": 6, 
@@ -71,12 +71,7 @@
         "items": []
     }, 
     "collision_radius_2": 0.7, 
-    "common_ability_list": [
-        [
-            134235811, 
-            1
-        ]
-    ], 
+    "common_ability_list": [], 
     "common_atk": {
         "__tuple__": true, 
         "items": [
@@ -140,7 +135,7 @@
     "height_offset": 0, 
     "hero_ability_list": [
         [
-            134235811, 
+            134244812, 
             1
         ], 
         [
@@ -148,13 +143,17 @@
             1
         ], 
         [
-            134244812, 
+            134229291, 
+            1
+        ], 
+        [
+            134239050, 
             1
         ]
     ], 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 700.0, 
+    "hp_max": 200.0, 
     "hp_max_grow": 100.0, 
     "hp_rec": 10, 
     "hp_rec_grow": 1, 
@@ -226,7 +225,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 700.0, 
+    "preview_billboard_health_value": 200.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
@@ -243,10 +242,7 @@
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 9.42, 
-    "sell_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "sell_list": [], 
     "sell_res_list": {
         "__tuple__": true, 
         "items": []

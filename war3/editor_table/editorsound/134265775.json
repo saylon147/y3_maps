@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134265775", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134265775, 
+    "md5": "37d4d7a5378140edc3a1226ba879ed93", 
+    "name": "\u4f20\u9001", 
+    "res_name": "MassTeleportTarget.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134265775, 
+    "version": 1
+}

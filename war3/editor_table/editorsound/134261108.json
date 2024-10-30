@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134261108", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134261108, 
+    "md5": "acfe357430ab802a0523b4c2da0b0f33", 
+    "name": "\u4e0d\u6b7b\u65cf\u76fe", 
+    "res_name": "AntiMagicShellBirth1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134261108, 
+    "version": 1
+}

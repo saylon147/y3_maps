@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134251591", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134251591, 
+    "md5": "54eca05744b1f09cab1b4895b3ba3637", 
+    "name": "\u98ce\u66b4\u4e4b\u9524\u88ab\u51fb", 
+    "res_name": "ThunderBoltMissileDeath.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134251591, 
+    "version": 1
+}

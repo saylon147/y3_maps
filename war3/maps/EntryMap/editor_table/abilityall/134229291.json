@@ -1,10 +1,10 @@
 {
     "_custom_": true, 
-    "_ref_": 134235811, 
+    "_ref_": 134229291, 
     "ability_break_cast_range": {
         "__tuple__": true, 
         "items": [
-            "50"
+            "50.0"
         ]
     }, 
     "ability_build_subtype": 1, 
@@ -13,10 +13,10 @@
     "ability_cast_range": {
         "__tuple__": true, 
         "items": [
-            "2.0"
+            "10.0"
         ]
     }, 
-    "ability_cast_type": 2, 
+    "ability_cast_type": 3, 
     "ability_channel_time": 0.0, 
     "ability_cost": {
         "__tuple__": true, 
@@ -33,7 +33,7 @@
     "ability_damage_range": {
         "__tuple__": true, 
         "items": [
-            "8.0"
+            "0.0"
         ]
     }, 
     "ability_hp_cost": {
@@ -42,7 +42,7 @@
             "0"
         ]
     }, 
-    "ability_icon": 134233872, 
+    "ability_icon": 106883, 
     "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 
@@ -84,14 +84,11 @@
     }, 
     "build_rotate": 0, 
     "building_attack_range_sfx": 101492, 
-    "bw_ignore_ability_command": false, 
-    "bw_ignore_move_command": false, 
-    "bw_move_interrupt": true, 
     "camp_priority_enemy": 1, 
     "camp_priority_friend": 1, 
     "camp_priority_neutral": 1, 
     "camp_priority_self": 1, 
-    "can_autocast_when_attack_target": true, 
+    "can_autocast_when_attack_target": false, 
     "can_bs_interrupt": true, 
     "can_cache": true, 
     "can_cast_interrupt": false, 
@@ -100,9 +97,6 @@
     "can_interrupt_others": true, 
     "can_prepare_interrupt": false, 
     "can_ps_interrupt": true, 
-    "cast_ignore_ability_command": true, 
-    "cast_ignore_move_command": true, 
-    "cast_move_interrupt": false, 
     "circle_radius": {
         "__tuple__": true, 
         "items": [
@@ -112,7 +106,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "60.0"
+            "0.0"
         ]
     }, 
     "collection_animation": "", 
@@ -123,9 +117,6 @@
         "items": []
     }, 
     "cost_hp_can_die": false, 
-    "csp_ignore_ability_command": false, 
-    "csp_ignore_move_command": false, 
-    "csp_move_interrupt": true, 
     "cst_sfx_list": {
         "__tuple__": true, 
         "items": []
@@ -134,8 +125,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "desc": -1525024952, 
-    "description": -1525024952, 
+    "description": 1660396814, 
     "end_sfx_list": {
         "__tuple__": true, 
         "items": []
@@ -169,27 +159,24 @@
     }, 
     "influenced_by_cd_reduce": true, 
     "influenced_by_move": true, 
-    "is_autocast": true, 
+    "is_autocast": false, 
     "is_charge_ability": false, 
     "is_immediate": false, 
     "is_meele": false, 
-    "key": 134235811, 
+    "key": 134229291, 
     "kv": {}, 
     "magicbook_list": {
         "__tuple__": true, 
         "items": []
     }, 
-    "name": 321250275, 
+    "name": 1327976910, 
     "need_turn_to_target": true, 
     "pick_count": 1, 
-    "player_props_cost": {}, 
+    "player_props_cost": [], 
     "precondition_list": {
         "__tuple__": true, 
         "items": []
     }, 
-    "prepare_ignore_ability_command": true, 
-    "prepare_ignore_move_command": true, 
-    "prepare_move_interrupt": false, 
     "ps_sfx_list": {
         "__tuple__": true, 
         "items": []
@@ -212,14 +199,12 @@
             ]
         }
     }, 
-    "reward_official_res_1": 0.0, 
     "sector_angle": {
         "__tuple__": true, 
         "items": [
             "0"
         ]
     }, 
-    "sector_radian": 2, 
     "sector_radius": {
         "__tuple__": true, 
         "items": [
@@ -252,5 +237,5 @@
     "type_priority_destructible": 1, 
     "type_priority_hero": 1, 
     "type_priority_item": 1, 
-    "uid": "134235811"
+    "uid": "134229291"
 }
