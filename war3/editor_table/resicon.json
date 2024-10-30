@@ -1,10 +1,10 @@
 {
-    "ui/134274458": {
-        "default_editor_id": 134274458, 
+    "ui/134281174": {
+        "default_editor_id": 134281174, 
         "describe": "", 
-        "key": "ui/134274458", 
-        "name": "Spell_Shadow_SummonInfernal", 
-        "path": "ui/134274458", 
-        "uid": "res_icon_ui/134274458"
+        "key": "ui/134281174", 
+        "name": "Spell_Shadow_UnsummonBuilding", 
+        "path": "ui/134281174", 
+        "uid": "res_icon_ui/134281174"
     }
 }
