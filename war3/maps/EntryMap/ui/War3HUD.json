@@ -1524,12 +1524,15 @@
                                                             "uid": "ae9c1af9-9b15-4df2-9f6f-6d15d4b039e1"
                                                         }, 
                                                         {
-                                                            "cap_insets": [
-                                                                38.0, 
-                                                                36.0, 
-                                                                38.0, 
-                                                                36.0
-                                                            ], 
+                                                            "cap_insets": {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0
+                                                                ]
+                                                            }, 
                                                             "children": [
                                                                 {
                                                                     "anchor": [
@@ -1630,7 +1633,7 @@
                                                                 }
                                                             ], 
                                                             "event_list": [], 
-                                                            "image": 134218135, 
+                                                            "image": 134217781, 
                                                             "name": "\u653b\u51fb", 
                                                             "pos_data": {
                                                                 "__tuple__": true, 
@@ -1653,12 +1656,15 @@
                                                             "uid": "f74df947-55eb-4c0e-8edb-f1c531c1d9ba"
                                                         }, 
                                                         {
-                                                            "cap_insets": [
-                                                                40.0, 
-                                                                34.0, 
-                                                                40.0, 
-                                                                34.0
-                                                            ], 
+                                                            "cap_insets": {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0
+                                                                ]
+                                                            }, 
                                                             "children": [
                                                                 {
                                                                     "anchor": [
@@ -1759,7 +1765,7 @@
                                                                 }
                                                             ], 
                                                             "event_list": [], 
-                                                            "image": 134237341, 
+                                                            "image": 134257396, 
                                                             "name": "\u62a4\u7532", 
                                                             "pos_data": {
                                                                 "__tuple__": true, 
@@ -1782,15 +1788,18 @@
                                                             "uid": "8fda4466-d998-4e2d-8a75-481fdae2902f"
                                                         }, 
                                                         {
-                                                            "cap_insets": [
-                                                                38.0, 
-                                                                37.0, 
-                                                                38.0, 
-                                                                37.0
-                                                            ], 
+                                                            "cap_insets": {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0
+                                                                ]
+                                                            }, 
                                                             "children": [], 
                                                             "event_list": [], 
-                                                            "image": 134254859, 
+                                                            "image": 134264839, 
                                                             "name": "\u4e3b\u5c5e\u6027", 
                                                             "pos_data": {
                                                                 "__tuple__": true, 
@@ -5569,12 +5578,15 @@
                                                             "uid": "be1a9059-dbb4-4e8a-91f0-a7d6cc07b039"
                                                         }, 
                                                         {
-                                                            "cap_insets": [
-                                                                38.0, 
-                                                                36.0, 
-                                                                38.0, 
-                                                                36.0
-                                                            ], 
+                                                            "cap_insets": {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0
+                                                                ]
+                                                            }, 
                                                             "children": [
                                                                 {
                                                                     "anchor": [
@@ -5675,7 +5687,7 @@
                                                                 }
                                                             ], 
                                                             "event_list": [], 
-                                                            "image": 134218135, 
+                                                            "image": 134217781, 
                                                             "name": "\u653b\u51fb", 
                                                             "pos_data": {
                                                                 "__tuple__": true, 
@@ -5698,12 +5710,15 @@
                                                             "uid": "b0ca8489-6dbc-4ff5-890b-e85a60013168"
                                                         }, 
                                                         {
-                                                            "cap_insets": [
-                                                                40.0, 
-                                                                34.0, 
-                                                                40.0, 
-                                                                34.0
-                                                            ], 
+                                                            "cap_insets": {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0
+                                                                ]
+                                                            }, 
                                                             "children": [
                                                                 {
                                                                     "anchor": [
@@ -5804,7 +5819,7 @@
                                                                 }
                                                             ], 
                                                             "event_list": [], 
-                                                            "image": 134237341, 
+                                                            "image": 134237569, 
                                                             "name": "\u62a4\u7532", 
                                                             "pos_data": {
                                                                 "__tuple__": true, 
@@ -18882,12 +18897,15 @@
                                                             ], 
                                                             "children": [
                                                                 {
-                                                                    "cap_insets": [
-                                                                        40.0, 
-                                                                        34.0, 
-                                                                        40.0, 
-                                                                        34.0
-                                                                    ], 
+                                                                    "cap_insets": {
+                                                                        "__tuple__": true, 
+                                                                        "items": [
+                                                                            21.0, 
+                                                                            21.0, 
+                                                                            21.0, 
+                                                                            21.0
+                                                                        ]
+                                                                    }, 
                                                                     "children": [
                                                                         {
                                                                             "anchor": [
@@ -18988,7 +19006,7 @@
                                                                         }
                                                                     ], 
                                                                     "event_list": [], 
-                                                                    "image": 134237341, 
+                                                                    "image": 134237328, 
                                                                     "name": "\u62a4\u7532", 
                                                                     "pos_data": {
                                                                         "__tuple__": true, 
@@ -19081,12 +19099,15 @@
                                                     ], 
                                                     "children": [
                                                         {
-                                                            "cap_insets": [
-                                                                40.0, 
-                                                                34.0, 
-                                                                40.0, 
-                                                                34.0
-                                                            ], 
+                                                            "cap_insets": {
+                                                                "__tuple__": true, 
+                                                                "items": [
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0, 
+                                                                    21.0
+                                                                ]
+                                                            }, 
                                                             "children": [
                                                                 {
                                                                     "anchor": [
@@ -19187,7 +19208,7 @@
                                                                 }
                                                             ], 
                                                             "event_list": [], 
-                                                            "image": 134237341, 
+                                                            "image": 134237328, 
                                                             "name": "\u62a4\u7532", 
                                                             "pos_data": {
                                                                 "__tuple__": true, 
