@@ -1,10 +1,10 @@
 {
-    "ui/17c744e9-7d6b-462c-ba91-8d3e8cbb88ac": {
-        "default_editor_id": 134240607, 
+    "ui/134274458": {
+        "default_editor_id": 134274458, 
         "describe": "", 
-        "key": "ui/17c744e9-7d6b-462c-ba91-8d3e8cbb88ac", 
-        "name": "Ability_ShockWave_1", 
-        "path": "ui/17c744e9-7d6b-462c-ba91-8d3e8cbb88ac", 
-        "uid": "res_icon_ui/17c744e9-7d6b-462c-ba91-8d3e8cbb88ac"
+        "key": "ui/134274458", 
+        "name": "Spell_Shadow_SummonInfernal", 
+        "path": "ui/134274458", 
+        "uid": "res_icon_ui/134274458"
     }
 }
