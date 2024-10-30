@@ -1,3 +1,0 @@
-{
-    "War3HUD_函数.folder": 0
-}

@@ -216,7 +216,7 @@
         }
     }, 
     "level": 1, 
-    "main_attr": "none", 
+    "main_attr": "\u529b\u91cf", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
     "mini_map_icon": 903952, 
@@ -236,7 +236,7 @@
     "name": 596450418, 
     "need_preview_billboard": true, 
     "ori_bits": 0, 
-    "ori_speed": 300, 
+    "ori_speed": 3, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": {
         "__tuple__": true, 

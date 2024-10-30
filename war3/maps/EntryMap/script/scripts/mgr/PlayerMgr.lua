@@ -16,8 +16,10 @@ local function addPlayerUnitEvent(unit)
         end
         unit:kv_save('deadCount', deadCount + 1)
         y3.ltimer.wait(5, function(timer)
-            unit:reborn()
-            timer:remove()
+            if(not unit:is_alive()) then
+                unit:reborn()
+                timer:remove()
+            end
         end)
         -- if deadCount ~= nil then
         --     M.playerDeadCount[playerId] = deadCount + 1

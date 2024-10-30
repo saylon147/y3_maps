@@ -1,40 +1,38 @@
-local M = {}
-M.itemTemplate = {
-    -- item_exp = require 'scripts.item.item_exp',
-    -- item_gold = require 'scripts.item.item_gold',
-    -- item_heath = require 'scripts.item.item_heath'
-}
-M.items = {
+---@class itemMgr
+local itemMgr = Class 'itemMgr'
+require 'y3.tools.synthesis'
+local maker = New 'Synthesis' ()
 
+---@enum(key) FW.itemMgr.itemType
+itemMgr.itemTemplate = {
+    ['木材'] = require 'scripts.item.item_wood'
 }
-local function add_itemGroup(owner, point, item)
-    local id = FW.playerMgr:getPlayerIdByPoint(owner, point)
-    if M.items[id] == nil then
-        M.items[id] = {}
-    end
-    table.insert(M.items[id], item)
-end
 
----@param owner Player|Unit
+---@param owner Player
 ---@param type string
 ---@param point Point 点
 ---@return Item item
-function M:createItem(owner, type, point)
+function itemMgr:createItem(owner, type, point)
     local template = self.itemTemplate[type]
     local item = template:create(owner, point)
     item:kv_save('template', template)
-    add_itemGroup(owner, point, item)
     return item
 end
 
-function M:roundGet()
-    for key, itemGroup in pairs(M.items) do
-        for index, item in ipairs(itemGroup) do
-            local owner = y3.player.get_by_id(key)
-            local hero = FW.playerMgr:getHeroByPlayer(owner)
-            item:set_point(hero:get_point())
-        end
-    end
+---输入物品名返回其购买价格
+---@param name FW.itemMgr.itemType # 物品名
+---@param moneyType string 货币类型
+---@return number? # 对应的价格
+function itemMgr:getItemPriceByName(name, moneyType)
+    local price = y3.item.get_item_buy_price_by_key(self.itemTemplate[name].id, moneyType)
+    return price
 end
 
-return M
+---注册合成配方
+---@param result any # 合成目标 "target"
+---@param ingredients any[] # 合成素材 {"material1", "material2", "material3"}
+function itemMgr.register(result, ingredients)
+    maker:register(result, ingredients)
+end
+
+return itemMgr
