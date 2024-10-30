@@ -1,19 +1,48 @@
-[10-29 21:01:41.000][ info][.../Y3Ditu/y3_maps/war3/maps/EntryMap/script/y3/init.lua:155]: LuaLib版本：	241023
-[10-29 21:01:41.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: Hello, Y3!
-[10-29 21:01:41.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：1
-[10-29 21:01:42.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：2
-[10-29 21:01:43.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：3
-[10-29 21:01:44.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：4
-[10-29 21:01:45.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：5
-[10-29 21:01:46.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第1次
-[10-29 21:01:46.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：6
-[10-29 21:01:47.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：7
-[10-29 21:01:48.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：8
-[10-29 21:01:49.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：9
-[10-29 21:01:50.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：10
-[10-29 21:01:51.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第2次
-[10-29 21:01:51.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：11
-[10-29 21:01:52.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：12
-[10-29 21:01:53.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：13
-[10-29 21:01:54.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：14
-[10-29 21:01:55.800][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 游戏开始后当前时间秒数：15
+[10-30 09:48:58.000][ info][f:/project/y3_maps/war3/maps/EntryMap/script/y3/init.lua:155]: LuaLib版本：	241028
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:34]: Network 初始化：	{Network|127.0.0.1|50708|new}
+[10-30 09:48:58.000][error][?]: .../y3_maps/war3/maps/EntryMap/script/y3\tools\reload.lua:159: module 'scripts.unit.enemy.bsjl' not found:
+	no file 'f:/project/y3_maps/war3/maps/EntryMap/script/scripts/unit/enemy/bsjl.lua'
+	no file 'f:/project/y3_maps/war3/maps/EntryMap/script/scripts/unit/enemy/bsjl/init.lua'
+	no file 'F:/work/y3/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts/unit/enemy/bsjl/init.lua'
+	no file 'F:/work/y3/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts/unit/enemy/bsjl.lua'
+	no file 'f:/project/y3_maps/war3/maps/EntryMap/script/scripts\unit\enemy\bsjl.lua'
+	no file 'f:/project/y3_maps/war3/maps/EntryMap/script/scripts\unit\enemy\bsjl/init.lua'
+	no file 'F:/work/y3/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts\unit\enemy\bsjl/init.lua'
+	no file 'F:/work/y3/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts\unit\enemy\bsjl.lua'
+stack traceback:
+	[C]: in upvalue 'originRequire'
+	.../y3_maps/war3/maps/EntryMap/script/y3\tools\reload.lua:159: in function 'require'
+	.../war3/maps/EntryMap/script/scripts\mgr\UnitMgr.lua:15: in main chunk
+	[C]: in upvalue 'originRequire'
+	.../y3_maps/war3/maps/EntryMap/script/y3\tools\reload.lua:159: in function 'require'
+	f:/project/y3_maps/war3/maps/EntryMap/script/scripts\FW.lua:11: in main chunk
+	[C]: in ?
+	[C]: in function 'xpcall'
+	.../y3_maps/war3/maps/EntryMap/script/y3\tools\reload.lua:137: in function 'include'
+	f:/project/y3_maps/war3/maps/EntryMap/script/main.lua:2: in main chunk
+	[C]: in upvalue 'originRequire'
+	.../y3_maps/war3/maps/EntryMap/script/y3\tools\reload.lua:159: in function 'require'
+	[string "<python>"]:1: in main chunk
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:130]: Network 已连接：	{Network|127.0.0.1|50708|started}
+[10-30 09:48:58.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: Hello, Y3!
