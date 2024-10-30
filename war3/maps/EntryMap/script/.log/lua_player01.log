@@ -1,95 +1,48 @@
-[10-30 10:18:44.000][ info][.../Y3Ditu/y3_maps/war3/maps/EntryMap/script/y3/init.lua:155]: LuaLib版本：	241023
-[10-30 10:18:44.000][error][?]: .../y3_maps/war3/maps/EntryMap/script/y3\tools\reload.lua:159: module 'scripts.unit.enemy.bsjl' not found:
-	no file 'E:/Binggo/Y3Ditu/y3_maps/war3/maps/EntryMap/script/scripts/unit/enemy/bsjl.lua'
-	no file 'E:/Binggo/Y3Ditu/y3_maps/war3/maps/EntryMap/script/scripts/unit/enemy/bsjl/init.lua'
-	no file 'E:/Binggo/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts/unit/enemy/bsjl/init.lua'
-	no file 'E:/Binggo/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts/unit/enemy/bsjl.lua'
-	no file 'E:/Binggo/Y3Ditu/y3_maps/war3/maps/EntryMap/script/scripts\unit\enemy\bsjl.lua'
-	no file 'E:/Binggo/Y3Ditu/y3_maps/war3/maps/EntryMap/script/scripts\unit\enemy\bsjl/init.lua'
-	no file 'E:/Binggo/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts\unit\enemy\bsjl/init.lua'
-	no file 'E:/Binggo/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts\unit\enemy\bsjl.lua'
+[10-30 09:48:58.000][ info][f:/project/y3_maps/war3/maps/EntryMap/script/y3/init.lua:155]: LuaLib版本：	241028
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:34]: Network 初始化：	{Network|127.0.0.1|50708|new}
+[10-30 09:48:58.000][error][?]: .../y3_maps/war3/maps/EntryMap/script/y3\tools\reload.lua:159: module 'scripts.unit.enemy.bsjl' not found:
+	no file 'f:/project/y3_maps/war3/maps/EntryMap/script/scripts/unit/enemy/bsjl.lua'
+	no file 'f:/project/y3_maps/war3/maps/EntryMap/script/scripts/unit/enemy/bsjl/init.lua'
+	no file 'F:/work/y3/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts/unit/enemy/bsjl/init.lua'
+	no file 'F:/work/y3/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts/unit/enemy/bsjl.lua'
+	no file 'f:/project/y3_maps/war3/maps/EntryMap/script/scripts\unit\enemy\bsjl.lua'
+	no file 'f:/project/y3_maps/war3/maps/EntryMap/script/scripts\unit\enemy\bsjl/init.lua'
+	no file 'F:/work/y3/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts\unit\enemy\bsjl/init.lua'
+	no file 'F:/work/y3/y3/games/2.0/game/LocalData/Patch/ExternalResource/LuaLib/scripts\unit\enemy\bsjl.lua'
 stack traceback:
 	[C]: in upvalue 'originRequire'
 	.../y3_maps/war3/maps/EntryMap/script/y3\tools\reload.lua:159: in function 'require'
 	.../war3/maps/EntryMap/script/scripts\mgr\UnitMgr.lua:15: in main chunk
 	[C]: in upvalue 'originRequire'
 	.../y3_maps/war3/maps/EntryMap/script/y3\tools\reload.lua:159: in function 'require'
-	.../Y3Ditu/y3_maps/war3/maps/EntryMap/script/scripts\FW.lua:11: in main chunk
+	f:/project/y3_maps/war3/maps/EntryMap/script/scripts\FW.lua:11: in main chunk
 	[C]: in ?
 	[C]: in function 'xpcall'
 	.../y3_maps/war3/maps/EntryMap/script/y3\tools\reload.lua:137: in function 'include'
-	E:/Binggo/Y3Ditu/y3_maps/war3/maps/EntryMap/script/main.lua:2: in main chunk
+	f:/project/y3_maps/war3/maps/EntryMap/script/main.lua:2: in main chunk
 	[C]: in upvalue 'originRequire'
 	.../y3_maps/war3/maps/EntryMap/script/y3\tools\reload.lua:159: in function 'require'
 	[string "<python>"]:1: in main chunk
-[10-30 10:18:44.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: Hello, Y3!
-[10-30 10:18:44.033][error][.../war3/maps/EntryMap/script/scripts\mgr\GameMgr.lua:10]: .../war3/maps/EntryMap/script/scripts\mgr\GameMgr.lua:10: attempt to index a nil value (field 'uiMgr')
-stack traceback:
-	.../war3/maps/EntryMap/script/scripts\mgr\GameMgr.lua:10: in function 'scripts.mgr.GameMgr.gameInit'
-	E:/Binggo/Y3Ditu/y3_maps/war3/maps/EntryMap/script/main.lua:14: in function <E:/Binggo/Y3Ditu/y3_maps/war3/maps/EntryMap/script/main.lua:12>
-	[C]: in function 'xpcall'
-	.../y3_maps/war3/maps/EntryMap/script/y3\util\trigger.lua:168: in function 'y3.util.trigger.execute'
-	.../y3_maps/war3/maps/EntryMap/script/y3\util\event.lua:185: in method 'dispatch'
-	.../war3/maps/EntryMap/script/y3\util\event_manager.lua:168: in method 'dispatch'
-	.../war3/maps/EntryMap/script/y3\game\game_event.lua:57: in function 'y3.game.game_event.event_notify'
-	.../maps/EntryMap/script/y3\game\py_event_subscribe.lua:280: in function <.../maps/EntryMap/script/y3\game\py_event_subscribe.lua:278>
-[10-30 10:18:49.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第1次
-[10-30 10:18:54.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第2次
-[10-30 10:18:59.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第3次
-[10-30 10:19:04.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第4次
-[10-30 10:19:09.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第5次
-[10-30 10:19:14.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第6次
-[10-30 10:19:19.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第7次
-[10-30 10:19:24.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第8次
-[10-30 10:19:29.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第9次
-[10-30 10:19:34.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第10次
-[10-30 10:19:39.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第11次
-[10-30 10:19:44.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第12次
-[10-30 10:19:49.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第13次
-[10-30 10:19:54.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第14次
-[10-30 10:19:59.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第15次
-[10-30 10:20:04.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第16次
-[10-30 10:20:09.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第17次
-[10-30 10:20:14.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第18次
-[10-30 10:20:19.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第19次
-[10-30 10:20:24.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第20次
-[10-30 10:20:29.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第21次
-[10-30 10:20:34.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第22次
-[10-30 10:20:39.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第23次
-[10-30 10:20:44.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第24次
-[10-30 10:20:49.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第25次
-[10-30 10:20:54.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第26次
-[10-30 10:20:59.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第27次
-[10-30 10:21:04.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第28次
-[10-30 10:21:09.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第29次
-[10-30 10:21:14.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第30次
-[10-30 10:21:19.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第31次
-[10-30 10:21:24.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第32次
-[10-30 10:21:29.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第33次
-[10-30 10:21:34.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第34次
-[10-30 10:21:39.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第35次
-[10-30 10:21:44.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第36次
-[10-30 10:21:49.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第37次
-[10-30 10:21:54.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第38次
-[10-30 10:21:59.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第39次
-[10-30 10:22:04.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第40次
-[10-30 10:22:09.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第41次
-[10-30 10:22:14.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第42次
-[10-30 10:22:19.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第43次
-[10-30 10:22:24.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第44次
-[10-30 10:22:29.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第45次
-[10-30 10:22:34.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第46次
-[10-30 10:22:39.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第47次
-[10-30 10:22:44.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第48次
-[10-30 10:22:49.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第49次
-[10-30 10:22:54.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第50次
-[10-30 10:22:59.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第51次
-[10-30 10:23:04.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第52次
-[10-30 10:23:09.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第53次
-[10-30 10:23:14.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第54次
-[10-30 10:23:19.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第55次
-[10-30 10:23:24.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第56次
-[10-30 10:23:29.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第57次
-[10-30 10:23:34.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第58次
-[10-30 10:23:39.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第59次
-[10-30 10:23:44.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: 每5秒显示一次文本，这是第60次
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:50]: Network 重连：	{Network|127.0.0.1|50708|started}	false
+[10-30 09:48:58.000][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\network.lua:130]: Network 已连接：	{Network|127.0.0.1|50708|started}
+[10-30 09:48:58.033][debug][.../y3_maps/war3/maps/EntryMap/script/y3\util\log.lua:136]: Hello, Y3!

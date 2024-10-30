@@ -12,9 +12,9 @@ export async function 读取unit表格并生成修改物编() {
             if (unit.data[key] != null) {
                 unit.data[key] = item[key];
             }else if(key != 'id'){
-                let kv = unit.data.kv
-                kv[key] = item[key].tostring()
-                unit.data.kv = kv
+                let kv = unit.data.kv;
+                kv[key] = item[key]+"";
+                unit.data.kv = kv;
             }
         }
     }
