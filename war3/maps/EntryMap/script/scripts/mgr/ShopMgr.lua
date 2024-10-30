@@ -1,10 +1,8 @@
----@class itemMgr
-local itemMgr = Class 'itemMgr'
-require 'y3.tools.synthesis'
-local maker = New 'Synthesis'()
+---@class shopMgr
+local shopMgr = Class 'shopMgr'
 
----@enum(key) FW.itemMgr.itemType
-itemMgr.itemTemplate = {
+---@enum(key) FW.shopMgr.shopType
+shopMgr.itemTemplate = {
     ['木材'] = require 'scripts.item.item_wood'
 }
 

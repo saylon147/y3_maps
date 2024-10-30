@@ -1,5 +1,5 @@
 local M = {}
-M.id = 134218609
+M.id = 134277639
 M.template = y3.object.unit[M.id] --物编信息
 ---@param owner Player
 ---@param point Point 点
