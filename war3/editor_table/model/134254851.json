@@ -1,0 +1,13 @@
+{
+    "custom": true, 
+    "effect_keep": false, 
+    "effect_max_life": 2.59999995, 
+    "effect_path": "Fx_Effect/Effect_Editor/Fire/Effect_Editor_fire_test_copy_1", 
+    "is_beam_effect": false, 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134254851, 
+    "name": "\u6bd2\u70df"
+}

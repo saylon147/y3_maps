@@ -263,7 +263,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 300.0, 
+    "preview_billboard_health_value": 330.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
@@ -312,7 +312,15 @@
             "socket": "atk", 
             "target_socket": "hit_point"
         }, 
-        "cast_effect_list": [], 
+        "cast_effect_list": [
+            {
+                "effect": 104500, 
+                "follow_rotate": true, 
+                "follow_scale": true, 
+                "scale": 1.0, 
+                "socket": "atk"
+            }
+        ], 
         "cast_interrupt": false, 
         "cast_sound": 0, 
         "collection_destructible_tags": [], 

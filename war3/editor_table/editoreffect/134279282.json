@@ -1,0 +1,28 @@
+{
+    "deps_info": {
+        "deps": [
+            {
+                "__tuple__": true, 
+                "items": [
+                    "editor_icon", 
+                    903069
+                ]
+            }
+        ], 
+        "sound_id_list": []
+    }, 
+    "describe": 134279282, 
+    "key": 134279282, 
+    "md5": "9c5f7f3e5ada6429bef98a468b81dda0", 
+    "model_id": 134254851, 
+    "name": "\u6bd2\u70df", 
+    "preview_icon": "", 
+    "res_identify": "", 
+    "res_type": "kkres", 
+    "scale": 1.0, 
+    "source_effect": [
+        104299
+    ], 
+    "uid": "134279282", 
+    "version": 1
+}
