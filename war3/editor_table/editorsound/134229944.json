@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134229944", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134229944, 
+    "md5": "08ecce95d961d0eb8a1422bf743c9367", 
+    "name": "\u590d\u6d3b_1", 
+    "res_name": "\u590d\u6d3b.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134229944, 
+    "version": 1
+}
