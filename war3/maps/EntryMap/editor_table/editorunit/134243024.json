@@ -215,7 +215,7 @@
         }
     }, 
     "level": 1, 
-    "main_attr": "\u654f\u6377", 
+    "main_attr": "none", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
     "mini_map_icon": 903952, 
@@ -265,7 +265,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 10000.0, 
+    "preview_billboard_health_value": 750.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
@@ -380,6 +380,11 @@
         [
             "REVIVE_UNIT", 
             134243621, 
+            8
+        ], 
+        [
+            "UNIT_START_MOVE", 
+            134256719, 
             8
         ]
     ], 

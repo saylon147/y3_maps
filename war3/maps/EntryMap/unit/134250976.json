@@ -1,10 +1,6 @@
 {
     "local_variable": {
-        "574259203": {
-            "variable_dict": {}, 
-            "variable_length_dict": {}
-        }, 
-        "1178238978": {
+        "212783106": {
             "variable_dict": {
                 "AUDIO_KEY": {
                     "\u6280\u80fd\u97f3\u6548": 0
@@ -13,10 +9,48 @@
             "variable_length_dict": {
                 "\u6280\u80fd\u97f3\u6548": 0
             }
+        }, 
+        "548327427": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
         }
     }, 
     "trigger_dict": {
-        "574259203": {
+        "212783106": {
+            "action": [
+                548327427
+            ], 
+            "call_enabled": true, 
+            "condition": [], 
+            "enabled": true, 
+            "event": [
+                {
+                    "args_list": [], 
+                    "element_id": 212783106000001, 
+                    "enable": true, 
+                    "event_type": "UNIT_BORN"
+                }
+            ], 
+            "group_id": 134250976, 
+            "p_trigger_id": null, 
+            "trigger_id": 212783106, 
+            "trigger_name": "\u97f3\u9891\u63a7\u5236", 
+            "valid": true, 
+            "var_data": [
+                {
+                    "AUDIO_KEY": {
+                        "\u6280\u80fd\u97f3\u6548": 0
+                    }
+                }, 
+                {
+                    "\u6280\u80fd\u97f3\u6548": 0
+                }, 
+                [
+                    "\u6280\u80fd\u97f3\u6548"
+                ]
+            ]
+        }, 
+        "548327427": {
             "action": [
                 {
                     "action_type": "SET_VARIABLE", 
@@ -35,13 +69,13 @@
                         {
                             "arg_type": 100084, 
                             "args_list": [
-                                134222942
+                                134249807
                             ], 
                             "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 574259203000003, 
+                    "element_id": 548327427000003, 
                     "enable": true
                 }, 
                 {
@@ -112,7 +146,7 @@
                                                         }
                                                     ], 
                                                     "condition_type": "BOOL_COMPARE", 
-                                                    "element_id": 574259203000004, 
+                                                    "element_id": 548327427000004, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -168,7 +202,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 574259203000005, 
+                                                    "element_id": 548327427000005, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -237,7 +271,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 574259203000006, 
+                                                    "element_id": 548327427000006, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -270,7 +304,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 574259203000007, 
+                                                    "element_id": 548327427000007, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -279,7 +313,7 @@
                                                         {
                                                             "arg_type": 100000, 
                                                             "args_list": [
-                                                                10.0
+                                                                15.0
                                                             ], 
                                                             "sub_type": 1
                                                         }, 
@@ -316,7 +350,7 @@
                                                                         }
                                                                     ], 
                                                                     "bp": false, 
-                                                                    "element_id": 574259203000019, 
+                                                                    "element_id": 548327427000008, 
                                                                     "enable": true
                                                                 }
                                                             ], 
@@ -324,7 +358,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 574259203000009, 
+                                                    "element_id": 548327427000009, 
                                                     "enable": true, 
                                                     "local_var": {
                                                         "__tuple__": true, 
@@ -344,7 +378,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 574259203000010, 
+                                    "element_id": 548327427000010, 
                                     "enable": true, 
                                     "fake_op": []
                                 }
@@ -358,7 +392,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 574259203000011, 
+                    "element_id": 548327427000011, 
                     "enable": true, 
                     "fake_op": []
                 }
@@ -374,7 +408,7 @@
                         }
                     ], 
                     "condition_type": "IS_UNIT_ALIVE", 
-                    "element_id": 574259203000002, 
+                    "element_id": 548327427000002, 
                     "enable": true
                 }
             ], 
@@ -390,15 +424,15 @@
                             "sub_type": 1
                         }
                     ], 
-                    "element_id": 574259203000001, 
+                    "element_id": 548327427000001, 
                     "enable": true, 
                     "event_type": "GAME_ELAPSE_REPEAT"
                 }
             ], 
-            "group_id": 134280846, 
+            "group_id": 134250976, 
             "is_conf": true, 
-            "p_trigger_id": 1178238978, 
-            "trigger_id": 574259203, 
+            "p_trigger_id": 212783106, 
+            "trigger_id": 548327427, 
             "trigger_name": "\u8f6e\u64ad", 
             "valid": true, 
             "var_data": [
@@ -406,47 +440,13 @@
                 {}, 
                 []
             ]
-        }, 
-        "1178238978": {
-            "action": [
-                574259203
-            ], 
-            "call_enabled": true, 
-            "condition": [], 
-            "enabled": true, 
-            "event": [
-                {
-                    "args_list": [], 
-                    "element_id": 1178238978000001, 
-                    "enable": true, 
-                    "event_type": "UNIT_BORN"
-                }
-            ], 
-            "group_id": 134280846, 
-            "p_trigger_id": null, 
-            "trigger_id": 1178238978, 
-            "trigger_name": "\u97f3\u9891\u63a7\u5236", 
-            "valid": true, 
-            "var_data": [
-                {
-                    "AUDIO_KEY": {
-                        "\u6280\u80fd\u97f3\u6548": 0
-                    }
-                }, 
-                {
-                    "\u6280\u80fd\u97f3\u6548": 0
-                }, 
-                [
-                    "\u6280\u80fd\u97f3\u6548"
-                ]
-            ]
         }
     }, 
     "trigger_group_info": [
         {
             "__tuple__": true, 
             "items": [
-                574259203, 
+                548327427, 
                 "\u8f6e\u64ad"
             ]
         }, 
@@ -456,13 +456,13 @@
                 {
                     "__tuple__": true, 
                     "items": [
-                        1178238978, 
+                        212783106, 
                         "\u97f3\u9891\u63a7\u5236"
                     ]
                 }
             ], 
-            "key": 134280846, 
-            "name": "134280846"
+            "key": 134250976, 
+            "name": "134250976"
         }
     ], 
     "trigger_version": "1.2", 

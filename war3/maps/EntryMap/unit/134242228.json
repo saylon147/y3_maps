@@ -1,10 +1,10 @@
 {
     "local_variable": {
-        "574259203": {
+        "43552771": {
             "variable_dict": {}, 
             "variable_length_dict": {}
         }, 
-        "1178238978": {
+        "1436061698": {
             "variable_dict": {
                 "AUDIO_KEY": {
                     "\u6280\u80fd\u97f3\u6548": 0
@@ -16,7 +16,7 @@
         }
     }, 
     "trigger_dict": {
-        "574259203": {
+        "43552771": {
             "action": [
                 {
                     "action_type": "SET_VARIABLE", 
@@ -35,13 +35,13 @@
                         {
                             "arg_type": 100084, 
                             "args_list": [
-                                134222942
+                                134263127
                             ], 
                             "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 574259203000003, 
+                    "element_id": 43552771000003, 
                     "enable": true
                 }, 
                 {
@@ -112,7 +112,7 @@
                                                         }
                                                     ], 
                                                     "condition_type": "BOOL_COMPARE", 
-                                                    "element_id": 574259203000004, 
+                                                    "element_id": 43552771000004, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -168,7 +168,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 574259203000005, 
+                                                    "element_id": 43552771000005, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -237,7 +237,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 574259203000006, 
+                                                    "element_id": 43552771000006, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -270,7 +270,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 574259203000007, 
+                                                    "element_id": 43552771000007, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -316,7 +316,7 @@
                                                                         }
                                                                     ], 
                                                                     "bp": false, 
-                                                                    "element_id": 574259203000019, 
+                                                                    "element_id": 43552771000015, 
                                                                     "enable": true
                                                                 }
                                                             ], 
@@ -324,7 +324,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 574259203000009, 
+                                                    "element_id": 43552771000009, 
                                                     "enable": true, 
                                                     "local_var": {
                                                         "__tuple__": true, 
@@ -344,7 +344,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 574259203000010, 
+                                    "element_id": 43552771000010, 
                                     "enable": true, 
                                     "fake_op": []
                                 }
@@ -358,7 +358,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 574259203000011, 
+                    "element_id": 43552771000011, 
                     "enable": true, 
                     "fake_op": []
                 }
@@ -374,7 +374,7 @@
                         }
                     ], 
                     "condition_type": "IS_UNIT_ALIVE", 
-                    "element_id": 574259203000002, 
+                    "element_id": 43552771000002, 
                     "enable": true
                 }
             ], 
@@ -390,15 +390,15 @@
                             "sub_type": 1
                         }
                     ], 
-                    "element_id": 574259203000001, 
+                    "element_id": 43552771000001, 
                     "enable": true, 
                     "event_type": "GAME_ELAPSE_REPEAT"
                 }
             ], 
-            "group_id": 134280846, 
+            "group_id": 134242228, 
             "is_conf": true, 
-            "p_trigger_id": 1178238978, 
-            "trigger_id": 574259203, 
+            "p_trigger_id": 1436061698, 
+            "trigger_id": 43552771, 
             "trigger_name": "\u8f6e\u64ad", 
             "valid": true, 
             "var_data": [
@@ -407,9 +407,9 @@
                 []
             ]
         }, 
-        "1178238978": {
+        "1436061698": {
             "action": [
-                574259203
+                43552771
             ], 
             "call_enabled": true, 
             "condition": [], 
@@ -417,14 +417,14 @@
             "event": [
                 {
                     "args_list": [], 
-                    "element_id": 1178238978000001, 
+                    "element_id": 1436061698000001, 
                     "enable": true, 
                     "event_type": "UNIT_BORN"
                 }
             ], 
-            "group_id": 134280846, 
+            "group_id": 134242228, 
             "p_trigger_id": null, 
-            "trigger_id": 1178238978, 
+            "trigger_id": 1436061698, 
             "trigger_name": "\u97f3\u9891\u63a7\u5236", 
             "valid": true, 
             "var_data": [
@@ -446,7 +446,7 @@
         {
             "__tuple__": true, 
             "items": [
-                574259203, 
+                43552771, 
                 "\u8f6e\u64ad"
             ]
         }, 
@@ -456,13 +456,13 @@
                 {
                     "__tuple__": true, 
                     "items": [
-                        1178238978, 
+                        1436061698, 
                         "\u97f3\u9891\u63a7\u5236"
                     ]
                 }
             ], 
-            "key": 134280846, 
-            "name": "134280846"
+            "key": 134242228, 
+            "name": "134242228"
         }
     ], 
     "trigger_version": "1.2", 
