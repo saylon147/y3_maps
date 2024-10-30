@@ -1,10 +1,10 @@
 {
-    "ui/134276172": {
-        "default_editor_id": 134276172, 
+    "ui/134279449": {
+        "default_editor_id": 134279449, 
         "describe": "", 
-        "key": "ui/134276172", 
-        "name": "img_attack_speed", 
-        "path": "ui/134276172", 
-        "uid": "res_icon_ui/134276172"
+        "key": "ui/134279449", 
+        "name": "image (79)", 
+        "path": "ui/134279449", 
+        "uid": "res_icon_ui/134279449"
     }
 }

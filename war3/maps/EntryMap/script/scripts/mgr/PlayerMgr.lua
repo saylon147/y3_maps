@@ -103,19 +103,25 @@ end
 function playerMgr:followSummoner()
     for index, player in ipairs(self.allPlayers:pick()) do
         local summoner = self:getSummonerByPlayer(player)
-        for index, followHero in ipairs(FW.unitMgr.units.followHero[player:get_id()]:pick()) do
-            local distance = followHero:get_point():get_distance_with(summoner:get_point())
-            if  distance >= FW.globalVar.maxFollowDistance then
-                followHero:set_point(summoner:get_point())
+        if summoner then
+            for index, followHero in ipairs(FW.unitMgr.units.followHero[player:get_id()]:pick()) do
+                local distance = followHero:get_point():get_distance_with(summoner:get_point())
+                if  distance >= FW.globalVar.maxFollowDistance then
+                    followHero:set_point(summoner:get_point())
+                end
             end
         end
     end
 end
 
 ---@param player Player
----@return Unit unit
+---@return Unit? unit
 function playerMgr:getSummonerByPlayer(player)
-    return FW.unitMgr.units.summoner[player:get_id()]:get_first()
+    local units = FW.unitMgr.units.summoner[player:get_id()]
+    if units then
+        return units:get_first()
+    end
+    return nil
 end
 
 return playerMgr

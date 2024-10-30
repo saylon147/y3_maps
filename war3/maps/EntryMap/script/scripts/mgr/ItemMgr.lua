@@ -3,11 +3,6 @@ local itemMgr = Class 'itemMgr'
 require 'y3.tools.synthesis'
 local maker = New 'Synthesis' ()
 
----@enum(key) FW.itemMgr.itemType
-itemMgr.itemTemplate = {
-    ['木材'] = require 'scripts.item.item_wood'
-}
-
 ---@param owner Player
 ---@param type string
 ---@param point Point 点
@@ -28,11 +23,65 @@ function itemMgr:getItemPriceByName(name, moneyType)
     return price
 end
 
+---输入物品名返回其key
+---@param name FW.itemMgr.itemType # 物品名
+---@return py.ItemKey? key# 物品id
+function itemMgr:getItemIdByName(name)
+    return self.itemTemplate[name].id
+end
+
 ---注册合成配方
 ---@param result any # 合成目标 "target"
 ---@param ingredients any[] # 合成素材 {"material1", "material2", "material3"}
 function itemMgr.register(result, ingredients)
     maker:register(result, ingredients)
 end
+
+---返回maker对象
+---@return Synthesis # 合成处理对象
+function itemMgr.get_maker()
+    return maker
+end
+
+---@enum(key) FW.itemMgr.itemType
+itemMgr.itemTemplate = {
+    ['木材'] = require 'scripts.item.item_wood',
+    ['金币'] = require 'scripts.item.item_gold',
+    ['经验'] = require 'scripts.item.item_exp'
+}
+
+itemMgr.register('经验', { '木材', '木材', '金币' })
+
+y3.game:event('物品-获得', function(trg, data)
+    if not data.unit:has_tag('summoner') then
+        return
+    end
+    -- 存储当前单位全部的物品名
+    local item_names = {}
+    for i, v in ipairs(data.unit:get_all_items():pick()) do
+        table.insert(item_names, v:get_name())
+    end
+
+    -- 获取合成结果
+    local res = maker:check(item_names)
+
+    -- 如果可以合成
+    if res then
+        -- 将合成目标所需的素材从该单位身上移除
+        for _, v in ipairs(res.lost) do
+            local item_key = FW.itemMgr:getItemIdByName(v)
+            if item_key then
+                data.unit:remove_item(item_key, 1)
+            end
+        end
+
+        -- 给该单位增添合成后的目标物品
+        local item_key = FW.itemMgr:getItemIdByName(res.get)
+        if item_key then
+            data.unit:add_item(item_key)
+        end
+    end
+end)
+
 
 return itemMgr

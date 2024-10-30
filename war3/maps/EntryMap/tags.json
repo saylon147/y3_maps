@@ -7,6 +7,10 @@
         "\u5927\u62db", 
         "\u7279\u6b8a\u666e\u653b"
     ], 
+    "editor_item": [
+        "item", 
+        "new_tag"
+    ], 
     "editor_unit": [
         "shop", 
         "building", 
@@ -22,7 +26,8 @@
         "\u8fd1\u6218", 
         "\u5546\u5e97", 
         "\u666e\u901a", 
-        ""
+        "", 
+        "summoner"
     ], 
     "modifier_all": [
         "\u63a7\u5236", 
