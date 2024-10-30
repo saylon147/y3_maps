@@ -6,7 +6,7 @@
             "anim_relate": {
                 "anim_map_list": [], 
                 "default_anim": "None", 
-                "is_loop": true
+                "is_loop": false
             }, 
             "base_color_mod": 0, 
             "base_tint_color": [
