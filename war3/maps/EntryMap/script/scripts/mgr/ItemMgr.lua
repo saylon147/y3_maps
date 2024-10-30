@@ -1,7 +1,7 @@
 ---@class itemMgr
 local itemMgr = Class 'itemMgr'
 require 'y3.tools.synthesis'
-local maker = New 'Synthesis'()
+local maker = New 'Synthesis' ()
 
 ---@enum(key) FW.itemMgr.itemType
 itemMgr.itemTemplate = {
@@ -23,7 +23,7 @@ end
 ---@param name FW.itemMgr.itemType # 物品名
 ---@param moneyType string 货币类型
 ---@return number? # 对应的价格
-function itemMgr:getItemPriceByName(name,moneyType)
+function itemMgr:getItemPriceByName(name, moneyType)
     local price = y3.item.get_item_buy_price_by_key(self.itemTemplate[name].id, moneyType)
     return price
 end

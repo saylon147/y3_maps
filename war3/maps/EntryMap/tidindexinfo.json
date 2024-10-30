@@ -35,6 +35,12 @@
         "item_key": 134269663, 
         "prop_key": "name"
     }, 
+    "-1977230065": {
+        "editor_type": "editor_item", 
+        "index_type": "object_editor", 
+        "item_key": 134218565, 
+        "prop_key": "name"
+    }, 
     "-1886221866": {
         "editor_type": "editor_unit", 
         "index_type": "object_editor", 
@@ -537,6 +543,12 @@
         "editor_type": "ability_all", 
         "index_type": "object_editor", 
         "item_key": 134244812, 
+        "prop_key": "name"
+    }, 
+    "1105822352": {
+        "editor_type": "editor_item", 
+        "index_type": "object_editor", 
+        "item_key": 134242440, 
         "prop_key": "name"
     }, 
     "1166884280": {
