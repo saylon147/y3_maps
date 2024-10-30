@@ -645,6 +645,14 @@
                     "3_1": [
                         134267903, 
                         1
+                    ], 
+                    "3_2": [
+                        134267903, 
+                        1
+                    ], 
+                    "3_3": [
+                        134275691, 
+                        1
                     ]
                 }, 
                 "camp": {
@@ -707,56 +715,7 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134250976, 
-            "kv_component": {
-                "attack_phy_float": {
-                    "annotation": "", 
-                    "desc": "", 
-                    "etype": 0, 
-                    "key": "attack_phy_float", 
-                    "prop_cls": "PText", 
-                    "remark": "", 
-                    "show_in_attr": false, 
-                    "sort": 1, 
-                    "type": 0, 
-                    "value": "5"
-                }, 
-                "attack_phy_float_grow": {
-                    "annotation": "", 
-                    "desc": "", 
-                    "etype": 0, 
-                    "key": "attack_phy_float_grow", 
-                    "prop_cls": "PText", 
-                    "remark": "", 
-                    "show_in_attr": false, 
-                    "sort": 2, 
-                    "type": 0, 
-                    "value": "0"
-                }, 
-                "lua_name": {
-                    "annotation": "", 
-                    "desc": "", 
-                    "etype": 0, 
-                    "key": "lua_name", 
-                    "prop_cls": "PText", 
-                    "remark": "", 
-                    "show_in_attr": false, 
-                    "sort": 3, 
-                    "type": 0, 
-                    "value": "hayx"
-                }, 
-                "unit_type": {
-                    "annotation": "", 
-                    "desc": "", 
-                    "etype": 0, 
-                    "key": "unit_type", 
-                    "prop_cls": "PText", 
-                    "remark": "", 
-                    "show_in_attr": false, 
-                    "sort": 4, 
-                    "type": 0, 
-                    "value": "followHero"
-                }
-            }, 
+            "kv_component": {}, 
             "name": "\u585e\u6069\u5fb7\u91cc\u65af", 
             "type": 1, 
             "unit_id": 6
