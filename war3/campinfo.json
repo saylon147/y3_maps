@@ -68,27 +68,12 @@
             "items": [
                 "official_res_1", 
                 {
-                    "default": 1000.0, 
-                    "icon_id": 134253341, 
+                    "default": 0.0, 
+                    "icon_id": 100000, 
                     "is_coin": true, 
                     "key": "official_res_1", 
                     "lower_bound": 0.0, 
                     "name": "gold", 
-                    "upper_bound": 1073774591.0
-                }
-            ]
-        }, 
-        {
-            "__tuple__": true, 
-            "items": [
-                "TpcOnpaQEe+2B59FF0aru2", 
-                {
-                    "default": 1000.0, 
-                    "icon_id": 134227826, 
-                    "is_coin": true, 
-                    "key": "TpcOnpaQEe+2B59FF0aru2", 
-                    "lower_bound": 0.0, 
-                    "name": "wood", 
                     "upper_bound": 1073774591.0
                 }
             ]
