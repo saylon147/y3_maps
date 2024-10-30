@@ -235,7 +235,7 @@
     "name": 837635090, 
     "need_preview_billboard": true, 
     "ori_bits": 0, 
-    "ori_speed": 300, 
+    "ori_speed": 3, 
     "ori_speed_grow": 0.0, 
     "passive_ability_list": {
         "__tuple__": true, 
