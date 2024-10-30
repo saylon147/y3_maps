@@ -189,8 +189,8 @@ end
 function unitMgr:calMaxAttack_phy(unit)
     local minAtk = unit:get_attr("物理攻击")
     if (unit:kv_has('attack_phy_float')) then
-        local attack_phy_float = unit:kv_load('attack_phy_float','string')
-        local attack_phy_float_grow = unit:kv_load('attack_phy_float_grow','string')
+        local attack_phy_float =  tonumber(unit:kv_load('attack_phy_float','string'))
+        local attack_phy_float_grow = tonumber(unit:kv_load('attack_phy_float_grow','string'))
         local level = unit:get_level()
         return minAtk + attack_phy_float + attack_phy_float_grow * math.max(level - 1, 0)
     else
