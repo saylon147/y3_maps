@@ -1,0 +1,18 @@
+{
+    "id": 134273265,
+    "md5_file_list": [
+        "\u590d\u82cf\u82f1\u96c4.mdx"
+    ],
+    "modification_time": 3460572482.925174,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u590d\u82cf\u82f1\u96c4.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Yellow_Glow3": "Yellow_Glow3.tga",
+        "Textures/firering4": "firering4.tga",
+        "Textures/GenericGlow2_64": "GenericGlow2_64.tga",
+        "Textures/Yellow_Star": "Yellow_Star.tga"
+    }
+}
