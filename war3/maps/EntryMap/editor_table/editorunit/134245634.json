@@ -39,7 +39,7 @@
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1, 
     "billboard_scale_y": 1, 
-    "blood_bar": 0, 
+    "blood_bar": 327682, 
     "blood_show_type": 0, 
     "body_size": 0.8, 
     "build_ignore_dyn_collision": false, 
@@ -56,7 +56,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "can_flee": false, 
+    "can_flee": true, 
     "cancel_alarm_range": 10.0, 
     "cc_jump_height": 0, 
     "cc_move_acc": 0, 

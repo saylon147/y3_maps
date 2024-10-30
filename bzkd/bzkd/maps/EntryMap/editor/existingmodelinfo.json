@@ -38,5 +38,13 @@
    "enemyRandomArea4", 
    2048
   ]
+ }, 
+ {
+  "__tuple__": true, 
+  "items": [
+   1, 
+   "hero1", 
+   1
+  ]
  }
 ]

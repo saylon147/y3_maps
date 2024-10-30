@@ -44,6 +44,12 @@ function hudPanel:initLogic()
             ui:set_text(unit:get_name())
         end
     end)
+    self.uiLogic:on_refresh('HUD.Console.Data.middle.状态栏.商店.单位名', function(ui, local_player)
+        local unit = local_player:get_selecting_unit()
+        if unit then
+            ui:set_text(unit:get_name())
+        end
+    end)
 
     --更新等级条文本
     self.uiLogic:on_refresh('HUD.Console.Data.middle.状态栏.英雄.等级经验条.等级说明', function(ui, local_player)

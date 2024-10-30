@@ -1,0 +1,15 @@
+{
+    "id": 134282999,
+    "md5_file_list": [
+        "\u732e\u796d\u654c.mdx"
+    ],
+    "modification_time": 3460537131.205137,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u732e\u796d\u654c.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Clouds8x8Fire": "Clouds8x8Fire.tga"
+    }
+}
