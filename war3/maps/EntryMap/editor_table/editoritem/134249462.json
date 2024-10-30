@@ -44,7 +44,7 @@
     "cur_stack": 1, 
     "delete_on_discard": false, 
     "description": -400484237, 
-    "disable_overlapping": false, 
+    "disable_overlapping": true, 
     "discard_enable": true, 
     "discard_when_dead": true, 
     "drop_stay_time": 9999, 
@@ -98,7 +98,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "stack_type": 2, 
+    "stack_type": 0, 
     "start_rft": 1, 
     "suffix": "", 
     "tags": {

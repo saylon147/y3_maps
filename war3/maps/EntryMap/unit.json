@@ -163,7 +163,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134260903, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "4"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "0"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "ayls"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "followHero"
+                }
+            }, 
             "name": "\u6697\u5f71\u730e\u624b", 
             "type": 1, 
             "unit_id": 2
@@ -257,7 +306,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134242228, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "5"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "0"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "sqzw"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "followHero"
+                }
+            }, 
             "name": "\u5c71\u4e18\u4e4b\u738b", 
             "type": 1, 
             "unit_id": 3
@@ -351,7 +449,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134280846, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "2"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "0"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "ntrqz"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "followHero"
+                }
+            }, 
             "name": "\u725b\u5934\u4eba\u914b\u957f", 
             "type": 1, 
             "unit_id": 4
@@ -429,7 +576,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134254942, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "6"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "0"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "zhs"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "summoner"
+                }
+            }, 
             "name": "\u5973\u5deb", 
             "type": 1, 
             "unit_id": 5
@@ -511,7 +707,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134250976, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "5"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "0"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "hayx"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "followHero"
+                }
+            }, 
             "name": "\u585e\u6069\u5fb7\u91cc\u65af", 
             "type": 1, 
             "unit_id": 6
@@ -585,7 +830,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134244650, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "7.2"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "7.2"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "zw"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "enemy"
+                }
+            }, 
             "name": "\u50e7\u6076", 
             "type": 4, 
             "unit_id": 7
@@ -659,7 +953,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134244650, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "7.2"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "7.2"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "zw"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "enemy"
+                }
+            }, 
             "name": "\u50e7\u6076", 
             "type": 4, 
             "unit_id": 8
@@ -815,7 +1158,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134244650, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "7.2"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "7.2"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "zw"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "enemy"
+                }
+            }, 
             "name": "\u50e7\u6076", 
             "type": 4, 
             "unit_id": 10
@@ -979,7 +1371,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134243024, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "3"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "0"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "js"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "followHero"
+                }
+            }, 
             "name": "\u5251\u5723", 
             "type": 1, 
             "unit_id": 12
@@ -1915,7 +2356,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134280846, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "2"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "0"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "ntrqz"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "followHero"
+                }
+            }, 
             "name": "\u725b\u5934\u4eba\u914b\u957f", 
             "type": 1, 
             "unit_id": 24
@@ -1993,7 +2483,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134244650, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "7.2"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "7.2"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "zw"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "enemy"
+                }
+            }, 
             "name": "\u50e7\u6076", 
             "type": 4, 
             "unit_id": 25
@@ -2071,7 +2610,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134250976, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "5"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "0"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "hayx"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "followHero"
+                }
+            }, 
             "name": "\u585e\u6069\u5fb7\u91cc\u65af", 
             "type": 1, 
             "unit_id": 26
@@ -2161,7 +2749,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134242228, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "5"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "0"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "sqzw"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "followHero"
+                }
+            }, 
             "name": "\u5c71\u4e18\u4e4b\u738b", 
             "type": 1, 
             "unit_id": 27
@@ -2247,7 +2884,56 @@
                 "use_obj_attrs": true
             }, 
             "entity_id": 134243024, 
-            "kv_component": {}, 
+            "kv_component": {
+                "attack_phy_float": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 1, 
+                    "type": 0, 
+                    "value": "3"
+                }, 
+                "attack_phy_float_grow": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "attack_phy_float_grow", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 2, 
+                    "type": 0, 
+                    "value": "0"
+                }, 
+                "lua_name": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "lua_name", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 3, 
+                    "type": 0, 
+                    "value": "js"
+                }, 
+                "unit_type": {
+                    "annotation": "", 
+                    "desc": "", 
+                    "etype": 0, 
+                    "key": "unit_type", 
+                    "prop_cls": "PText", 
+                    "remark": "", 
+                    "show_in_attr": false, 
+                    "sort": 4, 
+                    "type": 0, 
+                    "value": "followHero"
+                }
+            }, 
             "name": "\u5251\u5723", 
             "type": 1, 
             "unit_id": 28
@@ -2789,6 +3475,166 @@
             "name": "\u9632\u5fa1\u5854", 
             "type": 2, 
             "unit_id": 42
+        }, 
+        "49": {
+            "components": {
+                "__attr": {
+                    "hp_percent": 100, 
+                    "level": 1, 
+                    "mp_percent": 100
+                }, 
+                "ability": {
+                    "1_1": [
+                        201347498, 
+                        1
+                    ]
+                }, 
+                "camp": {
+                    "role_id": 1
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "drop_item": null, 
+                "item": {}, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                -44, 
+                                1073741824
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                -50, 
+                                3221225472
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "custom_material_data": {}, 
+            "editor_component": {
+                "placed_lock": false, 
+                "placed_visibility": true, 
+                "use_obj_attrs": true
+            }, 
+            "entity_id": 134237339, 
+            "kv_component": {}, 
+            "name": "\u80fd\u91cf\u5708", 
+            "type": 2, 
+            "unit_id": 49
+        }, 
+        "50": {
+            "components": {
+                "__attr": {
+                    "hp_percent": 100, 
+                    "level": 1, 
+                    "mp_percent": 100
+                }, 
+                "ability": {
+                    "1_1": [
+                        201347498, 
+                        1
+                    ], 
+                    "2_1": [
+                        134282576, 
+                        1
+                    ]
+                }, 
+                "camp": {
+                    "role_id": 31
+                }, 
+                "display": {
+                    "real_scale": [
+                        1.0, 
+                        1.0, 
+                        1.0
+                    ]
+                }, 
+                "drop_item": null, 
+                "item": {}, 
+                "movement": {
+                    "pitch": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "position": {
+                        "__tuple__": true, 
+                        "items": [
+                            [
+                                -4, 
+                                1073741824
+                            ], 
+                            [
+                                0, 
+                                0
+                            ], 
+                            [
+                                -12, 
+                                3221225472
+                            ]
+                        ]
+                    }, 
+                    "roll": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }, 
+                    "yaw": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "custom_material_data": {}, 
+            "editor_component": {
+                "placed_lock": false, 
+                "placed_visibility": true, 
+                "use_obj_attrs": true
+            }, 
+            "entity_id": 134280079, 
+            "kv_component": {}, 
+            "name": "\u4f20\u9001\u9635", 
+            "type": 2, 
+            "unit_id": 50
         }
     }
 }
