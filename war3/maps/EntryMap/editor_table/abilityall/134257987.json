@@ -21,13 +21,13 @@
     "ability_cost": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage_range": {
@@ -137,7 +137,7 @@
     }, 
     "filter_condition_camp": 5, 
     "filter_condition_move_channel_type": 99, 
-    "filter_condition_type": 7, 
+    "filter_condition_type": 5, 
     "filter_item_tags": {
         "__tuple__": true, 
         "items": []
@@ -213,7 +213,7 @@
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 5, 
+    "sight_type": 4, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []

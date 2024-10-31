@@ -549,7 +549,7 @@
                                                     ], 
                                                     "bp": false, 
                                                     "element_id": 1734201345000415, 
-                                                    "enable": true
+                                                    "enable": false
                                                 }, 
                                                 {
                                                     "action_type": "PLAY_3D_SOUND_FOR_PLAYER", 

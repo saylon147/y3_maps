@@ -1,69 +1,275 @@
 {
     "local_variable": {
         "667418625": {
-            "variable_dict": {}, 
-            "variable_length_dict": {}
+            "variable_dict": {
+                "ANGLE": {
+                    "spawn_dir": 0.0
+                }, 
+                "DECO_ENTITY": {
+                    "split_eff": 0
+                }, 
+                "POINT": {
+                    "spawn_pos": {
+                        "__tuple__": true, 
+                        "items": [
+                            0, 
+                            0, 
+                            0
+                        ]
+                    }
+                }
+            }, 
+            "variable_length_dict": {
+                "spawn_dir": 0, 
+                "spawn_pos": 0, 
+                "split_eff": 0
+            }
         }
     }, 
     "trigger_dict": {
         "667418625": {
             "action": [
                 {
-                    "action_type": "ADD_MODIFIER", 
+                    "action_type": "SET_VARIABLE", 
                     "args_list": [
                         {
-                            "arg_type": 100006, 
-                            "args_list": [], 
-                            "sub_type": "ABILITY_OWNER"
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "POINT", 
+                                        "spawn_pos", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
                         }, 
                         {
-                            "arg_type": 100046, 
+                            "arg_type": 100004, 
                             "args_list": [
-                                134235277
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "ABILITY_OWNER"
+                                }
+                            ], 
+                            "sub_type": "UNIT_ENTITY_POINT"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1359880193000123, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "ANGLE", 
+                                        "spawn_dir", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100225, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "ABILITY_OWNER"
+                                }
+                            ], 
+                            "sub_type": "UNIT_FACE_ANGLE"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1359880193000140, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100195, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "DECO_ENTITY", 
+                                        "split_eff", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 2
+                        }, 
+                        {
+                            "arg_type": 100195, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100004, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "POINT", 
+                                                "spawn_pos", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 19
+                                }, 
+                                {
+                                    "arg_type": 101015, 
+                                    "args_list": [
+                                        134248053
+                                    ], 
+                                    "sub_type": 1
+                                }, 
+                                {
+                                    "arg_type": 100225, 
+                                    "args_list": [
+                                        {
+                                            "__tuple__": true, 
+                                            "items": [
+                                                "ANGLE", 
+                                                "spawn_dir", 
+                                                "local"
+                                            ]
+                                        }
+                                    ], 
+                                    "sub_type": 2
+                                }
+                            ], 
+                            "op_arg": [
+                                null
+                            ], 
+                            "op_arg_enable": [
+                                false
+                            ], 
+                            "sub_type": "CREATE_DECO"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1359880193000056, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.5
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100022, 
+                            "args_list": [
+                                {
+                                    "action_type": "ADD_MODIFIER", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "ABILITY_OWNER"
+                                        }, 
+                                        {
+                                            "arg_type": 100046, 
+                                            "args_list": [
+                                                134235277
+                                            ], 
+                                            "sub_type": 1
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 198647809000042, 
+                                    "enable": true, 
+                                    "op_arg": [
+                                        null, 
+                                        {
+                                            "arg_type": 100014, 
+                                            "args_list": [], 
+                                            "sub_type": "CUR_ABILITY"
+                                        }, 
+                                        {
+                                            "arg_type": 100000, 
+                                            "args_list": [
+                                                {
+                                                    "arg_type": 100014, 
+                                                    "args_list": [], 
+                                                    "sub_type": "CUR_ABILITY"
+                                                }, 
+                                                {
+                                                    "arg_type": 100003, 
+                                                    "args_list": [
+                                                        "last_time"
+                                                    ], 
+                                                    "sub_type": 1
+                                                }
+                                            ], 
+                                            "sub_type": "GET_FLOAT_KV"
+                                        }, 
+                                        null, 
+                                        null, 
+                                        null
+                                    ], 
+                                    "op_arg_enable": [
+                                        false, 
+                                        true, 
+                                        true, 
+                                        false, 
+                                        false, 
+                                        false
+                                    ]
+                                }, 
+                                {
+                                    "action_type": "DELETE_DECO", 
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100195, 
+                                            "args_list": [
+                                                {
+                                                    "__tuple__": true, 
+                                                    "items": [
+                                                        "DECO_ENTITY", 
+                                                        "split_eff", 
+                                                        "local"
+                                                    ]
+                                                }
+                                            ], 
+                                            "sub_type": 2
+                                        }
+                                    ], 
+                                    "bp": false, 
+                                    "element_id": 667418625000089, 
+                                    "enable": true
+                                }
                             ], 
                             "sub_type": 1
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 198647809000042, 
+                    "element_id": 667418625000075, 
                     "enable": true, 
-                    "op_arg": [
-                        null, 
-                        {
-                            "arg_type": 100014, 
-                            "args_list": [], 
-                            "sub_type": "CUR_ABILITY"
-                        }, 
-                        {
-                            "arg_type": 100000, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100014, 
-                                    "args_list": [], 
-                                    "sub_type": "CUR_ABILITY"
-                                }, 
-                                {
-                                    "arg_type": 100003, 
-                                    "args_list": [
-                                        "last_time"
-                                    ], 
-                                    "sub_type": 1
-                                }
-                            ], 
-                            "sub_type": "GET_FLOAT_KV"
-                        }, 
-                        null, 
-                        null, 
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        false, 
-                        true, 
-                        true, 
-                        false, 
-                        false, 
-                        false
-                    ]
+                    "local_var": {
+                        "__tuple__": true, 
+                        "items": [
+                            {}, 
+                            {}
+                        ]
+                    }
                 }
             ], 
             "call_enabled": true, 
@@ -83,9 +289,34 @@
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
             "valid": true, 
             "var_data": [
-                {}, 
-                {}, 
-                []
+                {
+                    "ANGLE": {
+                        "spawn_dir": 0.0
+                    }, 
+                    "DECO_ENTITY": {
+                        "split_eff": 0
+                    }, 
+                    "POINT": {
+                        "spawn_pos": {
+                            "__tuple__": true, 
+                            "items": [
+                                0, 
+                                0, 
+                                0
+                            ]
+                        }
+                    }
+                }, 
+                {
+                    "spawn_dir": 0, 
+                    "spawn_pos": 0, 
+                    "split_eff": 0
+                }, 
+                [
+                    "spawn_pos", 
+                    "spawn_dir", 
+                    "split_eff"
+                ]
             ]
         }
     }, 
