@@ -1,0 +1,15 @@
+{
+    "id": 134278428,
+    "md5_file_list": [
+        "\u4eba\u65cf\u9f99\u9a91.mdx"
+    ],
+    "modification_time": 3460685895.5798497,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u4eba\u65cf\u9f99\u9a91.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Blue_Star2": "Blue_Star2.tga"
+    }
+}

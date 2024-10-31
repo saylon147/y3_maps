@@ -1,0 +1,14 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\\u4ea1\u7075\u5deb\u5e08Missile", 
+    "key": 134264022, 
+    "md5": "a5e01e216bb273e29a7e4f461aed7b36", 
+    "model_id": 134264022, 
+    "name": "\u4ea1\u7075\u5deb\u5e08Missile", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134264022", 
+    "version": 1
+}

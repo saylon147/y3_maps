@@ -1,0 +1,14 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\\u7194\u5ca9\u5bfc\u5f39BirthMissile", 
+    "key": 134253025, 
+    "md5": "723f8b3cefea9f74bccfaa0f97a20430", 
+    "model_id": 134253025, 
+    "name": "\u7194\u5ca9\u5bfc\u5f39BirthMissile", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134253025", 
+    "version": 1
+}

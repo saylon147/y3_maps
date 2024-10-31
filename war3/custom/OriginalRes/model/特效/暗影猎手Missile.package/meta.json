@@ -1,0 +1,18 @@
+{
+    "id": 134254724,
+    "md5_file_list": [
+        "\u6697\u5f71\u730e\u624bMissile.mdx"
+    ],
+    "modification_time": 3460694145.476597,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6697\u5f71\u730e\u624bMissile.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Knife_spinningBlade": "Knife_spinningBlade.tga",
+        "Textures/HeroShadowHunter": "HeroShadowHunter.tga",
+        "Textures/RibbonNE1_blue": "RibbonNE1_blue.tga",
+        "Textures/Sparkle_Anim": "Sparkle_Anim.tga"
+    }
+}

@@ -35,13 +35,13 @@
             0.5
         ]
     }, 
-    "billboard_height_offset": 0, 
+    "billboard_height_offset": 0.6, 
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1, 
     "billboard_scale_y": 1, 
     "blood_bar": 327682, 
     "blood_show_type": 0, 
-    "body_size": 1.0, 
+    "body_size": 0.8, 
     "build_ignore_dyn_collision": false, 
     "build_res_cost_list": {
         "__tuple__": true, 
@@ -263,7 +263,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 300.0, 
+    "preview_billboard_health_value": 504.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
