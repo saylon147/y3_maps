@@ -5,7 +5,7 @@
     "description": 657844861, 
     "effect_destroy_way_is_immediately": false, 
     "effect_foes": [
-        102155, 
+        101783, 
         {
             "__tuple__": true, 
             "items": [
@@ -35,9 +35,9 @@
             "anim": "attack - 1", 
             "base_color_mod": 1, 
             "base_tint_color": [
-                255, 
-                255, 
-                255, 
+                64, 
+                64, 
+                64, 
                 0.5
             ], 
             "is_loop": true, 
@@ -71,7 +71,7 @@
         }
     ], 
     "effect_friend": [
-        102155, 
+        101783, 
         {
             "__tuple__": true, 
             "items": [
@@ -101,9 +101,9 @@
             "anim": "attack - 1", 
             "base_color_mod": 1, 
             "base_tint_color": [
-                255, 
-                255, 
-                255, 
+                64, 
+                64, 
+                64, 
                 0.5
             ], 
             "is_loop": true, 
