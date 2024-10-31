@@ -363,7 +363,7 @@
                                         {
                                             "arg_type": 100064, 
                                             "args_list": [
-                                                1
+                                                0
                                             ], 
                                             "sub_type": 1
                                         }, 
@@ -440,12 +440,21 @@
                                             "arg_type": 100004, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100014, 
-                                                    "args_list": [], 
-                                                    "sub_type": "CUR_ABILITY"
+                                                    "arg_type": 100006, 
+                                                    "args_list": [
+                                                        {
+                                                            "__tuple__": true, 
+                                                            "items": [
+                                                                "UNIT_ENTITY", 
+                                                                "target", 
+                                                                "local"
+                                                            ]
+                                                        }
+                                                    ], 
+                                                    "sub_type": 11
                                                 }
                                             ], 
-                                            "sub_type": "ABILITY_RELEASE_POSITION"
+                                            "sub_type": "UNIT_ENTITY_POINT"
                                         }
                                     ], 
                                     "bp": false, 
@@ -658,9 +667,9 @@
                         false, 
                         false, 
                         false, 
-                        true, 
                         false, 
-                        true, 
+                        false, 
+                        false, 
                         false, 
                         false, 
                         true, 
