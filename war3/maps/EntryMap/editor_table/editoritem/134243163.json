@@ -5,7 +5,6 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "attached_agility": 0.0, 
     "attached_critical_chance": 0.0, 
     "attached_dodge_rate": 0.0, 
     "attached_hit_rate": 0.0, 
@@ -83,7 +82,7 @@
     "maximum_stacking": 5, 
     "model": 10022, 
     "model_opacity": 1, 
-    "name": 1786570969, 
+    "name": 299044908, 
     "precondition_list": {
         "__tuple__": true, 
         "items": []

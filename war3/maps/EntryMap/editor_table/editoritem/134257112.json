@@ -1,10 +1,10 @@
 {
     "_custom_": true, 
     "_ref_": 134257112, 
-    "attached_ability": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "attached_ability": [
+        134269014, 
+        1
+    ], 
     "attached_agility": 0.0, 
     "attached_critical_chance": 0.0, 
     "attached_dodge_rate": 0.0, 
@@ -83,7 +83,7 @@
     "maximum_stacking": 5, 
     "model": 10022, 
     "model_opacity": 1, 
-    "name": -770569368, 
+    "name": 1436641697, 
     "precondition_list": {
         "__tuple__": true, 
         "items": []
