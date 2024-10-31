@@ -387,7 +387,7 @@ function hudPanel:initShopLogic()
     for i = 1, 12, 1 do
         self.uiLogic:on_refresh('HUD.Console.Data.right.商店.layout_' .. i .. '.button_' .. i, function(ui, local_player)
             local unit = local_player:get_selecting_unit()
-            if not unit or not unit:has_tag('shop') then
+            if not unit or not unit:has_tag('shop') or not unit:get_owner() == local_player then
                 return
             end
 
