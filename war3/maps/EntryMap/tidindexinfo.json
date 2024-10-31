@@ -587,6 +587,12 @@
         "item_key": 134230872, 
         "prop_key": "name"
     }, 
+    "948966109": {
+        "editor_type": "editor_unit", 
+        "index_type": "object_editor", 
+        "item_key": 134233666, 
+        "prop_key": "desc"
+    }, 
     "985474478": {
         "editor_type": "editor_unit", 
         "index_type": "object_editor", 
