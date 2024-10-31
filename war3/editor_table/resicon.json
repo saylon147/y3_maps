@@ -1,1 +1,10 @@
-{}
+{
+    "ui/134259494": {
+        "default_editor_id": 134259494, 
+        "describe": "", 
+        "key": "ui/134259494", 
+        "name": "ping6", 
+        "path": "ui/134259494", 
+        "uid": "res_icon_ui/134259494"
+    }
+}

@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u57fa\u5730\u70b8\u4e862.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Weapons/ZigguratMissile//ZigguratMissileLaunch1.wav", 
+        "sound/Abilities/Weapons/ZigguratMissile//ZigguratMissileHit1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Flame4", 
+        "Textures/Ghost2"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134257230, 
+    "name": "Mdx\\\u57fa\u5730\u70b8\u4e862", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u57fa\u5730\u70b8\u4e862.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.9734254479408264, 
+            1.1186109781265259
+        ]
+    }
+}
