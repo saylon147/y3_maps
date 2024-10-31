@@ -58,6 +58,48 @@
     "trigger_dict": {
         "1359880193": {
             "action": [
+                {
+                    "action_type": "ADD_MODIFIER", 
+                    "args_list": [
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "ABILITY_OWNER"
+                        }, 
+                        {
+                            "arg_type": 100046, 
+                            "args_list": [
+                                134267412
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 1359880193587894, 
+                    "enable": true, 
+                    "op_arg": [
+                        null, 
+                        null, 
+                        {
+                            "arg_type": 100000, 
+                            "args_list": [
+                                0.5
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        null, 
+                        null, 
+                        null
+                    ], 
+                    "op_arg_enable": [
+                        false, 
+                        false, 
+                        true, 
+                        false, 
+                        false, 
+                        false
+                    ]
+                }, 
                 [
                     1983058526, 
                     "\u5206\u8eab", 
@@ -862,7 +904,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1359880193000386, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "PICK_UNIT_DO_ACTION", 
@@ -1016,7 +1058,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1359880193000314, 
-                    "enable": true
+                    "enable": false
                 }, 
                 {
                     "action_type": "IF_THEN_ELSE", 
@@ -1432,7 +1474,7 @@
                     ], 
                     "bp": false, 
                     "element_id": 1359880193000413, 
-                    "enable": true, 
+                    "enable": false, 
                     "fake_op": []
                 }
             ], 
