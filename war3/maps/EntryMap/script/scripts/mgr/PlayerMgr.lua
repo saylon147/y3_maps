@@ -16,7 +16,7 @@ local function addPlayerUnitEvent(unit)
         end
         unit:kv_save('deadCount', deadCount + 1)
         y3.ltimer.wait(5, function(timer)
-            if(not unit:is_alive()) then
+            if (not unit:is_alive()) then
                 unit:reborn()
                 timer:remove()
             end
@@ -72,6 +72,10 @@ function playerMgr:initPlayers()
     for i = 1, self.maxPlayerCount, 1 do
         local player = y3.player.get_by_id(i)
         player:set_mouse_drag_selection(false)
+        local kv = FW.configMgr:getConfigTable('playerKV')
+        for index, value in ipairs(kv) do
+            player:kv_save(value.key, value.value)
+        end
         if player ~= nil and player:get_state() == y3.const.RoleStatus['PLAYING'] then
             playerMgr.allPlayers:add_player(player)
         end
@@ -81,7 +85,7 @@ end
 
 function playerMgr:initPlayerSummoner()
     for index, player in pairs(FW.playerMgr.allPlayers:pick()) do
-        local unit = FW.unitMgr:createRandomUnit(player, 'summoner',FW.const.bornPoint[player:get_id()])
+        local unit = FW.unitMgr:createRandomUnit(player, 'summoner', FW.const.bornPoint[player:get_id()])
         addPlayerUnitEvent(unit)
         self:getFollowHero(player)
     end
@@ -106,7 +110,7 @@ function playerMgr:followSummoner()
         if summoner then
             for index, followHero in ipairs(FW.unitMgr.units.followHero[player:get_id()]:pick()) do
                 local distance = followHero:get_point():get_distance_with(summoner:get_point())
-                if  distance >= FW.globalVar.maxFollowDistance then
+                if distance >= FW.globalVar.maxFollowDistance then
                     followHero:set_point(summoner:get_point())
                 end
             end
