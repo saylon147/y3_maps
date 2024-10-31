@@ -1,10 +1,6 @@
 {
     "_custom_": true, 
     "_ref_": 134257112, 
-    "attached_ability": [
-        134269014, 
-        1
-    ], 
     "attached_agility": 0.0, 
     "attached_critical_chance": 0.0, 
     "attached_dodge_rate": 0.0, 
@@ -43,7 +39,7 @@
     "cur_charge": 0, 
     "cur_stack": 1, 
     "delete_on_discard": false, 
-    "description": -1590803937, 
+    "description": 1876095954, 
     "disable_overlapping": false, 
     "discard_enable": true, 
     "discard_when_dead": true, 
@@ -109,5 +105,12 @@
     "use_base_tint_color": false, 
     "use_consume": 1, 
     "use_fresnel": false, 
-    "use_virtual_light": false
+    "use_virtual_light": false,
+    "attached_ability": {
+        "__tuple__": true,
+        "items": [
+            134269127,
+            1
+        ]
+    }
 }
