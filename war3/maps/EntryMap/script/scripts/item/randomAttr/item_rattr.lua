@@ -13,6 +13,7 @@ M.template = y3.object.item[M.id] --物编信息
 M.template:event('物品-获得', function(trg, data)
     local attrs = FW.configMgr:getConfigTable(M.random_table)
     local rand = math.random(1, #attrs)
+    data.unit:add_buff({ key = attrs[rand].effect_id, time = attrs[rand].effcct_timeout })
     data.unit:add_attr(attrs[rand].attr_name, attrs[rand].attr_value)
     data.item:remove()
 end)
