@@ -1,0 +1,17 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134272075", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "import_export_folder_info": "/code_explorer_custom_root_folder_name/\u7279\u6548", 
+    "key": 134272075, 
+    "md5": "bc9c35f2641fd64099c33b15ac5b8547", 
+    "name": "\u5347\u7ea7_1", 
+    "res_name": "\u5347\u7ea7.wav", 
+    "res_type": "kkres", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134272075, 
+    "version": 1
+}

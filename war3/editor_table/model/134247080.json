@@ -1,0 +1,24 @@
+{
+    "mdx_path": "Mdx\\\u6389\u91d1\u5e01.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "ui/Feedback/GoldCredit/gold", 
+        "ui/Feedback/GoldCredit/star4_32"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134247080, 
+    "name": "Mdx\\\u6389\u91d1\u5e01", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u6389\u91d1\u5e01.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.7651456594467163, 
+            2.829586982727051
+        ]
+    }
+}

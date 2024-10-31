@@ -1,0 +1,16 @@
+{
+    "id": 134247080,
+    "md5_file_list": [
+        "\u6389\u91d1\u5e01.mdx"
+    ],
+    "modification_time": 3460699568.6751146,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u6389\u91d1\u5e01.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "ui/Feedback/GoldCredit/gold": "gold.tga",
+        "ui/Feedback/GoldCredit/star4_32": "star4_32.tga"
+    }
+}

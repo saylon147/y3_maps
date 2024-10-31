@@ -21,7 +21,7 @@
     "ability_cost": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage": {

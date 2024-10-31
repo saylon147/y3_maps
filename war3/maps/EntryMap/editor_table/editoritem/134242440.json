@@ -31,10 +31,12 @@
         ]
     }, 
     "body_size": 1.0, 
-    "buy_res_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "buy_res_list": [
+        [
+            "official_res_1", 
+            10
+        ]
+    ], 
     "cd_type": "", 
     "compose_list": {
         "__tuple__": true, 
@@ -61,7 +63,7 @@
     "fresnel_emissive_color_strength": 1, 
     "fresnel_exp": 10, 
     "hp_max": 100, 
-    "icon": 109178, 
+    "icon": 134274392, 
     "init_stock": 5, 
     "item_billboard_type": 0, 
     "key": 134242440, 
@@ -84,12 +86,15 @@
     "model": 134247867, 
     "model_opacity": 1, 
     "name": 1105822352, 
-    "precondition_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "precondition_list": [
+        [
+            "summoner", 
+            2, 
+            1
+        ]
+    ], 
     "refresh_interval": 1, 
-    "sale_enable": true, 
+    "sale_enable": false, 
     "sell_res_list": {
         "__tuple__": true, 
         "items": []
@@ -98,7 +103,7 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "stack_type": 2, 
+    "stack_type": 0, 
     "start_rft": 1, 
     "suffix": "", 
     "tags": {

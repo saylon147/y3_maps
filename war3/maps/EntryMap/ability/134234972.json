@@ -31,136 +31,36 @@
                     "action_type"
                 ], 
                 {
-                    "action_type": "PICK_UNIT_DO_ACTION", 
+                    "action_type": "SET_VARIABLE", 
                     "args_list": [
                         {
-                            "arg_type": 100026, 
+                            "arg_type": 100030, 
                             "args_list": [
                                 {
-                                    "arg_type": 100004, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100006, 
-                                            "args_list": [], 
-                                            "sub_type": "ABILITY_OWNER"
-                                        }
-                                    ], 
-                                    "sub_type": "UNIT_ENTITY_POINT"
-                                }, 
-                                {
-                                    "arg_type": 100211, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100000, 
-                                            "args_list": [
-                                                1000.0
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "sub_type": "CONST_CIRCULAR_SHAPE"
-                                }
-                            ], 
-                            "op_arg": [
-                                {
-                                    "arg_type": 100025, 
-                                    "args_list": [
-                                        1
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                null, 
-                                null, 
-                                null, 
-                                null, 
-                                null, 
-                                null, 
-                                {
-                                    "arg_type": 100006, 
-                                    "args_list": [], 
-                                    "sub_type": "ABILITY_OWNER"
-                                }, 
-                                null, 
-                                null, 
-                                null, 
-                                {
-                                    "arg_type": 100001, 
-                                    "args_list": [
-                                        true
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                {
-                                    "arg_type": 100002, 
-                                    "args_list": [
-                                        1
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                {
-                                    "arg_type": 100251, 
-                                    "args_list": [
-                                        2
-                                    ], 
-                                    "sub_type": 1
-                                }, 
-                                null
-                            ], 
-                            "op_arg_enable": [
-                                true, 
-                                false, 
-                                false, 
-                                false, 
-                                false, 
-                                false, 
-                                false, 
-                                true, 
-                                false, 
-                                false, 
-                                false, 
-                                false, 
-                                true, 
-                                true, 
-                                false
-                            ], 
-                            "sub_type": "UNIT_LIST_IN_SHAPE"
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [
-                                {
-                                    "action_type": "SET_VARIABLE", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100030, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "UNIT_ENTITY", 
-                                                        "cur_heal_target", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100006, 
-                                            "args_list": [], 
-                                            "sub_type": "FOR_EACH_SELECTED_UNIT"
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 458428417000338, 
-                                    "enable": true
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "UNIT_ENTITY", 
+                                        "cur_heal_target", 
+                                        "local"
+                                    ]
                                 }
                             ], 
                             "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100006, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100014, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_ABILITY"
+                                }
+                            ], 
+                            "sub_type": "TARGET_UNIT_IN_ABILITY"
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 458428417000218, 
+                    "element_id": 458428417689678, 
                     "enable": true
                 }, 
                 [
@@ -532,9 +432,13 @@
                                 {
                                     "arg_type": 100025, 
                                     "args_list": [
-                                        1
+                                        {
+                                            "arg_type": 100006, 
+                                            "args_list": [], 
+                                            "sub_type": "ABILITY_OWNER"
+                                        }
                                     ], 
-                                    "sub_type": 1
+                                    "sub_type": "OWNER_PLAYER"
                                 }, 
                                 null, 
                                 null, 
@@ -653,7 +557,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 458428417000303, 
+                                    "element_id": 458428417689695, 
                                     "enable": true
                                 }, 
                                 {
@@ -710,7 +614,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 458428417000304, 
+                                    "element_id": 458428417689696, 
                                     "enable": true, 
                                     "op_arg": [
                                         {
@@ -843,7 +747,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 458428417000306, 
+                                    "element_id": 458428417689697, 
                                     "enable": true, 
                                     "op_arg": [
                                         null, 
@@ -893,7 +797,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 458428417000305, 
+                                    "element_id": 458428417689698, 
                                     "enable": true
                                 }, 
                                 {
@@ -929,7 +833,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 458428417000307, 
+                                    "element_id": 458428417689699, 
                                     "enable": true
                                 }
                             ], 

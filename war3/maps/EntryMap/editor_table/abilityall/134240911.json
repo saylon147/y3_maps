@@ -13,7 +13,7 @@
     "ability_cast_range": {
         "__tuple__": true, 
         "items": [
-            "10.0"
+            "1.0"
         ]
     }, 
     "ability_cast_type": 2, 
@@ -21,7 +21,7 @@
     "ability_cost": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage": {

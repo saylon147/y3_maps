@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134254134", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134254134, 
+    "md5": "0450604830c0b1f81f0e4f8bf9d64368", 
+    "name": "AlchemistDeath_1", 
+    "res_name": "AlchemistDeath.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134254134, 
+    "version": 1
+}

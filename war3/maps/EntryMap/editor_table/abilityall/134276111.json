@@ -13,7 +13,7 @@
     "ability_cast_range": {
         "__tuple__": true, 
         "items": [
-            "10.0"
+            "5.0"
         ]
     }, 
     "ability_cast_type": 2, 
@@ -21,13 +21,13 @@
     "ability_cost": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "0.0"
         ]
     }, 
     "ability_damage_range": {
@@ -106,7 +106,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "5"
+            "30.0"
         ]
     }, 
     "collection_animation": "", 
@@ -225,7 +225,7 @@
         ]
     }, 
     "show_building_attack_range": false, 
-    "sight_type": 0, 
+    "sight_type": 3, 
     "sound_event_list": {
         "__tuple__": true, 
         "items": []

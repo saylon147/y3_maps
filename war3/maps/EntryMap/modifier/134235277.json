@@ -322,48 +322,6 @@
                     "bp": false, 
                     "element_id": 1859039234000073, 
                     "enable": true
-                }, 
-                {
-                    "action_type": "ADD_MODIFIER", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [], 
-                            "sub_type": "MODIFIER_OWNER"
-                        }, 
-                        {
-                            "arg_type": 100046, 
-                            "args_list": [
-                                134263299
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1859039234000089, 
-                    "enable": true, 
-                    "op_arg": [
-                        null, 
-                        null, 
-                        {
-                            "arg_type": 100000, 
-                            "args_list": [
-                                0.56
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        null, 
-                        null, 
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        false, 
-                        false, 
-                        true, 
-                        false, 
-                        false, 
-                        false
-                    ]
                 }
             ], 
             "call_enabled": true, 

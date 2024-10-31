@@ -384,7 +384,7 @@
             0
         ]
     }, 
-    "auto_use": false, 
+    "auto_use": true, 
     "base_color_mod": 0, 
     "base_tint_color": {
         "__tuple__": true, 

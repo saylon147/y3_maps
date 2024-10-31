@@ -7,7 +7,34 @@
     "name": "\u5e7d\u9b42\u4e4b\u5854", 
     "select_effect_scale": 1.0, 
     "size": 1.0, 
-    "socket_info": {}, 
+    "socket_info": {
+        "atk": {
+            "__tuple__": true, 
+            "items": [
+                "atk", 
+                "Scene Root", 
+                4.4236159185554764e-18, 
+                1.8423737287521362, 
+                -0.1614481806755066, 
+                3.141592653589793, 
+                3.141592653589793, 
+                3.141592653589793
+            ]
+        }, 
+        "hit_point": {
+            "__tuple__": true, 
+            "items": [
+                "hit_point", 
+                "Scene Root", 
+                0.0, 
+                0.7746, 
+                0.0, 
+                0.0, 
+                0.0, 
+                0.0
+            ]
+        }
+    }, 
     "sub_type": "mdx", 
     "uid": "editor_model_134265474", 
     "version": 1, 

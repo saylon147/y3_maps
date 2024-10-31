@@ -48,7 +48,7 @@
     "discard_enable": true, 
     "discard_when_dead": true, 
     "drop_stay_time": 9999, 
-    "effect_list": {}, 
+    "effect_list": [], 
     "fresnel_color": {
         "__tuple__": true, 
         "items": [
@@ -61,7 +61,7 @@
     "fresnel_emissive_color_strength": 1, 
     "fresnel_exp": 10, 
     "hp_max": 100, 
-    "icon": 100000, 
+    "icon": 134274392, 
     "init_stock": 5, 
     "item_billboard_type": 0, 
     "key": 134249462, 
@@ -89,6 +89,8 @@
         "items": []
     }, 
     "refresh_interval": 1, 
+    "reward_TpcOnpaQEe+2B59FF0aru2": 0.0, 
+    "reward_official_res_1": 0.0, 
     "sale_enable": true, 
     "sell_res_list": {
         "__tuple__": true, 
@@ -103,7 +105,9 @@
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": []
+        "items": [
+            "item"
+        ]
     }, 
     "uid": "134249462", 
     "use_base_tint_color": false, 

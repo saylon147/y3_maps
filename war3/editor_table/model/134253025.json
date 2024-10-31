@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u7194\u5ca9\u5bfc\u5f39BirthMissile.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/HeroAvatarFlame", 
+        "Textures/clouds_anim1_bw", 
+        "Textures/firering1A", 
+        "Textures/Shockwave1b", 
+        "Textures/Clouds8x8", 
+        "Textures/Dust5A", 
+        "Textures/rock64"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134253025, 
+    "name": "Mdx\\\u7194\u5ca9\u5bfc\u5f39BirthMissile", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u7194\u5ca9\u5bfc\u5f39BirthMissile.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.5899525880813599, 
+            1.1336849927902222
+        ]
+    }
+}

@@ -1,0 +1,893 @@
+{
+    "data": {
+        "adapter_option": [
+            false, 
+            false, 
+            false, 
+            false, 
+            0, 
+            0, 
+            0, 
+            0
+        ], 
+        "anchor": [
+            0.5, 
+            0.5
+        ], 
+        "can_drag": false, 
+        "children": [
+            {
+                "adapter_option": [
+                    false, 
+                    false, 
+                    true, 
+                    false, 
+                    -2.0001000000000033, 
+                    -15.9999, 
+                    0.0, 
+                    -6.0
+                ], 
+                "anchor": [
+                    0.5, 
+                    0.5
+                ], 
+                "can_drag": false, 
+                "cap_insets": [
+                    26.0, 
+                    1.0, 
+                    26.0, 
+                    1.0
+                ], 
+                "children": [], 
+                "color": [
+                    254, 
+                    226, 
+                    81, 
+                    254
+                ], 
+                "comp_type": "Image", 
+                "event_list": [], 
+                "hover_child": "", 
+                "image": 108645, 
+                "is_scale9_enable": false, 
+                "name": "bg", 
+                "opacity": 1.0, 
+                "open_adapter": false, 
+                "pos_data": [
+                    20.0, 
+                    14.0001, 
+                    50.0, 
+                    35.0003, 
+                    1, 
+                    1
+                ], 
+                "prefab_sub_key": "27bd3233-a630-4719-a3dd-7549babc974d", 
+                "rotation": 0, 
+                "scale": [
+                    1, 
+                    1
+                ], 
+                "scene_ui_name": null, 
+                "size": [
+                    46.0, 
+                    58.0
+                ], 
+                "swallow_touches": false, 
+                "type": 4, 
+                "visible": false
+            }, 
+            {
+                "adapter_option": [
+                    true, 
+                    true, 
+                    true, 
+                    true, 
+                    -3.0001000000000033, 
+                    -14.9999, 
+                    -3.0, 
+                    -3.0
+                ], 
+                "anchor": [
+                    0.5, 
+                    0.5
+                ], 
+                "can_drag": false, 
+                "children": [], 
+                "clip_enabled": false, 
+                "clipping_type": 1, 
+                "color": [
+                    255, 
+                    255, 
+                    255, 
+                    0
+                ], 
+                "comp_type": "Layout", 
+                "event_list": [], 
+                "hover_child": "", 
+                "mask_image": 100445, 
+                "name": "click2", 
+                "opacity": 1.0, 
+                "open_adapter": true, 
+                "pos_data": [
+                    20.0, 
+                    14.0001, 
+                    50.0, 
+                    35.0003, 
+                    0, 
+                    0
+                ], 
+                "prefab_sub_key": "2c4b8ac8-b1bc-408f-b492-493c5b0e97ee", 
+                "rotation": 0, 
+                "scale": [
+                    1, 
+                    1
+                ], 
+                "scene_ui_name": null, 
+                "size": [
+                    46.0, 
+                    58.0
+                ], 
+                "swallow_touches": false, 
+                "type": 7, 
+                "visible": false
+            }, 
+            {
+                "adapter_option": [
+                    true, 
+                    true, 
+                    true, 
+                    true, 
+                    -3.0001000000000033, 
+                    -14.9999, 
+                    -3.0, 
+                    -3.0
+                ], 
+                "anchor": [
+                    0.5, 
+                    0.5
+                ], 
+                "can_drag": false, 
+                "children": [], 
+                "clip_enabled": false, 
+                "clipping_type": 1, 
+                "color": [
+                    255, 
+                    255, 
+                    255, 
+                    0
+                ], 
+                "comp_type": "Layout", 
+                "event_list": [], 
+                "hover_child": "", 
+                "mask_image": 100445, 
+                "name": "click1", 
+                "opacity": 1.0, 
+                "open_adapter": true, 
+                "pos_data": [
+                    20.0, 
+                    14.0001, 
+                    50.0, 
+                    35.0003, 
+                    0, 
+                    0
+                ], 
+                "prefab_sub_key": "fb905191-b5d0-45f4-9395-416e911d26c9", 
+                "rotation": 0, 
+                "scale": [
+                    1, 
+                    1
+                ], 
+                "scene_ui_name": null, 
+                "size": [
+                    46.0, 
+                    58.0
+                ], 
+                "swallow_touches": false, 
+                "type": 7, 
+                "visible": true
+            }, 
+            {
+                "adapter_option": [
+                    false, 
+                    false, 
+                    false, 
+                    false, 
+                    0, 
+                    0, 
+                    0, 
+                    0
+                ], 
+                "anchor": [
+                    0.5, 
+                    0.5
+                ], 
+                "can_drag": false, 
+                "cap_insets": [
+                    -1, 
+                    -1, 
+                    0, 
+                    0
+                ], 
+                "children": [
+                    {
+                        "adapter_option": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "anchor": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "bg_image": "e6ea2893-50b4-4f09-bb30-33d36cb1c185", 
+                        "can_drag": false, 
+                        "children": [
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    true, 
+                                    true, 
+                                    true, 
+                                    -1.1920928955078125e-7, 
+                                    0.0, 
+                                    0.0, 
+                                    0.00002645595073857976
+                                ], 
+                                "anchor": [
+                                    0.0, 
+                                    0.0
+                                ], 
+                                "can_drag": false, 
+                                "cap_insets": [
+                                    42.0, 
+                                    42.0, 
+                                    42.0, 
+                                    42.0
+                                ], 
+                                "children": [], 
+                                "color": [
+                                    0, 
+                                    0, 
+                                    0, 
+                                    255
+                                ], 
+                                "comp_type": "Image", 
+                                "event_list": [], 
+                                "hover_child": "", 
+                                "image": 999, 
+                                "is_scale9_enable": false, 
+                                "name": "progress_bg_img", 
+                                "opacity": 1.0, 
+                                "open_adapter": true, 
+                                "pos_data": [
+                                    0.0, 
+                                    0.0, 
+                                    0.0, 
+                                    0.0, 
+                                    1, 
+                                    1
+                                ], 
+                                "prefab_sub_key": "8552a6c4-9e1d-43fd-b48b-54bee16c5b9c", 
+                                "rotation": 0, 
+                                "scale": [
+                                    1, 
+                                    1
+                                ], 
+                                "scene_ui_name": null, 
+                                "size": [
+                                    40.1333, 
+                                    6.0
+                                ], 
+                                "swallow_touches": false, 
+                                "type": 4, 
+                                "visible": true
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    true, 
+                                    true, 
+                                    true, 
+                                    -1.1920928955078125e-7, 
+                                    0.0, 
+                                    0.0, 
+                                    0.00002645595073857976
+                                ], 
+                                "anchor": [
+                                    0.0, 
+                                    0.0
+                                ], 
+                                "can_drag": false, 
+                                "cap_insets": [
+                                    -1, 
+                                    -1, 
+                                    0, 
+                                    0
+                                ], 
+                                "children": [], 
+                                "color": [
+                                    0, 
+                                    148, 
+                                    0, 
+                                    255
+                                ], 
+                                "comp_type": "Progress", 
+                                "event_list": [], 
+                                "hover_child": "", 
+                                "image": 904585, 
+                                "is_scale9_enable": false, 
+                                "name": "progress_bar_img", 
+                                "opacity": 1.0, 
+                                "open_adapter": true, 
+                                "pos_data": [
+                                    0.0, 
+                                    0.0, 
+                                    0.0, 
+                                    0.0, 
+                                    1, 
+                                    1
+                                ], 
+                                "prefab_sub_key": "4e618486-6671-4049-ba50-71c2f5279937", 
+                                "rotation": 0, 
+                                "scale": [
+                                    1.0, 
+                                    1.0
+                                ], 
+                                "scene_ui_name": null, 
+                                "size": [
+                                    40.1333, 
+                                    6.0
+                                ], 
+                                "swallow_touches": false, 
+                                "type": 39, 
+                                "visible": true
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    false, 
+                                    true, 
+                                    66.0, 
+                                    10.0, 
+                                    38.9998779296875, 
+                                    5.0
+                                ], 
+                                "alignment": [
+                                    2, 
+                                    8
+                                ], 
+                                "anchor": [
+                                    0.5, 
+                                    0.5
+                                ], 
+                                "bold": false, 
+                                "border": false, 
+                                "can_drag": false, 
+                                "children": [], 
+                                "comp_type": "TextLabel", 
+                                "event_list": [], 
+                                "font": [
+                                    "MSYH", 
+                                    5
+                                ], 
+                                "font_color": [
+                                    255, 
+                                    255, 
+                                    255, 
+                                    255
+                                ], 
+                                "font_min_size": 15, 
+                                "hover_child": "", 
+                                "italics": false, 
+                                "label_effect": [
+                                    false, 
+                                    false, 
+                                    false, 
+                                    false, 
+                                    false, 
+                                    false
+                                ], 
+                                "line_space": [
+                                    0, 
+                                    0
+                                ], 
+                                "name": "progress_percent_label", 
+                                "opacity": 1.0, 
+                                "open_adapter": false, 
+                                "over_pattern": false, 
+                                "pos_data": [
+                                    20.0667, 
+                                    3.0, 
+                                    50, 
+                                    50, 
+                                    1, 
+                                    1
+                                ], 
+                                "prefab_sub_key": "51abc1ad-3f5f-419b-bfaf-5f7c5e12deee", 
+                                "review_word": false, 
+                                "rotation": 0, 
+                                "scale": [
+                                    1, 
+                                    1
+                                ], 
+                                "scene_ui_name": null, 
+                                "shadow": false, 
+                                "size": [
+                                    45.0, 
+                                    14.0
+                                ], 
+                                "strike_through": false, 
+                                "strike_through_color": [
+                                    0, 
+                                    0, 
+                                    0, 
+                                    255
+                                ], 
+                                "strike_through_size": 0, 
+                                "swallow_touches": false, 
+                                "text": [
+                                    "100", 
+                                    false
+                                ], 
+                                "text_bind": [
+                                    null, 
+                                    null
+                                ], 
+                                "text_border_color": [
+                                    0, 
+                                    0, 
+                                    0, 
+                                    255
+                                ], 
+                                "text_border_width": 0, 
+                                "text_format": "", 
+                                "text_italic_radius": 0.5, 
+                                "text_shadow_color": [
+                                    123, 
+                                    123, 
+                                    123, 
+                                    255
+                                ], 
+                                "text_shadow_offset": [
+                                    0, 
+                                    0
+                                ], 
+                                "type": 3, 
+                                "typewriter_effect": 0, 
+                                "typewriter_space": 0, 
+                                "under_line": false, 
+                                "visible": false
+                            }
+                        ], 
+                        "comp_type": "Progress", 
+                        "current_value": 100.0, 
+                        "current_value_bind": [
+                            null, 
+                            null
+                        ], 
+                        "current_value_format": "", 
+                        "event_list": [], 
+                        "hover_child": "", 
+                        "image": "3eb9255d-e985-4271-a3da-37ac87c62b21", 
+                        "max_value": 100, 
+                        "max_value_bind": [
+                            null, 
+                            null
+                        ], 
+                        "max_value_format": "", 
+                        "name": "hp", 
+                        "opacity": 1.0, 
+                        "open_adapter": false, 
+                        "pos_data": [
+                            0.0, 
+                            -7.08, 
+                            0.0, 
+                            -17.7, 
+                            1, 
+                            1
+                        ], 
+                        "prefab_sub_key": "49a28f73-7967-43b1-8fd5-531709f5825a", 
+                        "reverse": false, 
+                        "rotation": 0, 
+                        "scale": [
+                            1, 
+                            1
+                        ], 
+                        "scene_ui_name": null, 
+                        "size": [
+                            40.13332645595074, 
+                            5.9999998807907104
+                        ], 
+                        "swallow_touches": false, 
+                        "title_label": "cdf34881-53d5-4950-b801-2788ddef4565", 
+                        "type": 41, 
+                        "visible": true
+                    }, 
+                    {
+                        "adapter_option": [
+                            false, 
+                            false, 
+                            false, 
+                            false, 
+                            null, 
+                            null, 
+                            null, 
+                            null
+                        ], 
+                        "anchor": [
+                            0.0, 
+                            0.0
+                        ], 
+                        "bg_image": null, 
+                        "can_drag": false, 
+                        "children": [
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    true, 
+                                    true, 
+                                    true, 
+                                    0.0, 
+                                    0.0, 
+                                    0.0, 
+                                    -1.370906801412275e-7
+                                ], 
+                                "anchor": [
+                                    0.0, 
+                                    0.0
+                                ], 
+                                "can_drag": false, 
+                                "cap_insets": [
+                                    42.0, 
+                                    42.0, 
+                                    42.0, 
+                                    42.0
+                                ], 
+                                "children": [], 
+                                "color": [
+                                    0, 
+                                    0, 
+                                    0, 
+                                    255
+                                ], 
+                                "comp_type": "Image", 
+                                "event_list": [], 
+                                "hover_child": "", 
+                                "image": 999, 
+                                "is_scale9_enable": false, 
+                                "name": "progress_bg_img", 
+                                "opacity": 1.0, 
+                                "open_adapter": true, 
+                                "pos_data": [
+                                    0.0, 
+                                    0.0, 
+                                    0.0, 
+                                    0.0, 
+                                    1, 
+                                    1
+                                ], 
+                                "prefab_sub_key": "91deea33-107e-43b4-8a2d-a0b2c3fff05d", 
+                                "rotation": 0, 
+                                "scale": [
+                                    1, 
+                                    1
+                                ], 
+                                "scene_ui_name": null, 
+                                "size": [
+                                    40.1333, 
+                                    6.0
+                                ], 
+                                "swallow_touches": false, 
+                                "type": 4, 
+                                "visible": true
+                            }, 
+                            {
+                                "adapter_option": [
+                                    true, 
+                                    true, 
+                                    true, 
+                                    true, 
+                                    0.0, 
+                                    0.0, 
+                                    0.0, 
+                                    -1.370906801412275e-7
+                                ], 
+                                "anchor": [
+                                    0.0, 
+                                    0.0
+                                ], 
+                                "can_drag": false, 
+                                "cap_insets": [
+                                    -1, 
+                                    -1, 
+                                    0, 
+                                    0
+                                ], 
+                                "children": [], 
+                                "color": [
+                                    0, 
+                                    0, 
+                                    134, 
+                                    255
+                                ], 
+                                "comp_type": "Progress", 
+                                "event_list": [], 
+                                "hover_child": "", 
+                                "image": 904585, 
+                                "is_scale9_enable": false, 
+                                "name": "progress_bar_img", 
+                                "opacity": 1.0, 
+                                "open_adapter": true, 
+                                "pos_data": [
+                                    0.0, 
+                                    0.0, 
+                                    0.0, 
+                                    0.0, 
+                                    1, 
+                                    1
+                                ], 
+                                "prefab_sub_key": "3e8f89a7-7790-4154-a856-3386d301e8be", 
+                                "rotation": 0, 
+                                "scale": [
+                                    1, 
+                                    1
+                                ], 
+                                "scene_ui_name": null, 
+                                "size": [
+                                    40.1333, 
+                                    6.0
+                                ], 
+                                "swallow_touches": false, 
+                                "type": 39, 
+                                "visible": true
+                            }, 
+                            {
+                                "adapter_option": [
+                                    false, 
+                                    true, 
+                                    false, 
+                                    true, 
+                                    66.0, 
+                                    10.0, 
+                                    38.9999, 
+                                    5.0
+                                ], 
+                                "alignment": [
+                                    2, 
+                                    8
+                                ], 
+                                "anchor": [
+                                    0.5, 
+                                    0.5
+                                ], 
+                                "bold": false, 
+                                "border": false, 
+                                "can_drag": false, 
+                                "children": [], 
+                                "comp_type": "TextLabel", 
+                                "event_list": [], 
+                                "font": [
+                                    "MSYH", 
+                                    5
+                                ], 
+                                "font_color": [
+                                    255, 
+                                    255, 
+                                    255, 
+                                    255
+                                ], 
+                                "font_min_size": 15, 
+                                "hover_child": "", 
+                                "italics": false, 
+                                "label_effect": [
+                                    false, 
+                                    false, 
+                                    false, 
+                                    false, 
+                                    false, 
+                                    false
+                                ], 
+                                "line_space": [
+                                    0, 
+                                    0
+                                ], 
+                                "name": "progress_percent_label", 
+                                "opacity": 1.0, 
+                                "open_adapter": false, 
+                                "over_pattern": false, 
+                                "pos_data": [
+                                    20.0666, 
+                                    3.0, 
+                                    50, 
+                                    50, 
+                                    1, 
+                                    1
+                                ], 
+                                "prefab_sub_key": "1fd4eff3-093d-411e-b9d7-73994a607fea", 
+                                "review_word": false, 
+                                "rotation": 0, 
+                                "scale": [
+                                    1, 
+                                    1
+                                ], 
+                                "scene_ui_name": null, 
+                                "shadow": false, 
+                                "size": [
+                                    45.0, 
+                                    14.0
+                                ], 
+                                "strike_through": false, 
+                                "strike_through_color": [
+                                    0, 
+                                    0, 
+                                    0, 
+                                    255
+                                ], 
+                                "strike_through_size": 0, 
+                                "swallow_touches": false, 
+                                "text": [
+                                    "100", 
+                                    false
+                                ], 
+                                "text_bind": [
+                                    null, 
+                                    null
+                                ], 
+                                "text_border_color": [
+                                    0, 
+                                    0, 
+                                    0, 
+                                    255
+                                ], 
+                                "text_border_width": 0, 
+                                "text_format": "", 
+                                "text_italic_radius": 0.5, 
+                                "text_shadow_color": [
+                                    123, 
+                                    123, 
+                                    123, 
+                                    255
+                                ], 
+                                "text_shadow_offset": [
+                                    0, 
+                                    0
+                                ], 
+                                "type": 3, 
+                                "typewriter_effect": 0, 
+                                "typewriter_space": 0, 
+                                "under_line": false, 
+                                "visible": false
+                            }
+                        ], 
+                        "comp_type": "Progress", 
+                        "current_value": 100.0, 
+                        "current_value_bind": [
+                            null, 
+                            null
+                        ], 
+                        "current_value_format": "", 
+                        "event_list": [], 
+                        "hover_child": "", 
+                        "image": null, 
+                        "max_value": 100, 
+                        "max_value_bind": [
+                            null, 
+                            null
+                        ], 
+                        "max_value_format": "", 
+                        "name": "mp", 
+                        "opacity": 1.0, 
+                        "open_adapter": false, 
+                        "pos_data": [
+                            0.0, 
+                            -13.2, 
+                            0.0, 
+                            -33.0, 
+                            1, 
+                            1
+                        ], 
+                        "prefab_sub_key": "fc43c00c-a80d-4032-8790-bf1de6a997a3", 
+                        "reverse": false, 
+                        "rotation": 0, 
+                        "scale": [
+                            1, 
+                            1
+                        ], 
+                        "scene_ui_name": null, 
+                        "size": [
+                            40.13329986290932, 
+                            6.0
+                        ], 
+                        "swallow_touches": false, 
+                        "title_label": null, 
+                        "type": 41, 
+                        "visible": true
+                    }
+                ], 
+                "color": [
+                    255, 
+                    255, 
+                    255, 
+                    255
+                ], 
+                "comp_type": "Image", 
+                "event_list": [], 
+                "hover_child": "", 
+                "image": 106398, 
+                "is_scale9_enable": false, 
+                "name": "icon", 
+                "opacity": 1.0, 
+                "open_adapter": false, 
+                "pos_data": [
+                    20.0, 
+                    20.0, 
+                    50.0, 
+                    50.0, 
+                    0, 
+                    0
+                ], 
+                "prefab_sub_key": "affc7a91-0f0b-40e7-a9b9-146f2e84bbc5", 
+                "rotation": 0, 
+                "scale": [
+                    1, 
+                    1
+                ], 
+                "scene_ui_name": null, 
+                "size": [
+                    40.0, 
+                    40.0
+                ], 
+                "swallow_touches": false, 
+                "type": 4, 
+                "visible": true
+            }
+        ], 
+        "clip_enabled": false, 
+        "clipping_type": 1, 
+        "color": [
+            255, 
+            255, 
+            255, 
+            0
+        ], 
+        "comp_type": "Layout", 
+        "custom_kv": {}, 
+        "event_list": [], 
+        "hover_child": "", 
+        "mask_image": 100445, 
+        "name": "\u591a\u9009\u72b6\u6001\u6846", 
+        "opacity": 1.0, 
+        "open_adapter": false, 
+        "pos_data": [
+            960.0, 
+            540.0, 
+            50.0, 
+            50.0, 
+            1, 
+            1
+        ], 
+        "prefab_key": "6bff8861-6c8e-4d56-9d0c-a9a0134b040e", 
+        "prefab_sub_key": null, 
+        "rotation": 0, 
+        "scale": [
+            1, 
+            1
+        ], 
+        "scene_ui_name": null, 
+        "size": [
+            40.0, 
+            40.0
+        ], 
+        "swallow_touches": false, 
+        "type": 7, 
+        "visible": true
+    }, 
+    "key": "6bff8861-6c8e-4d56-9d0c-a9a0134b040e", 
+    "name": "\u591a\u9009\u72b6\u6001\u6846"
+}

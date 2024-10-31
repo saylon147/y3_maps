@@ -1,0 +1,19 @@
+{
+    "id": 134276466,
+    "md5_file_list": [
+        "\u8150\u8680\u866b\u7fa4.mdx"
+    ],
+    "modification_time": 3460781381.067713,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u8150\u8680\u866b\u7fa4.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "abilities/Spells/Undead/CarrionSwarm/HeroDreadlord": "HeroDreadlord.tga",
+        "Textures/firering1A": "firering1A.tga",
+        "Textures/Yellow_Glow": "Yellow_Glow.tga",
+        "Textures/GenericGlow2b": "GenericGlow2b.tga",
+        "ReplaceableTextures/Weather/Clouds8x8": "Clouds8x8.tga"
+    }
+}

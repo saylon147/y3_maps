@@ -1,0 +1,12 @@
+{
+    "mdx_path": "Mdx\\\u4eba\u65cf\u9f99\u9a91.mdx", 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134278428, 
+    "name": "Mdx\\\u4eba\u65cf\u9f99\u9a91", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u4eba\u65cf\u9f99\u9a91.mdx"
+    ]
+}

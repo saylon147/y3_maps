@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u8150\u8680\u866b\u7fa4.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Spells/Undead/CarrionSwarm//CarrionSwarmLaunch1.wav"
+    ], 
+    "mdx_textures": [
+        "abilities/Spells/Undead/CarrionSwarm/HeroDreadlord", 
+        "Textures/firering1A", 
+        "Textures/Yellow_Glow", 
+        "Textures/GenericGlow2b", 
+        "ReplaceableTextures/Weather/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134276466, 
+    "name": "Mdx\\\u8150\u8680\u866b\u7fa4", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u8150\u8680\u866b\u7fa4.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.8020393252372742, 
+            1.4888819456100464
+        ]
+    }
+}
