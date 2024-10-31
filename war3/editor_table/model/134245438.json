@@ -1,0 +1,31 @@
+{
+    "mdx_path": "Mdx\\\u7194\u5ca9\u5bfc\u5f39Missile.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Weapons/LavaSpawnMissile//LavaSpawnMissileDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/HeroAvatarFlame", 
+        "Textures/star32", 
+        "Textures/lensflare1A", 
+        "Textures/Red_Glow3", 
+        "Textures/GenericGlow1", 
+        "Textures/Zap1_Red", 
+        "Textures/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134245438, 
+    "name": "Mdx\\\u7194\u5ca9\u5bfc\u5f39Missile", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u7194\u5ca9\u5bfc\u5f39Missile.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.7304936647415161, 
+            1.3029170036315918
+        ]
+    }
+}

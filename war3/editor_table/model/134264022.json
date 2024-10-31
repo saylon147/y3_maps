@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u4ea1\u7075\u5deb\u5e08Missile.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Weapons/NecromancerMissile//NecromancerMissileLaunch1.wav", 
+        "sound/Abilities/Weapons/NecromancerMissile//NecromancerMissileHit1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/HeroLich", 
+        "Textures/Yellow_Glow", 
+        "Textures/Star8b"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134264022, 
+    "name": "Mdx\\\u4ea1\u7075\u5deb\u5e08Missile", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u4ea1\u7075\u5deb\u5e08Missile.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.44147783517837524, 
+            0.7874259948730469
+        ]
+    }
+}

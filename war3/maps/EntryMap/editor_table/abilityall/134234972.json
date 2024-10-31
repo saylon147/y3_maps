@@ -13,7 +13,7 @@
     "ability_cast_range": {
         "__tuple__": true, 
         "items": [
-            "10.0"
+            "6.0"
         ]
     }, 
     "ability_cast_type": 2, 
@@ -42,7 +42,7 @@
             "0"
         ]
     }, 
-    "ability_icon": 134274238, 
+    "ability_icon": 134221178, 
     "ability_max_level": 1, 
     "ability_max_stack_count": {
         "__tuple__": true, 

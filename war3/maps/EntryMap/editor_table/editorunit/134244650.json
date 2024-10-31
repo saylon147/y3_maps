@@ -41,7 +41,7 @@
     "billboard_scale_y": 1, 
     "blood_bar": 327682, 
     "blood_show_type": 0, 
-    "body_size": 1.0, 
+    "body_size": 0.8, 
     "build_ignore_dyn_collision": false, 
     "build_res_cost_list": {
         "__tuple__": true, 
@@ -212,7 +212,7 @@
         }
     }, 
     "level": 1, 
-    "main_attr": "\u529b\u91cf", 
+    "main_attr": "none", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
     "mini_map_icon": 903950, 

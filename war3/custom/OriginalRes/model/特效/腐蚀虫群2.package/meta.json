@@ -1,0 +1,15 @@
+{
+    "id": 134230912,
+    "md5_file_list": [
+        "\u8150\u8680\u866b\u7fa42.mdx"
+    ],
+    "modification_time": 3460685253.5850716,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u8150\u8680\u866b\u7fa42.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Clouds8x8Mod": "Clouds8x8Mod.tga"
+    }
+}

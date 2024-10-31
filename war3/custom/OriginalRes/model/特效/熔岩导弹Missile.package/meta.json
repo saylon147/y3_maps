@@ -1,0 +1,21 @@
+{
+    "id": 134245438,
+    "md5_file_list": [
+        "\u7194\u5ca9\u5bfc\u5f39Missile.mdx"
+    ],
+    "modification_time": 3460700331.6737347,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u7194\u5ca9\u5bfc\u5f39Missile.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/HeroAvatarFlame": "HeroAvatarFlame.tga",
+        "Textures/star32": "star32.tga",
+        "Textures/lensflare1A": "lensflare1A.tga",
+        "Textures/Red_Glow3": "Red_Glow3.tga",
+        "Textures/GenericGlow1": "GenericGlow1.tga",
+        "Textures/Zap1_Red": "Zap1_Red.tga",
+        "Textures/Clouds8x8": "Clouds8x8.tga"
+    }
+}

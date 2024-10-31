@@ -1,0 +1,17 @@
+{
+    "id": 134264022,
+    "md5_file_list": [
+        "\u4ea1\u7075\u5deb\u5e08Missile.mdx"
+    ],
+    "modification_time": 3460690192.189054,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u4ea1\u7075\u5deb\u5e08Missile.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/HeroLich": "HeroLich.tga",
+        "Textures/Yellow_Glow": "Yellow_Glow.tga",
+        "Textures/Star8b": "Star8b.tga"
+    }
+}

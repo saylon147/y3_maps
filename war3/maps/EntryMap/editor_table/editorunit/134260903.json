@@ -74,10 +74,7 @@
     "common_ability_list": [], 
     "common_atk": {
         "__tuple__": true, 
-        "items": [
-            201347498, 
-            1
-        ]
+        "items": []
     }, 
     "common_atk_type": 1, 
     "content": "strength", 
@@ -155,7 +152,7 @@
     "hp_rec_grow": 0.2, 
     "hp_rec_percent": 0, 
     "hp_rec_percent_grow": 0, 
-    "icon": 903952, 
+    "icon": 134254364, 
     "idle_anim": "hold", 
     "init_stock": 5, 
     "intelligence": 0, 
@@ -304,7 +301,7 @@
             "Attack"
         ], 
         "ability_bw_point": 0.9, 
-        "ability_cast_point": 0.3, 
+        "ability_cast_point": 0.2, 
         "attack_interval": 1.0, 
         "attack_range": 5.0, 
         "attack_trajectory": {

@@ -1,0 +1,21 @@
+{
+    "id": 134253025,
+    "md5_file_list": [
+        "\u7194\u5ca9\u5bfc\u5f39BirthMissile.mdx"
+    ],
+    "modification_time": 3460706992.6056633,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u7194\u5ca9\u5bfc\u5f39BirthMissile.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/HeroAvatarFlame": "HeroAvatarFlame.tga",
+        "Textures/clouds_anim1_bw": "clouds_anim1_bw.tga",
+        "Textures/firering1A": "firering1A.tga",
+        "Textures/Shockwave1b": "Shockwave1b.tga",
+        "Textures/Clouds8x8": "Clouds8x8.tga",
+        "Textures/Dust5A": "Dust5A.tga",
+        "Textures/rock64": "rock64.tga"
+    }
+}
