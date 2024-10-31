@@ -16,7 +16,7 @@
             "10.0"
         ]
     }, 
-    "ability_cast_type": 2, 
+    "ability_cast_type": 3, 
     "ability_channel_time": 0.0, 
     "ability_cost": {
         "__tuple__": true, 
@@ -106,7 +106,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "15.0"
+            "0.0"
         ]
     }, 
     "collection_animation": "", 
@@ -136,7 +136,7 @@
     }, 
     "filter_condition_camp": 5, 
     "filter_condition_move_channel_type": 99, 
-    "filter_condition_type": 7, 
+    "filter_condition_type": 5, 
     "filter_item_tags": {
         "__tuple__": true, 
         "items": []

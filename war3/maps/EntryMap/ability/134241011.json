@@ -17,137 +17,12 @@
         "1723432961": {
             "action": [
                 {
-                    "action_type": "IF_THEN_ELSE", 
+                    "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
                     "args_list": [
                         {
-                            "arg_type": 100021, 
+                            "arg_type": 100000, 
                             "args_list": [
-                                {
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100006, 
-                                            "args_list": [], 
-                                            "sub_type": "ABILITY_OWNER"
-                                        }, 
-                                        {
-                                            "arg_type": 100046, 
-                                            "args_list": [
-                                                134266363
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "condition_type": "UNIT_HAS_MODIFIER", 
-                                    "element_id": 1723432961888974, 
-                                    "enable": true
-                                }
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100022, 
-                            "args_list": [
-                                [
-                                    1687680624, 
-                                    "\u5173\u95ed\u732e\u796d", 
-                                    1723432961, 
-                                    "action_type"
-                                ], 
-                                {
-                                    "action_type": "ITER_MODIFIER_DO", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100006, 
-                                            "args_list": [], 
-                                            "sub_type": "ABILITY_OWNER"
-                                        }, 
-                                        {
-                                            "arg_type": 100022, 
-                                            "args_list": [
-                                                {
-                                                    "action_type": "IF_THEN_ELSE", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100021, 
-                                                            "args_list": [
-                                                                {
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100076, 
-                                                                            "args_list": [], 
-                                                                            "sub_type": "FOR_EACH_SELECTED_MODIFIER"
-                                                                        }, 
-                                                                        {
-                                                                            "arg_type": 100035, 
-                                                                            "args_list": [
-                                                                                "=="
-                                                                            ], 
-                                                                            "sub_type": 1
-                                                                        }, 
-                                                                        {
-                                                                            "arg_type": 100076, 
-                                                                            "args_list": [
-                                                                                {
-                                                                                    "arg_type": 100006, 
-                                                                                    "args_list": [], 
-                                                                                    "sub_type": "ABILITY_OWNER"
-                                                                                }, 
-                                                                                {
-                                                                                    "arg_type": 100046, 
-                                                                                    "args_list": [
-                                                                                        134266363
-                                                                                    ], 
-                                                                                    "sub_type": 1
-                                                                                }
-                                                                            ], 
-                                                                            "sub_type": "GET_LAST_MODIFIER_INSTANCE"
-                                                                        }
-                                                                    ], 
-                                                                    "condition_type": "MODIFIER_COMPARE", 
-                                                                    "element_id": 1723432961889109, 
-                                                                    "enable": true
-                                                                }
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100022, 
-                                                            "args_list": [
-                                                                {
-                                                                    "action_type": "REMOVE_BUFF_INS", 
-                                                                    "args_list": [
-                                                                        {
-                                                                            "arg_type": 100076, 
-                                                                            "args_list": [], 
-                                                                            "sub_type": "FOR_EACH_SELECTED_MODIFIER"
-                                                                        }
-                                                                    ], 
-                                                                    "bp": false, 
-                                                                    "element_id": 1723432961889100, 
-                                                                    "enable": true
-                                                                }
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100022, 
-                                                            "args_list": [], 
-                                                            "sub_type": 1
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "element_id": 1723432961889088, 
-                                                    "enable": true, 
-                                                    "fake_op": []
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1723432961889080, 
-                                    "enable": true
-                                }
+                                0.5
                             ], 
                             "sub_type": 1
                         }, 
@@ -161,110 +36,6 @@
                                     "action_type"
                                 ], 
                                 {
-                                    "action_type": "SET_VARIABLE", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100030, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "STRING", 
-                                                        "anim_name", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                "Spell"
-                                            ], 
-                                            "sub_type": 1
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1723432961000026, 
-                                    "enable": true
-                                }, 
-                                [
-                                    1368888893, 
-                                    "\u5982\u679c\u53d8\u8eab", 
-                                    1723432961, 
-                                    "action_type"
-                                ], 
-                                {
-                                    "action_type": "SET_VARIABLE", 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100030, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "STRING", 
-                                                        "anim_name", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": 1
-                                        }, 
-                                        {
-                                            "arg_type": 100003, 
-                                            "args_list": [
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        {
-                                                            "__tuple__": true, 
-                                                            "items": [
-                                                                "STRING", 
-                                                                "anim_name", 
-                                                                "local"
-                                                            ]
-                                                        }
-                                                    ], 
-                                                    "sub_type": 2
-                                                }, 
-                                                {
-                                                    "arg_type": 100003, 
-                                                    "args_list": [
-                                                        " Alternate"
-                                                    ], 
-                                                    "sub_type": 1
-                                                }
-                                            ], 
-                                            "op_arg": [
-                                                null, 
-                                                null, 
-                                                null, 
-                                                null, 
-                                                null, 
-                                                null, 
-                                                null, 
-                                                null
-                                            ], 
-                                            "op_arg_enable": [
-                                                false, 
-                                                false, 
-                                                false, 
-                                                false, 
-                                                false, 
-                                                false, 
-                                                false, 
-                                                false
-                                            ], 
-                                            "sub_type": "STR_JOIN"
-                                        }
-                                    ], 
-                                    "bp": false, 
-                                    "element_id": 1723432961000036, 
-                                    "enable": false
-                                }, 
-                                {
                                     "action_type": "PLAY_ANIMATION", 
                                     "args_list": [
                                         {
@@ -275,16 +46,9 @@
                                         {
                                             "arg_type": 100003, 
                                             "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "STRING", 
-                                                        "anim_name", 
-                                                        "local"
-                                                    ]
-                                                }
+                                                "Spell"
                                             ], 
-                                            "sub_type": 2
+                                            "sub_type": 1
                                         }, 
                                         {
                                             "arg_type": 100000, 
@@ -431,11 +195,15 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 1723432961888959, 
+                    "element_id": 1723432961889119, 
                     "enable": true, 
-                    "fake_op": [
-                        2
-                    ]
+                    "local_var": {
+                        "__tuple__": true, 
+                        "items": [
+                            {}, 
+                            {}
+                        ]
+                    }
                 }
             ], 
             "call_enabled": true, 
@@ -444,9 +212,9 @@
             "event": [
                 {
                     "args_list": [], 
-                    "element_id": 1723432961000002, 
+                    "element_id": 1723432961889111, 
                     "enable": true, 
-                    "event_type": "ABILITY_PS_START"
+                    "event_type": "ABILITY_OBTAIN"
                 }
             ], 
             "group_id": 134241011, 
