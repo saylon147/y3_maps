@@ -88,7 +88,7 @@
     "camp_priority_friend": 1, 
     "camp_priority_neutral": 1, 
     "camp_priority_self": 1, 
-    "can_autocast_when_attack_target": false, 
+    "can_autocast_when_attack_target": true, 
     "can_bs_interrupt": true, 
     "can_cache": true, 
     "can_cast_interrupt": true, 
@@ -134,9 +134,9 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "filter_condition_camp": 5, 
+    "filter_condition_camp": 10, 
     "filter_condition_move_channel_type": 99, 
-    "filter_condition_type": 7, 
+    "filter_condition_type": 5, 
     "filter_item_tags": {
         "__tuple__": true, 
         "items": []
@@ -159,7 +159,7 @@
     }, 
     "influenced_by_cd_reduce": true, 
     "influenced_by_move": true, 
-    "is_autocast": false, 
+    "is_autocast": true, 
     "is_charge_ability": false, 
     "is_immediate": false, 
     "is_meele": false, 

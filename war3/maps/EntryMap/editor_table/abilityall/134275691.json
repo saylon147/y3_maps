@@ -136,7 +136,7 @@
     }, 
     "filter_condition_camp": 5, 
     "filter_condition_move_channel_type": 99, 
-    "filter_condition_type": 7, 
+    "filter_condition_type": 1, 
     "filter_item_tags": {
         "__tuple__": true, 
         "items": []
