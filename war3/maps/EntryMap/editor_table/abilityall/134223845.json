@@ -8,7 +8,7 @@
         ]
     }, 
     "ability_build_subtype": 1, 
-    "ability_bw_point": 0.5, 
+    "ability_bw_point": 1.0, 
     "ability_cast_point": 0.2, 
     "ability_cast_range": {
         "__tuple__": true, 
@@ -106,7 +106,7 @@
     "cold_down_time": {
         "__tuple__": true, 
         "items": [
-            "0.0"
+            "1.0"
         ]
     }, 
     "collection_animation": "", 
