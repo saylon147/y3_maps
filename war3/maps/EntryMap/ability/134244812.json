@@ -43,6 +43,10 @@
                 "target_pos": 0, 
                 "wand": 0
             }
+        }, 
+        "548024322": {
+            "variable_dict": {}, 
+            "variable_length_dict": {}
         }
     }, 
     "trigger_dict": {

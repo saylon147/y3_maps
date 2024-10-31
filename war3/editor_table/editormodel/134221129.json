@@ -1,0 +1,13 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\ShadowHunterMissile1", 
+    "key": 134221129, 
+    "model_id": 134221129, 
+    "name": "ShadowHunterMissile1", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134221129", 
+    "version": 1
+}

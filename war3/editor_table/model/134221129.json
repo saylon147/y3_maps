@@ -1,0 +1,12 @@
+{
+    "mdx_path": "Mdx\\ShadowHunterMissile1.mdx", 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134221129, 
+    "name": "Mdx\\ShadowHunterMissile1", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_ShadowHunterMissile1.mdx"
+    ]
+}
