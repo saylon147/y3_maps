@@ -1,0 +1,15 @@
+{
+    "id": 134257230,
+    "md5_file_list": [
+        "\u57fa\u5730\u70b8\u4e862.mdx"
+    ],
+    "modification_time": 3460749923.926381,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u57fa\u5730\u70b8\u4e862.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Flame4": "Flame4.tga"
+    }
+}

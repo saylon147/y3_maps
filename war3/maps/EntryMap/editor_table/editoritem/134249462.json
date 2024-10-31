@@ -1,17 +1,13 @@
 {
     "_custom_": true, 
     "_ref_": 134249462, 
-    "attached_ability": [
-        134269014, 
-        1
-    ], 
     "attached_agility": 0.0, 
     "attached_attack_phy": [
-        10.0, 
-        10.0, 
-        10.0, 
-        10.0, 
-        10.0
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0, 
+        0.0
     ], 
     "attached_critical_chance": 0.0, 
     "attached_dodge_rate": 0.0, 
@@ -19,12 +15,7 @@
     "attached_hp_max": 0.0, 
     "attached_hp_rec": 0.0, 
     "attached_intelligence": 0.0, 
-    "attached_passive_abilities": [
-        [
-            134229291, 
-            1
-        ]
-    ], 
+    "attached_passive_abilities": [], 
     "attached_pene_mag": 0.0, 
     "attached_pene_phy": 0.0, 
     "attached_strength": 0.0, 

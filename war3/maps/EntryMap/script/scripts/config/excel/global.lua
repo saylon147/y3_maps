@@ -10,5 +10,6 @@ local M = {
 [9] = {id = 1009,parameter = '0.3',},
 [10] = {id = 1010,parameter = '0.5',},
 [11] = {id = 1011,parameter = '0.8',},
+[12] = {id = 1012,parameter = '1000',},
 }
 return M
