@@ -390,11 +390,6 @@
             "UPGRADE_UNIT", 
             134225736, 
             8
-        ], 
-        [
-            "UNIT_START_MOVE", 
-            134222942, 
-            8
         ]
     ], 
     "special_idle_anim": "hold", 

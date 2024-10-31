@@ -4,22 +4,24 @@
             "variable_dict": {}, 
             "variable_length_dict": {}
         }, 
-        "574259203": {
-            "variable_dict": {}, 
+        "383438852": {
+            "variable_dict": {
+                "PLAYER": {}
+            }, 
             "variable_length_dict": {}
         }, 
         "951103491": {
             "variable_dict": {}, 
             "variable_length_dict": {}
         }, 
-        "1178238978": {
+        "1138245635": {
             "variable_dict": {
-                "AUDIO_KEY": {
-                    "\u6280\u80fd\u97f3\u6548": 0
+                "PLAYER": {
+                    "cur_player": 0
                 }
             }, 
             "variable_length_dict": {
-                "\u6280\u80fd\u97f3\u6548": 0
+                "cur_player": 0
             }
         }
     }, 
@@ -91,41 +93,15 @@
                 []
             ]
         }, 
-        "574259203": {
+        "383438852": {
             "action": [
-                {
-                    "action_type": "SET_VARIABLE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100030, 
-                            "args_list": [
-                                [
-                                    "AUDIO_KEY", 
-                                    "\u6280\u80fd\u97f3\u6548", 
-                                    "local"
-                                ]
-                            ], 
-                            "sub_type": 1
-                        }, 
-                        {
-                            "arg_type": 100084, 
-                            "args_list": [
-                                134222942
-                            ], 
-                            "sub_type": 1
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 574259203000003, 
-                    "enable": true
-                }, 
                 {
                     "action_type": "PROBABILITY_DO_ACTION", 
                     "args_list": [
                         {
-                            "arg_type": 100002, 
+                            "arg_type": 100000, 
                             "args_list": [
-                                100
+                                100.0
                             ], 
                             "sub_type": 1
                         }, 
@@ -154,17 +130,20 @@
                                                                     "arg_type": 100025, 
                                                                     "args_list": [
                                                                         {
-                                                                            "arg_type": 100006, 
-                                                                            "args_list": [], 
-                                                                            "sub_type": "CUR_UNIT"
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "PLAYER", 
+                                                                                "cur_player", 
+                                                                                "local"
+                                                                            ]
                                                                         }
                                                                     ], 
-                                                                    "sub_type": "OWNER_PLAYER"
+                                                                    "sub_type": "VARIABLE"
                                                                 }, 
                                                                 {
                                                                     "arg_type": 100003, 
                                                                     "args_list": [
-                                                                        "_\u6b63\u5728\u8bf4\u8bdd"
+                                                                        "\u82f1\u96c4\u79fb\u52a8\u97f3\u6548\u64ad\u653e\u6807\u5fd7"
                                                                     ], 
                                                                     "sub_type": 1
                                                                 }
@@ -187,7 +166,7 @@
                                                         }
                                                     ], 
                                                     "condition_type": "BOOL_COMPARE", 
-                                                    "element_id": 574259203000004, 
+                                                    "element_id": 383438852000226, 
                                                     "enable": true
                                                 }
                                             ], 
@@ -203,12 +182,15 @@
                                                             "arg_type": 100025, 
                                                             "args_list": [
                                                                 {
-                                                                    "arg_type": 100006, 
-                                                                    "args_list": [], 
-                                                                    "sub_type": "CUR_UNIT"
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "PLAYER", 
+                                                                        "cur_player", 
+                                                                        "local"
+                                                                    ]
                                                                 }
                                                             ], 
-                                                            "sub_type": "OWNER_PLAYER"
+                                                            "sub_type": "VARIABLE"
                                                         }, 
                                                         {
                                                             "arg_type": 100214, 
@@ -217,17 +199,20 @@
                                                                     "arg_type": 100025, 
                                                                     "args_list": [
                                                                         {
-                                                                            "arg_type": 100006, 
-                                                                            "args_list": [], 
-                                                                            "sub_type": "CUR_UNIT"
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "PLAYER", 
+                                                                                "cur_player", 
+                                                                                "local"
+                                                                            ]
                                                                         }
                                                                     ], 
-                                                                    "sub_type": "OWNER_PLAYER"
+                                                                    "sub_type": "VARIABLE"
                                                                 }, 
                                                                 {
                                                                     "arg_type": 100003, 
                                                                     "args_list": [
-                                                                        "_\u5f53\u524d\u8bdd\u8bed"
+                                                                        "\u82f1\u96c4\u79fb\u52a8\u97f3\u6548"
                                                                     ], 
                                                                     "sub_type": 1
                                                                 }
@@ -243,7 +228,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 574259203000005, 
+                                                    "element_id": 383438852000227, 
                                                     "enable": true
                                                 }, 
                                                 {
@@ -253,17 +238,56 @@
                                                             "arg_type": 100025, 
                                                             "args_list": [
                                                                 {
-                                                                    "arg_type": 100006, 
-                                                                    "args_list": [], 
-                                                                    "sub_type": "CUR_UNIT"
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "PLAYER", 
+                                                                        "cur_player", 
+                                                                        "local"
+                                                                    ]
                                                                 }
                                                             ], 
-                                                            "sub_type": "OWNER_PLAYER"
+                                                            "sub_type": "VARIABLE"
                                                         }, 
                                                         {
                                                             "arg_type": 100003, 
                                                             "args_list": [
-                                                                "_\u5f53\u524d\u8bdd\u8bed"
+                                                                "\u82f1\u96c4\u79fb\u52a8\u97f3\u6548\u64ad\u653e\u6807\u5fd7"
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100001, 
+                                                            "args_list": [
+                                                                true
+                                                            ], 
+                                                            "sub_type": 1
+                                                        }
+                                                    ], 
+                                                    "bp": false, 
+                                                    "element_id": 383438852000228, 
+                                                    "enable": true
+                                                }, 
+                                                {
+                                                    "action_type": "SET_ENTITY_KV", 
+                                                    "args_list": [
+                                                        {
+                                                            "arg_type": 100025, 
+                                                            "args_list": [
+                                                                {
+                                                                    "__tuple__": true, 
+                                                                    "items": [
+                                                                        "PLAYER", 
+                                                                        "cur_player", 
+                                                                        "local"
+                                                                    ]
+                                                                }
+                                                            ], 
+                                                            "sub_type": "VARIABLE"
+                                                        }, 
+                                                        {
+                                                            "arg_type": 100003, 
+                                                            "args_list": [
+                                                                "\u82f1\u96c4\u79fb\u52a8\u97f3\u6548"
                                                             ], 
                                                             "sub_type": 1
                                                         }, 
@@ -274,23 +298,22 @@
                                                                     "arg_type": 100025, 
                                                                     "args_list": [
                                                                         {
-                                                                            "arg_type": 100006, 
-                                                                            "args_list": [], 
-                                                                            "sub_type": "CUR_UNIT"
+                                                                            "__tuple__": true, 
+                                                                            "items": [
+                                                                                "PLAYER", 
+                                                                                "cur_player", 
+                                                                                "local"
+                                                                            ]
                                                                         }
                                                                     ], 
-                                                                    "sub_type": "OWNER_PLAYER"
+                                                                    "sub_type": "VARIABLE"
                                                                 }, 
                                                                 {
                                                                     "arg_type": 100084, 
                                                                     "args_list": [
-                                                                        [
-                                                                            "AUDIO_KEY", 
-                                                                            "\u6280\u80fd\u97f3\u6548", 
-                                                                            "local"
-                                                                        ]
+                                                                        134222942
                                                                     ], 
-                                                                    "sub_type": "VARIABLE"
+                                                                    "sub_type": 1
                                                                 }, 
                                                                 {
                                                                     "arg_type": 100001, 
@@ -312,42 +335,15 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 574259203000006, 
+                                                    "element_id": 383438852000229, 
                                                     "enable": true
                                                 }, 
-                                                {
-                                                    "action_type": "SET_ENTITY_KV", 
-                                                    "args_list": [
-                                                        {
-                                                            "arg_type": 100025, 
-                                                            "args_list": [
-                                                                {
-                                                                    "arg_type": 100006, 
-                                                                    "args_list": [], 
-                                                                    "sub_type": "CUR_UNIT"
-                                                                }
-                                                            ], 
-                                                            "sub_type": "OWNER_PLAYER"
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100003, 
-                                                            "args_list": [
-                                                                "_\u6b63\u5728\u8bf4\u8bdd"
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }, 
-                                                        {
-                                                            "arg_type": 100001, 
-                                                            "args_list": [
-                                                                true
-                                                            ], 
-                                                            "sub_type": 1
-                                                        }
-                                                    ], 
-                                                    "bp": false, 
-                                                    "element_id": 574259203000007, 
-                                                    "enable": true
-                                                }, 
+                                                [
+                                                    2020758224, 
+                                                    "10\u79d2\u540e\u91cd\u7f6e\u5224\u65ad\u6807\u5fd7", 
+                                                    383438852, 
+                                                    "action_type"
+                                                ], 
                                                 {
                                                     "action_type": "RUN_ONCE_TIMER_NO_SAVE", 
                                                     "args_list": [
@@ -368,17 +364,20 @@
                                                                             "arg_type": 100025, 
                                                                             "args_list": [
                                                                                 {
-                                                                                    "arg_type": 100006, 
-                                                                                    "args_list": [], 
-                                                                                    "sub_type": "CUR_UNIT"
+                                                                                    "__tuple__": true, 
+                                                                                    "items": [
+                                                                                        "PLAYER", 
+                                                                                        "cur_player", 
+                                                                                        "local"
+                                                                                    ]
                                                                                 }
                                                                             ], 
-                                                                            "sub_type": "OWNER_PLAYER"
+                                                                            "sub_type": "VARIABLE"
                                                                         }, 
                                                                         {
                                                                             "arg_type": 100003, 
                                                                             "args_list": [
-                                                                                "_\u6b63\u5728\u8bf4\u8bdd"
+                                                                                "\u82f1\u96c4\u79fb\u52a8\u97f3\u6548\u64ad\u653e\u6807\u5fd7"
                                                                             ], 
                                                                             "sub_type": 1
                                                                         }, 
@@ -391,7 +390,7 @@
                                                                         }
                                                                     ], 
                                                                     "bp": false, 
-                                                                    "element_id": 574259203000019, 
+                                                                    "element_id": 383438852000316, 
                                                                     "enable": true
                                                                 }
                                                             ], 
@@ -399,7 +398,7 @@
                                                         }
                                                     ], 
                                                     "bp": false, 
-                                                    "element_id": 574259203000009, 
+                                                    "element_id": 383438852000231, 
                                                     "enable": true, 
                                                     "local_var": {
                                                         "__tuple__": true, 
@@ -419,7 +418,7 @@
                                         }
                                     ], 
                                     "bp": false, 
-                                    "element_id": 574259203000010, 
+                                    "element_id": 383438852000232, 
                                     "enable": true, 
                                     "fake_op": []
                                 }
@@ -433,7 +432,7 @@
                         }
                     ], 
                     "bp": false, 
-                    "element_id": 574259203000011, 
+                    "element_id": 383438852000017, 
                     "enable": true, 
                     "fake_op": []
                 }
@@ -449,7 +448,7 @@
                         }
                     ], 
                     "condition_type": "IS_UNIT_ALIVE", 
-                    "element_id": 574259203000002, 
+                    "element_id": 383438852000009, 
                     "enable": true
                 }
             ], 
@@ -458,26 +457,33 @@
                 {
                     "args_list": [
                         {
-                            "arg_type": 100000, 
+                            "arg_type": 100006, 
+                            "args_list": [], 
+                            "sub_type": "CUR_UNIT"
+                        }, 
+                        {
+                            "arg_type": 100007, 
                             "args_list": [
-                                5.0
+                                "ET_UNIT_START_MOVE"
                             ], 
                             "sub_type": 1
                         }
                     ], 
-                    "element_id": 574259203000001, 
+                    "element_id": 383438852000291, 
                     "enable": true, 
-                    "event_type": "GAME_ELAPSE_REPEAT"
+                    "event_type": "SPECIAL_UNIT_EVENT"
                 }
             ], 
-            "group_id": 134280846, 
+            "group_id": 0, 
             "is_conf": true, 
-            "p_trigger_id": 1178238978, 
-            "trigger_id": 574259203, 
-            "trigger_name": "\u8f6e\u64ad", 
+            "p_trigger_id": 1138245635, 
+            "trigger_id": 383438852, 
+            "trigger_name": "\u79fb\u52a8\u8bed\u97f3", 
             "valid": true, 
             "var_data": [
-                {}, 
+                {
+                    "PLAYER": {}
+                }, 
                 {}, 
                 []
             ]
@@ -601,9 +607,84 @@
                 []
             ]
         }, 
-        "1178238978": {
+        "1138245635": {
             "action": [
-                574259203
+                {
+                    "action_type": "SET_VARIABLE", 
+                    "args_list": [
+                        {
+                            "arg_type": 100030, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "cur_player", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "arg_type": 100006, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_UNIT"
+                                }
+                            ], 
+                            "sub_type": "OWNER_PLAYER"
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 383438852000225, 
+                    "enable": true
+                }, 
+                {
+                    "action_type": "SET_ENTITY_KV", 
+                    "args_list": [
+                        {
+                            "arg_type": 100025, 
+                            "args_list": [
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "PLAYER", 
+                                        "cur_player", 
+                                        "local"
+                                    ]
+                                }
+                            ], 
+                            "sub_type": "VARIABLE"
+                        }, 
+                        {
+                            "arg_type": 100003, 
+                            "args_list": [
+                                "\u82f1\u96c4\u79fb\u52a8\u97f3\u6548\u64ad\u653e\u6807\u5fd7"
+                            ], 
+                            "sub_type": 1
+                        }, 
+                        {
+                            "arg_type": 100001, 
+                            "args_list": [
+                                false
+                            ], 
+                            "sub_type": 1
+                        }
+                    ], 
+                    "bp": false, 
+                    "element_id": 383438852000243, 
+                    "enable": true
+                }, 
+                [
+                    1273319447, 
+                    "\u5355\u4f4d\u79fb\u52a8\u65f6\u968f\u673a\u64ad\u653e\u97f3\u6548\u7ec4\u5185\u97f3\u6548", 
+                    1138245635, 
+                    "action_type"
+                ], 
+                383438852
             ], 
             "call_enabled": true, 
             "condition": [], 
@@ -611,39 +692,32 @@
             "event": [
                 {
                     "args_list": [], 
-                    "element_id": 1178238978000001, 
+                    "element_id": 1138245635000002, 
                     "enable": true, 
                     "event_type": "UNIT_BORN"
                 }
             ], 
             "group_id": 134280846, 
             "p_trigger_id": null, 
-            "trigger_id": 1178238978, 
-            "trigger_name": "\u97f3\u9891\u63a7\u5236", 
+            "trigger_id": 1138245635, 
+            "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668_3", 
             "valid": true, 
             "var_data": [
                 {
-                    "AUDIO_KEY": {
-                        "\u6280\u80fd\u97f3\u6548": 0
+                    "PLAYER": {
+                        "cur_player": 0
                     }
                 }, 
                 {
-                    "\u6280\u80fd\u97f3\u6548": 0
+                    "cur_player": 0
                 }, 
                 [
-                    "\u6280\u80fd\u97f3\u6548"
+                    "cur_player"
                 ]
             ]
         }
     }, 
     "trigger_group_info": [
-        {
-            "__tuple__": true, 
-            "items": [
-                574259203, 
-                "\u8f6e\u64ad"
-            ]
-        }, 
         {
             "_trigger_group_": true, 
             "group": [
@@ -664,13 +738,20 @@
                 {
                     "__tuple__": true, 
                     "items": [
-                        1178238978, 
-                        "\u97f3\u9891\u63a7\u5236"
+                        1138245635, 
+                        "\u65b0\u5efa\u89e6\u53d1\u5668_3"
                     ]
                 }
             ], 
             "key": 134280846, 
             "name": "134280846"
+        }, 
+        {
+            "__tuple__": true, 
+            "items": [
+                383438852, 
+                "\u79fb\u52a8\u8bed\u97f3"
+            ]
         }
     ], 
     "trigger_version": "1.2", 

@@ -8,34 +8,34 @@
     "icon": 100000, 
     "key": 134222942, 
     "kv": {}, 
-    "max_dist": 1000, 
+    "max_dist": 1001.0, 
     "min_dist": 0, 
     "name": 1429770065, 
     "priority": 0, 
     "sound_id": 1, 
     "sound_id_list": [
         {
-            "probability": 5, 
+            "probability": 20, 
             "sound_id": 134230300, 
             "volume": 100
         }, 
         {
-            "probability": 5, 
+            "probability": 20, 
             "sound_id": 134265960, 
             "volume": 100.0
         }, 
         {
-            "probability": 5, 
+            "probability": 20, 
             "sound_id": 134249912, 
             "volume": 100.0
         }, 
         {
-            "probability": 5, 
+            "probability": 20, 
             "sound_id": 134230892, 
             "volume": 100.0
         }, 
         {
-            "probability": 5, 
+            "probability": 20, 
             "sound_id": 134237147, 
             "volume": 100.0
         }
@@ -47,7 +47,7 @@
         "items": []
     }, 
     "total_time": 0.417361111111, 
-    "type": 1, 
+    "type": 0, 
     "uid": "134222942", 
     "volume": 100
 }
