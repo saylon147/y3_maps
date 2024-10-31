@@ -1,6 +1,6 @@
 {
     "_custom_": true, 
-    "_ref_": 134242440, 
+    "_ref_": 134244374, 
     "attached_ability": {
         "__tuple__": true, 
         "items": []
@@ -31,12 +31,10 @@
         ]
     }, 
     "body_size": 1.0, 
-    "buy_res_list": [
-        [
-            "official_res_1", 
-            10
-        ]
-    ], 
+    "buy_res_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "cd_type": "", 
     "compose_list": {
         "__tuple__": true, 
@@ -45,7 +43,7 @@
     "cur_charge": 0, 
     "cur_stack": 1, 
     "delete_on_discard": false, 
-    "description": 333260282, 
+    "description": -1958956897, 
     "disable_overlapping": false, 
     "discard_enable": true, 
     "discard_when_dead": true, 
@@ -63,10 +61,10 @@
     "fresnel_emissive_color_strength": 1, 
     "fresnel_exp": 10, 
     "hp_max": 100, 
-    "icon": 134274392, 
+    "icon": 100000, 
     "init_stock": 5, 
     "item_billboard_type": 0, 
-    "key": 134242440, 
+    "key": 134244374, 
     "kv": {}, 
     "level": 1, 
     "material_alpha": 0, 
@@ -83,18 +81,15 @@
     "max_stock": 5, 
     "maximum_charging": 5, 
     "maximum_stacking": 5, 
-    "model": 134247867, 
+    "model": 10022, 
     "model_opacity": 1, 
-    "name": 1105822352, 
-    "precondition_list": [
-        [
-            "summoner", 
-            2, 
-            1
-        ]
-    ], 
+    "name": 563672431, 
+    "precondition_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "refresh_interval": 1, 
-    "sale_enable": false, 
+    "sale_enable": true, 
     "sell_res_list": {
         "__tuple__": true, 
         "items": []
@@ -103,16 +98,16 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "stack_type": 0, 
+    "stack_type": 2, 
     "start_rft": 1, 
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
         "items": []
     }, 
-    "uid": "134242440", 
+    "uid": "134244374", 
     "use_base_tint_color": false, 
     "use_consume": 1, 
-    "use_fresnel": false, 
-    "use_virtual_light": false
+    "use_fresnel": 0, 
+    "use_virtual_light": 0
 }

@@ -1,30 +1,21 @@
 {
     "_custom_": true, 
-    "_ref_": 134249462, 
-    "attached_ability": [
-        134269014, 
-        1
-    ], 
+    "_ref_": 134263503, 
+    "attached_ability": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "attached_agility": 0.0, 
-    "attached_attack_phy": [
-        10.0, 
-        10.0, 
-        10.0, 
-        10.0, 
-        10.0
-    ], 
     "attached_critical_chance": 0.0, 
     "attached_dodge_rate": 0.0, 
     "attached_hit_rate": 0.0, 
     "attached_hp_max": 0.0, 
     "attached_hp_rec": 0.0, 
     "attached_intelligence": 0.0, 
-    "attached_passive_abilities": [
-        [
-            134229291, 
-            1
-        ]
-    ], 
+    "attached_passive_abilities": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "attached_pene_mag": 0.0, 
     "attached_pene_phy": 0.0, 
     "attached_strength": 0.0, 
@@ -52,13 +43,12 @@
     "cur_charge": 0, 
     "cur_stack": 1, 
     "delete_on_discard": false, 
-    "desc": -400484237, 
-    "description": -400484237, 
-    "disable_overlapping": true, 
+    "description": 1851130952, 
+    "disable_overlapping": false, 
     "discard_enable": true, 
-    "discard_when_dead": false, 
+    "discard_when_dead": true, 
     "drop_stay_time": 9999, 
-    "effect_list": [], 
+    "effect_list": {}, 
     "fresnel_color": {
         "__tuple__": true, 
         "items": [
@@ -71,10 +61,10 @@
     "fresnel_emissive_color_strength": 1, 
     "fresnel_exp": 10, 
     "hp_max": 100, 
-    "icon": 134274392, 
+    "icon": 100000, 
     "init_stock": 5, 
     "item_billboard_type": 0, 
-    "key": 134249462, 
+    "key": 134263503, 
     "kv": {}, 
     "level": 1, 
     "material_alpha": 0, 
@@ -90,18 +80,16 @@
     "material_color_intensity": 0, 
     "max_stock": 5, 
     "maximum_charging": 5, 
-    "maximum_stacking": 1, 
-    "model": 134247867, 
+    "maximum_stacking": 5, 
+    "model": 10022, 
     "model_opacity": 1, 
-    "name": -530865287, 
+    "name": -677034100, 
     "precondition_list": {
         "__tuple__": true, 
         "items": []
     }, 
     "refresh_interval": 1, 
-    "reward_TpcOnpaQEe+2B59FF0aru2": 0.0, 
-    "reward_official_res_1": 0.0, 
-    "sale_enable": false, 
+    "sale_enable": true, 
     "sell_res_list": {
         "__tuple__": true, 
         "items": []
@@ -110,18 +98,16 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "stack_type": 0, 
+    "stack_type": 2, 
     "start_rft": 1, 
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": [
-            "item"
-        ]
+        "items": []
     }, 
-    "uid": "134249462", 
+    "uid": "134263503", 
     "use_base_tint_color": false, 
     "use_consume": 1, 
-    "use_fresnel": 0, 
-    "use_virtual_light": 0
+    "use_fresnel": false, 
+    "use_virtual_light": false
 }

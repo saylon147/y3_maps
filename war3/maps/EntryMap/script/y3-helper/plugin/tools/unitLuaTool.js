@@ -1,10 +1,9 @@
 let y3 = require('y3-helper')
-let util = require('./utils')
 
 export async function 读取unit表格并生成修改物编() {
     //读表写入js对象
     const uri = y3.uri(y3.env.pluginUri, 'tools/config/unit.xlsx')
-    let list = await util.getExcelJson(uri);
+    let list = await getExcelJson(uri);
     //修改物编json
     let unitTable = y3.table.openTable('单位')
     for (let item of list) {
@@ -108,5 +107,72 @@ export async function 读取unit表格并生成修改物编() {
     let replaceText = oriText.split('---autocode---')[1];
     oriText = oriText.replace(replaceText, templateStr);
     await y3.fs.writeFile(y3.env.scriptUri, 'scripts/mgr/UnitMgr.lua', oriText);
+}
+
+
+async function getExcelJson(uri) {
+    let sheet = await y3.excel.loadFile(uri)
+    let keys = []
+    let ids = []
+    let list = []
+    let types = []
+    for (let i = 0; ; i++) {
+        let key = sheet.cells[String.fromCharCode(65 + i) + '1']
+        if (key) {
+            keys.push(key);
+        } else {
+            break;
+        }
+    }
+    for (let i = 0; ; i++) {
+        let type = sheet.cells[String.fromCharCode(65 + i) + '3']
+        if (type) {
+            types.push(type);
+        } else {
+            break;
+        }
+    }
+    for (let i = 4; ; i++) {
+        let key = sheet.cells['A' + i]
+        if (key) {
+            ids.push(key);
+        } else {
+            break;
+        }
+    }
+    let table = sheet.makeTable();
+    for (let i = 0; i < ids.length; i++) {
+        let obj = {};
+        for (let j = 0; j < keys.length; j++) {
+            let value = table[ids[i]][keys[j]];
+            if (types[j] == 'int') {
+                obj[keys[j]] = parseInt(value);
+            } else if (types[j] == 'float') {
+                obj[keys[j]] = Number(parseFloat(value).toFixed(2));
+            } else if (types[j] == 'int[]') {
+                let list = value.split("|");
+                let newList = [];
+                for (let z = 0; z < list.length; z++) {
+                    newList[z] = parseInt(list[z]);
+                }
+                obj[keys[j]] = newList;
+            } else if (types[j] == 'float[]') {
+                let list = value.split("|");
+                let newList = [];
+                for (let z = 0; z < list.length; z++) {
+                    newList[z] = Number(parseFloat(value).toFixed(2));
+                }
+                obj[keys[j]] = newList;
+            } else if (types[j] == 'string[]') {
+                obj[keys[j]] = value.split("|");
+            } else if (types[j] == 'string') {
+                obj[keys[j]] = value;
+            }
+
+        }
+        list.push(obj);
+    }
+    y3.print(JSON.stringify(list))
+    return list;
 }
 
