@@ -3,7 +3,7 @@
     "md5_file_list": [
         "\u5deb\u5e08.mdx"
     ],
-    "modification_time": 3460268692.974532,
+    "modification_time": 3460546818.244833,
     "ori_res_type": "ori",
     "res_type": "model",
     "source_path": "\u5deb\u5e08.mdx",
@@ -12,6 +12,6 @@
     "textures": {
         "units/Undead/Necromancer/Necromancer": "Necromancer.tga",
         "Textures/gutz": "gutz.tga",
-        "ReplaceableTextures/Weather/Clouds8x8": "Clouds8x8.tga"
+        "ReplaceableTextures/Weather/Clouds8x8": "Mod2.png"
     }
 }

@@ -32,7 +32,7 @@
         }, 
         1.0, 
         {
-            "anim": "Stand -1", 
+            "anim": "walk", 
             "base_color_mod": 1, 
             "base_tint_color": [
                 255, 
@@ -41,7 +41,7 @@
                 0.5
             ], 
             "is_loop": true, 
-            "model": 134254724, 
+            "model": 134256080, 
             "model_opacity": 1.0, 
             "offset": {
                 "__tuple__": true, 
@@ -98,7 +98,7 @@
         }, 
         1.0, 
         {
-            "anim": "Stand -1", 
+            "anim": "walk", 
             "base_color_mod": 1, 
             "base_tint_color": [
                 255, 
@@ -107,7 +107,7 @@
                 0.5
             ], 
             "is_loop": true, 
-            "model": 134254724, 
+            "model": 134256080, 
             "model_opacity": 1.0, 
             "offset": {
                 "__tuple__": true, 
