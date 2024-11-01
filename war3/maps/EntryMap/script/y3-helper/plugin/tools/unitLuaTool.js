@@ -160,7 +160,7 @@ async function getExcelJson(uri) {
                 let list = value.split("|");
                 let newList = [];
                 for (let z = 0; z < list.length; z++) {
-                    newList[z] = Number(parseFloat(value).toFixed(2));
+                    newList[z] = Number(parseFloat(list[z]).toFixed(2));
                 }
                 obj[keys[j]] = newList;
             } else if (types[j] == 'string[]') {
