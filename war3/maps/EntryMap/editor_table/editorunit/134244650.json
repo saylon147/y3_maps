@@ -212,7 +212,7 @@
         }
     }, 
     "level": 1, 
-    "main_attr": "\u529b\u91cf", 
+    "main_attr": "none", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
     "mini_map_icon": 134269243, 
@@ -274,6 +274,7 @@
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
     "reward_exp": 50, 
+    "reward_oPqZpJg2Ee+gVCl59hwJ6I": 0.0, 
     "reward_official_res_1": 50.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 10.0, 
