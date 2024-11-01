@@ -316,7 +316,7 @@
         "cast_interrupt": false, 
         "cast_sound": 0, 
         "collection_destructible_tags": [], 
-        "critical_anim": "Death", 
+        "critical_anim": "Spell Attack", 
         "damage": {
             "__tuple__": true, 
             "items": [
