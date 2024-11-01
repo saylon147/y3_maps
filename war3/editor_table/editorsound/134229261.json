@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134229261", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134229261, 
+    "md5": "3f049c7d3c7e0e0e8cd2cfa598c853ba", 
+    "name": "GhoulDeath", 
+    "res_name": "GhoulDeath.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134229261, 
+    "version": 1
+}

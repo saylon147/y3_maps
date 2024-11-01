@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134237527", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134237527, 
+    "md5": "5bf19368b2c66293eb930eeeea6a05d3", 
+    "name": "CryptLordAttackEffort2", 
+    "res_name": "CryptLordAttackEffort2.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134237527, 
+    "version": 1
+}

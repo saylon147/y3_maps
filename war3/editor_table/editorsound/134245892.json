@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134245892", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134245892, 
+    "md5": "8d6b8312bd4e600430c39a0ec81817ab", 
+    "name": "HeroLichDeath1", 
+    "res_name": "HeroLichDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134245892, 
+    "version": 1
+}

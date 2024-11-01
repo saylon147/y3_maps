@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134242837", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134242837, 
+    "md5": "4fb7a085c21eb3b3c20d1e765dca8cbe", 
+    "name": "CryptFiendMissileHit1", 
+    "res_name": "CryptFiendMissileHit1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134242837, 
+    "version": 1
+}

@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134263728", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134263728, 
+    "md5": "414f33060ea1fbaa0fa0675c7961eeb2", 
+    "name": "HeroDreadlordYesAttack1", 
+    "res_name": "HeroDreadlordYesAttack1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134263728, 
+    "version": 1
+}

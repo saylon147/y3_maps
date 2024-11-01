@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134269989", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134269989, 
+    "md5": "a9c6c20866476227450e66af1dbb215f", 
+    "name": "DarkRangerDeath1", 
+    "res_name": "DarkRangerDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134269989, 
+    "version": 1
+}

@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134271135", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134271135, 
+    "md5": "6b541f084d48c30844f0d5961f3afb1b", 
+    "name": "HeroLichAttack1", 
+    "res_name": "HeroLichAttack1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134271135, 
+    "version": 1
+}

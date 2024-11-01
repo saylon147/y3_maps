@@ -98,7 +98,7 @@
     "description": 329758551, 
     "destroy_after_die": true, 
     "die_anim": "die", 
-    "disk_shadow_size": 0, 
+    "disk_shadow_size": 20.0, 
     "dmg_reduction": 0.0, 
     "dmg_reduction_grow": 0.0, 
     "dodge_rate": 0.0, 
@@ -164,7 +164,7 @@
     "is_apply_role_color": true, 
     "is_mini_map_show": true, 
     "is_open_Xray": false, 
-    "is_open_disk_shadow": 0, 
+    "is_open_disk_shadow": false, 
     "is_open_outline_pass": false, 
     "is_shop": false, 
     "is_x_offset": 1, 
@@ -374,13 +374,18 @@
     }, 
     "sound_event_list": [
         [
-            "UNIT_START_MOVE", 
-            134249807, 
+            "UNIT_DIE", 
+            134251040, 
             8
         ], 
         [
-            "UNIT_ON_COMMAND", 
-            134240668, 
+            "REVIVE_UNIT", 
+            134243621, 
+            8
+        ], 
+        [
+            "UPGRADE_UNIT", 
+            134225736, 
             8
         ]
     ], 

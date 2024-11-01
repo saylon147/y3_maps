@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134228842", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134228842, 
+    "md5": "3d403fcc0dc780e4542f9ff98003f898", 
+    "name": "FootmanDeath", 
+    "res_name": "FootmanDeath.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134228842, 
+    "version": 1
+}

@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134245470", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134245470, 
+    "md5": "e8fe1fc5595a0826672bf4e2581b523d", 
+    "name": "GryphonRiderDeath1", 
+    "res_name": "GryphonRiderDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134245470, 
+    "version": 1
+}

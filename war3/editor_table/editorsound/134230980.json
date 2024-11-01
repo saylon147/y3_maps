@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134230980", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134230980, 
+    "md5": "4f639d41cda80b0c38b440e6aa1314b9", 
+    "name": "TaurenDeath1", 
+    "res_name": "TaurenDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134230980, 
+    "version": 1
+}

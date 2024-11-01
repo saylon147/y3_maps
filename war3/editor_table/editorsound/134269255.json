@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134269255", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134269255, 
+    "md5": "69c0fc9e6be2bdd67175af665797a1c7", 
+    "name": "HeroDreadLordDeath", 
+    "res_name": "HeroDreadLordDeath.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134269255, 
+    "version": 1
+}

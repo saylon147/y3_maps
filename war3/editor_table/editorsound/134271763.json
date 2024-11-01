@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134271763", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134271763, 
+    "md5": "ec768f032d4f5e71759a2e8af8675414", 
+    "name": "PitFiendDeath1", 
+    "res_name": "PitFiendDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134271763, 
+    "version": 1
+}
