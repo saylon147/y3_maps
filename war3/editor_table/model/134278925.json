@@ -1,0 +1,23 @@
+{
+    "mdx_path": "Mdx\\\u5929\u7a7a\u76d2.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "Textures/megaWrap512"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134278925, 
+    "name": "Mdx\\\u5929\u7a7a\u76d2", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5929\u7a7a\u76d2.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            21.931625366210938, 
+            39.11750030517578
+        ]
+    }
+}

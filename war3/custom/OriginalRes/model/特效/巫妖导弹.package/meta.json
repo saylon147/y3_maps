@@ -1,0 +1,18 @@
+{
+    "id": 134241150,
+    "md5_file_list": [
+        "\u5deb\u5996\u5bfc\u5f39.mdx"
+    ],
+    "modification_time": 3460883920.752734,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5deb\u5996\u5bfc\u5f39.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Blue_Glow2": "Blue_Glow2.tga",
+        "Textures/Ice": "Ice.tga",
+        "Textures/Frost3": "Frost3.tga",
+        "Textures/Dust5A": "Dust5A.tga"
+    }
+}
