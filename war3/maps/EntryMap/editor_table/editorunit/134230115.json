@@ -223,7 +223,7 @@
     "model": 134244627, 
     "model_height": 2.5, 
     "model_opacity": 1, 
-    "move_channel": 0, 
+    "move_channel": 1, 
     "move_limitation": 1, 
     "move_type": 40, 
     "mp_color": "Blue", 

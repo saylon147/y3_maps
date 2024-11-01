@@ -216,7 +216,7 @@
         }
     }, 
     "level": 1, 
-    "main_attr": "\u529b\u91cf", 
+    "main_attr": "none", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
     "mini_map_icon": 134269243, 
@@ -224,7 +224,7 @@
     "model": 134280062, 
     "model_height": 2.5, 
     "model_opacity": 1, 
-    "move_channel": 0, 
+    "move_channel": 1, 
     "move_limitation": 1, 
     "move_type": 40, 
     "mp_color": "Blue", 
