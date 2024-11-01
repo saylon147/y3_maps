@@ -443,10 +443,13 @@ function hudPanel:initShopLogic()
                         local id = itemTemplate.id
                         local itemName = itemTemplate.name
                         shopDescUI:get_child('name'):set_text(itemName)
-                        if itemTemplate.priceType == 'wood' then
-                            shopDescUI:get_child('price.icon1'):set_image(134233244)
+                        print(itemTemplate.price_type)
+                        if itemTemplate.price_type == 'wood' then
+                            shopDescUI:get_child('price.icon1'):set_visible(false)
+                            shopDescUI:get_child('price.icon2'):set_visible(true)
                         else
-                            shopDescUI:get_child('price.icon1'):set_image(134253341)
+                            shopDescUI:get_child('price.icon1'):set_visible(true)
+                            shopDescUI:get_child('price.icon2'):set_visible(false)
                         end
 
                         shopDescUI:get_child('price'):set_text(tostring(itemTemplate.price))
