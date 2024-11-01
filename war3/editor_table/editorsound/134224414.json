@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134224414", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134224414, 
+    "md5": "bf5a2a2ea92023bcb50137e399c6936a", 
+    "name": "ShadowHunterWhat4", 
+    "res_name": "ShadowHunterWhat4.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134224414, 
+    "version": 1
+}

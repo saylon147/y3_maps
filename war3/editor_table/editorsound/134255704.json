@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134255704", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134255704, 
+    "md5": "e347332c5397142adc83e77715d09596", 
+    "name": "ShadowHunterWarcry1", 
+    "res_name": "ShadowHunterWarcry1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134255704, 
+    "version": 1
+}

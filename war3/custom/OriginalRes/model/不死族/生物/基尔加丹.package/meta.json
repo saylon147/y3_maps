@@ -1,0 +1,17 @@
+{
+    "id": 134265969,
+    "md5_file_list": [
+        "\u57fa\u5c14\u52a0\u4e39.mdx"
+    ],
+    "modification_time": 3461052141.4790554,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u57fa\u5c14\u52a0\u4e39.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Kiljaeden": "Kiljaeden.tga",
+        "Textures/Clouds8x8": "Clouds8x8.tga",
+        "Textures/Clouds8x8Black": "Clouds8x8Black.tga"
+    }
+}

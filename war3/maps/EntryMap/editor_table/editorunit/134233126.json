@@ -250,14 +250,14 @@
         "ability_animations": [
             "Attack"
         ], 
-        "ability_bw_point": 0.9, 
+        "ability_bw_point": 1.1, 
         "ability_cast_point": 0.2, 
         "attack_interval": 1.0, 
         "attack_range": 5.0, 
         "attack_trajectory": {
             "destroy_immediately": false, 
             "duration": -1.0, 
-            "effect": 102304, 
+            "effect": 134276871, 
             "follow_scale": true, 
             "scale": 0.5, 
             "socket": "atk", 
@@ -265,7 +265,7 @@
         }, 
         "cast_effect_list": [], 
         "cast_interrupt": false, 
-        "cast_sound": 0, 
+        "cast_sound": 134273089, 
         "collection_destructible_tags": [], 
         "critical_anim": "Attack", 
         "damage": {
@@ -302,7 +302,7 @@
         "filter_item_tags": [], 
         "filter_unit_tags": [], 
         "hit_effect": {
-            "effect": 102295, 
+            "effect": 134252892, 
             "follow_scale": true, 
             "scale": 0.6, 
             "socket": "hit_point"

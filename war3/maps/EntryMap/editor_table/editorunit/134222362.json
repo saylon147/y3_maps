@@ -266,7 +266,7 @@
         }, 
         "cast_effect_list": [], 
         "cast_interrupt": false, 
-        "cast_sound": 0, 
+        "cast_sound": 134258078, 
         "collection_destructible_tags": [], 
         "critical_anim": "Attack - 2", 
         "damage": {

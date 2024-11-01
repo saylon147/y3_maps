@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134259446", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134259446, 
+    "md5": "e9ea66d888c8f1b409583d943d02396a", 
+    "name": "InfernalDeath", 
+    "res_name": "InfernalDeath.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134259446, 
+    "version": 1
+}

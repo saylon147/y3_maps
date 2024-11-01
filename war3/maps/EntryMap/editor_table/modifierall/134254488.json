@@ -53,10 +53,13 @@
     "shield_type": 1, 
     "shield_value": 0.0, 
     "show_on_ui": true, 
-    "sound_event_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "sound_event_list": [
+        [
+            "OBTAIN_MODIFIER", 
+            134278441, 
+            8
+        ]
+    ], 
     "suffix": "", 
     "tags": {
         "__tuple__": true, 

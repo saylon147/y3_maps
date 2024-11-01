@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134268331", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134268331, 
+    "md5": "af6b01ced817417c0e30ff592a65704c", 
+    "name": "HeroShadowHunterDeath", 
+    "res_name": "HeroShadowHunterDeath.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134268331, 
+    "version": 1
+}

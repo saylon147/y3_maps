@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134263264", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134263264, 
+    "md5": "0c210a39c67e5a10e6ffc73067db8a00", 
+    "name": "InfernalAttack1", 
+    "res_name": "InfernalAttack1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134263264, 
+    "version": 1
+}
