@@ -82,7 +82,7 @@
             1
         ]
     }, 
-    "common_atk_type": 1, 
+    "common_atk_type": 0, 
     "content": "strength", 
     "copper coin": 0, 
     "counterattack_range": 0, 
@@ -215,7 +215,7 @@
         }
     }, 
     "level": 1, 
-    "main_attr": "\u529b\u91cf", 
+    "main_attr": "none", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
     "mini_map_icon": 134269243, 
@@ -277,6 +277,7 @@
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
     "reward_exp": 5, 
+    "reward_oPqZpJg2Ee+gVCl59hwJ6I": 0.0, 
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 10.0, 
