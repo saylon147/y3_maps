@@ -111,6 +111,19 @@ function hudPanel:initLogic()
         end
     end)
 
+    self.uiLogic:on_refresh('HUD.Console.Data.middle.状态栏.生物.攻击.攻击力.攻击值', function(ui, local_player)
+        local unit = local_player:get_selecting_unit()
+        if unit then
+            local minAtk = unit:get_attr("物理攻击")
+            local maxAtk = FW.unitMgr:calMaxAttack_phy(unit)
+            if maxAtk == minAtk then
+                ui:set_text(tostring(minAtk))
+            else
+                ui:set_text(string.format('%d ~ %d', minAtk, maxAtk))
+            end
+        end
+    end)
+
     --更新技能栏
     self.uiLogic:on_refresh('HUD.Console.Data.right.技能栏', function(ui, local_player)
         local unit = local_player:get_selecting_unit()
