@@ -41,7 +41,7 @@
     "billboard_scale_y": 1, 
     "blood_bar": 327681, 
     "blood_show_type": 0, 
-    "body_size": 1.2, 
+    "body_size": 1.0, 
     "build_ignore_dyn_collision": false, 
     "build_res_cost_list": {
         "__tuple__": true, 
@@ -174,7 +174,56 @@
     "keep_dead_body_time": 0.0, 
     "keep_target": true, 
     "key": 134259299, 
-    "kv": {}, 
+    "kv": {
+        "attack_phy_float": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "attack_phy_float", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "show_in_attr": false, 
+            "sort": 0, 
+            "type": 0, 
+            "value": "5"
+        }, 
+        "attack_phy_float_grow": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "attack_phy_float_grow", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "show_in_attr": false, 
+            "sort": 1, 
+            "type": 0, 
+            "value": "0"
+        }, 
+        "lua_name": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "lua_name", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "show_in_attr": false, 
+            "sort": 2, 
+            "type": 0, 
+            "value": "hayx"
+        }, 
+        "unit_type": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "unit_type", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "show_in_attr": false, 
+            "sort": 3, 
+            "type": 0, 
+            "value": "followHero"
+        }
+    }, 
     "level": 1, 
     "main_attr": "strength", 
     "max_balance_angle": 75, 

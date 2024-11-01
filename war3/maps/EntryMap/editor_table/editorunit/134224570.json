@@ -173,7 +173,7 @@
     "max_balance_angle": 0, 
     "max_stock": 5, 
     "mini_map_icon": 108196, 
-    "mini_map_icon_scale": 0.7, 
+    "mini_map_icon_scale": 0.5, 
     "model": 201642, 
     "model_height": 0.0, 
     "model_opacity": 1, 
