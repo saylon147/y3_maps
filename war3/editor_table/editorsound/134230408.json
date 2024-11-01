@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134230408", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134230408, 
+    "md5": "3310df0db47c5329f91a2448da84d22c", 
+    "name": "FrostwyrmAttack1", 
+    "res_name": "FrostwyrmAttack1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134230408, 
+    "version": 1
+}

@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134235729", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134235729, 
+    "md5": "19a286dfe20d1ee1a710cb2164f553eb", 
+    "name": "GargoyleDeathAlternate1", 
+    "res_name": "GargoyleDeathAlternate1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134235729, 
+    "version": 1
+}

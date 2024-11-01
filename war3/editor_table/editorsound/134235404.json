@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134235404", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134235404, 
+    "md5": "e36885c116f23d7f14793f197c06dd2c", 
+    "name": "RiflemanAttack1", 
+    "res_name": "RiflemanAttack1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134235404, 
+    "version": 1
+}

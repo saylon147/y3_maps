@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134238535", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134238535, 
+    "md5": "1ced0ba1938cbeeea53a808566566b4d", 
+    "name": "DarkRangerWhat2", 
+    "res_name": "DarkRangerWhat2.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134238535, 
+    "version": 1
+}

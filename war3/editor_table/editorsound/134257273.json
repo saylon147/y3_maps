@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134257273", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134257273, 
+    "md5": "be3e0da5181b8f78257753ac694f15a8", 
+    "name": "DarkRangerWarcry1", 
+    "res_name": "DarkRangerWarcry1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134257273, 
+    "version": 1
+}

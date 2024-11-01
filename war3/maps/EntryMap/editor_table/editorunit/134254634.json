@@ -100,7 +100,7 @@
     "description": 1398431447, 
     "destroy_after_die": true, 
     "die_anim": "die", 
-    "disk_shadow_size": 0, 
+    "disk_shadow_size": 20.0, 
     "dmg_reduction": 0.0, 
     "dmg_reduction_grow": 0.0, 
     "dodge_rate": 0.0, 
@@ -156,7 +156,7 @@
     "is_apply_role_color": true, 
     "is_mini_map_show": true, 
     "is_open_Xray": false, 
-    "is_open_disk_shadow": 0, 
+    "is_open_disk_shadow": false, 
     "is_open_outline_pass": false, 
     "is_shop": false, 
     "is_x_offset": 1, 
@@ -318,10 +318,13 @@
         "trajectory_radian": 1.0, 
         "trajectory_speed": 1000.0
     }, 
-    "sound_event_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "sound_event_list": [
+        [
+            "UNIT_DIE", 
+            134226066, 
+            8
+        ]
+    ], 
     "special_idle_anim": "hold", 
     "speed_ratio_in_turn": 1, 
     "standard_walk_rate": 40.0, 

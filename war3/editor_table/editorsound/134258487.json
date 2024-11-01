@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134258487", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134258487, 
+    "md5": "0db854c26a5e091dc303f457fe85c268", 
+    "name": "CryptLordDeath1", 
+    "res_name": "CryptLordDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134258487, 
+    "version": 1
+}

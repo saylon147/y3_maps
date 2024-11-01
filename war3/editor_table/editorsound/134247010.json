@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134247010", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134247010, 
+    "md5": "55c0e83acfcbd224ca69787f68a828c2", 
+    "name": "Warstomp", 
+    "res_name": "Warstomp.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134247010, 
+    "version": 1
+}

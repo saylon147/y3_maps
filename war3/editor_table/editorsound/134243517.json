@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134243517", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134243517, 
+    "md5": "887cc728e01fe1598febbb3b2ac2fe70", 
+    "name": "AbominationDeath1", 
+    "res_name": "AbominationDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134243517, 
+    "version": 1
+}
