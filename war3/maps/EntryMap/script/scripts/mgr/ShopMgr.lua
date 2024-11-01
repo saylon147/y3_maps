@@ -4,7 +4,7 @@ local shopMgr = Class 'shopMgr'
 ---@enum(key) FW.shopMgr.shopType
 ---autocode---
 shopMgr.shopTemplate = {
-    ['雇佣兵营地'] = require 'scripts.shop.shop_gybyd',
+	['雇佣兵营地'] = require 'scripts.shop.shop_gybyd',
 }
 ---autocode---
 
