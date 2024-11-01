@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134218864", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134218864, 
+    "md5": "1344d34024878d9851c3b668952b2820", 
+    "name": "ArrowAttack1", 
+    "res_name": "ArrowAttack1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134218864, 
+    "version": 1
+}

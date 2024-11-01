@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134231528", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134231528, 
+    "md5": "ac4171431a0bfff2073906fe1e79479b", 
+    "name": "HeroShadowhunterMissileLaunch1", 
+    "res_name": "HeroShadowhunterMissileLaunch1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134231528, 
+    "version": 1
+}

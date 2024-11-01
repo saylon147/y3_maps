@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134273255", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134273255, 
+    "md5": "b330d2b890bc21b069b86c9065cd3864", 
+    "name": "WarlockDeath1", 
+    "res_name": "WarlockDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134273255, 
+    "version": 1
+}

@@ -35,7 +35,7 @@
             0.5
         ]
     }, 
-    "billboard_height_offset": 0, 
+    "billboard_height_offset": 0.5, 
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1, 
     "billboard_scale_y": 1, 

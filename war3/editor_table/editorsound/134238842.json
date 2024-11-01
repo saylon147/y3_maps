@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134238842", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134238842, 
+    "md5": "a06bcee2de37e2fe57895fbcfcbae296", 
+    "name": "AlchemistEffort2", 
+    "res_name": "AlchemistEffort2.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134238842, 
+    "version": 1
+}

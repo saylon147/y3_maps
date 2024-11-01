@@ -263,7 +263,7 @@
         }, 
         "cast_effect_list": [], 
         "cast_interrupt": false, 
-        "cast_sound": 0, 
+        "cast_sound": 134235667, 
         "collection_destructible_tags": [], 
         "critical_anim": "Attack", 
         "damage": {
@@ -300,7 +300,7 @@
         "filter_item_tags": [], 
         "filter_unit_tags": [], 
         "hit_effect": {
-            "effect": 100806, 
+            "effect": 134247439, 
             "follow_scale": true, 
             "scale": 0.2, 
             "socket": "hit_point"

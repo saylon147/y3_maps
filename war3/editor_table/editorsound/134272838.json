@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134272838", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134272838, 
+    "md5": "a5d6800e15b27444a125f80961a48af3", 
+    "name": "InfernalBirth1", 
+    "res_name": "InfernalBirth1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134272838, 
+    "version": 1
+}

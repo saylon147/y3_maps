@@ -11,6 +11,11 @@ M.type = 'summoner'
 
 
 
+
+
+
+
+
 M.template:event("单位-死亡",function (trg, data)
     
 end)
@@ -19,6 +24,11 @@ end)
 local function addAbilitys(unit)
     
 end
+
+
+
+
+
 
 
 

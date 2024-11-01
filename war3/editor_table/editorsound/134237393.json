@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134237393", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134237393, 
+    "md5": "fd91f73fbdeffdc3da1a58f9d9a86451", 
+    "name": "AlchemistMorph1_1", 
+    "res_name": "AlchemistMorph1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134237393, 
+    "version": 1
+}

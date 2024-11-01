@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134239751", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134239751, 
+    "md5": "f3d54abd97f8bcbb8234e1a4450b8c65", 
+    "name": "WarStompBirth1", 
+    "res_name": "WarStompBirth1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134239751, 
+    "version": 1
+}

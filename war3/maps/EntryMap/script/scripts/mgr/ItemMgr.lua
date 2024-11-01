@@ -14,22 +14,6 @@ function itemMgr:createItem(owner, type, point)
     return item
 end
 
----输入物品名返回其购买价格
----@param name FW.itemMgr.itemType # 物品名
----@param moneyType string 货币类型
----@return number? # 对应的价格
-function itemMgr:getItemPriceByName(name, moneyType)
-    local price = y3.item.get_item_buy_price_by_key(self.itemTemplate[name].id, moneyType)
-    return price
-end
-
----输入物品名返回其key
----@param name FW.itemMgr.itemType # 物品名
----@return py.ItemKey? key# 物品id
-function itemMgr:getItemIdByName(name)
-    return self.itemTemplate[name].id
-end
-
 ---注册合成配方
 ---@param result any # 合成目标 "target"
 ---@param ingredients any[] # 合成素材 {"material1", "material2", "material3"}

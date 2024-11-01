@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134268872", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134268872, 
+    "md5": "10667dd239a3ceeb27aa0fd678e2dafb", 
+    "name": "AncestralGuardianAttack1", 
+    "res_name": "AncestralGuardianAttack1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134268872, 
+    "version": 1
+}

@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134251723", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134251723, 
+    "md5": "29c755f878555713738d7d2d73492199", 
+    "name": "HeroShadowhunterMissileHit1", 
+    "res_name": "HeroShadowhunterMissileHit1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134251723, 
+    "version": 1
+}

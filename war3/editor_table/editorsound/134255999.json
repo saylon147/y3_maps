@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134255999", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134255999, 
+    "md5": "41d6477f3cbeedd7997f0bf4bff10112", 
+    "name": "MountainGiantDeath1", 
+    "res_name": "MountainGiantDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134255999, 
+    "version": 1
+}

@@ -213,10 +213,7 @@
     }, 
     "show_building_attack_range": false, 
     "sight_type": 4, 
-    "sound_event_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "sound_event_list": [], 
     "sp_count_down": false, 
     "sp_sfx_list": {
         "__tuple__": true, 

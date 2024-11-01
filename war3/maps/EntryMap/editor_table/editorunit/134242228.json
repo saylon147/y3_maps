@@ -278,6 +278,7 @@
     "resilience": 0.0, 
     "resilience_grow": 0.0, 
     "reward_exp": 5, 
+    "reward_oPqZpJg2Ee+gVCl59hwJ6I": 0.0, 
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
     "rotate_speed": 9.42, 
@@ -313,7 +314,7 @@
         }, 
         "cast_effect_list": [], 
         "cast_interrupt": false, 
-        "cast_sound": 0, 
+        "cast_sound": 134250073, 
         "collection_destructible_tags": [], 
         "critical_anim": "Alternate Attack -1", 
         "damage": {

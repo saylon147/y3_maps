@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134271113", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134271113, 
+    "md5": "0fd30f1368a80c6894c1121ef177f110", 
+    "name": "ArcherDeath1", 
+    "res_name": "ArcherDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134271113, 
+    "version": 1
+}

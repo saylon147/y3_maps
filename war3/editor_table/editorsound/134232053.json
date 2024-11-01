@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134232053", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134232053, 
+    "md5": "648be10391384898a81eca9ee27d6267", 
+    "name": "AlchemistChemicalBurst1", 
+    "res_name": "AlchemistChemicalBurst1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134232053, 
+    "version": 1
+}

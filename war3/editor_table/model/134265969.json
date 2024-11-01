@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u57fa\u5c14\u52a0\u4e39.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Demon/Warlock//WarlockDeath1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav", 
+        "sound/Sound/Units/Footsteps//Step1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Kiljaeden", 
+        "Textures/Clouds8x8", 
+        "Textures/Clouds8x8Black"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134265969, 
+    "name": "Mdx\\\u57fa\u5c14\u52a0\u4e39", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u57fa\u5c14\u52a0\u4e39.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.2168009281158447, 
+            2.419182777404785
+        ]
+    }
+}

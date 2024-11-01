@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134249876", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134249876, 
+    "md5": "551afcea049a0b6021b531579ee337e9", 
+    "name": "ArrowImpact", 
+    "res_name": "ArrowImpact.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134249876, 
+    "version": 1
+}

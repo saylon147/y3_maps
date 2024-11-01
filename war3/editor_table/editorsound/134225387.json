@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134225387", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134225387, 
+    "md5": "98b7a9f1e0a1ecf7a9f66688eaf5b553", 
+    "name": "HeroDeathKnightDeath", 
+    "res_name": "HeroDeathKnightDeath.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134225387, 
+    "version": 1
+}

@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134235503", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134235503, 
+    "md5": "71ed9569d1aa717a9766f6b833e7970d", 
+    "name": "HeroPItLordAttack3", 
+    "res_name": "HeroPItLordAttack3.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134235503, 
+    "version": 1
+}
