@@ -1,0 +1,18 @@
+{
+    "id": 134219757,
+    "md5_file_list": [
+        "\u5730\u7a74\u9886\u4e3b.mdx"
+    ],
+    "modification_time": 3461175979.8384223,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5730\u7a74\u9886\u4e3b.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/HeroCryptLord": "HeroCryptLord.tga",
+        "ReplaceableTextures/Splats/ThornyShieldUberSplat": "ThornyShieldUberSplat.tga",
+        "Textures/RibbonBlur1": "RibbonBlur1.tga",
+        "Textures/Dust5A": "Dust5A.tga"
+    }
+}

@@ -153,7 +153,7 @@
     "init_stock": 5, 
     "intelligence": 10.0, 
     "intelligence_grow": 1.0, 
-    "is_apply_role_color": false, 
+    "is_apply_role_color": true, 
     "is_mini_map_show": true, 
     "is_open_Xray": false, 
     "is_open_disk_shadow": 0, 
