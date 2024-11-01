@@ -366,10 +366,13 @@
         "trajectory_radian": 1.0, 
         "trajectory_speed": 1000.0
     }, 
-    "sound_event_list": {
-        "__tuple__": true, 
-        "items": []
-    }, 
+    "sound_event_list": [
+        [
+            "UNIT_DIE", 
+            134253422, 
+            8
+        ]
+    ], 
     "special_idle_anim": "idle2", 
     "speed_ratio_in_turn": 1, 
     "standard_walk_rate": 40.0, 

@@ -1,0 +1,15 @@
+{
+    "Format": "wav", 
+    "IsCustom": true, 
+    "SoundPath": "134242506", 
+    "custom_editor_type": "custom_editor_sound", 
+    "describe": "", 
+    "key": 134242506, 
+    "md5": "435943063e493b37ea4201f14263e765", 
+    "name": "FaerieDragonDeath1", 
+    "res_name": "FaerieDragonDeath1.wav", 
+    "source": "code_Source_Import", 
+    "sub_type": "sound", 
+    "uid": 134242506, 
+    "version": 1
+}
