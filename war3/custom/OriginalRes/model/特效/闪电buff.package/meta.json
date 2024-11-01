@@ -1,0 +1,16 @@
+{
+    "id": 134267818,
+    "md5_file_list": [
+        "\u95ea\u7535buff.mdx"
+    ],
+    "modification_time": 3460872797.6581035,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u95ea\u7535buff.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/Blue_Glow2": "Blue_Glow2.tga",
+        "Textures/Zap1": "Zap1.tga"
+    }
+}
