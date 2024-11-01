@@ -1,0 +1,19 @@
+{
+    "id": 134262170,
+    "md5_file_list": [
+        "\u77f3\u7891.mdx"
+    ],
+    "modification_time": 3460934543.571803,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u77f3\u7891.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "objects/InventoryItems/Glyph/Glyph": "Glyph.tga",
+        "Textures/GenericGlow64": "GenericGlow64.tga",
+        "Textures/Red_star3": "Red_star3.tga",
+        "Textures/grad6": "grad6.tga",
+        "Textures/Yellow_Star": "Yellow_Star.tga"
+    }
+}

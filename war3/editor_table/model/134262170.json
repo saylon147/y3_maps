@@ -1,0 +1,27 @@
+{
+    "mdx_path": "Mdx\\\u77f3\u7891.mdx", 
+    "mdx_sounds": [], 
+    "mdx_textures": [
+        "objects/InventoryItems/Glyph/Glyph", 
+        "Textures/GenericGlow64", 
+        "Textures/Red_star3", 
+        "Textures/grad6", 
+        "Textures/Yellow_Star"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134262170, 
+    "name": "Mdx\\\u77f3\u7891", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u77f3\u7891.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.3233259916305542, 
+            1.9759632349014282
+        ]
+    }
+}
