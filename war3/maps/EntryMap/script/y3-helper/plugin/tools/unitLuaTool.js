@@ -150,21 +150,34 @@ async function getExcelJson(uri) {
             } else if (types[j] == 'float') {
                 obj[keys[j]] = Number(parseFloat(value).toFixed(2));
             } else if (types[j] == 'int[]') {
-                let list = value.split("|");
-                let newList = [];
-                for (let z = 0; z < list.length; z++) {
-                    newList[z] = parseInt(list[z]);
+                if(value == "" || value == null){
+                    obj[keys[j]] = null
+                } else {
+                    let list = value.split("|");
+                    let newList = [];
+                    for (let z = 0; z < list.length; z++) {
+                        newList[z] = parseInt(list[z]);
+                    }
+                    obj[keys[j]] = newList;
                 }
-                obj[keys[j]] = newList;
+
             } else if (types[j] == 'float[]') {
-                let list = value.split("|");
-                let newList = [];
-                for (let z = 0; z < list.length; z++) {
-                    newList[z] = Number(parseFloat(list[z]).toFixed(2));
+                if(value == "" || value == null){
+                    obj[keys[j]] = null
+                } else {
+                    let list = value.split("|");
+                    let newList = [];
+                    for (let z = 0; z < list.length; z++) {
+                        newList[z] = Number(parseFloat(list[z]).toFixed(2));
+                    }
+                    obj[keys[j]] = newList;
                 }
-                obj[keys[j]] = newList;
             } else if (types[j] == 'string[]') {
-                obj[keys[j]] = value.split("|");
+                if(value == "" || value == null){
+                    obj[keys[j]] = null
+                } else {
+                    obj[keys[j]] = value.split("|");
+                }
             } else if (types[j] == 'string') {
                 obj[keys[j]] = value;
             }

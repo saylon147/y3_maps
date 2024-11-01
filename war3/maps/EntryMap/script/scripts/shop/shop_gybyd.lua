@@ -1,22 +1,11 @@
 --雇佣兵营地
 local M = {}
 M.id = 134257687
-M.template = y3.object.unit[M.id] --物编信息
+M.lua_name = 'gybyd'
+M.name = '雇佣兵营地'
+M.desc = '描述'
+M.template = y3.object.item[M.id] --物编信息
 
-M.items = {
-    {
-        itemTemplate = FW.itemMgr.itemTemplate['木材'],
-        priceType = 'gold'
-    },
-    {
-        itemTemplate = FW.itemMgr.itemTemplate['金币'],
-        priceType = 'wood'
-    },
-    {
-        itemTemplate = FW.itemMgr.itemTemplate['经验'],
-        priceType = 'gold'
-    },
-}
 
 ---@param owner Player|Unit
 ---@param point Point 点
