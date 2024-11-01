@@ -76,7 +76,7 @@
         134270852, 
         1
     ], 
-    "common_atk_type": 2, 
+    "common_atk_type": 0, 
     "content": "strength", 
     "copper coin": 0, 
     "counterattack_range": 0, 
@@ -219,7 +219,7 @@
         }
     }, 
     "level": 1, 
-    "main_attr": "none", 
+    "main_attr": "力量", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
     "mini_map_icon": 134265040, 
