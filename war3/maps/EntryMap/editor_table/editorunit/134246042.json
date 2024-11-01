@@ -1,28 +1,28 @@
 {
     "_custom_": true, 
-    "_ref_": 134243024, 
+    "_ref_": 134246042, 
     "affect_techs": {
         "__tuple__": true, 
         "items": []
     }, 
-    "agility": 0, 
-    "agility_grow": 0, 
+    "agility": 0.0, 
+    "agility_grow": 0.0, 
     "alarm_range": 8.0, 
     "angle_tolerance": 0, 
     "anim_state_name": "", 
-    "armor_type": 20004, 
-    "attack_interval": 1.0, 
+    "armor_type": 20000, 
+    "attack_interval": 1, 
     "attack_interval_grow": 0, 
     "attack_mag": 0.0, 
     "attack_mag_grow": 0.0, 
-    "attack_phy": 25, 
-    "attack_phy_grow": 0, 
-    "attack_range": 1.0, 
+    "attack_phy": 0.0, 
+    "attack_phy_grow": 0.0, 
+    "attack_range": 1, 
     "attack_range_grow": 0, 
-    "attack_speed": 80.0, 
-    "attack_speed_grow": 5.0, 
-    "attack_type": 10003, 
-    "bar_show_name": 2, 
+    "attack_speed": 65.0, 
+    "attack_speed_grow": 0.0, 
+    "attack_type": 10000, 
+    "bar_show_name": 0, 
     "bar_show_scale": true, 
     "bar_slot_size": 6, 
     "base_color_mod": 1, 
@@ -39,9 +39,9 @@
     "billboard_name_font": "DFPYuanW7-GB", 
     "billboard_scale_x": 1, 
     "billboard_scale_y": 1, 
-    "blood_bar": 327681, 
+    "blood_bar": 327682, 
     "blood_show_type": 0, 
-    "body_size": 1.0, 
+    "body_size": 2.0, 
     "build_ignore_dyn_collision": false, 
     "build_res_cost_list": {
         "__tuple__": true, 
@@ -71,12 +71,18 @@
         "items": []
     }, 
     "collision_radius_2": 0.7, 
-    "common_ability_list": [], 
-    "common_atk": [
-        134246955, 
-        1
-    ], 
-    "common_atk_type": 2, 
+    "common_ability_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "common_atk": {
+        "__tuple__": true, 
+        "items": [
+            201347498, 
+            1
+        ]
+    }, 
+    "common_atk_type": 0, 
     "content": "strength", 
     "copper coin": 0, 
     "counterattack_range": 0, 
@@ -84,14 +90,14 @@
     "critical_chance_grow": 0.0, 
     "critical_dmg": 200.0, 
     "critical_dmg_grow": 0.0, 
-    "dead_exp": 100, 
-    "dead_money": 300, 
-    "default_behaviour_type": "caution", 
-    "defense_mag": 35.0, 
-    "defense_mag_grow": 1.0, 
-    "defense_phy": 0, 
-    "defense_phy_grow": 0, 
-    "description": -285611726, 
+    "dead_exp": 50, 
+    "dead_money": 25, 
+    "default_behaviour_type": "defense", 
+    "defense_mag": 0.0, 
+    "defense_mag_grow": 0.0, 
+    "defense_phy": 0.0, 
+    "defense_phy_grow": 0.0, 
+    "description": -6756115, 
     "destroy_after_die": true, 
     "die_anim": "die", 
     "disk_shadow_size": 0, 
@@ -123,36 +129,30 @@
     "gainvalue": 0.0, 
     "gainvalue_grow": 0.0, 
     "gold coin": 100, 
-    "has_mp": true, 
+    "has_mp": false, 
     "has_shield": true, 
     "heal_effect": 0.0, 
     "heal_effect_grow": 0.0, 
     "healing_effect": 0, 
     "healing_effect_grow": 0, 
     "height_offset": 0, 
-    "hero_ability_list": [
-        [
-            134235029, 
-            1
-        ], 
-        [
-            134257159, 
-            1
-        ]
-    ], 
+    "hero_ability_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "hit_rate": 100.0, 
     "hit_rate_grow": 0.0, 
-    "hp_max": 750, 
-    "hp_max_grow": 0, 
-    "hp_rec": 2, 
-    "hp_rec_grow": 0.2, 
+    "hp_max": 30000.0, 
+    "hp_max_grow": 0.0, 
+    "hp_rec": 100.0, 
+    "hp_rec_grow": 1, 
     "hp_rec_percent": 0, 
     "hp_rec_percent_grow": 0, 
-    "icon": 134270809, 
-    "idle_anim": "hold", 
+    "icon": 903950, 
+    "idle_anim": "idle1", 
     "init_stock": 5, 
-    "intelligence": 0, 
-    "intelligence_grow": 0, 
+    "intelligence": 0.0, 
+    "intelligence_grow": 0.0, 
     "is_apply_role_color": false, 
     "is_mini_map_show": true, 
     "is_open_Xray": false, 
@@ -161,66 +161,17 @@
     "is_shop": false, 
     "is_x_offset": 1, 
     "is_z_offset": 1, 
-    "keep_dead_body_time": 0.0, 
+    "keep_dead_body_time": 2.0, 
     "keep_target": true, 
-    "key": 134243024, 
-    "kv": {
-        "attack_phy_float": {
-            "annotation": "", 
-            "desc": "", 
-            "etype": 0, 
-            "key": "attack_phy_float", 
-            "prop_cls": "PText", 
-            "remark": "", 
-            "show_in_attr": false, 
-            "sort": 1, 
-            "type": 0, 
-            "value": "3"
-        }, 
-        "attack_phy_float_grow": {
-            "annotation": "", 
-            "desc": "", 
-            "etype": 0, 
-            "key": "attack_phy_float_grow", 
-            "prop_cls": "PText", 
-            "remark": "", 
-            "show_in_attr": false, 
-            "sort": 2, 
-            "type": 0, 
-            "value": "0"
-        }, 
-        "lua_name": {
-            "annotation": "", 
-            "desc": "", 
-            "etype": 0, 
-            "key": "lua_name", 
-            "prop_cls": "PText", 
-            "remark": "", 
-            "show_in_attr": false, 
-            "sort": 3, 
-            "type": 0, 
-            "value": "js"
-        }, 
-        "unit_type": {
-            "annotation": "", 
-            "desc": "", 
-            "etype": 0, 
-            "key": "unit_type", 
-            "prop_cls": "PText", 
-            "remark": "", 
-            "show_in_attr": false, 
-            "sort": 4, 
-            "type": 0, 
-            "value": "followHero"
-        }
-    }, 
+    "key": 134246042, 
+    "kv": {}, 
     "level": 1, 
-    "main_attr": "none", 
+    "main_attr": "strength", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
-    "mini_map_icon": 903952, 
+    "mini_map_icon": 903950, 
     "mini_map_icon_scale": 1.0, 
-    "model": 134228379, 
+    "model": 134260622, 
     "model_height": 0.0, 
     "model_opacity": 1, 
     "move_channel": 0, 
@@ -228,16 +179,19 @@
     "move_type": 40, 
     "mp_color": "Blue", 
     "mp_key": "MP", 
-    "mp_max": 350.0, 
-    "mp_max_grow": 50.0, 
+    "mp_max": 0.0, 
+    "mp_max_grow": 0.0, 
     "mp_rec": 10, 
     "mp_rec_grow": 2, 
-    "name": -1960914442, 
+    "name": -2109582885, 
     "need_preview_billboard": true, 
     "ori_bits": 0, 
-    "ori_speed": 3, 
+    "ori_speed": 4.25, 
     "ori_speed_grow": 0.0, 
-    "passive_ability_list": [], 
+    "passive_ability_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "path_finding_external_size": 0, 
     "pene_mag": 0.0, 
     "pene_mag_grow": 0.0, 
@@ -255,12 +209,12 @@
         "joints": {}, 
         "shapes": {}
     }, 
-    "pkg_slot_size": 60, 
+    "pkg_slot_size": 0, 
     "precondition_list": {
         "__tuple__": true, 
         "items": []
     }, 
-    "preview_billboard_health_value": 750.0, 
+    "preview_billboard_health_value": 30000.0, 
     "refresh_interval": 1.0, 
     "rescue_finish_return": 0, 
     "rescue_seeker_distance": 3, 
@@ -276,8 +230,11 @@
     "reward_exp": 5, 
     "reward_official_res_1": 0.0, 
     "role_color_scale": 1.0, 
-    "rotate_speed": 9.42, 
-    "sell_list": [], 
+    "rotate_speed": 10.0, 
+    "sell_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
     "sell_res_list": {
         "__tuple__": true, 
         "items": []
@@ -290,28 +247,26 @@
     "show_y3_extra_info": false, 
     "silver coin": 0, 
     "simple_common_atk": {
-        "ability_animations": [
-            "Attack", 
-            "Attack 2"
-        ], 
+        "ability_animations": {
+            "__tuple__": true, 
+            "items": [
+                "attack1"
+            ]
+        }, 
         "ability_bw_point": 0.5, 
         "ability_cast_point": 0.2, 
-        "attack_interval": 1.0, 
-        "attack_range": 1.0, 
         "attack_trajectory": {
-            "destroy_immediately": false, 
-            "duration": -1.0, 
             "effect": 0, 
             "follow_scale": true, 
             "scale": 1.0, 
-            "socket": "origin", 
-            "target_socket": "root"
+            "socket": "origin"
         }, 
-        "cast_effect_list": [], 
-        "cast_interrupt": false, 
+        "cast_effect_list": {
+            "__tuple__": true, 
+            "items": []
+        }, 
         "cast_sound": 0, 
-        "collection_destructible_tags": [], 
-        "critical_anim": "Attack Slam", 
+        "critical_anim": "attack1", 
         "damage": {
             "__tuple__": true, 
             "items": [
@@ -341,10 +296,7 @@
         }, 
         "damage_type": 0, 
         "filter_condition_camp": 5, 
-        "filter_condition_move_channel_type": 99, 
         "filter_condition_type": 7, 
-        "filter_item_tags": [], 
-        "filter_unit_tags": [], 
         "hit_effect": {
             "effect": 0, 
             "follow_scale": true, 
@@ -352,33 +304,16 @@
             "socket": "origin"
         }, 
         "hit_sound": 0, 
-        "jump_word": true, 
         "order_play_anim": false, 
         "order_play_reset_time": 0.5, 
-        "simple_atk_dice_count": 0, 
-        "simple_atk_dice_max_value": 0, 
-        "target_attribute": 0, 
         "trajectory_radian": 1.0, 
         "trajectory_speed": 1000.0
     }, 
-    "sound_event_list": [
-        [
-            "UNIT_DIE", 
-            134229812, 
-            8
-        ], 
-        [
-            "UPGRADE_UNIT", 
-            134225736, 
-            8
-        ], 
-        [
-            "REVIVE_UNIT", 
-            134243621, 
-            8
-        ]
-    ], 
-    "special_idle_anim": "hold", 
+    "sound_event_list": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "special_idle_anim": "idle2", 
     "speed_ratio_in_turn": 1, 
     "standard_walk_rate": 40.0, 
     "start_rft": 1.0, 
@@ -386,18 +321,16 @@
         "__tuple__": true, 
         "items": []
     }, 
-    "strength": 0, 
-    "strength_grow": 0, 
+    "strength": 0.0, 
+    "strength_grow": 0.0, 
     "suffix": "", 
     "tags": {
         "__tuple__": true, 
-        "items": [
-            "followHero"
-        ]
+        "items": []
     }, 
     "tower_hatred_duration": 3, 
-    "type": 1, 
-    "uid": "134243024", 
+    "type": 4, 
+    "uid": "134246042", 
     "use_base_tint_color": false, 
     "use_fresnel": 0, 
     "use_simple_mini_map_icon": false, 
@@ -409,7 +342,7 @@
     "view_type": 0, 
     "vision_night": 8.0, 
     "vision_night_grow": 0, 
-    "vision_rng": 10.0, 
+    "vision_rng": 8.0, 
     "vision_rng_grow": 0, 
     "vision_sector_angle_day": 0, 
     "vision_sector_angle_day_grow": 0, 

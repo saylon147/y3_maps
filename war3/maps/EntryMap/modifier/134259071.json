@@ -1,6 +1,6 @@
 {
     "local_variable": {
-        "1794117633": {
+        "975368193": {
             "variable_dict": {
                 "FLOAT": {
                     "damage": 0.0, 
@@ -22,7 +22,7 @@
         }
     }, 
     "trigger_dict": {
-        "1794117633": {
+        "975368193": {
             "action": [
                 {
                     "action_type": "SET_VARIABLE", 
@@ -46,8 +46,14 @@
                             "args_list": [
                                 {
                                     "arg_type": 100014, 
-                                    "args_list": [], 
-                                    "sub_type": "CUR_ABILITY"
+                                    "args_list": [
+                                        {
+                                            "arg_type": 100076, 
+                                            "args_list": [], 
+                                            "sub_type": "CUR_MODIFIER"
+                                        }
+                                    ], 
+                                    "sub_type": "RELATED_ABILITY_MODIFIER"
                                 }, 
                                 {
                                     "arg_type": 100079, 
@@ -91,9 +97,9 @@
                                             "arg_type": 100002, 
                                             "args_list": [
                                                 {
-                                                    "arg_type": 100014, 
+                                                    "arg_type": 100076, 
                                                     "args_list": [], 
-                                                    "sub_type": "CUR_ABILITY"
+                                                    "sub_type": "CUR_MODIFIER"
                                                 }, 
                                                 {
                                                     "arg_type": 100003, 
@@ -232,7 +238,7 @@
                                 {
                                     "arg_type": 100006, 
                                     "args_list": [], 
-                                    "sub_type": "ABILITY_OWNER"
+                                    "sub_type": "MODIFIER_OWNER"
                                 }
                             ], 
                             "sub_type": "GET_UNIT_AI_BATTLE_TARGET_UNIT"
@@ -243,9 +249,9 @@
                     "enable": true
                 }, 
                 [
-                    1008553948, 
+                    2052330430, 
                     "TODO \u83b7\u53d6\u57fa\u7840\u4f24\u5bb3", 
-                    1794117633, 
+                    975368193, 
                     "action_type"
                 ], 
                 {
@@ -254,11 +260,14 @@
                         {
                             "arg_type": 100030, 
                             "args_list": [
-                                [
-                                    "FLOAT", 
-                                    "damage", 
-                                    "local"
-                                ]
+                                {
+                                    "__tuple__": true, 
+                                    "items": [
+                                        "FLOAT", 
+                                        "damage", 
+                                        "local"
+                                    ]
+                                }
                             ], 
                             "sub_type": 1
                         }, 
@@ -307,7 +316,7 @@
                         {
                             "arg_type": 100006, 
                             "args_list": [], 
-                            "sub_type": "ABILITY_OWNER"
+                            "sub_type": "MODIFIER_OWNER"
                         }, 
                         {
                             "arg_type": 100003, 
@@ -357,73 +366,23 @@
                     "enable": true
                 }, 
                 {
-                    "action_type": "CHANGE_UNIT_FACE_ANGLE", 
-                    "args_list": [
-                        {
-                            "arg_type": 100006, 
-                            "args_list": [], 
-                            "sub_type": "ABILITY_OWNER"
-                        }, 
-                        {
-                            "arg_type": 100225, 
-                            "args_list": [
-                                {
-                                    "arg_type": 100004, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100006, 
-                                            "args_list": [], 
-                                            "sub_type": "ABILITY_OWNER"
-                                        }
-                                    ], 
-                                    "sub_type": "UNIT_ENTITY_POINT"
-                                }, 
-                                {
-                                    "arg_type": 100004, 
-                                    "args_list": [
-                                        {
-                                            "arg_type": 100006, 
-                                            "args_list": [
-                                                {
-                                                    "__tuple__": true, 
-                                                    "items": [
-                                                        "UNIT_ENTITY", 
-                                                        "target", 
-                                                        "local"
-                                                    ]
-                                                }
-                                            ], 
-                                            "sub_type": 11
-                                        }
-                                    ], 
-                                    "sub_type": "UNIT_ENTITY_POINT"
-                                }
-                            ], 
-                            "sub_type": "GET_POINTS_ANGLE"
-                        }
-                    ], 
-                    "bp": false, 
-                    "element_id": 1794117633000266, 
-                    "enable": true, 
-                    "op_arg": [
-                        null
-                    ], 
-                    "op_arg_enable": [
-                        false
-                    ]
-                }, 
-                {
                     "action_type": "APPLY_DAMAGE", 
                     "args_list": [
                         {
                             "arg_type": 100006, 
                             "args_list": [], 
-                            "sub_type": "ABILITY_OWNER"
+                            "sub_type": "MODIFIER_OWNER"
                         }, 
                         {
                             "arg_type": 100014, 
-                            "args_list": [], 
-                            "sub_type": "CUR_ABILITY"
+                            "args_list": [
+                                {
+                                    "arg_type": 100076, 
+                                    "args_list": [], 
+                                    "sub_type": "CUR_MODIFIER"
+                                }
+                            ], 
+                            "sub_type": "RELATED_ABILITY_MODIFIER"
                         }, 
                         {
                             "arg_type": 100006, 
@@ -519,14 +478,14 @@
             "event": [
                 {
                     "args_list": [], 
-                    "element_id": 1794117633000002, 
+                    "element_id": 975368193000001, 
                     "enable": true, 
-                    "event_type": "ABILITY_SP_END"
+                    "event_type": "OBTAIN_MODIFIER"
                 }
             ], 
-            "group_id": 134240911, 
+            "group_id": 134259071, 
             "p_trigger_id": null, 
-            "trigger_id": 1794117633, 
+            "trigger_id": 975368193, 
             "trigger_name": "\u65b0\u5efa\u89e6\u53d1\u5668", 
             "valid": true, 
             "var_data": [
@@ -549,10 +508,10 @@
                     "target": 0
                 }, 
                 [
-                    "damage", 
-                    "target", 
                     "skill_lv", 
-                    "multiplier"
+                    "multiplier", 
+                    "target", 
+                    "damage"
                 ]
             ]
         }
@@ -564,13 +523,13 @@
                 {
                     "__tuple__": true, 
                     "items": [
-                        1794117633, 
+                        975368193, 
                         "\u65b0\u5efa\u89e6\u53d1\u5668"
                     ]
                 }
             ], 
-            "key": 134240911, 
-            "name": "134240911"
+            "key": 134259071, 
+            "name": "134259071"
         }
     ], 
     "trigger_version": "1.2", 
