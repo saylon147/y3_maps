@@ -43,7 +43,7 @@
         ]
     }, 
     "ability_icon": 134274134, 
-    "ability_max_level": 1, 
+    "ability_max_level": 2, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -164,7 +164,152 @@
     "is_immediate": false, 
     "is_meele": false, 
     "key": 134276015, 
-    "kv": {}, 
+    "kv": {
+        "lv1CD\u65f6\u95f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv1CD\u65f6\u95f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 10, 
+            "type": 1, 
+            "value": 20.0
+        }, 
+        "lv1\u4f24\u5bb3\u500d\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv1\u4f24\u5bb3\u500d\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 4, 
+            "type": 2, 
+            "value": 200
+        }, 
+        "lv1\u653b\u51fb\u8303\u56f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv1\u653b\u51fb\u8303\u56f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 0, 
+            "type": 1, 
+            "value": 500.0
+        }, 
+        "lv1\u7729\u6655\u65f6\u95f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv1\u7729\u6655\u65f6\u95f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 6, 
+            "type": 1, 
+            "value": 5.0
+        }, 
+        "lv1\u7729\u6655\u65f6\u95f4BOSS": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv1\u7729\u6655\u65f6\u95f4BOSS", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 8, 
+            "type": 1, 
+            "value": 2.5
+        }, 
+        "lv1\u968f\u673a\u76ee\u6807\u6570\u91cf": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv1\u968f\u673a\u76ee\u6807\u6570\u91cf", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 2, 
+            "type": 2, 
+            "value": 1
+        }, 
+        "lv2CD\u65f6\u95f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv2CD\u65f6\u95f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 11, 
+            "type": 1, 
+            "value": 20.0
+        }, 
+        "lv2\u4f24\u5bb3\u500d\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv2\u4f24\u5bb3\u500d\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 5, 
+            "type": 2, 
+            "value": 300
+        }, 
+        "lv2\u653b\u51fb\u8303\u56f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv2\u653b\u51fb\u8303\u56f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 1, 
+            "type": 1, 
+            "value": 500.0
+        }, 
+        "lv2\u7729\u6655\u65f6\u95f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv2\u7729\u6655\u65f6\u95f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 7, 
+            "type": 1, 
+            "value": 5.0
+        }, 
+        "lv2\u7729\u6655\u65f6\u95f4BOSS": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv2\u7729\u6655\u65f6\u95f4BOSS", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 9, 
+            "type": 1, 
+            "value": 2.5
+        }, 
+        "lv2\u968f\u673a\u76ee\u6807\u6570\u91cf": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv2\u968f\u673a\u76ee\u6807\u6570\u91cf", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 3, 
+            "type": 2, 
+            "value": 2
+        }
+    }, 
     "magicbook_list": {
         "__tuple__": true, 
         "items": []
@@ -188,16 +333,10 @@
     "release_immediately_out_of_range": false, 
     "required_level": {
         "formula": "", 
-        "required_levels": {
-            "__tuple__": true, 
-            "items": [
-                1, 
-                2, 
-                3, 
-                4, 
-                5
-            ]
-        }
+        "required_levels": [
+            1, 
+            2
+        ]
     }, 
     "sector_angle": {
         "__tuple__": true, 

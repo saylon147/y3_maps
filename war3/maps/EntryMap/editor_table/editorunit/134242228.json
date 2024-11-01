@@ -76,7 +76,7 @@
         134270852, 
         1
     ], 
-    "common_atk_type": 3, 
+    "common_atk_type": 2, 
     "content": "strength", 
     "copper coin": 0, 
     "counterattack_range": 0, 
@@ -132,15 +132,15 @@
     "height_offset": 0, 
     "hero_ability_list": [
         [
+            134257987, 
+            1
+        ], 
+        [
             134276015, 
             1
         ], 
         [
             134220677, 
-            1
-        ], 
-        [
-            134257987, 
             1
         ]
     ], 
@@ -170,56 +170,56 @@
     "key": 134242228, 
     "kv": {
         "attack_phy_float": {
-            "annotation": "",
-            "desc": "",
-            "etype": 0,
-            "key": "attack_phy_float",
-            "prop_cls": "PText",
-            "remark": "",
-            "show_in_attr": false,
-            "sort": 1,
-            "type": 0,
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "attack_phy_float", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "show_in_attr": false, 
+            "sort": 1, 
+            "type": 0, 
             "value": "5"
-        },
+        }, 
         "attack_phy_float_grow": {
-            "annotation": "",
-            "desc": "",
-            "etype": 0,
-            "key": "attack_phy_float_grow",
-            "prop_cls": "PText",
-            "remark": "",
-            "show_in_attr": false,
-            "sort": 2,
-            "type": 0,
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "attack_phy_float_grow", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "show_in_attr": false, 
+            "sort": 2, 
+            "type": 0, 
             "value": "0"
-        },
+        }, 
         "lua_name": {
-            "annotation": "",
-            "desc": "",
-            "etype": 0,
-            "key": "lua_name",
-            "prop_cls": "PText",
-            "remark": "",
-            "show_in_attr": false,
-            "sort": 3,
-            "type": 0,
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "lua_name", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "show_in_attr": false, 
+            "sort": 3, 
+            "type": 0, 
             "value": "sqzw"
-        },
+        }, 
         "unit_type": {
-            "annotation": "",
-            "desc": "",
-            "etype": 0,
-            "key": "unit_type",
-            "prop_cls": "PText",
-            "remark": "",
-            "show_in_attr": false,
-            "sort": 4,
-            "type": 0,
+            "annotation": "", 
+            "desc": "", 
+            "etype": 0, 
+            "key": "unit_type", 
+            "prop_cls": "PText", 
+            "remark": "", 
+            "show_in_attr": false, 
+            "sort": 4, 
+            "type": 0, 
             "value": "followHero"
         }
     }, 
     "level": 1, 
-    "main_attr": "力量", 
+    "main_attr": "none", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
     "mini_map_icon": 134265040, 
@@ -241,12 +241,7 @@
     "ori_bits": 0, 
     "ori_speed": 3, 
     "ori_speed_grow": 0.0, 
-    "passive_ability_list": [
-        [
-            134276015, 
-            1
-        ]
-    ], 
+    "passive_ability_list": [], 
     "path_finding_external_size": 0, 
     "pene_mag": 0.0, 
     "pene_mag_grow": 0.0, 
@@ -372,7 +367,7 @@
     }, 
     "sound_event_list": [
         [
-            "UNIT_DIE", 
+            "REVIVE_UNIT", 
             134260447, 
             11
         ], 
@@ -384,11 +379,6 @@
         [
             "UPGRADE_UNIT", 
             134225736, 
-            8
-        ], 
-        [
-            "UNIT_START_MOVE", 
-            134263127, 
             8
         ]
     ], 

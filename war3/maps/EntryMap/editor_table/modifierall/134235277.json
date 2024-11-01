@@ -22,7 +22,56 @@
     "influence_rng": 0, 
     "is_influence_self": true, 
     "key": 134235277, 
-    "kv": {}, 
+    "kv": {
+        "lv1\u8840\u91cf\u589e\u52a0\u500d\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv1\u8840\u91cf\u589e\u52a0\u500d\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 0, 
+            "type": 2, 
+            "value": 100
+        }, 
+        "lv1\u9632\u5fa1\u589e\u52a0": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv1\u9632\u5fa1\u589e\u52a0", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 2, 
+            "type": 2, 
+            "value": 50
+        }, 
+        "lv2\u8840\u91cf\u589e\u52a0\u500d\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv2\u8840\u91cf\u589e\u52a0\u500d\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 1, 
+            "type": 2, 
+            "value": 100
+        }, 
+        "lv2\u9632\u5fa1\u589e\u52a0": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv2\u9632\u5fa1\u589e\u52a0", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 3, 
+            "type": 2, 
+            "value": 50
+        }
+    }, 
     "layer_change_of_cover": 1, 
     "layer_max": 1, 
     "lose_effect_list": {
