@@ -1,11 +1,11 @@
 {
-    "134242506": {
+    "134271113": {
         "Format": "wav", 
-        "SoundPath": "134242506", 
-        "default_editor_id": 134242506, 
+        "SoundPath": "134271113", 
+        "default_editor_id": 134271113, 
         "describe": "", 
-        "key": "134242506", 
-        "name": "FaerieDragonDeath1", 
-        "uid": "res_sound_134242506"
+        "key": "134271113", 
+        "name": "ArcherDeath1", 
+        "uid": "res_sound_134271113"
     }
 }
