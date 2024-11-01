@@ -7,12 +7,12 @@ M.name = '剑圣'
 M.desc = '描述'
 M.price_type = 'gold'
 M.price = 1000
-M.effect_id = 134249508
-M.effcct_timeout = 1.8
+M.effcct_buff = '升级'
 M.template = y3.object.item[M.id] --物编信息
 
 M.template:event('物品-获得', function(trg, data)
-    data.unit:add_buff({ key = M.effect_id, time = M.effcct_timeout })
+    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    data.unit:add_buff({ key = buff.id, time = buff.timeout })
     local player = data.unit:get_owner();
     local point = data.unit:get_point();
     FW.unitMgr:createUnit(player, 'followHero', nil, M.name,point)

@@ -8,6 +8,7 @@ M.desc = '描述'
 M.price_type = 'wood'
 M.price = 1000
 M.ability_key = 134269127
+M.effcct_buff = '升级'
 M.template = y3.object.item[M.id] --物编信息
 
 

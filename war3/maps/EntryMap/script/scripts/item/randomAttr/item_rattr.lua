@@ -8,12 +8,14 @@ M.desc = '描述'
 M.price_type = 'gold'
 M.price = 1000
 M.random_table = 'randomAttr'
+M.effcct_buff = '升级'
 M.template = y3.object.item[M.id] --物编信息
 
 M.template:event('物品-获得', function(trg, data)
     local attrs = FW.configMgr:getConfigTable(M.random_table)
     local rand = math.random(1, #attrs)
-    data.unit:add_buff({ key = attrs[rand].effect_id, time = attrs[rand].effcct_timeout })
+    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',attrs[rand].effcct_buff)
+    data.unit:add_buff({ key = buff.id, time = buff.timeout })
     data.unit:add_attr(attrs[rand].attr_name, attrs[rand].attr_value)
     data.item:remove()
 end)

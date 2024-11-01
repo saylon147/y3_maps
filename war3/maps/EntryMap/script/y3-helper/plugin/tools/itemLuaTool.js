@@ -38,14 +38,16 @@ local M = {}`
             switch (obj.item_type) {
                 case 'attr':
                     luaText += `\nM.template:event('物品-获得',function (trg, data)
-    data.unit:add_buff({ key = M.effect_id, time = M.effcct_timeout })
+    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    data.unit:add_buff({ key = buff.id, time = buff.timeout })
     data.unit:add_attr(M.attr_name,M.attr_value)
     data.item:remove()
 end)`;
                     break;
                 case 'enemy':
                     luaText += `\nM.template:event('物品-获得',function (trg, data)
-    data.unit:add_buff({ key = M.effect_id, time = M.effcct_timeout })
+    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    data.unit:add_buff({ key = buff.id, time = buff.timeout })
     local player = data.unit:get_owner();
     local enemy_count = tonumber(player:kv_load('enemy_count','string'))
     for i = 1, enemy_count, 1 do
@@ -58,7 +60,8 @@ end)
                     break;
                 case 'followHero':
                     luaText += `\nM.template:event('物品-获得', function(trg, data)
-    data.unit:add_buff({ key = M.effect_id, time = M.effcct_timeout })
+    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    data.unit:add_buff({ key = buff.id, time = buff.timeout })
     local player = data.unit:get_owner();
     local point = data.unit:get_point();
     FW.unitMgr:createUnit(player, 'followHero', nil, M.name,point)
@@ -67,7 +70,8 @@ end)`;
                     break;
                 case 'kv':
                     luaText += `\nM.template:event('物品-获得',function (trg, data)
-    data.unit:add_buff({ key = M.effect_id, time = M.effcct_timeout })
+    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    data.unit:add_buff({ key = buff.id, time = buff.timeout })
     local player = data.unit:get_owner();
     local value = M.kv_value
     if player:kv_has(M.kv_key) then
@@ -80,7 +84,8 @@ end)`;
                     luaText += `\nM.template:event('物品-获得', function(trg, data)
     local attrs = FW.configMgr:getConfigTable(M.random_table)
     local rand = math.random(1, #attrs)
-    data.unit:add_buff({ key = attrs[rand].effect_id, time = attrs[rand].effcct_timeout })
+    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',attrs[rand].effcct_buff)
+    data.unit:add_buff({ key = buff.id, time = buff.timeout })
     data.unit:add_attr(attrs[rand].attr_name, attrs[rand].attr_value)
     data.item:remove()
 end)`;
