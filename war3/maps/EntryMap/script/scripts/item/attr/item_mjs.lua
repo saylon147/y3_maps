@@ -13,8 +13,14 @@ M.effcct_buff = '升级'
 M.template = y3.object.item[M.id] --物编信息
 
 M.template:event('物品-获得',function (trg, data)
-    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
-    data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
     data.unit:add_attr(M.attr_name,M.attr_value)
     data.item:remove()
 end)

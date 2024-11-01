@@ -14,8 +14,14 @@ M.template = y3.object.item[M.id] --物编信息
 M.template:event('物品-获得', function(trg, data)
     local attrs = FW.configMgr:getConfigTable(M.random_table)
     local rand = math.random(1, #attrs)
-    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',attrs[rand].effcct_buff)
-    data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',attrs[rand].effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
     data.unit:add_attr(attrs[rand].attr_name, attrs[rand].attr_value)
     data.item:remove()
 end)
