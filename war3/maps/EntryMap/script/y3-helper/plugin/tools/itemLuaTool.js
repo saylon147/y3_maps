@@ -38,16 +38,28 @@ local M = {}`
             switch (obj.item_type) {
                 case 'attr':
                     luaText += `\nM.template:event('物品-获得',function (trg, data)
-    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
-    data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
     data.unit:add_attr(M.attr_name,M.attr_value)
     data.item:remove()
 end)`;
                     break;
                 case 'enemy':
                     luaText += `\nM.template:event('物品-获得',function (trg, data)
-    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
-    data.unit:add_buff({ key = buff.id, time = buff.timeout })
+   local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
     local player = data.unit:get_owner();
     local enemy_count = tonumber(player:kv_load('enemy_count','string'))
     for i = 1, enemy_count, 1 do
@@ -60,8 +72,14 @@ end)
                     break;
                 case 'followHero':
                     luaText += `\nM.template:event('物品-获得', function(trg, data)
-    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
-    data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
     local player = data.unit:get_owner();
     local point = data.unit:get_point();
     FW.unitMgr:createUnit(player, 'followHero', nil, M.name,point)
@@ -70,22 +88,35 @@ end)`;
                     break;
                 case 'kv':
                     luaText += `\nM.template:event('物品-获得',function (trg, data)
-    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
-    data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
     local player = data.unit:get_owner();
     local value = M.kv_value
     if player:kv_has(M.kv_key) then
         value = value + tonumber(player:kv_load(M.kv_key,'string'))
     end
     player:kv_save(M.kv_key,tostring(value))
+    data.item:remove()
 end)`;
                     break;
                 case 'randomAttr':
                     luaText += `\nM.template:event('物品-获得', function(trg, data)
     local attrs = FW.configMgr:getConfigTable(M.random_table)
     local rand = math.random(1, #attrs)
-    local buff = FW.configMgr:getConfigTableRowByKey('buff','buff_name',attrs[rand].effcct_buff)
-    data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',attrs[rand].effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
     data.unit:add_attr(attrs[rand].attr_name, attrs[rand].attr_value)
     data.item:remove()
 end)`;
