@@ -258,6 +258,9 @@ function hudPanel:initLogic()
         for index, child in ipairs(ui:get_childs()) do
             child:set_visible(false)
         end
+        if FW.globalVar.gameState ~= "gaming" then
+            return
+        end
         local u = local_player:get_selecting_unit()
         if not u then
             return
@@ -393,21 +396,34 @@ function hudPanel:initShopLogic()
 
             local item = FW.shopMgr:getShopItemsByShopKeyAndIndex(unit:get_name(), i)
             if item then
-                local id = item.itemTemplate.id
+                local itemTemplate = item.itemTemplate
+                local id = itemTemplate.id
                 local playerBuyCount = 0
-                local itemName = y3.item.get_name_by_key(id)
-                if local_player:kv_has(unit:get_name() .. '_' .. itemName) then
-                    playerBuyCount = local_player:kv_load(unit:get_name() .. '_' .. itemName, 'integer')
+                local itemName = itemTemplate.name
+                local kvCountStr = string.format('%s_%s_count',unit:get_name(),itemName)
+                local kvTimeStr = string.format('%s_%s_time',unit:get_name(),itemName)
+                if local_player:kv_has(kvCountStr) then
+                    playerBuyCount = local_player:kv_load(kvCountStr, 'integer')
                 end
-                local count = y3.object.item[id].data.max_stock - playerBuyCount
-                ui:set_visible(true)
-                ui:set_image(y3.item.get_icon_id_by_key(id))
-                ui:get_child('levelup_1.label_3'):set_text(tostring(count))
-                if count > 0 then
+                local count = item.count;
+                local cd = item.cd
+                if count ~= -1 then
+                    count = count - playerBuyCount
+                end
+
+                if count == -1 then
                     ui:set_button_enable(true)
+                    ui:get_child('levelup_1'):set_visible(false)
+                elseif count > 0 then
+                    ui:get_child('levelup_1'):set_visible(true)
+                    ui:get_child('levelup_1.label_3'):set_text(tostring(count))
                 else
                     ui:set_button_enable(false)
+                    ui:get_child('levelup_1'):set_visible(true)
+                    ui:get_child('levelup_1.label_3'):set_text('0')
                 end
+                ui:set_visible(true)
+                ui:set_image(y3.item.get_icon_id_by_key(id))
             else
                 ui:set_visible(false)
             end
@@ -423,18 +439,19 @@ function hudPanel:initShopLogic()
                     shopDescUI:set_visible(true)
                     local item = FW.shopMgr:getShopItemsByShopKeyAndIndex(unit:get_name(), i)
                     if item then
-                        local id = item.itemTemplate.id
-                        shopDescUI:get_child('name'):set_text(y3.item.get_name_by_key(id))
-                        if item.priceType == 'wood' then
-                            shopDescUI:get_child('price.icon1'):set_image(134227826)
+                        local itemTemplate = item.itemTemplate
+                        local id = itemTemplate.id
+                        local itemName = itemTemplate.name
+                        shopDescUI:get_child('name'):set_text(itemName)
+                        if itemTemplate.priceType == 'wood' then
+                            shopDescUI:get_child('price.icon1'):set_image(134233244)
                         else
                             shopDescUI:get_child('price.icon1'):set_image(134253341)
                         end
 
-                        shopDescUI:get_child('price'):set_text(tostring(y3.item.get_item_buy_price_by_key(id,
-                            item.priceType)))
+                        shopDescUI:get_child('price'):set_text(tostring(itemTemplate.price))
                         shopDescUI:get_child('desc1'):set_visible(false)
-                        shopDescUI:get_child('desc2'):set_text(y3.item.get_description_by_key(id))
+                        shopDescUI:get_child('desc2'):set_text(itemTemplate.desc)
                     end
                 end
             end)
@@ -449,9 +466,10 @@ function hudPanel:initShopLogic()
                     return
                 end
                 local item = FW.shopMgr:getShopItemsByShopKeyAndIndex(unit:get_name(), i)
-                local itemId = item.itemTemplate.id
                 y3.sync.send('购买商店物品', {
-                    itemId = itemId,
+                    itemName = item.itemTemplate.name,
+                    itemCount = item.count,
+                    itemCd = item.cd,
                     shop = unit:get_name(),
                     player_id = local_player:get_id()
                 })

@@ -67,7 +67,7 @@ return M`
                 cname = item.name
             }
         }
-        templateStr += "\t['" + cname + "'] = require 'scripts.shop.shop_" + name + "',\n";
+        templateStr += "\t['" + cname + "'] = require 'scripts.shop." + name + "',\n";
     }
     templateStr += "}\n";
     let oriText = (await y3.fs.readFile(y3.env.scriptUri, 'scripts/mgr/shopMgr.lua')).string;

@@ -79,6 +79,8 @@ function playerMgr:initPlayers()
         if player ~= nil and player:get_state() == y3.const.RoleStatus['PLAYING'] then
             playerMgr.allPlayers:add_player(player)
             FW.mapMgr:initMap(player:get_id())
+            player:set("gold",5000)
+            player:set("wood",5000)
         end
     end
     addPlayerEvent()
