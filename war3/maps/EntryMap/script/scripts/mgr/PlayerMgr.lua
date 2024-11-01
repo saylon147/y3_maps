@@ -78,6 +78,7 @@ function playerMgr:initPlayers()
         end
         if player ~= nil and player:get_state() == y3.const.RoleStatus['PLAYING'] then
             playerMgr.allPlayers:add_player(player)
+            FW.mapMgr:initMap(player:get_id())
         end
     end
     addPlayerEvent()
