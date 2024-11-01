@@ -62,7 +62,7 @@ y3.sync.onSync('购买商店物品', function(data, source)
     -- end
 
     local playerBuyCount = 0
-    local now_time_stamp = y3.game.get_game_init_time_stamp()
+    local now_time_stamp = y3.game.get_current_server_time().timestamp
 
     if maxCount ~= -1 then
         if player:kv_has(kvCountStr) then
@@ -71,7 +71,7 @@ y3.sync.onSync('购买商店物品', function(data, source)
         end
         if playerBuyCount + 1 > maxCount then
             price('商品卖完了')
-            FW.uiMgr:getUITemplate("hudPanel").uiLogic:refresh('HUD.Console.Data.right')
+            FW.uiMgr:getUITemplate("hudPanel").uiLogic:refresh('HUD.Console.Data.right.商店')
             return
         end
     end
@@ -87,14 +87,15 @@ y3.sync.onSync('购买商店物品', function(data, source)
         player:set('wood', wood - price)
     else
         print('玩家资源不足')
-        FW.uiMgr:getUITemplate("hudPanel").uiLogic:refresh('HUD.Console.Data.right')
+        FW.uiMgr:getUITemplate("hudPanel").uiLogic:refresh('HUD.Console.Data.right.商店')
         return;
     end
 
 
     playerBuyCount = playerBuyCount + 1
     player:kv_save(kvCountStr, playerBuyCount)
-    FW.uiMgr:getUITemplate("hudPanel").uiLogic:refresh('HUD.Console.Data.right')
+    FW.uiMgr:getUITemplate("hudPanel").uiLogic:refresh('HUD.Console.Data.right.商店')
+    u:add_item(id)
 
     -- 只有在配方中的物品才需计算当前所需花费
     -- local res = nil
