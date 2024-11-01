@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\\u5deb\u5996\u5bfc\u5f39.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Undead/HeroLich//LichAttackEffort1.wav", 
+        "sound/Abilities/Weapons/LichMissile//LichMissileHit1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/Blue_Glow2", 
+        "Textures/Ice", 
+        "Textures/Frost3", 
+        "Textures/Dust5A"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134241150, 
+    "name": "Mdx\\\u5deb\u5996\u5bfc\u5f39", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5deb\u5996\u5bfc\u5f39.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.25934872031211853, 
+            0.538299024105072
+        ]
+    }
+}

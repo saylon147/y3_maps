@@ -326,7 +326,7 @@
     "uid": "134251232", 
     "use_base_tint_color": true, 
     "use_fresnel": false, 
-    "use_simple_mini_map_icon": false, 
+    "use_simple_mini_map_icon": true, 
     "use_virtual_light": false, 
     "vampire_mag": 0.0, 
     "vampire_mag_grow": 0.0, 

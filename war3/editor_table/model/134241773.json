@@ -1,0 +1,28 @@
+{
+    "mdx_path": "Mdx\\\u5730\u7a74\u9886\u4e3b\u6280\u80fd2.mdx", 
+    "mdx_sounds": [
+        "sound/Abilities/Weapons/CryptFiendMissile//CryptFiendMissileLaunch1.wav", 
+        "sound/Abilities/Weapons/CryptFiendMissile//CryptFiendMissileHit1.wav"
+    ], 
+    "mdx_textures": [
+        "Textures/CryptFiend", 
+        "Textures/Shadow", 
+        "Textures/RibbonNE1"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134241773, 
+    "name": "Mdx\\\u5730\u7a74\u9886\u4e3b\u6280\u80fd2", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_\u5730\u7a74\u9886\u4e3b\u6280\u80fd2.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            0.6944819092750549, 
+            0.19195730984210968
+        ]
+    }
+}

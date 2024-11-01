@@ -9,95 +9,153 @@ export async function 读取item表格并生成修改物编() {
     for (let obj of list) {
         let item = await itemTable.get(obj.id);
         item.data.name = obj.name;
+        item.data.description = obj.desc;
         if (obj.item_type == 'ability') {
-            item.data.attached_ability = [obj.ability_key,1]
+            item.data.attached_ability = [obj.ability_key, 1]
         }
     }
-    // //生成unit lua文件
-    // for (let item of list) {
-    //     const uri = y3.uri(y3.env.scriptUri, 'scripts/unit/' + item.unit_type + "/" + item.lua_name + ".lua");
-    //     let isExist = await y3.fs.isExists(uri)
-    //     let oriText = ""
-    //     if (isExist) {
-    //         oriText = (await y3.fs.readFile(y3.env.scriptUri, 'scripts/unit/' + item.unit_type + "/" + item.lua_name + ".lua")).string;
-    //     }
-    //     let luaText = "";
-    //     if (oriText.indexOf('---not refresh code---') != -1) {
-    //         let replaceText = oriText.split('---not refresh code---')[1];
-    //         luaText = `--${item.name}
-    //         local M = {}
-    //         M.id = ${item.id}
-    //         M.template = y3.object.unit[M.id] --物编信息
-    //         M.type = '${item.unit_type}'
-    //         ---not refresh code---
-    //         ${replaceText}
-    //         ---not refresh code---
-    //         ---@param owner Player|Unit
-    //         ---@param point Point 点
-    //         ---@param direction number 方向
-    //         ---@return Unit
-    //         function M:create(owner, point, direction)
-    //             local unit = y3.unit.create_unit(owner, self.id, point, direction)
-    //             addAbilitys(unit)
-    //             return unit
-    //         end
-    //         return M`
-    //     } else {
-    //         luaText = `--${item.name}
-    //         local M = {}
-    //         M.id = ${item.id}
-    //         M.template = y3.object.unit[M.id] --物编信息
-    //         M.type = '${item.unit_type}'
-    //         ---not refresh code---
-    //         M.template:event("单位-死亡",function (trg, data)
-                
-    //         end)
-            
-    //         ---@param unit Unit
-    //         local function addAbilitys(unit)
-                
-    //         end
-    //         ---not refresh code---
-    //         ---@param owner Player|Unit
-    //         ---@param point Point 点
-    //         ---@param direction number 方向
-    //         ---@return Unit
-    //         function M:create(owner, point, direction)
-    //             local unit = y3.unit.create_unit(owner, self.id, point, direction)
-    //             addAbilitys(unit)
-    //             return unit
-    //         end
-    //         return M`
-    //     }
+    //生成item lua文件
+    for (let obj of list) {
+        const uri = y3.uri(y3.env.scriptUri, 'scripts/item/' + obj.item_type + "/item_" + obj.lua_name + ".lua");
+        let isExist = await y3.fs.isExists(uri)
+        if (isExist) {
+            await y3.fs.removeFile(uri);
+        }
+        let luaText = `--${obj.name}
+local M = {}`
+        for (let key in obj) {
+            if (obj[key]) {
+                if (typeof obj[key] == "string") {
+                    luaText += `\nM.${key} = '${obj[key]}'`
+                } else {
+                    luaText += `\nM.${key} = ${obj[key]}`
+                }
 
-    //     await y3.fs.writeFile(uri, '', luaText);
-    // }
-    // //生成配置信息
-    // let dir = await y3.fs.dir(y3.env.scriptUri, 'scripts/unit')
-    // let templateStr = "\nunitMgr.unitTemple = {\n"
+            }
+        }
+        luaText += '\nM.template = y3.object.item[M.id] --物编信息\n'
+        if (obj.item_type != 'ability') {
+            switch (obj.item_type) {
+                case 'attr':
+                    luaText += `\nM.template:event('物品-获得',function (trg, data)
+    local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
+    data.unit:add_attr(M.attr_name,M.attr_value)
+    data.item:remove()
+end)`;
+                    break;
+                case 'enemy':
+                    luaText += `\nM.template:event('物品-获得',function (trg, data)
+   local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
+    local player = data.unit:get_owner();
+    local enemy_count = tonumber(player:kv_load('enemy_count','string'))
+    for i = 1, enemy_count, 1 do
+        local unit = FW.unitMgr:createUnit(player,'enemy',nil,M.name,FW.const.enemyBornPoint[player:get_id()])
+        unit:attack_move(FW.const.bornPoint[player:get_id()])
+    end
+    data.item:remove()
+end)
+`;
+                    break;
+                case 'followHero':
+                    luaText += `\nM.template:event('物品-获得', function(trg, data)
+    local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
+    local player = data.unit:get_owner();
+    local point = data.unit:get_point();
+    FW.unitMgr:createUnit(player, 'followHero', nil, M.name,point)
+    data.item:remove()
+end)`;
+                    break;
+                case 'kv':
+                    luaText += `\nM.template:event('物品-获得',function (trg, data)
+    local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',M.effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
+    local player = data.unit:get_owner();
+    local value = M.kv_value
+    if player:kv_has(M.kv_key) then
+        value = value + tonumber(player:kv_load(M.kv_key,'string'))
+    end
+    player:kv_save(M.kv_key,tostring(value))
+    data.item:remove()
+end)`;
+                    break;
+                case 'randomAttr':
+                    luaText += `\nM.template:event('物品-获得', function(trg, data)
+    local attrs = FW.configMgr:getConfigTable(M.random_table)
+    local rand = math.random(1, #attrs)
+    local buffs = FW.configMgr:getConfigTableRowByKey('buff','buff_name',attrs[rand].effcct_buff)
+    local buff = nil
+    if #buffs > 0 then
+        buff = buffs[1]
+    end
+    if buff then
+        data.unit:add_buff({ key = buff.id, time = buff.timeout })
+    end
+    data.unit:add_attr(attrs[rand].attr_name, attrs[rand].attr_value)
+    data.item:remove()
+end)`;
+                    break;
+            }
+        }
+        luaText += `\n\n---@param owner Player
+---@param point Point 点
+---@return Item
+function M:create(owner, point)
+    return y3.item.create_item(point,self.id,owner)
+end
 
-    // for (let i = 0; i < dir.length; i++) {
-    //     let name = dir[i][0]
-    //     let subDir = await y3.fs.dir(y3.env.scriptUri, 'scripts/unit/' + name);
-    //     templateStr += "\t---@enum(key) FW.unitMgr." + name + "UnitType\n";
-    //     templateStr += "\t" + name + "= {\n";
-    //     for (let j = 0; j < subDir.length; j++) {
-    //         let subName = subDir[j][0].replace(".lua", "");
-    //         let cname = "";
-    //         for (let item of list) {
-    //             if (item.lua_name == subName && item.unit_type == name) {
-    //                 cname = item.name
-    //             }
-    //         }
-    //         templateStr += "\t['" + cname + "'] = require 'scripts.unit." + name + "." + subName + "',\n";
-    //     }
-    //     templateStr += "\t},\n";
-    // }
-    // templateStr += "\t}\n";
-    // let oriText = (await y3.fs.readFile(y3.env.scriptUri, 'scripts/mgr/UnitMgr.lua')).string;
-    // let replaceText = oriText.split('---autocode---')[1];
-    // oriText = oriText.replace(replaceText, templateStr);
-    // await y3.fs.writeFile(y3.env.scriptUri, 'scripts/mgr/UnitMgr.lua', oriText);
+return M`
+        await y3.fs.writeFile(uri, '', luaText);
+    }
+    //生成配置信息
+    let dir = await y3.fs.dir(y3.env.scriptUri, 'scripts/item')
+    let templateStr = "\nitemMgr.itemTemplate = {\n"
+
+    for (let i = 0; i < dir.length; i++) {
+        let name = dir[i][0]
+        let subDir = await y3.fs.dir(y3.env.scriptUri, 'scripts/item/' + name);
+        for (let j = 0; j < subDir.length; j++) {
+            let subName = subDir[j][0].replace(".lua", "");
+            let cname = "";
+            for (let item of list) {
+                if('item_'+item.lua_name == subName){
+                    cname = item.name
+                }
+            }
+            templateStr += "\t['" + cname + "'] = require 'scripts.item." + name + "." + subName + "',\n";
+        }
+    }
+    templateStr += "}\n";
+    let oriText = (await y3.fs.readFile(y3.env.scriptUri, 'scripts/mgr/ItemMgr.lua')).string;
+    let replaceText = oriText.split('---autocode---')[1];
+    oriText = oriText.replace(replaceText, templateStr);
+    await y3.fs.writeFile(y3.env.scriptUri, 'scripts/mgr/ItemMgr.lua', oriText);
 }
 
 async function getExcelJson(uri) {
@@ -150,7 +208,7 @@ async function getExcelJson(uri) {
                 let list = value.split("|");
                 let newList = [];
                 for (let z = 0; z < list.length; z++) {
-                    newList[z] = Number(parseFloat(value).toFixed(2));
+                    newList[z] = Number(parseFloat(list[z]).toFixed(2));
                 }
                 obj[keys[j]] = newList;
             } else if (types[j] == 'string[]') {

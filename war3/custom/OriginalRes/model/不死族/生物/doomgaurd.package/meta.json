@@ -1,0 +1,18 @@
+{
+    "id": 134230064,
+    "md5_file_list": [
+        "doomgaurd.mdx"
+    ],
+    "modification_time": 3461174748.3207817,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "doomgaurd.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "units/Demon/DoomGuard/Doomgaurd": "Doomgaurd.tga",
+        "Textures/gutz": "gutz.tga",
+        "Textures/clouds_anim1_bw": "clouds_anim1_bw.tga",
+        "ReplaceableTextures/Weather/Clouds8x8": "Clouds8x8.tga"
+    }
+}

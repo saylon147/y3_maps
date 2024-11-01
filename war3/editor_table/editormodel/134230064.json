@@ -1,0 +1,14 @@
+{
+    "custom_editor_type": "custom_editor_model", 
+    "describe": "Mdx\\doomgaurd", 
+    "key": 134230064, 
+    "md5": "d5be44bd56ee2571d2148c0ee28906be", 
+    "model_id": 134230064, 
+    "name": "doomgaurd", 
+    "select_effect_scale": 1.0, 
+    "size": 1.0, 
+    "socket_info": {}, 
+    "sub_type": "mdx", 
+    "uid": "editor_model_134230064", 
+    "version": 1
+}

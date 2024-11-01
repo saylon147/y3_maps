@@ -1,0 +1,29 @@
+{
+    "mdx_path": "Mdx\\doomgaurd.mdx", 
+    "mdx_sounds": [
+        "sound/Units/Demon/DoomGuard//BalrogAttack1.wav", 
+        "sound/Units/Demon/DoomGuard//DoomGuardDeath1.wav"
+    ], 
+    "mdx_textures": [
+        "units/Demon/DoomGuard/Doomgaurd", 
+        "Textures/gutz", 
+        "Textures/clouds_anim1_bw", 
+        "ReplaceableTextures/Weather/Clouds8x8"
+    ], 
+    "meshes": {
+        "__tuple__": true, 
+        "items": []
+    }, 
+    "model_id": 134230064, 
+    "name": "Mdx\\doomgaurd", 
+    "physics_meshes": [
+        "custom_editor_model/mdx/AutoPhy_doomgaurd.mdx"
+    ], 
+    "pickbound": {
+        "__tuple__": true, 
+        "items": [
+            1.0257933139801025, 
+            2.2178988456726074
+        ]
+    }
+}

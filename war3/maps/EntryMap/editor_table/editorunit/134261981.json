@@ -248,18 +248,18 @@
         "ability_animations": [
             "Attack"
         ], 
-        "ability_bw_point": 0.5, 
+        "ability_bw_point": 0.7, 
         "ability_cast_point": 0.2, 
         "attack_interval": 1.0, 
         "attack_range": 1.0, 
         "attack_trajectory": {
             "destroy_immediately": false, 
             "duration": -1.0, 
-            "effect": 0, 
+            "effect": 102567, 
             "follow_scale": true, 
-            "scale": 1.0, 
-            "socket": "origin", 
-            "target_socket": "root"
+            "scale": 0.1, 
+            "socket": "atk", 
+            "target_socket": "hit_point"
         }, 
         "cast_effect_list": [], 
         "cast_interrupt": false, 
@@ -300,10 +300,10 @@
         "filter_item_tags": [], 
         "filter_unit_tags": [], 
         "hit_effect": {
-            "effect": 0, 
+            "effect": 100806, 
             "follow_scale": true, 
-            "scale": 1.0, 
-            "socket": "origin"
+            "scale": 0.2, 
+            "socket": "hit_point"
         }, 
         "hit_sound": 0, 
         "jump_word": true, 
@@ -312,7 +312,7 @@
         "simple_atk_dice_count": 0, 
         "simple_atk_dice_max_value": 0, 
         "target_attribute": 0, 
-        "trajectory_radian": 1.0, 
+        "trajectory_radian": 0.0, 
         "trajectory_speed": 1000.0
     }, 
     "sound_event_list": {
@@ -339,7 +339,7 @@
     "uid": "134261981", 
     "use_base_tint_color": false, 
     "use_fresnel": false, 
-    "use_simple_mini_map_icon": false, 
+    "use_simple_mini_map_icon": true, 
     "use_virtual_light": false, 
     "vampire_mag": 0.0, 
     "vampire_mag_grow": 0.0, 

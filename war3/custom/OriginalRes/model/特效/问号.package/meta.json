@@ -1,0 +1,17 @@
+{
+    "id": 134233109,
+    "md5_file_list": [
+        "\u95ee\u53f7.mdx"
+    ],
+    "modification_time": 3460887571.0934963,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u95ee\u53f7.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "objects/InventoryItems/QuestionMark/QuestionMark": "QuestionMark.tga",
+        "Textures/GenericGlow64": "GenericGlow64.tga",
+        "Textures/Red_star2": "Red_star2.tga"
+    }
+}

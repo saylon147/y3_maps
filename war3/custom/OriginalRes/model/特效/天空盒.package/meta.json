@@ -1,0 +1,15 @@
+{
+    "id": 134278925,
+    "md5_file_list": [
+        "\u5929\u7a7a\u76d2.mdx"
+    ],
+    "modification_time": 3460881707.322359,
+    "ori_res_type": "ori",
+    "res_type": "model",
+    "source_path": "\u5929\u7a7a\u76d2.mdx",
+    "version": 1,
+    "yaw": 0,
+    "textures": {
+        "Textures/megaWrap512": "megaWrap512.tga"
+    }
+}
