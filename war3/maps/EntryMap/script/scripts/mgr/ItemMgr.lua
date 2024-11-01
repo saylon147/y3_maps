@@ -52,7 +52,7 @@ itemMgr.itemTemplate = {
 	['剑圣'] = require 'scripts.item.followHero.item_js',
 	['增加金币收益'] = require 'scripts.item.kv.item_jbsy',
 	['随机添加属性'] = require 'scripts.item.randomAttr.item_rattr',
-	}
+}
 ---autocode---
 
 

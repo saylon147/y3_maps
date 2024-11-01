@@ -215,11 +215,11 @@
         }
     }, 
     "level": 1, 
-    "main_attr": "none", 
+    "main_attr": "\u654f\u6377", 
     "max_balance_angle": 75, 
     "max_stock": 5, 
     "mini_map_icon": 134265040, 
-    "mini_map_icon_scale": 0.5, 
+    "mini_map_icon_scale": 1.0, 
     "model": 134270385, 
     "model_height": 0.0, 
     "model_opacity": 1, 
