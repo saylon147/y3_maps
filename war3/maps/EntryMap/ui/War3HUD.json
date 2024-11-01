@@ -33007,15 +33007,18 @@
                                                             ], 
                                                             "children": [
                                                                 {
-                                                                    "cap_insets": [
-                                                                        10.0, 
-                                                                        10.0, 
-                                                                        10.0, 
-                                                                        10.0
-                                                                    ], 
+                                                                    "cap_insets": {
+                                                                        "__tuple__": true, 
+                                                                        "items": [
+                                                                            10.0, 
+                                                                            10.0, 
+                                                                            10.0, 
+                                                                            10.0
+                                                                        ]
+                                                                    }, 
                                                                     "children": [], 
                                                                     "event_list": [], 
-                                                                    "image": 134253341, 
+                                                                    "image": 134255926, 
                                                                     "name": "icon1", 
                                                                     "pos_data": {
                                                                         "__tuple__": true, 
@@ -33036,6 +33039,40 @@
                                                                     ], 
                                                                     "type": 4, 
                                                                     "uid": "27f9dcb4-b930-450a-9e14-73e88ddc7b2f"
+                                                                }, 
+                                                                {
+                                                                    "cap_insets": {
+                                                                        "__tuple__": true, 
+                                                                        "items": [
+                                                                            10.0, 
+                                                                            10.0, 
+                                                                            10.0, 
+                                                                            10.0
+                                                                        ]
+                                                                    }, 
+                                                                    "children": [], 
+                                                                    "event_list": [], 
+                                                                    "image": 134268019, 
+                                                                    "name": "icon2", 
+                                                                    "pos_data": {
+                                                                        "__tuple__": true, 
+                                                                        "items": [
+                                                                            -10.7099, 
+                                                                            8.5335, 
+                                                                            -3.4181, 
+                                                                            40.7652, 
+                                                                            0, 
+                                                                            0
+                                                                        ]
+                                                                    }, 
+                                                                    "prefab_sub_key": null, 
+                                                                    "scene_ui_name": null, 
+                                                                    "size": [
+                                                                        17.4, 
+                                                                        17.4
+                                                                    ], 
+                                                                    "type": 4, 
+                                                                    "uid": "9aa3141f-1e5e-4fe3-8df3-a97aa979b1ce"
                                                                 }
                                                             ], 
                                                             "event_list": [], 
