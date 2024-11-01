@@ -43,7 +43,7 @@
         ]
     }, 
     "ability_icon": 134268190, 
-    "ability_max_level": 1, 
+    "ability_max_level": 4, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -188,16 +188,12 @@
     "release_immediately_out_of_range": false, 
     "required_level": {
         "formula": "", 
-        "required_levels": {
-            "__tuple__": true, 
-            "items": [
-                1, 
-                2, 
-                3, 
-                4, 
-                5
-            ]
-        }
+        "required_levels": [
+            1, 
+            2, 
+            3, 
+            4
+        ]
     }, 
     "sector_angle": {
         "__tuple__": true, 

@@ -13,7 +13,7 @@
     "ability_cast_range": {
         "__tuple__": true, 
         "items": [
-            "10.0"
+            "5.0"
         ]
     }, 
     "ability_cast_type": 1, 
@@ -43,7 +43,7 @@
         ]
     }, 
     "ability_icon": 134248740, 
-    "ability_max_level": 1, 
+    "ability_max_level": 3, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -164,7 +164,20 @@
     "is_immediate": false, 
     "is_meele": false, 
     "key": 134242752, 
-    "kv": {}, 
+    "kv": {
+        "\u7206\u70b8\u8303\u56f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "\u7206\u70b8\u8303\u56f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 0, 
+            "type": 1, 
+            "value": 200.0
+        }
+    }, 
     "magicbook_list": {
         "__tuple__": true, 
         "items": []
@@ -188,16 +201,11 @@
     "release_immediately_out_of_range": false, 
     "required_level": {
         "formula": "", 
-        "required_levels": {
-            "__tuple__": true, 
-            "items": [
-                1, 
-                2, 
-                3, 
-                4, 
-                5
-            ]
-        }
+        "required_levels": [
+            1, 
+            2, 
+            3
+        ]
     }, 
     "sector_angle": {
         "__tuple__": true, 

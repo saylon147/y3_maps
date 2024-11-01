@@ -111,6 +111,19 @@ function hudPanel:initLogic()
         end
     end)
 
+    self.uiLogic:on_refresh('HUD.Console.Data.middle.状态栏.生物.攻击.攻击力.攻击值', function(ui, local_player)
+        local unit = local_player:get_selecting_unit()
+        if unit then
+            local minAtk = unit:get_attr("物理攻击")
+            local maxAtk = FW.unitMgr:calMaxAttack_phy(unit)
+            if maxAtk == minAtk then
+                ui:set_text(tostring(minAtk))
+            else
+                ui:set_text(string.format('%d ~ %d', minAtk, maxAtk))
+            end
+        end
+    end)
+
     --更新技能栏
     self.uiLogic:on_refresh('HUD.Console.Data.right.技能栏', function(ui, local_player)
         local unit = local_player:get_selecting_unit()
@@ -399,20 +412,46 @@ function hudPanel:initShopLogic()
                 local itemTemplate = item.itemTemplate
                 local id = itemTemplate.id
                 local playerBuyCount = 0
+                local playerBuyTime = 0
                 local itemName = itemTemplate.name
-                local kvCountStr = string.format('%s_%s_count',unit:get_name(),itemName)
-                local kvTimeStr = string.format('%s_%s_time',unit:get_name(),itemName)
+                local kvCountStr = string.format('%s_%s_count', unit:get_name(), itemName)
+                local kvTimeStr = string.format('%s_%s_time', unit:get_name(), itemName)
                 if local_player:kv_has(kvCountStr) then
                     playerBuyCount = local_player:kv_load(kvCountStr, 'integer')
                 end
+                if local_player:kv_has(kvTimeStr) then
+                    playerBuyTime = local_player:kv_load(kvTimeStr, 'integer')
+                end
                 local count = item.count;
                 local cd = item.cd
+                local now_time_stamp = y3.game.get_current_server_time().timestamp
+                local ui_cd_progress = ui:get_parent():get_child('cd_progress')
+                if ui_cd_progress then
+                    if playerBuyTime ~= 0 then
+                        local hasTime = now_time_stamp - playerBuyTime
+                        if hasTime >= cd then
+                            local_player:kv_remove(kvCountStr)
+                            local_player:kv_remove(kvTimeStr)
+                            ui_cd_progress:set_visible(false)
+                        else
+                            ui_cd_progress:get_child('progress_percent_label'):set_text(tostring(cd - hasTime))
+                            ui_cd_progress:set_max_progress_bar_value(cd)
+                            ui_cd_progress:set_current_progress_bar_value(hasTime)
+                            ui_cd_progress:set_visible(true)
+                        end
+                        y3.ltimer.wait(1, function()
+                            self.uiLogic:refresh('HUD.Console.Data.right.商店.layout_' .. i .. '.button_' .. i)
+                        end)
+                    else
+                        ui_cd_progress:set_visible(false)
+                    end
+                end
+
                 if count ~= -1 then
                     count = count - playerBuyCount
                 end
-
+                ui:set_button_enable(true)
                 if count == -1 then
-                    ui:set_button_enable(true)
                     ui:get_child('levelup_1'):set_visible(false)
                 elseif count > 0 then
                     ui:get_child('levelup_1'):set_visible(true)
@@ -426,6 +465,7 @@ function hudPanel:initShopLogic()
                 ui:set_image(y3.item.get_icon_id_by_key(id))
             else
                 ui:set_visible(false)
+                ui:get_parent():get_child('cd_progress'):set_visible(false)
             end
         end)
         self.uiLogic:on_event('HUD.Console.Data.right.商店.layout_' .. i .. '.button_' .. i, '鼠标-移入',
@@ -443,7 +483,6 @@ function hudPanel:initShopLogic()
                         local id = itemTemplate.id
                         local itemName = itemTemplate.name
                         shopDescUI:get_child('name'):set_text(itemName)
-                        print(itemTemplate.price_type)
                         if itemTemplate.price_type == 'wood' then
                             shopDescUI:get_child('price.icon1'):set_visible(false)
                             shopDescUI:get_child('price.icon2'):set_visible(true)

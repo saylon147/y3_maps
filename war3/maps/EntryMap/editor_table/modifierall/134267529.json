@@ -25,7 +25,80 @@
     "influence_rng": 0, 
     "is_influence_self": true, 
     "key": 134267529, 
-    "kv": {}, 
+    "kv": {
+        "lv1\u653b\u51fb\u63d0\u9ad8\u500d\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv1\u653b\u51fb\u63d0\u9ad8\u500d\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 3, 
+            "type": 2, 
+            "value": 100
+        }, 
+        "lv1\u8840\u91cf\u589e\u52a0\u500d\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv1\u8840\u91cf\u589e\u52a0\u500d\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 0, 
+            "type": 2, 
+            "value": 50
+        }, 
+        "lv2\u653b\u51fb\u63d0\u9ad8\u500d\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv2\u653b\u51fb\u63d0\u9ad8\u500d\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 4, 
+            "type": 2, 
+            "value": 200
+        }, 
+        "lv2\u8840\u91cf\u589e\u52a0\u500d\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv2\u8840\u91cf\u589e\u52a0\u500d\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 1, 
+            "type": 2, 
+            "value": 100
+        }, 
+        "lv3\u653b\u51fb\u63d0\u9ad8\u500d\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv3\u653b\u51fb\u63d0\u9ad8\u500d\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 5, 
+            "type": 2, 
+            "value": 200
+        }, 
+        "lv3\u8840\u91cf\u589e\u52a0\u500d\u7387": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 1, 
+            "key": "lv3\u8840\u91cf\u589e\u52a0\u500d\u7387", 
+            "prop_cls": "PInt", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 2, 
+            "type": 2, 
+            "value": 100
+        }
+    }, 
     "layer_change_of_cover": 1, 
     "layer_max": 1, 
     "lose_effect_list": {

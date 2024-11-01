@@ -43,7 +43,7 @@
         ]
     }, 
     "ability_icon": 134248740, 
-    "ability_max_level": 1, 
+    "ability_max_level": 3, 
     "ability_max_stack_count": {
         "__tuple__": true, 
         "items": [
@@ -165,15 +165,75 @@
     "is_meele": false, 
     "key": 134270025, 
     "kv": {
-        "last_time": {
+        "lv1CD\u65f6\u95f4": {
             "annotation": "", 
             "desc": "", 
             "etype": 2, 
-            "key": "last_time", 
+            "key": "lv1CD\u65f6\u95f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 3, 
+            "type": 1, 
+            "value": 60.0
+        }, 
+        "lv1\u6301\u7eed\u65f6\u95f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv1\u6301\u7eed\u65f6\u95f4", 
             "prop_cls": "PFloat", 
             "remark": "", 
             "show_in_attr": true, 
             "sort": 0, 
+            "type": 1, 
+            "value": 10.0
+        }, 
+        "lv2CD\u65f6\u95f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv2CD\u65f6\u95f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 4, 
+            "type": 1, 
+            "value": 60.0
+        }, 
+        "lv2\u6301\u7eed\u65f6\u95f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv2\u6301\u7eed\u65f6\u95f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 1, 
+            "type": 1, 
+            "value": 10.0
+        }, 
+        "lv3CD\u65f6\u95f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv3CD\u65f6\u95f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 5, 
+            "type": 1, 
+            "value": 40.0
+        }, 
+        "lv3\u6301\u7eed\u65f6\u95f4": {
+            "annotation": "", 
+            "desc": "", 
+            "etype": 2, 
+            "key": "lv3\u6301\u7eed\u65f6\u95f4", 
+            "prop_cls": "PFloat", 
+            "remark": "", 
+            "show_in_attr": true, 
+            "sort": 2, 
             "type": 1, 
             "value": 10.0
         }
@@ -201,16 +261,11 @@
     "release_immediately_out_of_range": false, 
     "required_level": {
         "formula": "", 
-        "required_levels": {
-            "__tuple__": true, 
-            "items": [
-                1, 
-                2, 
-                3, 
-                4, 
-                5
-            ]
-        }
+        "required_levels": [
+            1, 
+            2, 
+            3
+        ]
     }, 
     "sector_angle": {
         "__tuple__": true, 
