@@ -2,12 +2,11 @@
 local shopMgr = Class 'shopMgr'
 
 ---@enum(key) FW.shopMgr.shopType
+---autocode---
 shopMgr.shopTemplate = {
-    ['雇佣兵营地'] = require 'scripts.shop.shop_gybyd',
-    ['神秘宝藏库'] = require 'scripts.shop.shop_smbzk',
-    ['小酒馆'] = require 'scripts.shop.shop_xjg',
-    ['召唤底座之术'] = require 'scripts.shop.shop_zhdzzs',
+	['雇佣兵营地'] = require 'scripts.shop.shop_shop_gybyd',
 }
+---autocode---
 
 ---@param key FW.shopMgr.shopType
 ---@return table shop

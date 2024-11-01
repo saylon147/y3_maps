@@ -22,7 +22,7 @@ export async function 读取shop表格并生成修改物编() {
         let luaText = `--${obj.name}
 local M = {}`
         for (let key in obj) {
-            if (key.indexOf("items")== -1) {
+            if (key.indexOf("items") == -1) {
                 if (typeof obj[key] == "string") {
                     luaText += `\nM.${key} = '${obj[key]}'`
                 } else {
@@ -30,11 +30,20 @@ local M = {}`
                 }
             }
         }
-        if (obj.items != null) {
-
-        }
         luaText += '\nM.template = y3.object.item[M.id] --物编信息\n'
-
+        if (obj.items != null) {
+            luaText += `---count -1代表无限买
+---cd -1代表不刷新
+M.items = {`;
+            for (let i = 0; i < obj.items.length; i++) {
+                luaText += `\n\t{
+        itemTemplate = FW.itemMgr.itemTemplate['${obj.items[i]}'],
+        count = ${obj.items_count[i]},
+        cd = ${obj.items_cd[i]},
+    },`;
+            }
+        }
+        luaText += '\n}'
         luaText += `\n\n---@param owner Player|Unit
 ---@param point Point 点
 ---@param direction number 方向
@@ -47,28 +56,24 @@ return M`
         await y3.fs.writeFile(uri, '', luaText);
     }
     //生成配置信息
-    // let dir = await y3.fs.dir(y3.env.scriptUri, 'scripts/item')
-    // let templateStr = "\nitemMgr.itemTemplate = {\n"
+    let dir = await y3.fs.dir(y3.env.scriptUri, 'scripts/shop')
+    let templateStr = "\nshopMgr.shopTemplate = {\n"
 
-    // for (let i = 0; i < dir.length; i++) {
-    //     let name = dir[i][0]
-    //     let subDir = await y3.fs.dir(y3.env.scriptUri, 'scripts/item/' + name);
-    //     for (let j = 0; j < subDir.length; j++) {
-    //         let subName = subDir[j][0].replace(".lua", "");
-    //         let cname = "";
-    //         for (let item of list) {
-    //             if('item_'+item.lua_name == subName){
-    //                 cname = item.name
-    //             }
-    //         }
-    //         templateStr += "\t['" + cname + "'] = require 'scripts.item." + name + "." + subName + "',\n";
-    //     }
-    // }
-    // templateStr += "}\n";
-    // let oriText = (await y3.fs.readFile(y3.env.scriptUri, 'scripts/mgr/ItemMgr.lua')).string;
-    // let replaceText = oriText.split('---autocode---')[1];
-    // oriText = oriText.replace(replaceText, templateStr);
-    // await y3.fs.writeFile(y3.env.scriptUri, 'scripts/mgr/ItemMgr.lua', oriText);
+    for (let i = 0; i < dir.length; i++) {
+        let name = dir[i][0].replace(".lua", "");
+        let cname = "";
+        for (let item of list) {
+            if ('shop_' + item.lua_name == name) {
+                cname = item.name
+            }
+        }
+        templateStr += "\t['" + cname + "'] = require 'scripts.shop.shop_" + name + "',\n";
+    }
+    templateStr += "}\n";
+    let oriText = (await y3.fs.readFile(y3.env.scriptUri, 'scripts/mgr/shopMgr.lua')).string;
+    let replaceText = oriText.split('---autocode---')[1];
+    oriText = oriText.replace(replaceText, templateStr);
+    await y3.fs.writeFile(y3.env.scriptUri, 'scripts/mgr/shopMgr.lua', oriText);
 }
 
 async function getExcelJson(uri) {
@@ -111,7 +116,7 @@ async function getExcelJson(uri) {
             } else if (types[j] == 'float') {
                 obj[keys[j]] = Number(parseFloat(value).toFixed(2));
             } else if (types[j] == 'int[]') {
-                if(value == "" || value == null){
+                if (value == "" || value == null) {
                     obj[keys[j]] = null
                 } else {
                     let list = value.split("|");
@@ -123,7 +128,7 @@ async function getExcelJson(uri) {
                 }
 
             } else if (types[j] == 'float[]') {
-                if(value == "" || value == null){
+                if (value == "" || value == null) {
                     obj[keys[j]] = null
                 } else {
                     let list = value.split("|");
@@ -134,7 +139,7 @@ async function getExcelJson(uri) {
                     obj[keys[j]] = newList;
                 }
             } else if (types[j] == 'string[]') {
-                if(value == "" || value == null){
+                if (value == "" || value == null) {
                     obj[keys[j]] = null
                 } else {
                     obj[keys[j]] = value.split("|");
