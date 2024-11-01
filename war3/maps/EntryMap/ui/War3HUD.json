@@ -1042,7 +1042,6 @@
                                             ], 
                                             "children": [], 
                                             "event_list": [], 
-                                            "icon_color_type": 1, 
                                             "mini_map_color": {
                                                 "__tuple__": true, 
                                                 "items": [
@@ -1336,7 +1335,7 @@
                                                                         "items": [
                                                                             154.0, 
                                                                             11.5, 
-                                                                            50, 
+                                                                            50.0, 
                                                                             50, 
                                                                             1, 
                                                                             1
